@@ -1,0 +1,31 @@
+==============================================================================================================
+  ParseBench - faithful full run (official deterministic metrics, x100; Overall = mean of five dimensions)
+==============================================================================================================
+Pipeline                          Tables         Charts Content Faith.   Sem. Format. Visual Ground.   Overall
+--------------------------------------------------------------------------------------------------------------
+warp_ingest_faithful                57.4            7.1           68.3           43.5           18.6      39.0
+--------------------------------------------------------------------------------------------------------------
+
+Renderer mode: faithful (2026-07-02)
+  WARP_TABLE_PROVIDER=native   <- warp's OWN license-clean table engine
+                                  (warp_ingest/ingestor/table_engine.py, pure MIT stack)
+  WARP_HF_STRIP=0
+  WARP_CJK_STRIP=0
+  WARP_COL_REORDER=0
+
+Table-engine head-to-head (same renderer, in-process fasteval, 503 table pages):
+  native 56.93  vs  pymupdf4llm(-layout ONNX) 56.92   (wins 207 / 213 / 83 ties)
+
+Inference:
+  attempted unique files: 2078
+  successful: 2036
+  failed: 42 image-only layout inputs (.jpg/.png), counted as zero by the official layout aggregate
+
+Pages scored per dimension:
+  Tables=503  Charts=568  Content Faith.=506  Sem. Format.=476  Visual Ground.=500
+
+Run command:
+  python -m benchmarks.parsebench.run --full --force --pipelines warp_ingest_faithful --max-concurrent 1
+
+Outputs:
+  parsebench_work/output/warp_ingest_faithful/

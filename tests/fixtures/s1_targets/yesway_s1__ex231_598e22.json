@@ -1,0 +1,29 @@
+{
+"name": "yesway_s1__ex231_598e22",
+"num_pages": 0,
+"n_blocks": 4,
+"orig_failed": false,
+"orig_reason": null,
+"blocks": [
+{
+"tag": "header",
+"level": 0,
+"text": "Exhibit 23.1"
+},
+{
+"tag": "para",
+"level": 0,
+"text": "Consent of Independent Registered Public Accounting Firm We hereby consent to the use in the prospectus constituting a part of this Registration Statement of our report dated March 27, 2026, relating to the financial statements of Yesway, Inc., which is contained in that prospectus."
+},
+{
+"tag": "para",
+"level": 0,
+"text": "We also consent to the reference to us under the caption \u201cExperts\u201d in the prospectus."
+},
+{
+"tag": "para",
+"level": 0,
+"text": "/s/ BDO USA, P.C. Boston, Massachusetts March 27, 2026"
+}
+]
+}

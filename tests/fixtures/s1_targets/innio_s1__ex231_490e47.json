@@ -1,0 +1,34 @@
+{
+"name": "innio_s1__ex231_490e47",
+"num_pages": 0,
+"n_blocks": 5,
+"orig_failed": false,
+"orig_reason": null,
+"blocks": [
+{
+"tag": "header",
+"level": 0,
+"text": "Exhibit 23.1"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "Consent of Independent Registered Public Accounting Firm"
+},
+{
+"tag": "para",
+"level": 0,
+"text": "We consent to the use of our report dated March 26, 2026, with respect to the consolidated financial statements of INNIO Holding GmbH, included herein and to the reference to our firm under the heading \u201cExperts\u201d in the prospectus."
+},
+{
+"tag": "para",
+"level": 0,
+"text": "/s/ KPMG AG Wirtschaftspr\u00fcfungsgesellschaft"
+},
+{
+"tag": "para",
+"level": 0,
+"text": "Stuttgart, Germany May 11, 2026"
+}
+]
+}

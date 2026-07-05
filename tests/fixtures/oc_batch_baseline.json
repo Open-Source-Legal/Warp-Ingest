@@ -1,0 +1,766 @@
+{
+  "tests/fixtures/contracts/fw_garver.pdf::_doc": {
+    "page_count": 6,
+    "relationship_validity": true
+  },
+  "tests/fixtures/contracts/fw_garver.pdf::p0": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 8,
+    "mean_tightness": 0.6267,
+    "n_annotations": 25,
+    "non_heading_roots": 24,
+    "overlong_headings": 0,
+    "token_coverage": 0.9933,
+    "untokened": 0
+  },
+  "tests/fixtures/contracts/fw_garver.pdf::p3": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 0.8135,
+    "n_annotations": 5,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.7353,
+    "untokened": 0
+  },
+  "tests/fixtures/contracts/fw_garver.pdf::p5": {
+    "anchored_fraction": 0.9474,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 4,
+    "mean_tightness": 0.6255,
+    "n_annotations": 19,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9251,
+    "untokened": 1
+  },
+  "tests/fixtures/contracts/fw_nctcog.pdf::_doc": {
+    "page_count": 5,
+    "relationship_validity": true
+  },
+  "tests/fixtures/contracts/fw_nctcog.pdf::p0": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 5,
+    "mean_tightness": 0.6937,
+    "n_annotations": 18,
+    "non_heading_roots": 1,
+    "overlong_headings": 0,
+    "token_coverage": 1.0,
+    "untokened": 0
+  },
+  "tests/fixtures/contracts/fw_nctcog.pdf::p2": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 5,
+    "mean_tightness": 0.6651,
+    "n_annotations": 14,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.6923,
+    "untokened": 0
+  },
+  "tests/fixtures/contracts/fw_nctcog.pdf::p4": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 2,
+    "mean_tightness": 0.747,
+    "n_annotations": 24,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 1.0,
+    "untokened": 0
+  },
+  "tests/fixtures/contracts/fw_vertigis.pdf::_doc": {
+    "page_count": 5,
+    "relationship_validity": true
+  },
+  "tests/fixtures/contracts/fw_vertigis.pdf::p0": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 7,
+    "mean_tightness": 0.6183,
+    "n_annotations": 15,
+    "non_heading_roots": 8,
+    "overlong_headings": 0,
+    "token_coverage": 0.9532,
+    "untokened": 0
+  },
+  "tests/fixtures/contracts/fw_vertigis.pdf::p2": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 12,
+    "mean_tightness": 0.7045,
+    "n_annotations": 37,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9096,
+    "untokened": 0
+  },
+  "tests/fixtures/contracts/fw_vertigis.pdf::p4": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 11,
+    "mean_tightness": 0.5994,
+    "n_annotations": 27,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 1.0,
+    "untokened": 0
+  },
+  "tests/fixtures/contracts/fw_wert_bookbinding.pdf::_doc": {
+    "page_count": 2,
+    "relationship_validity": true
+  },
+  "tests/fixtures/contracts/fw_wert_bookbinding.pdf::p0": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 4,
+    "mean_tightness": 0.5941,
+    "n_annotations": 12,
+    "non_heading_roots": 9,
+    "overlong_headings": 0,
+    "token_coverage": 0.9391,
+    "untokened": 0
+  },
+  "tests/fixtures/contracts/fw_wert_bookbinding.pdf::p1": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 8,
+    "mean_tightness": 0.7636,
+    "n_annotations": 43,
+    "non_heading_roots": 2,
+    "overlong_headings": 0,
+    "token_coverage": 0.9306,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/cerebras_s1__exhibit1018sx1_56fdc8.pdf::_doc": {
+    "page_count": 276,
+    "relationship_validity": true
+  },
+  "tests/fixtures/s1/cerebras_s1__exhibit1018sx1_56fdc8.pdf::p150": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 1,
+    "mean_tightness": 0.6689,
+    "n_annotations": 6,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 1.0,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/cerebras_s1__exhibit1018sx1_56fdc8.pdf::p260": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 0.7305,
+    "n_annotations": 5,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.6203,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/cerebras_s1__exhibit1018sx1_56fdc8.pdf::p5": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 11,
+    "mean_tightness": 0.4994,
+    "n_annotations": 19,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9914,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/eikon_s1__ex1011_d4f7e0.pdf::_doc": {
+    "page_count": 86,
+    "relationship_validity": true
+  },
+  "tests/fixtures/s1/eikon_s1__ex1011_d4f7e0.pdf::p3": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 19,
+    "mean_tightness": 0.5493,
+    "n_annotations": 34,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9933,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/eikon_s1__ex1011_d4f7e0.pdf::p40": {
+    "anchored_fraction": 0.8824,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 0.8352,
+    "n_annotations": 17,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9978,
+    "untokened": 2
+  },
+  "tests/fixtures/s1/eikon_s1__ex231_6fa7f0.pdf::_doc": {
+    "page_count": 1,
+    "relationship_validity": true
+  },
+  "tests/fixtures/s1/eikon_s1__ex231_6fa7f0.pdf::p0": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 2,
+    "mean_tightness": 0.6267,
+    "n_annotations": 3,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 1.0,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/exyn_s1__ex11_a8500b.pdf::_doc": {
+    "page_count": 57,
+    "relationship_validity": true
+  },
+  "tests/fixtures/s1/exyn_s1__ex11_a8500b.pdf::p2": {
+    "anchored_fraction": 0.625,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 0.7465,
+    "n_annotations": 8,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9983,
+    "untokened": 3
+  },
+  "tests/fixtures/s1/exyn_s1__ex11_a8500b.pdf::p30": {
+    "anchored_fraction": 0.6,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 1,
+    "mean_tightness": 0.6723,
+    "n_annotations": 20,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9981,
+    "untokened": 8
+  },
+  "tests/fixtures/s1/exyn_s1__ex211_812970.pdf::_doc": {
+    "page_count": 1,
+    "relationship_validity": true
+  },
+  "tests/fixtures/s1/exyn_s1__ex211_812970.pdf::p0": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 3,
+    "mean_tightness": 0.6093,
+    "n_annotations": 5,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 1.0,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/fervo_s1__exhibit1016sx1_9df974.pdf::_doc": {
+    "page_count": 295,
+    "relationship_validity": true
+  },
+  "tests/fixtures/s1/fervo_s1__exhibit1016sx1_9df974.pdf::p180": {
+    "anchored_fraction": 0.8889,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 0.6302,
+    "n_annotations": 9,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 1.0,
+    "untokened": 1
+  },
+  "tests/fixtures/s1/fervo_s1__exhibit1016sx1_9df974.pdf::p4": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 18,
+    "mean_tightness": 0.4841,
+    "n_annotations": 27,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9876,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/forbright_s1__exhibit1012sx1_11ea38.pdf::_doc": {
+    "page_count": 17,
+    "relationship_validity": true
+  },
+  "tests/fixtures/s1/forbright_s1__exhibit1012sx1_11ea38.pdf::p0": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 3,
+    "mean_tightness": 0.6833,
+    "n_annotations": 8,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 1.0,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/forbright_s1__exhibit1012sx1_11ea38.pdf::p8": {
+    "anchored_fraction": 0.6667,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 0.727,
+    "n_annotations": 6,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.5259,
+    "untokened": 2
+  },
+  "tests/fixtures/s1/generate_bio_s1__ex1015_68a8fd.pdf::_doc": {
+    "page_count": 195,
+    "relationship_validity": true
+  },
+  "tests/fixtures/s1/generate_bio_s1__ex1015_68a8fd.pdf::p120": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 6,
+    "mean_tightness": 0.5938,
+    "n_annotations": 14,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 1.0,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/generate_bio_s1__ex1015_68a8fd.pdf::p5": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 2,
+    "mean_tightness": 0.6813,
+    "n_annotations": 13,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 1.0,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/generate_bio_s1__ex33_a3ab0f.pdf::_doc": {
+    "page_count": 21,
+    "relationship_validity": true
+  },
+  "tests/fixtures/s1/generate_bio_s1__ex33_a3ab0f.pdf::p0": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 0.9784,
+    "n_annotations": 4,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 1.0,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/generate_bio_s1__ex33_a3ab0f.pdf::p12": {
+    "anchored_fraction": 0.6667,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 0.68,
+    "n_annotations": 6,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9979,
+    "untokened": 2
+  },
+  "tests/fixtures/s1/hawkeye360_s1__exhibit21sx1_fa98cc.pdf::_doc": {
+    "page_count": 112,
+    "relationship_validity": true
+  },
+  "tests/fixtures/s1/hawkeye360_s1__exhibit21sx1_fa98cc.pdf::p100": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 2,
+    "mean_tightness": 0.6543,
+    "n_annotations": 9,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9437,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/hawkeye360_s1__exhibit21sx1_fa98cc.pdf::p6": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 0.5697,
+    "n_annotations": 5,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 1.0,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/hawkeye360_s1__exhibit21sx1_fa98cc.pdf::p60": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 0.6836,
+    "n_annotations": 5,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9053,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/infleqtion_s1__s1_60ea51.pdf::_doc": {
+    "page_count": 252,
+    "relationship_validity": true
+  },
+  "tests/fixtures/s1/infleqtion_s1__s1_60ea51.pdf::p130": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 11,
+    "mean_tightness": 0.5895,
+    "n_annotations": 29,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9823,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/infleqtion_s1__s1_60ea51.pdf::p6": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 0.7908,
+    "n_annotations": 4,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.7913,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/kardigan_s1__ex1017_6628ff.pdf::_doc": {
+    "page_count": 126,
+    "relationship_validity": true
+  },
+  "tests/fixtures/s1/kardigan_s1__ex1017_6628ff.pdf::p4": {
+    "anchored_fraction": 0.8182,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 0.8509,
+    "n_annotations": 11,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9982,
+    "untokened": 2
+  },
+  "tests/fixtures/s1/kardigan_s1__ex1017_6628ff.pdf::p90": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 1,
+    "mean_tightness": 0.8643,
+    "n_annotations": 22,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9172,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/liftoff_s1__iron20260113_231d60.pdf::_doc": {
+    "page_count": 289,
+    "relationship_validity": true
+  },
+  "tests/fixtures/s1/liftoff_s1__iron20260113_231d60.pdf::p140": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 0.8004,
+    "n_annotations": 12,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.8514,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/liftoff_s1__iron20260113_231d60.pdf::p240": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 0.8383,
+    "n_annotations": 9,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9032,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/liftoff_s1__iron20260113_231d60.pdf::p5": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 1.0,
+    "n_annotations": 0,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 1.0,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/neutron_lime_s1__exhibit45sx1_4208ac.pdf::_doc": {
+    "page_count": 295,
+    "relationship_validity": true
+  },
+  "tests/fixtures/s1/neutron_lime_s1__exhibit45sx1_4208ac.pdf::p200": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 0.8231,
+    "n_annotations": 7,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.581,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/neutron_lime_s1__exhibit45sx1_4208ac.pdf::p6": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 0.7664,
+    "n_annotations": 6,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9459,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/parabilis_s1__ex1011_424531.pdf::_doc": {
+    "page_count": 96,
+    "relationship_validity": true
+  },
+  "tests/fixtures/s1/parabilis_s1__ex1011_424531.pdf::p3": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 26,
+    "mean_tightness": 0.4222,
+    "n_annotations": 34,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9954,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/parabilis_s1__ex1011_424531.pdf::p55": {
+    "anchored_fraction": 0.8333,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 0.7726,
+    "n_annotations": 6,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.7824,
+    "untokened": 1
+  },
+  "tests/fixtures/s1/pershing_square_s1__ex109_9133b3.pdf::_doc": {
+    "page_count": 167,
+    "relationship_validity": true
+  },
+  "tests/fixtures/s1/pershing_square_s1__ex109_9133b3.pdf::p120": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 0.6982,
+    "n_annotations": 15,
+    "non_heading_roots": 2,
+    "overlong_headings": 0,
+    "token_coverage": 1.0,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/pershing_square_s1__ex109_9133b3.pdf::p4": {
+    "anchored_fraction": 0.9714,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 11,
+    "mean_tightness": 0.6417,
+    "n_annotations": 35,
+    "non_heading_roots": 35,
+    "overlong_headings": 0,
+    "token_coverage": 0.9901,
+    "untokened": 1
+  },
+  "tests/fixtures/s1/pershing_square_s1__s1_f498b3.pdf::_doc": {
+    "page_count": 280,
+    "relationship_validity": true
+  },
+  "tests/fixtures/s1/pershing_square_s1__s1_f498b3.pdf::p120": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 0.7913,
+    "n_annotations": 7,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9988,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/pershing_square_s1__s1_f498b3.pdf::p260": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 10,
+    "mean_tightness": 0.5993,
+    "n_annotations": 20,
+    "non_heading_roots": 1,
+    "overlong_headings": 0,
+    "token_coverage": 1.0,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/pershing_square_s1__s1_f498b3.pdf::p5": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 2,
+    "mean_tightness": 0.6925,
+    "n_annotations": 19,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9633,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/quantinuum_s1__exhibit33sx1_eefad8.pdf::_doc": {
+    "page_count": 28,
+    "relationship_validity": true
+  },
+  "tests/fixtures/s1/quantinuum_s1__exhibit33sx1_eefad8.pdf::p0": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 2,
+    "mean_tightness": 0.4606,
+    "n_annotations": 3,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 1.0,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/quantinuum_s1__exhibit33sx1_eefad8.pdf::p14": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 2,
+    "mean_tightness": 0.6416,
+    "n_annotations": 7,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 1.0,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/quantinuum_s1__exhibit997sx1_bead0b.pdf::_doc": {
+    "page_count": 1,
+    "relationship_validity": true
+  },
+  "tests/fixtures/s1/quantinuum_s1__exhibit997sx1_bead0b.pdf::p0": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 0.8287,
+    "n_annotations": 6,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 1.0,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/solv_energy_s1__s1_becbd8.pdf::_doc": {
+    "page_count": 299,
+    "relationship_validity": true
+  },
+  "tests/fixtures/s1/solv_energy_s1__s1_becbd8.pdf::p200": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 1,
+    "mean_tightness": 0.7966,
+    "n_annotations": 15,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9937,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/solv_energy_s1__s1_becbd8.pdf::p4": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 1.0,
+    "n_annotations": 0,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 1.0,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/solv_energy_s1__s1_becbd8.pdf::p90": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 1,
+    "mean_tightness": 0.7012,
+    "n_annotations": 11,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9933,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/xenergy_s1__drsa_1ae6c6.pdf::_doc": {
+    "page_count": 338,
+    "relationship_validity": true
+  },
+  "tests/fixtures/s1/xenergy_s1__drsa_1ae6c6.pdf::p150": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 1,
+    "mean_tightness": 0.641,
+    "n_annotations": 7,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9634,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/xenergy_s1__drsa_1ae6c6.pdf::p300": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 0.8036,
+    "n_annotations": 11,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9461,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/xenergy_s1__drsa_1ae6c6.pdf::p7": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 0,
+    "mean_tightness": 1.0,
+    "n_annotations": 0,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 1.0,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/yesway_s1__s1_558e28.pdf::_doc": {
+    "page_count": 324,
+    "relationship_validity": true
+  },
+  "tests/fixtures/s1/yesway_s1__s1_558e28.pdf::p160": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 2,
+    "mean_tightness": 0.7234,
+    "n_annotations": 15,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 1.0,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/yesway_s1__s1_558e28.pdf::p280": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 4,
+    "mean_tightness": 0.6552,
+    "n_annotations": 15,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9563,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/yesway_s1__s1_558e28.pdf::p3": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 4,
+    "mean_tightness": 0.6592,
+    "n_annotations": 12,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9123,
+    "untokened": 0
+  },
+  "tests/fixtures/s1/yesway_s1__s1_558e28.pdf::p60": {
+    "anchored_fraction": 1.0,
+    "childbearing_non_headers": 0,
+    "loose_boxes": 7,
+    "mean_tightness": 0.5302,
+    "n_annotations": 13,
+    "non_heading_roots": 0,
+    "overlong_headings": 0,
+    "token_coverage": 0.9972,
+    "untokened": 0
+  }
+}

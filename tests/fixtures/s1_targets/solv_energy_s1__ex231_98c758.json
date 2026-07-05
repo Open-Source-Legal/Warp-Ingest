@@ -1,0 +1,19 @@
+{
+"name": "solv_energy_s1__ex231_98c758",
+"num_pages": 0,
+"n_blocks": 2,
+"orig_failed": false,
+"orig_reason": null,
+"blocks": [
+{
+"tag": "para",
+"level": 0,
+"text": "Exhibit 23.1 Consent of Independent Registered Public Accounting Firm We consent to the reference to our firm under the caption \u201cExperts\u201d and to the use of our reports dated March 25, 2026 with respect to the financial statement of SOLV Energy, Inc and the consolidated financial statements of SOLV Energy Holdings LLC included in the Registration Statement (Form S-1) and related Prospectus of SOLV Energy, Inc. for the registration of its Class A common stock."
+},
+{
+"tag": "para",
+"level": 0,
+"text": "/s/ Ernst & Young LLP Tysons, Virginia May 26, 2026"
+}
+]
+}

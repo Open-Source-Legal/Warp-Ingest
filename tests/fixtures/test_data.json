@@ -1,0 +1,6459 @@
+[
+  {
+    "model": "auth.group",
+    "fields": {
+      "name": "Public Objects Access",
+      "permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "fields": {
+      "password": "",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "system",
+      "is_staff": false,
+      "date_joined": "2025-11-18T15:48:14.853Z",
+      "name": "",
+      "first_name": "",
+      "last_name": "",
+      "given_name": "",
+      "family_name": "",
+      "auth0_Id": "",
+      "phone": "",
+      "email": "system@opencontracts.local",
+      "synced": false,
+      "is_active": false,
+      "email_verified": false,
+      "is_social_user": false,
+      "is_usage_capped": true,
+      "last_synced": null,
+      "first_signed_in": "2025-11-18T15:48:14.853Z",
+      "last_ip": "",
+      "slug": null,
+      "cookie_consent_accepted": false,
+      "cookie_consent_date": null,
+      "is_profile_public": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "fields": {
+      "password": "md5$mR6212D9xwFZLClbDlmiGz$468ac4a4c99b2296c34da5b8be921d49",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "testuser",
+      "is_staff": false,
+      "date_joined": "2025-11-18T15:48:18.766Z",
+      "name": "",
+      "first_name": "",
+      "last_name": "",
+      "given_name": "",
+      "family_name": "",
+      "auth0_Id": "",
+      "phone": "",
+      "email": "",
+      "synced": false,
+      "is_active": true,
+      "email_verified": false,
+      "is_social_user": false,
+      "is_usage_capped": true,
+      "last_synced": null,
+      "first_signed_in": "2025-11-18T15:48:18.766Z",
+      "last_ip": "",
+      "slug": "testuser",
+      "cookie_consent_accepted": false,
+      "cookie_consent_date": null,
+      "is_profile_public": true,
+      "groups": [
+        [
+          "Public Objects Access"
+        ]
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "1",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "1",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "1",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 4,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "1",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 5,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "1",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 6,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "1",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 7,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "1",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 8,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "2",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 9,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "2",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 10,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "2",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 11,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "2",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 12,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "2",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 13,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "2",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 14,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "2",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 15,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "3",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 16,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "3",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 17,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "3",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 18,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "3",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 19,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "3",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 20,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "3",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 21,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "3",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 22,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "4",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 23,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "4",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 24,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "4",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 25,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "4",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 26,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "4",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 27,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "4",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 28,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "4",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 29,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "5",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 30,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "5",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 31,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "5",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 32,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "5",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 33,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "5",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 34,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "5",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 35,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "5",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 449,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "6",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 450,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "6",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 451,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "6",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 452,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "6",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 453,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "6",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 454,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "6",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 455,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "6",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 456,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "7",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 457,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "7",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 458,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "7",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 459,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "7",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 460,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "7",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 461,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "7",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 462,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "7",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 463,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "8",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 464,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "8",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 465,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "8",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 466,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "8",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 467,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "8",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 468,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "8",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 469,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "8",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 470,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "9",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 471,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "9",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 472,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "9",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 473,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "9",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 474,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "9",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 475,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "9",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 476,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "9",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 477,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "10",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 478,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "10",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 479,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "10",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 480,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "10",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 481,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "10",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 482,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "10",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 483,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "10",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 897,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "11",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 898,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "11",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 899,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "11",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 900,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "11",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 901,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "11",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 902,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "11",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 903,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "11",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 904,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "12",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 905,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "12",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 906,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "12",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 907,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "12",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 908,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "12",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 909,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "12",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 910,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "12",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 911,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "13",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 912,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "13",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 913,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "13",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 914,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "13",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 915,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "13",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 916,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "13",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 917,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "13",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 918,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "14",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 919,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "14",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 920,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "14",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 921,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "14",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 922,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "14",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 923,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "14",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 924,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "14",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 925,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "15",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 926,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "15",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 927,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "15",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 928,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "15",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 929,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "15",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 930,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "15",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 931,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "15",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1345,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "16",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1346,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "16",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1347,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "16",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1348,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "16",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1349,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "16",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1350,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "16",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1351,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "16",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1352,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "17",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1353,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "17",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1354,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "17",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1355,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "17",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1356,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "17",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1357,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "17",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1358,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "17",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1359,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "18",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1360,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "18",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1361,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "18",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1362,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "18",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1363,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "18",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1364,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "18",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1365,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "18",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1366,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "19",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1367,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "19",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1368,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "19",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1369,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "19",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1370,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "19",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1371,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "19",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1372,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "19",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1373,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "20",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1374,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "20",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1375,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "20",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1376,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "20",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1377,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "20",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1378,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "20",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1379,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "20",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1793,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "21",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1794,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "21",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1795,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "21",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1796,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "21",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1797,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "21",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1798,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "21",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1799,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "21",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1800,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "22",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1801,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "22",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1802,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "22",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1803,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "22",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1804,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "22",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1805,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "22",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1806,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "22",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1807,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "23",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1808,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "23",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1809,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "23",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1810,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "23",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1811,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "23",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1812,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "23",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1813,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "23",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1814,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "24",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1815,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "24",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1816,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "24",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1817,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "24",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1818,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "24",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1819,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "24",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1820,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "24",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1821,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "25",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1822,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "25",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1823,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "25",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1824,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "25",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1825,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "25",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1826,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "25",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 1827,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "25",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2241,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "26",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2242,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "26",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2243,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "26",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2244,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "26",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2245,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "26",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2246,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "26",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2247,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "26",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2248,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "27",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2249,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "27",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2250,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "27",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2251,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "27",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2252,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "27",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2253,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "27",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2254,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "27",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2255,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "28",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2256,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "28",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2257,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "28",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2258,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "28",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2259,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "28",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2260,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "28",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2261,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "28",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2262,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "29",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2263,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "29",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2264,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "29",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2265,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "29",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2266,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "29",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2267,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "29",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2268,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "29",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2269,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "30",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2270,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "30",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2271,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "30",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2272,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "30",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2273,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "30",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2274,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "30",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2275,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "30",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2689,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "31",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2690,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "31",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2691,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "31",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2692,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "31",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2693,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "31",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2694,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "31",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2695,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "31",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2696,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "32",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2697,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "32",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2698,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "32",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2699,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "32",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2700,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "32",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2701,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "32",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2702,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "32",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2703,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "33",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2704,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "33",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2705,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "33",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2706,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "33",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2707,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "33",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2708,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "33",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2709,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "33",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2710,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "34",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2711,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "34",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2712,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "34",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2713,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "34",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2714,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "34",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2715,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "34",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2716,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "34",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2717,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "35",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2718,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "35",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2719,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "35",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2720,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "35",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2721,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "35",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2722,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "35",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 2723,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "35",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3137,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "36",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3138,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "36",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3139,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "36",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3140,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "36",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3141,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "36",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3142,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "36",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3143,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "36",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3144,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "37",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3145,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "37",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3146,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "37",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3147,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "37",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3148,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "37",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3149,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "37",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3150,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "37",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3151,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "38",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3152,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "38",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3153,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "38",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3154,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "38",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3155,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "38",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3156,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "38",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3157,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "38",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3158,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "39",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3159,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "39",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3160,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "39",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3161,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "39",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3162,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "39",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3163,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "39",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3164,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "39",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3165,
+    "fields": {
+      "permission": [
+        "create_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "40",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3166,
+    "fields": {
+      "permission": [
+        "read_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "40",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3167,
+    "fields": {
+      "permission": [
+        "update_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "40",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3168,
+    "fields": {
+      "permission": [
+        "remove_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "40",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3169,
+    "fields": {
+      "permission": [
+        "permission_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "40",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3170,
+    "fields": {
+      "permission": [
+        "comment_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "40",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "guardian.userobjectpermission",
+    "pk": 3171,
+    "fields": {
+      "permission": [
+        "publish_annotationlabel",
+        "annotations",
+        "annotationlabel"
+      ],
+      "content_type": [
+        "annotations",
+        "annotationlabel"
+      ],
+      "object_pk": "40",
+      "user": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.structuralannotationset",
+    "pk": 1,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "is_public": true,
+      "creator": [
+        "testuser"
+      ],
+      "created": "2025-11-18T15:48:18.776Z",
+      "modified": "2025-11-18T15:49:26.555Z",
+      "content_hash": "test_doc_1",
+      "parser_name": "FixtureMigration",
+      "parser_version": "1.0",
+      "page_count": 9,
+      "token_count": null,
+      "pawls_parse_file": "files/doc_1_pawls_parse_file.pawls",
+      "txt_extract_file": "files/doc_1_txt_extract_file.txt"
+    }
+  },
+  {
+    "model": "annotations.structuralannotationset",
+    "pk": 2,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "is_public": true,
+      "creator": [
+        "testuser"
+      ],
+      "created": "2025-11-18T15:49:34.789Z",
+      "modified": "2025-11-18T15:50:39.294Z",
+      "content_hash": "test_doc_2",
+      "parser_name": "FixtureMigration",
+      "parser_version": "1.0",
+      "page_count": 9,
+      "token_count": null,
+      "pawls_parse_file": "files/doc_2_pawls_parse_file.pawls",
+      "txt_extract_file": "files/doc_2_txt_extract_file.txt"
+    }
+  },
+  {
+    "model": "annotations.structuralannotationset",
+    "pk": 3,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "is_public": true,
+      "creator": [
+        "testuser"
+      ],
+      "created": "2025-11-18T15:50:47.750Z",
+      "modified": "2025-11-18T15:51:53.025Z",
+      "content_hash": "test_doc_3",
+      "parser_name": "FixtureMigration",
+      "parser_version": "1.0",
+      "page_count": 9,
+      "token_count": null,
+      "pawls_parse_file": "files/doc_3_pawls_parse_file.pawls",
+      "txt_extract_file": "files/doc_3_txt_extract_file.txt"
+    }
+  },
+  {
+    "model": "annotations.structuralannotationset",
+    "pk": 4,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "is_public": true,
+      "creator": [
+        "testuser"
+      ],
+      "created": "2025-11-18T15:52:01.272Z",
+      "modified": "2025-11-18T15:53:05.112Z",
+      "content_hash": "test_doc_4",
+      "parser_name": "FixtureMigration",
+      "parser_version": "1.0",
+      "page_count": 9,
+      "token_count": null,
+      "pawls_parse_file": "files/doc_4_pawls_parse_file.pawls",
+      "txt_extract_file": "files/doc_4_txt_extract_file.txt"
+    }
+  },
+  {
+    "model": "documents.document",
+    "pk": 1,
+    "fields": {
+      "parent": null,
+      "user_lock": null,
+      "backend_lock": false,
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ],
+      "created": "2025-11-18T15:48:18.776Z",
+      "modified": "2025-11-18T15:49:26.555Z",
+      "title": "Test Doc",
+      "description": "USC Title 1 - Chapter 1",
+      "slug": "Test-Doc",
+      "custom_meta": {},
+      "file_type": "application/pdf",
+      "icon": "files/doc_1_icon.jpg",
+      "pdf_file": "files/doc_1_pdf_file.pdf",
+      "txt_extract_file": "files/doc_1_txt_extract_file.txt",
+      "md_summary_file": "files/md_summaries/1_summary.md",
+      "page_count": 9,
+      "pawls_parse_file": "files/doc_1_pawls_parse_file.pawls",
+      "pdf_file_hash": null,
+      "version_tree_id": "b6f3d076-b909-4eab-8de8-d0a3ab52a60b",
+      "is_current": true,
+      "source_document": null,
+      "structural_annotation_set": 1,
+      "processing_started": "2025-11-18T15:48:18.782Z",
+      "processing_finished": "2025-11-18T15:48:59.541Z",
+      "embedding": null
+    }
+  },
+  {
+    "model": "documents.document",
+    "pk": 2,
+    "fields": {
+      "parent": null,
+      "user_lock": null,
+      "backend_lock": false,
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ],
+      "created": "2025-11-18T15:49:34.789Z",
+      "modified": "2025-11-18T15:50:39.294Z",
+      "title": "Rando Doc",
+      "description": "RANDO DOC!",
+      "slug": "Rando-Doc",
+      "custom_meta": {},
+      "file_type": "application/pdf",
+      "icon": "files/doc_2_icon.jpg",
+      "pdf_file": "files/doc_2_pdf_file.pdf",
+      "txt_extract_file": "files/doc_2_txt_extract_file.txt",
+      "md_summary_file": "files/md_summaries/2_summary.md",
+      "page_count": 9,
+      "pawls_parse_file": "files/doc_2_pawls_parse_file.pawls",
+      "pdf_file_hash": null,
+      "version_tree_id": "85aadeb9-77a7-41fd-9153-0499d3acd79c",
+      "is_current": true,
+      "source_document": null,
+      "structural_annotation_set": 2,
+      "processing_started": "2025-11-18T15:49:34.792Z",
+      "processing_finished": "2025-11-18T15:50:11.474Z",
+      "embedding": null
+    }
+  },
+  {
+    "model": "documents.document",
+    "pk": 3,
+    "fields": {
+      "parent": null,
+      "user_lock": null,
+      "backend_lock": false,
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ],
+      "created": "2025-11-18T15:50:47.750Z",
+      "modified": "2025-11-18T15:51:53.025Z",
+      "title": "Rando Doc 2",
+      "description": "RANDO DOC! 2",
+      "slug": "Rando-Doc-2",
+      "custom_meta": {},
+      "file_type": "application/pdf",
+      "icon": "files/doc_3_icon.jpg",
+      "pdf_file": "files/doc_3_pdf_file.pdf",
+      "txt_extract_file": "files/doc_3_txt_extract_file.txt",
+      "md_summary_file": "files/md_summaries/3_summary.md",
+      "page_count": 9,
+      "pawls_parse_file": "files/doc_3_pawls_parse_file.pawls",
+      "pdf_file_hash": null,
+      "version_tree_id": "468d0642-5c50-49d5-928b-cb4ca7e637e8",
+      "is_current": true,
+      "source_document": null,
+      "structural_annotation_set": 3,
+      "processing_started": "2025-11-18T15:50:47.763Z",
+      "processing_finished": "2025-11-18T15:51:24.533Z",
+      "embedding": null
+    }
+  },
+  {
+    "model": "documents.document",
+    "pk": 4,
+    "fields": {
+      "parent": null,
+      "user_lock": null,
+      "backend_lock": false,
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ],
+      "created": "2025-11-18T15:52:01.272Z",
+      "modified": "2025-11-18T15:53:05.112Z",
+      "title": "Rando Doc 3",
+      "description": "RANDO DOC! 3",
+      "slug": "Rando-Doc-3",
+      "custom_meta": {},
+      "file_type": "application/pdf",
+      "icon": "files/doc_4_icon.jpg",
+      "pdf_file": "files/doc_4_pdf_file.pdf",
+      "txt_extract_file": "files/doc_4_txt_extract_file.txt",
+      "md_summary_file": "files/md_summaries/4_summary.md",
+      "page_count": 9,
+      "pawls_parse_file": "files/doc_4_pawls_parse_file.pawls",
+      "pdf_file_hash": null,
+      "version_tree_id": "42c474d6-6efc-4141-9e8c-c29427a1dea6",
+      "is_current": true,
+      "source_document": null,
+      "structural_annotation_set": 4,
+      "processing_started": "2025-11-18T15:52:01.276Z",
+      "processing_finished": "2025-11-18T15:52:37.035Z",
+      "embedding": null
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 1,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:48:51.238Z",
+      "modified": "2025-11-18T15:48:51.238Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "text",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 2,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:48:51.275Z",
+      "modified": "2025-11-18T15:48:51.275Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "section_header",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 3,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:48:51.306Z",
+      "modified": "2025-11-18T15:48:51.306Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "list_item",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 4,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:48:51.338Z",
+      "modified": "2025-11-18T15:48:51.338Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "page_footer",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 5,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:48:56.902Z",
+      "modified": "2025-11-18T15:48:56.902Z",
+      "label_type": "RELATIONSHIP_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "gray",
+      "description": "Parser Relationship Label",
+      "icon": "share-alt",
+      "text": "GROUP",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 6,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:49:26.561Z",
+      "modified": "2025-11-18T15:49:26.561Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "text",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 7,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:49:26.594Z",
+      "modified": "2025-11-18T15:49:26.594Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "section_header",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 8,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:49:26.628Z",
+      "modified": "2025-11-18T15:49:26.628Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "list_item",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 9,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:49:26.663Z",
+      "modified": "2025-11-18T15:49:26.663Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "page_footer",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 10,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:49:32.198Z",
+      "modified": "2025-11-18T15:49:32.198Z",
+      "label_type": "RELATIONSHIP_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "gray",
+      "description": "Parser Relationship Label",
+      "icon": "share-alt",
+      "text": "GROUP",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 11,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:50:02.940Z",
+      "modified": "2025-11-18T15:50:02.940Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "text",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 12,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:50:02.975Z",
+      "modified": "2025-11-18T15:50:02.975Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "section_header",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 13,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:50:03.009Z",
+      "modified": "2025-11-18T15:50:03.009Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "list_item",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 14,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:50:03.044Z",
+      "modified": "2025-11-18T15:50:03.044Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "page_footer",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 15,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:50:08.556Z",
+      "modified": "2025-11-18T15:50:08.556Z",
+      "label_type": "RELATIONSHIP_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "gray",
+      "description": "Parser Relationship Label",
+      "icon": "share-alt",
+      "text": "GROUP",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 16,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:50:39.300Z",
+      "modified": "2025-11-18T15:50:39.300Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "text",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 17,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:50:39.336Z",
+      "modified": "2025-11-18T15:50:39.336Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "section_header",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 18,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:50:39.370Z",
+      "modified": "2025-11-18T15:50:39.370Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "list_item",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 19,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:50:39.404Z",
+      "modified": "2025-11-18T15:50:39.404Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "page_footer",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 20,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:50:45.047Z",
+      "modified": "2025-11-18T15:50:45.047Z",
+      "label_type": "RELATIONSHIP_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "gray",
+      "description": "Parser Relationship Label",
+      "icon": "share-alt",
+      "text": "GROUP",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 21,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:51:16.213Z",
+      "modified": "2025-11-18T15:51:16.213Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "text",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 22,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:51:16.248Z",
+      "modified": "2025-11-18T15:51:16.248Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "section_header",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 23,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:51:16.282Z",
+      "modified": "2025-11-18T15:51:16.282Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "list_item",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 24,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:51:16.319Z",
+      "modified": "2025-11-18T15:51:16.319Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "page_footer",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 25,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:51:21.787Z",
+      "modified": "2025-11-18T15:51:21.787Z",
+      "label_type": "RELATIONSHIP_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "gray",
+      "description": "Parser Relationship Label",
+      "icon": "share-alt",
+      "text": "GROUP",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 26,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:51:53.030Z",
+      "modified": "2025-11-18T15:51:53.030Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "text",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 27,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:51:53.065Z",
+      "modified": "2025-11-18T15:51:53.065Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "section_header",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 28,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:51:53.099Z",
+      "modified": "2025-11-18T15:51:53.099Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "list_item",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 29,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:51:53.134Z",
+      "modified": "2025-11-18T15:51:53.134Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "page_footer",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 30,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:51:58.542Z",
+      "modified": "2025-11-18T15:51:58.542Z",
+      "label_type": "RELATIONSHIP_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "gray",
+      "description": "Parser Relationship Label",
+      "icon": "share-alt",
+      "text": "GROUP",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 31,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:52:28.831Z",
+      "modified": "2025-11-18T15:52:28.831Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "text",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 32,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:52:28.868Z",
+      "modified": "2025-11-18T15:52:28.868Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "section_header",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 33,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:52:28.898Z",
+      "modified": "2025-11-18T15:52:28.898Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "list_item",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 34,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:52:28.934Z",
+      "modified": "2025-11-18T15:52:28.934Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "page_footer",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 35,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:52:34.438Z",
+      "modified": "2025-11-18T15:52:34.438Z",
+      "label_type": "RELATIONSHIP_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "gray",
+      "description": "Parser Relationship Label",
+      "icon": "share-alt",
+      "text": "GROUP",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 36,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:53:05.117Z",
+      "modified": "2025-11-18T15:53:05.117Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "text",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 37,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:53:05.152Z",
+      "modified": "2025-11-18T15:53:05.152Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "section_header",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 38,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:53:05.186Z",
+      "modified": "2025-11-18T15:53:05.186Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "list_item",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 39,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:53:05.222Z",
+      "modified": "2025-11-18T15:53:05.222Z",
+      "label_type": "TOKEN_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "grey",
+      "description": "Parser Structural Label",
+      "icon": "expand",
+      "text": "page_footer",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  },
+  {
+    "model": "annotations.annotationlabel",
+    "pk": 40,
+    "fields": {
+      "user_lock": null,
+      "backend_lock": false,
+      "created": "2025-11-18T15:53:10.703Z",
+      "modified": "2025-11-18T15:53:10.703Z",
+      "label_type": "RELATIONSHIP_LABEL",
+      "analyzer": null,
+      "read_only": true,
+      "color": "gray",
+      "description": "Parser Relationship Label",
+      "icon": "share-alt",
+      "text": "GROUP",
+      "is_public": false,
+      "creator": [
+        "testuser"
+      ]
+    }
+  }
+]

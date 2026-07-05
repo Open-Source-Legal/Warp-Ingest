@@ -1,0 +1,14 @@
+[
+  {"relpath": "tests/fixtures/s1/exyn_s1__ex1010_de36c8.pdf", "page_index": 0, "doc_class": "edgar_agreement", "note": "subordination: title+party block+recitals", "is_slow": false},
+  {"relpath": "tests/fixtures/s1/exyn_s1__ex1010_de36c8.pdf", "page_index": 2, "doc_class": "edgar_agreement", "note": "numbered clauses 4-8", "is_slow": false},
+  {"relpath": "tests/fixtures/s1/exyn_s1__ex1010_de36c8.pdf", "page_index": 3, "doc_class": "edgar_agreement", "note": "clause 14 + lettered sub-clauses (a)-(j)", "is_slow": false},
+  {"relpath": "tests/fixtures/s1/cerebras_s1__exhibit1013esx_f124a6.pdf", "page_index": 0, "doc_class": "edgar_agreement", "note": "SOW: definitions + tabular terms", "is_slow": false},
+  {"relpath": "tests/fixtures/s1/cerebras_s1__exhibit1013esx_f124a6.pdf", "page_index": 3, "doc_class": "edgar_agreement", "note": "folio-root / reading-order region", "is_slow": false},
+  {"relpath": "tests/fixtures/s1/generate_bio_s1__ex33_a3ab0f.pdf", "page_index": 0, "doc_class": "edgar_charter", "note": "charter/bylaws ARTICLE-numbered", "is_slow": false},
+  {"relpath": "tests/fixtures/s1/eikon_s1__ex1010_2e241e.pdf", "page_index": 1, "doc_class": "edgar_agreement", "note": "agreement body", "is_slow": false},
+  {"relpath": "tests/fixtures/s1/forbright_s1__exhibit1012sx1_11ea38.pdf", "page_index": 1, "doc_class": "edgar_agreement", "note": "agreement body", "is_slow": false},
+  {"relpath": "tests/fixtures/EtonPharmaceuticalsInc_20191114_10-Q_EX-10.1_11893941_EX-10.1_Development_Agreement_ZrZJLLv.pdf", "page_index": 2, "doc_class": "cuad_agreement", "note": "CUAD development agreement numbered body", "is_slow": false},
+  {"relpath": "tests/fixtures/contracts/fw_nctcog.pdf", "page_index": 1, "doc_class": "municipal_contract", "note": "municipal contract body", "is_slow": false},
+  {"relpath": "tests/fixtures/USC Title 1 - CHAPTER 1.pdf", "page_index": 0, "doc_class": "statute", "note": "USC statute numbered sections", "is_slow": false},
+  {"relpath": "tests/fixtures/s1/eikon_s1__ex231_6fa7f0.pdf", "page_index": 0, "doc_class": "edgar_consent", "note": "consent letter (unnumbered prose regime)", "is_slow": false}
+]

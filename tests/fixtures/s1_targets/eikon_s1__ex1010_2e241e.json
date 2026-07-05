@@ -1,0 +1,1479 @@
+{
+"name": "eikon_s1__ex1010_2e241e",
+"num_pages": 35,
+"n_blocks": 294,
+"orig_failed": false,
+"orig_reason": null,
+"blocks": [
+{
+"tag": "header",
+"level": 0,
+"text": "Exhibit 10.10"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "CERTAIN INFORMATION IN THIS DOCUMENT, MARKED BY [***], HAS BEEN EXCLUDED PURSUANT TO REGULATION S-K, ITEM 601(b)(10)(iv). SUCH EXCLUDED INFORMATION IS NOT MATERIAL AND IS THE TYPE THAT THE REGISTRANT TREATS"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "AS PRIVATE OR CONFIDENTIAL."
+},
+{
+"tag": "header",
+"level": 1,
+"text": "Exclusive License and Development Agreement"
+},
+{
+"tag": "header",
+"level": 2,
+"text": "Among"
+},
+{
+"tag": "header",
+"level": 2,
+"text": "Superb Wisdom Limited"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "and Eikon Therapeutics, Inc."
+},
+{
+"tag": "para",
+"level": 3,
+"text": "and Seven and Eight Biotherapeutics Corp. and Birdie Biopharmaceuticals Inc. and Birdie Biotherapeutics HK Limited, Birdie Biopharmaceuticals Co. Limited, Seven and Eight Biopharmaceuticals Inc., Birdie Biopharmaceuticals HK Limited, Birdie Biotechnology (BVI Limited), Birdie Biotechnology HK Limited, and Birdie Biopharmaceuticals (Beijing) Co., Ltd."
+},
+{
+"tag": "para",
+"level": 3,
+"text": "THIS EXCLUSIVE LICENSE AND DEVELOPMENT AGREEMENT (this \u201cAgreement\u201d) is made and entered in to as of this 29 day of March, 2023 (\u201cEffective Date\u201d) between (i) Superb Wisdom Limited, a company organized and existing under the laws of Samoa with its principal office at Le Sanalele Complex, Ground Floor, Vaea Street, Saleufi, P.O. Box 1868, Apia, Samoa (\u201cSW\u201d), (ii) Eikon Therapeutics, Inc., a company organized and existing under the laws of Delaware with offices at 3929 Point Eden Way, Hayward, CA, 94545 (\u201cEikon\u201d) and (iii) Seven and Eight Biotherapeutics Corp., a Cayman corporation (\u201cParent\u201d) and Birdie Biopharmaceuticals Inc., a Cayman [corporation] (\u201cBirdie Cayman\u201d) and Birdie Biotherapeutics HK Limited, a Hong Kong entity; Birdie Biopharmaceuticals Co. Limited, a Taiwanese entity; Seven and Eight Biopharmaceuticals Inc., a Delaware (U.S.) entity; Birdie Biopharmaceuticals HK Limited, a Hong Kong entity; Birdie Biotechnology (BVI Limited), British Virgin Islands entity; Birdie Biotechnology HK Limited, a Hong Kong entity; and Birdie Biopharmaceuticals (Beijing) Co., Ltd., a Chinese entity (all of the foregoing entities in this clause (iii), collectively, \u201c7&8\u201d and each a \u201c7&8 Entity\u201d)."
+},
+{
+"tag": "para",
+"level": 3,
+"text": "SW, Eikon and 7&8 may each be referred to herein individually as a \u201cParty\u201d and collectively as the \u201cParties\u201d."
+},
+{
+"tag": "header",
+"level": 3,
+"text": "Recitals:"
+},
+{
+"tag": "para",
+"level": 4,
+"text": "SW and certain 7&8 Entities were parties to a certain Exclusive License and Development Agreement dated as of May 15, 2017 (the \u201cOld Agreement\u201d) and immediately prior to executing this Agreement, together with the other subsidiaries and affiliates party to the Old Agreement, have mutually agreed to terminate the Old Agreement and remove any registrations of the Old Agreement by executing the Mutual Termination Agreement attached hereto as Exhibit A (the \u201cMutual Termination Agreement\u201d)."
+},
+{
+"tag": "list_item",
+"level": 5,
+"text": "A."
+},
+{
+"tag": "para",
+"level": 4,
+"text": "SW and 7&8 desire that in the event that this Agreement is terminated for any reason, then, upon 7&8\u2019s request, SW and 7&8 shall be obligated to sign the form of Exclusive License and Development Agreement attached hereto as Exhibit B (the \u201cSW/7&8 Agreement\u201d), and SW and 7&8 hereby covenant to each other to do so without making any changes other than to enter a new effective date and stipulate the names and titles of the signatories executing it on behalf of the respective entities."
+},
+{
+"tag": "list_item",
+"level": 5,
+"text": "B."
+},
+{
+"tag": "para",
+"level": 4,
+"text": "SW is the owner of all rights, title and interest in and to the Patent Rights (as defined in Article 1.24) and the Licensed Compound (as defined in Article 1.19) disclosed in the Patent Rights, and desires to have Eikon conduct clinical research and development relating to the Licensed Compound (and pre-clinical research to the extent Eikon believes advisable) and be able to manufacture and market and sell the Licensed Compounds and Licensed Products in the Territory (as defined in Article 1.30). SW retains the Patent Rights except for the licenses granted in this Agreement."
+},
+{
+"tag": "list_item",
+"level": 5,
+"text": "C."
+},
+{
+"tag": "para",
+"level": 4,
+"text": "Eikon has expertise in the areas of pre-clinical and clinical development in oncology and other fields in the Territory. Eikon wishes to: (i) conduct pre-clinical research (as it deems necessary or useful) and clinical development at its sole expense; (ii) operate under the existing IND filed by or on behalf of 7&8, and if it deems necessary or useful, file INDs (as D."
+},
+{
+"tag": "para",
+"level": 4,
+"text": "defined in Article 1.13) with the relevant regulatory agencies in the Territory to obtain approval to conduct clinical development of the Licensed Compound in such parts of the Territory as it believes will benefit the program; and (iii) if the clinical data so merit (in Eikon\u2019s sole discretion) file an NDA (as defined in Article 1.22) with such regulatory agencies to obtain marketing approval of the Licensed Compound in such countries within the Territory as Eikon shall select (in its sole discretion)."
+},
+{
+"tag": "list_item",
+"level": 5,
+"text": "E. Hence, the Parties desire to collaborate with the aim of developing and commercializing the Licensed Products (as defined in Article 1.20), and SW wishes to grant Eikon an exclusive license to develop, make, have made, use, sell, offer to sell and import the Licensed Compounds and the Licensed"
+},
+{
+"tag": "para",
+"level": 6,
+"text": "Products in the Territory for this purpose."
+},
+{
+"tag": "para",
+"level": 4,
+"text": "THEREFORE, in consideration of the premises and mutual covenants herein contained, and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the Parties, intending to be legally bound, agree as follows:"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "ARTICLE I. DEFINITIONS"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "The terms defined in this ARTICLE 1 have the meanings ascribed to them in this ARTICLE 1 whenever used in this Agreement, unless otherwise clearly indicated by the context."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.1"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "\u201cAffiliate(s)\u201d of a Person or Persons shall mean any other Person that, directly or indirectly, controls such Person or is controlled by such Person or is under common control with such Person, where \u201ccontrol\u201d means (i) power and ability to direct the management and policies of the controlled Person through ownership of voting shares of the controlled Person or by contract relating to voting rights or corporate governance or otherwise; or (ii) the ownership, directly or indirectly, of more than fifty percent (50%) of the voting securities or other ownership interest of a business entity (or, with respect to a limited partnership or other similar entity, its general partner or controlling entity). The Parties acknowledge that in the case of certain entities organized under the laws of certain countries outside of the United States, the maximum percentage ownership permitted by applicable law for a foreign investor may be equal to or less than fifty percent (50%), and that in such case such lower percentage will be substituted in the preceding sentence; provided that such foreign investor has the power to direct the management and policies of such entity."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.2 \u201c[***] Compound\u201d shall mean the compound licensed to Eikon under the 7&8 Eikon Agreement known as of the Effective Date as [***], including"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "[***]."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.3 \u201cBusiness Day\u201d shall mean a day other than a Saturday or Sunday or a day on which banking institutions in New York, New York are permitted or required to be closed."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.4 \u201cCommercially Reasonable Efforts\u201d means [***]."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.5 \u201cDrug Approval Application\u201d shall mean (i) a New Drug Application as described in the FFDCA or a Biologics License Application as described in Section 351 of the U.S. Public Health Service Act, as the context requires, or any corresponding foreign applications in the Territory outside of the United States (including, with respect to the European Union, a Marketing Authorization Application filed with the EMA pursuant to the centralized approval procedure or with the applicable Regulatory Authority of a country in Europe with respect to the mutual recognition or any other national approval) and (ii) all supplements and amendments that may be filed with respect to the foregoing."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.6 \u201cEMA\u201d shall mean the European Medicines Agency and any successor agency thereto."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.7 \u201cEuropean Union\u201d shall mean the economic, scientific, and political organization of member states known as the European Union, as its membership may be altered from time to time, and any successor thereto."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.8 \u201cFDA\u201d shall mean the United States Food and Drug Administration and any successor agency thereto."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.9 \u201cFFDCA\u201d shall mean the United States Federal Food, Drug, and Cosmetic Act, as amended from time to time, together with any rules, regulations and requirements promulgated thereunder (including all additions, supplements, extensions and modifications thereto)."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.10 \u201cField\u201d shall mean any and all uses for the diagnosis, prevention, treatment and management of oncology Indications; provided, however that on and after the Option Exercise Date (as defined in Article 2.4(a) of this Agreement) the \u201cField\u201d shall mean any and all uses."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.11 \u201cFirst Commercial Sale\u201d means, with respect to a Licensed Product and a country, the first sale for monetary value of such Licensed Product in such country by Eikon, its Affiliates or its or their Sublicensees to a third party. Sales prior to receipt ofRegulatory Approval for such Licensed Product in such country, such as so-called \u201ctreatment IND sales,\u201d \u201cnamed patient sales,\u201d and \u201ccompassionate use sales,\u201d shall not be construed as a"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "\u201cFirst Commercial Sale\u201d."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.12 \u201cFull Regulatory Approval\u201d shall mean receipt of full, unconditional Regulatory Approval for a given product, including upon satisfying post- regulatory approval requirements following initial Accelerated Approval for such product."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.13 \u201cIND\u201d shall mean an Investigational New Drug Application or its equivalent in the Territory."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "\u201cIndication\u201d shall mean, with respect to a product, a use to which such product is intended to be put for the treatment, prevention or cure of a distinct recognized disease or condition, or of a manifestation of a recognized disease or condition, or for the relief of symptoms associated with a recognized disease or condition, in each case for any size patient population, that (a) for a clinical study for such product, would be the use of such product for which such clinical study is intended to determine safety or effectiveness and (b) if such product is approved in the U.S., would be reflected in the \u201cIndications and Usage\u201d section of labeling pursuant to 21 C.F.R. \u00a7201.57(c)(2) or, to the extent applicable, any comparable labeling section outside the U.S., in each case ((a) and (b)), subject to the following: (i) subtypes of the same disease or condition are not additional Indications for such product; (ii) uses of such product for the same disease or condition for different populations or population sub-types are not additional Indications for such product; (iii) the approved use of such product for such disease or condition in different combinations or co-administration of treatments are not additional Indications for such product (e.g., monotherapy vs. add-on or combination therapy with another agent in the same disease); (iv) diagnosis, treatment, prevention, and cure of the same disease or disease subtype with such product are not additional Indications for such product; (v) the approved use of such product for such disease or condition in a different line of treatment or a different temporal position in a treatment algorithm for the same disease or condition are not additional Indications for such product (e.g., first line vs. second line therapy in the same disease or condition); and (vi) treatment of the same disease or condition with such product in an expanded, modified, or additional patient population are not additional Indications for such product."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.14"
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.15 \u201cIntellectual Property\u201d shall mean: (i) patents, patent applications, patent licenses, know-how licenses, trade names, trademarks, service marks, trade dress, logos, corporate names and copyrights and any registration and application for registration; (ii) trade secrets, confidential information and proprietary information; (iii) whether or not confidential, technology, know-how, data, manufacturing and other process and techniques, research and development information, drawings specifications, designs, plans, data, business and marketing plans, customer and supplier lists and information; (iv) databases, computer software and other information technology, including operating systems, source codes and specifications; and"
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(v) all rights to bring actions or recover damages or other losses for present or past infringement of any of the foregoing."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.16 \u201cLead Compound\u201d shall mean the Licensed Compound known as of the Effective Date as [***], including [***]."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.17 \u201cLead Compound Milestone Product\u201d means any pharmaceutical product that is comprised of or contains a Lead Milestone Compound alone or in combination with one (1) or more other active ingredients, in any and all forms, presentations, delivery systems, dosages and formulations (excluding, for clarity, conjugate products). For purposes of this Agreement, a \u201cLead Compound Milestone Product\u201d is not a \u201cLicensed Product\u201d unless it separately meets the definition of \u201cLicensed Product\u201d (i.e. it contains a Licensed Compound that is licensed to Eikon under Eikon\u2019s"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "Licenses under this Agreement)."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.18 \u201cLead Milestone Compounds\u201d shall mean the (i) Lead Compound and (ii) [***] Compound."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.19 \u201cLicensed Compound\u201d shall mean any molecule that is covered by the PCT application [***] as described in Exhibit C. For the avoidance of doubt, the [***] Compound is not a Licensed Compound for purposes of this Agreement."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.20 \u201cLicensed Product\u201d shall mean any pharmaceutical product containing a Licensed Compound as an active ingredient, alone or in combination with other active ingredients, in any formulation or mode of administration, and commercialized for an Indication within the Field. For clarity, multiple formulations that contain the same Licensed Compound would be deemed the same Licensed Products for purposes of calculating any"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "milestones."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.21 \u201cMajor EU Countries\u201d shall mean the following [***] countries: [***]."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.22 \u201cNDA\u201d shall mean a New Drug Application or its equivalent in the Territory."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.23 \u201cNet Sales\u201d shall mean [***]."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.24 \u201cPatent Rights\u201d shall mean the patents and patent applications listed in Exhibit D attached hereto and all other patents and patent applications and patent applications in preparation that SW owns or controls during the Term that include the Licensed Compounds within the scope of its claims, which Patent Rights are necessary to develop, import, manufacture, make, have made, use and sell and offer to sell the Licensed Products in the"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "Territory."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.25 \u201cPerson\u201d shall mean any entity, corporation, company, partnership, association, trust, organization, government authority or individual."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.26 \u201cRegulatory Approval\u201d shall mean, for purposes of the Milestone Events and with respect to a country in the Territory, any and all approvals (including Drug Approval Applications), licenses, registrations or authorizations of any Regulatory Authority necessary to commercially distribute, sell or market a Lead Compound Milestone Product in such country, including, where applicable, (i) pricing or reimbursement approval in such country (which pricing or reimbursement approval will be deemed to have occurred on the First Commercial Sale), (ii) marketing authorizations (including any prerequisite manufacturing approval or authorization related thereto) and (iii) labeling approval. For the avoidance of doubt, Regulatory Approval received in a country in an accelerated or conditional manner (an \u201cAccelerated Approval\u201d) is a Regulatory Approval for purposes of this definition (but, for clarity, will not constitute Full Regulatory Approval)."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.27 \u201cRegulatory Authority\u201d shall mean any applicable supra-national, federal, national, regional, state, provincial or local regulatory agencies, departments, bureaus, commissions, councils or other government entities regulating or otherwise exercising authority with respect to the exploitation of Licensed Compound or Licensed Products in the Territory, including the FDA in the United States and the EMA in the European"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "Union."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "For purposes of the Milestone Events, this definition will also apply to Lead Compound Milestone Products."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "\u201cSubject IP Matter\u201d shall mean any of the following: (i) the composition of matter of a Licensed Compound or (ii) a formulation containing a Licensed Compound or Licensed Product, a method of using a Licensed Compound or Licensed Product for an oncology Indication, or a method of manufacturing a Licensed Compound or Licensed Product, in each case, that is the same or substantially similar to a formulation or method that is or was used on or prior to the Effective Date or that is otherwise covered or described in the disclosure of any Patent Rights."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.28"
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.29 \u201cSublicensee\u201d shall mean a Person, other than an Affiliate, that is granted a sublicense by Eikon or its Affiliate under the grants in Article 2.1, as provided in Article 2.2."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.30 \u201cTerritory\u201d shall mean worldwide."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "\u201cUnited States\u201d or \u201cU.S.\u201d shall mean the United States of America and its territories and possessions (including the District of Columbia and 1.31 Puerto Rico)."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.32 \u201cUSD\u201d shall mean U.S. dollars."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "1.33 \u201cValid Compound Claim\u201d is defined in Article 4.4."
+},
+{
+"tag": "header",
+"level": 0,
+"text": "ARTICLE 2. LICENSE GRANT WITH SUBLICENSE RIGHTS"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Grant of License. In consideration of the obligations and undertakings expressed in this Agreement and subject to the terms and conditions of this Agreement, SW hereby grants to Eikon, and Eikon hereby accepts, an exclusive (even as to SW) license (\u201cEikon\u2019s Licenses\u201d) (with the right to sublicense pursuant to the provisions of Articles 2.2 and 3.1) to develop, manufacture, make, have made, use, sell, offer to sell and import the Licensed Products under the Patent Rights and Licensed Know-How (as defined in Article 6.1), within the Field in the Territory during the Term."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "2.1"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Rights to Grant Sublicense. Subject to the ARTICLE 3 below, SW hereby grants to Eikon, and Eikon hereby accepts, a right to sublicense Eikon\u2019s rights under this Agreement (including the right to further sublicense through multiple tiers), including the right to develop, manufacture, sell and offer to sell the Licensed Compounds and Licensed Products within the Field in the Territory. All Sublicensees shall hold their rights contingent on Eikon\u2019s rights under this Agreement. Any loss by Eikon of its rights under this Agreement due to a termination of this Agreement for Eikon\u2019s uncured, material breach, or due to any other reason explicitly permitted under this Agreement, shall automatically cause all of the Sublicensees to lose the same rights under the Sublicense Agreements (as defined in Article 3.1 below) (except as specified in Section 10.6(vi))."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "2.2"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "No Implied License. Except as specifically provided in this Agreement, SW does not grant Eikon any other licenses or rights whether by 2.3 implication, estoppel or otherwise."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "expiration, invalidation, or abandonment of the last licensed Patent Right that includes a Valid Compound Claim in such country or (ii) in the event that either (a) no patents issued from an application within the licensed Patent Rights that includes a Valid Compound Claim in such country (and prosecution of such application has been on-going for at least [***]) from the earliest priority filing date for such application or (b) if no such patent application was filed in such country, [***] from the first commercial sale of the first Licensed Product in that country (such period in a country, a \u201cCountry Term\u201d)."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "2.6 7&8. The Parties acknowledge that neither 7&8 nor any of their Affiliates is (i) granted any rights or licenses with respect to the Licensed Compounds, Licensed Products, Patent Rights, or Licensed Know-How under this Agreement (other than the right and obligation to enter into the SW/7&8 Agreement if this Agreement is terminated for any reason) or (ii) entitled to receive any compensation under ARTICLE 4 or any reports or"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "records under ARTICLE 5."
+},
+{
+"tag": "header",
+"level": 2,
+"text": "2.7 Scope of Products"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "Terms included in this Agreement applicable to compounds and products other than the Licensed Compounds and Licensed Products are not intended to, and shall not be used to interpret or construe, (i) any obligation, liability or responsibility for Eikon or (ii) rights for SW, in each case ((i) and (ii)), with respect to such compounds and products under this Agreement other than an obligation for Eikon to make certain payments to SW pursuant to ARTICLE 4 if certain milestone events are achieved for such compounds or products solely as and to the extent set forth in Article 4.1."
+},
+{
+"tag": "header",
+"level": 0,
+"text": "ARTICLE 3. SUBLICENSE"
+},
+{
+"tag": "header",
+"level": 1,
+"text": "3.1 Sublicenses"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "During the Term, Eikon may enter into one or more sublicense agreement(s) (each, a \u201cSublicense Agreement\u201d) to sublicense its rights under ARTICLE 2, including the right to develop, manufacture, sell and offer to sell the Licensed Compound and the Licensed Products within the Field in the Territory. Subject to the terms and conditions of this Agreement, any Sublicense Agreement shall be executed by Eikon and Sublicensee, meanwhile SW shall be informed with written notice promptly after any sublicense of rights to commercialize a Licensed Product on an exclusive basis or any sublicense of substantially all rights under Eikon\u2019s Licenses. Eikon has the rights, at its discretion, to replace a Sublicensee or add another third party to enter into a Sublicense Agreement, provided the Sublicense Agreement (a) is subject to the terms and conditions hereof;"
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(b) approved by Sublicensee, which approval shall not be unreasonably withheld, conditioned or delayed; and (c) SW is provided with written notice"
+},
+{
+"tag": "para",
+"level": 4,
+"text": "to the extent required under this Article 3.1. 3.2 Intentionally omitted."
+},
+{
+"tag": "header",
+"level": 1,
+"text": "3.3 Responsibility of Eikon"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Eikon agrees that it shall be fully responsible and liable for any breach of the terms of this Agreement by any of its Sublicensees to the same extent as if Eikon itself has committed any such breach."
+},
+{
+"tag": "header",
+"level": 0,
+"text": "ARTICLE 4. PAYMENTS"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "terms and conditions of this Agreement:"
+},
+{
+"tag": "header",
+"level": 1,
+"text": "4.1 License Issue Fee and Milestones"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "In partial consideration of Eikon\u2019s Licenses granted hereunder and entry into this Agreement, and subject to the"
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(a) No later than [***] following the Effective Date, Eikon will pay SW a cash payment equal to five hundred thousand USD ($500,000)."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "The following one-time \u201cRegulatory Milestone Payments\u201d set forth below based on regulatory progress shall be paid by Eikon to SW within [***] upon the first achievement of each of the following milestones (each, a \u201cMilestone Event\u201d and together the \u201cMilestone Events\u201d) after the Effective Date during the Term by Eikon or its Affiliates or Sublicensees unless agreed otherwise (provided, in the case of Milestone Events (b) (iii) through (vi), that a corresponding milestone payment also is payable under the 7&8 Eikon Agreement). Regulatory Milestone Payments shall be paid in the form of cash; however, Eikon has the right to negotiate that the Regulatory Milestone Payments be made in the form of a note, a convertible note or newly issued preferred stock of Eikon at a price to be negotiated in good faith, at the choice of SW, but in no event on terms any different from terms offered to any investors in the most recent financing activities at the respective payment due time."
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(i) [***]"
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(ii) [***]"
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(iii) [***]"
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(iv) [***]"
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(v) [***]"
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(vi) [***]"
+},
+{
+"tag": "header",
+"level": 3,
+"text": "(c) Additional Milestone Terms."
+},
+{
+"tag": "para",
+"level": 5,
+"text": "For clarity, each Regulatory Milestone Payment is one-time only and will be payable only upon the first achievement of the applicable Milestone Event and no amounts will be due for subsequent or repeated achievements of such Milestone Event, whether for [***] or any additional Indications. The maximum aggregate amount payable by Eikon pursuant to Article 4.1(b) for Regulatory Milestone Payments if all six (6) Milestone Events are achieved is twenty-nine million and four hundred thousand USD ($29,400,000)."
+},
+{
+"tag": "list_item",
+"level": 6,
+"text": "(i)"
+},
+{
+"tag": "list_item",
+"level": 6,
+"text": "(ii) The Regulatory Milestone Payment payable for clause (iii) or clause (iv) of Article 4.1(b) will automatically become due and payable by Eikon to SW if (A) the Regulatory Milestone Payment associated with such milestone event has not been due or been paid and (B) [***] (provided that the corresponding milestone payments also are payable under the 7&8 Eikon Agreement). For clarity, no additional payment will be due for [***]. As used herein [***]; provided that in all cases each Regulatory Milestone Payment is only payable once for each Milestone Event."
+},
+{
+"tag": "list_item",
+"level": 6,
+"text": "(iii) SW acknowledges and agrees that the Milestone Events set forth in Article 4.1(b) will not be construed as representing an estimate or projection of anticipated approvals of the Licensed Products (or Lead Compound Milestone Products) or implying any level of diligence or efforts."
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(d) If the annual aggregate Net Sales of all Licensed Products by Eikon, its Affiliates or Sublicensees in the Field in the Territory in a given calendar year after the Effective Date and during the Term exceeds a threshold set forth below (each, a \u201cCommercial Milestone Event\u201d), Eikon shall pay to SW in the form of cash the corresponding one-time milestone payment (each, a \u201cCommercial Milestone Payment\u201d) as provided in Article 4.4. For"
+},
+{
+"tag": "para",
+"level": 5,
+"text": "the avoidance of doubt, [***]."
+},
+{
+"tag": "list_item",
+"level": 6,
+"text": "(i) [***]"
+},
+{
+"tag": "list_item",
+"level": 6,
+"text": "(ii) [***]"
+},
+{
+"tag": "list_item",
+"level": 6,
+"text": "(iii) [***]"
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(e) For the avoidance of doubt, each Commercial Milestone Payment will be payable only one-time only and paid only for the first calendar year of the Term in which the aggregate Net Sales of all Licensed Products first achieve the applicable Commercial Milestone Event. The Commercial Milestone Payment shall be due within [***] following Eikon\u2019s receipt of SW\u2019s written invoice for the applicable amount, which invoice shall be issued on (and no earlier than) the receipt by SW of the Commercial Milestone Payment report for the applicable calendar year provided pursuant to Article 5.1. No amounts will be due for subsequent or repeated achievements of such Commercial Milestone Event and the maximum aggregate amount payable by Eikon pursuant to Article 4.1(d) if all three (3) Commercial Milestone Events are achieved is three hundred fifty million USD ($350,000,000). Additional terms applicable to Commercial Milestone Payments are set forth in Article 4.4."
+},
+{
+"tag": "header",
+"level": 1,
+"text": "4.2 Development Expenses"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Eikon shall pay all fees and expenses incurred during the Term by or on behalf of Eikon or its Affiliates for the pre-clinical and clinical development of a Licensed Compound in the Territory."
+},
+{
+"tag": "header",
+"level": 1,
+"text": "4.3 Stock Issuance"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "In partial consideration of the rights granted by SW to Eikon hereunder, Eikon agrees to issue to SW a Simple Agreement for Future Equity (a \u201cSAFE\u201d) in the form attached hereto as Exhibit E with a Purchase Amount (as defined in the SAFE) equal to three million and five hundred thousand USD ($3,500,000) (the \u201cEquity Compensation\u201d). The SAFE will convert upon the initial closing of Eikon\u2019s next bona fide equity financing for capital raising purposes (the \u201cSeries C Financing\u201d) at the Series C Per Share Price. The \u201cSeries C Per Share Price\u201d shall be the price per share of the capital stock of Eikon issued to the investors investing new cash in Eikon in connection with the initial closing of the Series C Financing. The issuance of the securities into which the Equity Compensation converts will be upon the terms and subject to the conditions applicable to the Series C Financing. SW hereby agrees to, as a condition to receipt of the securities into which the Equity Compensation will convert, execute and deliver to Eikon all transaction documents related to the Series C Financing; provided, however, that such transaction documents are the same documents to be entered into with other purchasers of such securities in connection with the Series C Financing. SW represents and warrants that it is and shall be an accredited investor as defined in Rule 501(a) of Regulation D promulgated under the Securities Act of 1933, as amended, and the rules and regulations promulgated thereunder. SW represents it is able to fend for itself in transactions such as the ones contemplated by this Agreement, has such knowledge and experience in financial and business matters that it is capable of evaluating the merits and risks of its prospective investment in Eikon, and has the ability to bear the economic risks of the investment, including but not limited to the loss of its investment. The Parties further agree that SW will not be permitted to transfer or dispose of, directly or indirectly, any shares of the Equity Compensation or securities into which such Equity Compensation converts until Eikon\u2019s initial public offering (and following any lock-up period required in connection therewith) or the closing of a Liquidation Event, as such term is defined in Eikon\u2019s Certificate of Incorporation, whichever event occurs first."
+},
+{
+"tag": "header",
+"level": 1,
+"text": "4.4 Commercial Milestone Payments"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "With respect to each Licensed Product in each country in the Territory, from and after the expiration of the last to expire valid claim of an issued patent within the licensed Patent Rights in such country that claims the Licensed Compound included in such Licensed Product as a composition of matter (a \u201cValid Compound Claim\u201d) [***] Notwithstanding Article 4.1(d), [***]."
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "4.5 Intentionally omitted."
+},
+{
+"tag": "header",
+"level": 1,
+"text": "4.6 Payment Method - Due Dates"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "All payments by Eikon shall be made to SW by wire transfer to an account designated by SW from time to time. All payments shall be subject to applicable local governmental and withholding taxes. All amounts shall be paid in USD."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Overdue Payments. In the event any payment due hereunder is not made when due, the payment shall accrue interest (beginning on the date such payment is due) calculated at the prime interest rate quoted by The Wall Street Journal, Eastern edition, on the date said payment is due plus [***] per annum and such payment shall be made together with all accrued interest. The remittance of such interest shall not foreclose SW from exercising any other rights it may have pursuant to this Agreement because such payment is late."
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "4.7"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Right to Offset. Eikon will have the right to offset any amount owed by SW to Eikon under or in connection with this Agreement against any payments owed by Eikon to SW under this Agreement. Amounts owed by SW to Eikon may include amounts owed pursuant to Article 8.2 or Article 4.8 8.3 or in connection with any breach of the Agreement by SW, including breaches of ARTICLE 6 by SW. In the event that Eikon elects to defend a Third Party Claim itself although it is entitled to indemnification from SW under Article 8.2 or Article 8.3, then the reasonable costs of such defense may also be offset against any payments owed by Eikon to SW under this Agreement. Such offsets will be in addition to any other rights or remedies available under this Agreement and applicable law but shall be subject to any applicable limitations and procedures in ARTICLE 7."
+},
+{
+"tag": "header",
+"level": 0,
+"text": "ARTICLE 5. COMMERCIALIZATION MILESTONE REPORTS AND ACCOUNTING"
+},
+{
+"tag": "header",
+"level": 1,
+"text": "5.1 Commercialization Milestone Reports and Records"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Upon commencement of the sale of any Licensed Product, Eikon shall furnish, or cause to be furnished to SW, written reports governing each of Eikon\u2019s calendar years showing:"
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(a) The Net Sales of all Licensed Products sold by Eikon and its Sublicensees during the reporting period in USD and whether any Net Sales threshold"
+},
+{
+"tag": "para",
+"level": 4,
+"text": "has been reached;"
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(b) the exchange rate used to calculate the annual Net Sales in USD; and"
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(c) any withholding taxes required to be made from such commercial milestone payments."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "With respect to sales of the Licensed Products invoiced in USD, if any, the gross sales and Net Sales shall be expressed in USD. With respect to sales of the Licensed Products invoiced in a currency other than USD, the gross sales and Net Sales shall be expressed in such currency with the USD equivalent of the gross sales or Net Sales, calculated using Eikon\u2019s or its Sublicensee\u2019s standard conversion methodology consistent with"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "US GAAP."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Commercial Milestone Payment reports shall be made on an annual basis, due within [***] of the close of every calendar year until the last such milestone payment has been made and shall be prepared in accordance with US GAAP. Eikon shall keep accurate records in sufficient detail to enable the Commercial Milestone Payments payable hereunder to be determined."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Right to Audit. Once sales of the Licensed Products have commenced and gross sales proceeds have exceeded [***] and during the time in which any Commercial Milestone Payments are payable, SW shall have the right, upon prior written notice to Eikon and through an independent certified public accountant from an accounting firm of nationally recognized standing selected by SW and reasonably acceptable to Eikon, to audit, during normal business hours, those records of Eikon as may be reasonably necessary to verify the accuracy of the Commercial Milestone Payment reports required to be furnished by Eikon pursuant to Article 5.2 5.1 of this Agreement. Such examinations may not be conducted more than [***]. The accountant shall disclose only whether the reports are accurate or not and the specific details concerning any discrepancies. No other information shall be shared. SW shall ensure that Eikon receives a copy of the accountant\u2019s report promptly after completion. The cost of this audit, including reasonable compensation to Eikon for the time of its employees, shall be borne by SW. If such independent certified public accountant report shows Eikon failed to report the achievement of any Net Sales threshold subject to a Commercial Milestone Payment, within [***] after Eikon\u2019s receipt of such report, Eikon shall remit to SW the applicable Commercial Milestone Payment due, and shall reimburse SW for the fees and expenses of SW\u2019s accountant and any amounts paid for Eikon\u2019s time. If such independent certified public accountant report shows an overpayment by Eikon, SW shall reimburse the amount of such excess payment to Eikon within [***] of the date on which such audit is completed. SW shall treat all information subject to review under this Article 5.2 in accordance with the confidentiality provisions of ARTICLE 9, and the Parties shall cause the accounting firm to enter into a reasonably acceptable confidentiality agreement with Eikon obligating such firm to retain all such financial information in confidence pursuant to such confidentiality agreement."
+},
+{
+"tag": "header",
+"level": 0,
+"text": "ARTICLE 6. ADDITIONAL OBLIGATIONS"
+},
+{
+"tag": "header",
+"level": 1,
+"text": "6.1 SW Obligations"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "SW represents, warrants and covenants as follows:"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "As soon as practicable following the Effective Date, but in no event later than [***] following the Effective Date and during the Term, SW shall promptly provide to Eikon, at no incremental cost, all the technology, know-how, data, manufacturing, development and other information and SW\u2019s Improvements which are necessary to develop, import, manufacture, make, have made, use and sell and offer to sell the Licensed Compounds and Licensed Products in the Territory (the \u201cLicensed Know-How\u201d)."
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(a)"
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(b) SW represents and warrants that, neither it nor any of its Affiliates has (except as set forth in the Old Agreement), and covenants that neither it nor any of its Affiliates will, develop or enable any third party to develop any Licensed Compound within the Field."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "SW represents and warrants that as of the Effective Date: the Old Agreement was maintained continuously in good standing during its term; there were no Sublicense Agreements under the Old Agreement (as defined therein, excluding sublicenses granted to service providers, contractors and other vendors in the ordinary course of business that will no longer be in effect as of the Effective Date); there were no breaches of or defaults under the Old Agreement; all payments, if any, owed by 7&8 under the Old Agreement have been duly paid; and the Mutual Termination Agreement has been duly executed by SW and constitutes a legal and binding obligation on SW enforceable against it in accordance with its terms."
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(c)"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "SW represents and warrants that as of the Effective Date, it has due authority and all relevant approvals necessary to enter into this Agreement and that the execution of this Agreement does not conflict with any other agreement with a third party or 7&8."
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(d)"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "SW represents and warrants that as of the Effective Date, no claim or litigation has been brought or asserted (and SW has no knowledge of any claim, whether or not brought or asserted) by any Person alleging that (i) the Patent Rights are invalid or unenforceable or (ii) the conception, development, reduction to practice, disclosing, copying, making, assigning or licensing of the Patent Rights or Licensed Know-How existing as of the Effective Date or the development or exploitation of the Licensed Compounds or Licensed Products as contemplated herein, violates, infringes, constitutes misappropriation or otherwise conflicts or interferes with or would violate, infringe or otherwise conflict or interfere with, any (e)"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Intellectual Property of any Person."
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(f) SW represents and warrants that as of the Effective Date, it has obtained the licenses and other rights necessary for SW to grant to Eikon the rights and licenses provided herein (including Eikon\u2019s Licenses and the Option) and for Eikon to perform its obligations hereunder."
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "6.2 7&8 Obligations. 7&8 represents, warrants and covenants as follows:"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "7&8 represents and warrants that as of the Effective Date: the Old Agreement was maintained continuously in good standing during its term; there were no Sublicense Agreements under the Old Agreement (as defined therein, excluding sublicenses granted to service providers, contractors and other vendors in the ordinary course of business that will no longer be in effect as of the Effective Date); there were no breaches of or defaults under the Old Agreement; all payments, if any, owed by 7&8 under the Old Agreement have been duly paid; and the Mutual Termination Agreement has been duly executed by 7&8 and constitutes a legal and binding obligation on 7&8 enforceable against it in accordance with its terms."
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(a)"
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(b) 7&8 represents and warrants that as of the Effective Date, each 7&8 Entity has due authority and all relevant approvals necessary to enter into this Agreement and that the execution of this Agreement does not conflict with any other agreement with a third party or SW."
+},
+{
+"tag": "header",
+"level": 1,
+"text": "6.3 Eikon Obligations"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Eikon represents, warrants and covenants as follows:"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Eikon shall be responsible for future patent strategy and to pay any costs of any future patent filings and patent prosecution and maintenance costs relating to the Patent Rights arising after the Effective Date based on Eikon\u2019s patent strategy. Eikon shall also be responsible for all its costs with respect to the Licensed Compound in the Territory as set forth in this Agreement after Article 6.1(a) being fulfilled."
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(a)"
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(b) After the Option expires at the end of the Option Term without exercise by Eikon in accordance with Article 2.4(b), Eikon shall not develop the Licensed Compound under this Agreement for use outside of the Field without SW\u2019s written consent."
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(c) Eikon shall be responsible for the actions of any of its distributors, Affiliates or Sublicensees under this Agreement. If the Licensed Compounds or Licensed Products are sold, distributed, or otherwise commercialized outside of the Field by Eikon or its Affiliates, Sublicensees or distributors in violation of Section 6.3(b), subject to SW having notified Eikon and provided Eikon with a reasonable opportunity to cure and cooperate with SW, Eikon shall be responsible for any and all payments arising in connection with SW\u2019s pursuing any and all reasonable legal actions against such"
+},
+{
+"tag": "para",
+"level": 4,
+"text": "violation."
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(d) Eikon represents and warrants that as of the Effective Date, it has due authority and all relevant approvals necessary to enter into this Agreement and that the execution of this Agreement does not conflict with any other agreement with a third party."
+},
+{
+"tag": "header",
+"level": 1,
+"text": "6.4 Eikon Diligence Obligations and Commercial Development Plan"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Eikon shall use Commercially Reasonable Efforts to carry out the development of the Lead Compound. Eikon will provide to SW a plan under which Eikon intends to develop the Licensed Product to the point of filing for NDA approval (the \u201cClinical Development Plan\u201d) in the Territory. The Clinical Development Plan may be amended by Eikon from time to time."
+},
+{
+"tag": "header",
+"level": 1,
+"text": "6.5 Progress Reports on Clinical Development Plan"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Eikon shall provide high-level written annual reports on the status and progress of its efforts to clinically develop the Lead Compound under the Clinical Development Plan in the Territory within [***] of the start of each calendar year during the Term during which Eikon plans to conduct development with respect to the Lead Compound. Upon SW\u2019s request, Eikon shall discuss such report with SW. If reported progress differs materially from that projected in the Clinical Development Plan, Eikon shall explain the reasons for such differences."
+},
+{
+"tag": "header",
+"level": 0,
+"text": "ARTICLE 7. OWNERSHIP OF INTELLECTUAL PROPERTY"
+},
+{
+"tag": "header",
+"level": 1,
+"text": "7.1 General"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Each Party shall retain all of the right, title and interest in and to the Intellectual Property owned by such Party as of the Effective Date. Subject to Article 7.2, any improvements, enhancements, updates, or the equivalents of each Party\u2019s Intellectual Property (\u201cImprovements\u201d) shall be owned by the Party which owns such Intellectual Property."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Improvement. If Eikon, its Affiliates, and/or Sublicensees develop or create or otherwise make any Improvements in relation to the Licensed Compound, the Licensed Products, the Patent Rights, and/or the Licensed Know-How during the Term, such Improvements shall be solely owned by 7.2"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Eikon."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Third Party Infringement/Challenge. Each Party shall notify the other Party in writing if it becomes aware of any activity that it believes represents an infringement of any Intellectual Property licensed under this Agreement or aware that such licensed Intellectual Property is being challenged as invalid or unenforceable (an \u201cInfringement/Challenge\u201d), and promptly advise the other Party of all relevant facts and circumstances pertaining to the potential Infringement/Challenge. Eikon shall have the right, but not the obligation, to remove or defend against (or have removed or defended against) any Infringement/Challenge to the Intellectual Property, including, without limitation, the Patent Rights, licensed hereunder and shall be entitled to retain recovery from such removing or defending against the Infringement/Challenge in the Territory (an \u201cEnforcement Action\u201d), and the recovery retained by Eikon shall be deemed Net Sales of the Licensed Product for the purpose of determining whether any Net Sales threshold under Article 4.1(d) has been achieved to the extent that such recovery is attributable to loss of sales or profits with respect to a Licensed Product. Eikon shall keep SW reasonably informed of the progress of any such Enforcement Action, and SW shall have the right to participate with counsel of its own choice at its own expense. Eikon shall be entitled to offset up to [***] of the reasonable out-of-pocket costs and expenses of defending or settling any Enforcement Action under this Article 7.3 (including pursuant to any adverse judgment in connection therewith) (to the extent reasonably allocable to Intellectual Property licensed under this Agreement) against any future Regulatory Milestone Payments or Commercial Milestone Payments payable to SW under this Agreement except to the extent such out-of-pocket costs and expenses for the defense or settlement (i.e., costs of legal representation and disbursements) are awarded by a court and received by Eikon; provided that no Regulatory Milestone Payment or Commercial Milestone Payment may be reduced by more than [***] pursuant to this Article 7.3. Amounts subject to offset pursuant to this Article 7.3 7.3 and not exhausted against a particular Regulatory Milestone Payment or Commercial Milestone Payment may be carried forward and applied against future Regulatory Milestone Payments and Commercial Milestone Payments, subject to the preceding sentence."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Other Patent Actions. For clarity, Eikon shall have the right, but not the obligation, to prosecute and maintain the Patent Rights and be responsible for any opposition, re-issuance, reexamination request, nullity action, interference, or other similar post-grant proceedings (including inter partes reviews and post-grant reviews) and any appeals therefrom relating thereto (each, an \u201cAdverse Proceeding\u201d) and any other defense of the validity and enforceability of the Patent Rights. In addition, Eikon shall have the sole right to make all patent listings of Patent Rights or other patent-related submissions with regulatory authorities for the Licensed Products. Eikon shall consult with SW and keep SW reasonably informed of the status of 7.4"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "the Patents Rights and shall promptly provide SW with copies of all material correspondence submitted to or received from patent authorities in the Major EU Countries and the United States. In addition, Eikon shall promptly provide SW with drafts of all proposed material filings and correspondence to patent authorities in the Major EU Countries and the United States with respect to the Patents Rights for SW\u2019s review and comment prior to the submission, and Eikon shall consider SW\u2019s comments in good faith. Eikon shall notify SW of any decision to cease prosecution or maintenance of any Patent Right. Eikon shall provide such notice at least [***] prior to any filing or payment due date, or any other due date that requires action, in connection with such Patent Right. In such event, upon SW\u2019s request, Eikon shall transfer the prosecution and maintenance of such Patent Right to SW, and SW shall have the right to continue prosecution or maintenance of such Patent Rights at SW\u2019s own expense. Eikon shall be entitled to offset [***] of the reasonable out-of-pocket costs and expenses of any Adverse Proceeding or defending or settling any other claim, suit, or proceeding under this Article 7.4, to the extent reasonably allocable to Subject IP Matter, against any future Regulatory Milestone Payments or Commercial Milestone Payments payable to SW under this Agreement; provided that no Regulatory Milestone Payment or Commercial Milestone Payment may be reduced by more than [***] pursuant to this Article 7.4. Amounts subject to offset pursuant to this Article 7.4 and not exhausted against a particular Regulatory Milestone Payment or Commercial Milestone Payment may be carried forward and applied against future Regulatory Milestone Payments and Commercial Milestone Payments, subject to the preceding sentence."
+},
+{
+"tag": "header",
+"level": 2,
+"text": "7.5 Third Party Claims/Third Party Rights"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "If (i) a third party alleges in any claim, suit or proceeding that the development, manufacture, making, having made, using, selling, offering to sell or importing of the Licensed Compound or a Licensed Product in the Field in the Territory pursuant to this Agreement infringes the intellectual property rights of a third party (a \u201cThird Party Infringement Claim\u201d) or (ii) Eikon or its Affiliate obtains a license or other rights from a third party for intellectual property rights that in Eikon\u2019s reasonable opinion is necessary or useful to develop, manufacture, make, have made, use, sell, offer to sell or import the Licensed Compound or a Licensed Product in the Field in the Territory under this Agreement (\u201cThird Party Rights\u201d), then Eikon shall be entitled to offset [***] of the reasonable out-of-pocket costs and expenses of defending or settling such Third Party Infringement Claim (including pursuant to any adverse judgment in connection therewith) and amounts payable to third parties for Third Party Rights, in each case, to the extent reasonably allocable to Subject IP Matter, against any future Regulatory Milestone Payments or Commercial Milestone Payments payable to SW under this Agreement, except to the extent such out-of-pocket costs and expenses for the defense or settlement of a Third Party Infringement Claim (i.e., costs of legal representation and disbursements) are awarded by a court and received by Eikon; provided that no Regulatory Milestone Payment or Commercial Milestone Payment may be reduced by more than [***] pursuant to this Article 7.5. Amounts subject to offset pursuant to this Article 7.5 and not exhausted against a particular Regulatory Milestone Payment or Commercial Milestone Payment may be carried forward and applied against future Regulatory Milestone Payments and Commercial Milestone Payments, subject to the preceding sentence."
+},
+{
+"tag": "para",
+"level": 3,
+"text": "Cooperation. At Eikon\u2019s request, SW shall cooperate with Eikon\u2019s reasonable requests in connection with the activities described in Articles 7.3, 7.4, and 7.5, including by providing reasonably necessary information and materials and, if required to bring a particular action, the furnishing of a power of attorney or being named as a party; [***]."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "7.6"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "Mechanics of Adjustments. Any offsets under this ARTICLE 7 shall be applied in the order in which the event triggering such offset occur; provided that the adjustments made pursuant to this ARTICLE 7 shall not reduce any particular Regulatory Milestone Payment or Commercial Milestone Payment by more than [***]. Offsets pursuant to ARTICLE 7 not exhausted against a Regulatory Milestone Payment or Commercial Milestone Payment due to the foregoing restriction may be applied to future Regulatory Milestone Payments and Commercial Milestone Payments, subject to 7.7"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "the preceding sentence."
+},
+{
+"tag": "header",
+"level": 0,
+"text": "ARTICLE 8. INDEMNIFICATION AND LIABILITY"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Disclaimer. Except as otherwise expressly set forth in this Agreement, the Parties make no assertions and extend no warranties or conditions of any kind, either express or implied, with respect to the intellectual property licensed hereunder or information disclosed hereunder, including, but not limited to, express or implied warranties, of merchantability for a particular purpose, validity of any intellectual property licensed hereunder, whether patented or unpatented, or non-infringement of the property rights of third parties."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "8.1"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Indemnification. Each Party shall indemnify and hold harmless the other Parties and their respective agents, directors, employees and Affiliates (\u201cIndemnified Persons\u201d) from and against any and all liabilities, damages, costs or expenses (including reasonable attorneys\u2019 fees and disbursements) arising out of or related to any third party claim, demand, suit, action or proceeding (\u201cThird Party Claim\u201d) which is the result of 8.2 (i) any breach or non-performance of the indemnifying Party\u2019s obligations, representations, assertions or warranties under this Agreement, or (ii) the gross negligence or intentional misconduct of the indemnifying Party; provided, however, that the foregoing indemnification obligation shall not apply to the extent that the Third Party Claim is the result of (x) any breach or non-performance of an Indemnified Person\u2019s obligations, representations, assertions or warranties under this Agreement, or (y) the gross negligence or intentional misconduct of an Indemnified Person."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Additional Indemnification Obligations. Eikon shall indemnify and hold harmless SW 7&8 and respective Indemnified Persons from and against any Third Party Claim which is the result of the use, development, manufacture, sale and import of Licensed Compounds and Licensed Products by Eikon, its Affiliates and Sublicensees, including product liabilities claims and infringement claims other than any Third Party Claim that relates to any of the following: (i) the composition of matter of a Licensed Compound or (ii) a formulation containing a Licensed Compound or Licensed Product, a method of using a Licensed Compound or Licensed Product for an oncology Indication, or a method of manufacturing a Licensed Compound or Licensed Product, in each case, that is the same or substantially similar to a formulation or method that is or was used on or prior to the Effective Date or that is otherwise covered or described in the disclosure of any Patent Rights (a \u201cSubject IP Third Party Claim\u201d). In addition, the foregoing indemnification obligation of Eikon shall not apply to the extent it relates to losses and claims for which SW or 7&8 are obligated to indemnify Eikon under Article 8.2 or this Article 8.3. SW and 7&8 shall jointly indemnify and hold harmless Eikon and its Indemnified Persons from and against any Subject IP Third Party Claim and SW shall indemnify and hold harmless Eikon and its Indemnified Persons from and against any Third Party Claim which results from any use, development, manufacture, sale and import of Licensed Compounds and Licensed Products in the exercise of the Ex-Field Right."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "8.3"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Indemnification Procedures. The Party seeking indemnification for Indemnified Persons shall give written notice to the indemnifying Party with reasonable promptness upon becoming aware of any Third Party Claim or other facts upon which a claim for indemnification will be based; the notice shall set forth such information with respect thereto as is then reasonably available to the Indemnified Persons. The Party seeking indemnification shall ensure that all Indemnified Persons furnish promptly to the indemnifying Party copies of all papers and official documents received in respect of the Third Party Claims. The indemnifying Party shall have the right to undertake the defense of any such Third Party Claim and the Indemnified Persons shall cooperate in such defense and make available all record, materials and witnesses reasonably requested by the indemnifying Party in connection therewith at the indemnifying Party\u2019s expense. The indemnifying Party shall not be liable for any Third Party Claim settled without its consent, which consent shall not be unreasonably withheld or delayed. If the indemnifying Party does not assume and conduct the defense of a Third Party Claim as provided above and in a timely manner, the Indemnified Persons may defend against such Third Party Claim and the costs and expenses, including fees and disbursements of counsel, incurred by the Indemnified Persons in connection with any such Third Party Claim will be reimbursed on a calendar quarter basis by the indemnifying Party. For clarity, if a Third Party Claim, or the events giving rise to or resulting in such Third Party Claim, are subject to ARTICLE 7 and Article 8.2 or Article 8.3, then ARTICLE 7 shall apply with respect to the defense of such Third Party Claim and Article 8.2 or Article 8.3, as applicable, shall apply with respect to the allocation of financial responsibility for the related liabilities, damages, costs or expenses (including reasonable attorneys\u2019 fees and disbursements). To the extent that Eikon exercises its rights to offset in this Agreement, the amounts that are offset will be accounted for as a credit against any amounts owed by SW to Eikon pursuant to SW\u2019s indemnification obligations under this ARTICLE 8."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "8.4"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Special, Indirect, and Other Losses. EXCEPT (I) IN THE EVENT OF A PARTY\u2019S BREACH OF ITS OBLIGATIONS UNDER ARTICLE 9 OR ARTICLE 6.1(b), (II) FOR A PARTY\u2019S INTENTIONAL MISCONDUCT OR FRAUD, (Ill) AS PROVIDED UNDER ARTICLE 11.13 AND (IV) TO THE EXTENT ANY SUCH DAMAGES ARE REQUIRED TO BE PAID TO A THIRD PARTY AS PART OF A CLAIM FOR WHICH A PARTY PROVIDES INDEMNIFICATION UNDER THIS ARTICLE 8, NO PARTY NOR ANY OF ITS AFFILIATES (OR SUBLICENSEES UNDER THIS AGREEMENT) SHALL BE LIABLE IN CONTRACT, TORT, NEGLIGENCE, BREACH OF STATUTORY DUTY OR OTHERWISE FOR ANY CONSEQUENTIAL, INDIRECT, SPECIAL OR PUNITIVE DAMAGES OR FOR LOSS OF PROFITS SUFFERED BY"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "ANOTHER PARTY."
+},
+{
+"tag": "header",
+"level": 0,
+"text": "ARTICLE 9. CONFIDENTIALITY."
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "9.1"
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "8.5"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Confidentiality. At all times during the Term and for a period of [***] following termination or expiration of this Agreement, each Party shall, and shall cause its Affiliates and Sublicensees to keep secret and confidential all Intellectual Property licensed hereunder and any other non-public information, data and know-how of the other Party received prior to execution of or under this Agreement (\u201cConfidential Information\u201d) and shall not use the Confidential Information for any purpose other than for the purposes permitted in this Agreement, provided that (i) during the Term, Confidential Information constituting Licensed Know-How will be deemed the Confidential Information of Eikon and (ii) a Party shall have no obligation to maintain the confidentiality of Confidential Information which: (a) at the time of disclosure by the disclosing Party is the public domain; (b) after disclosure by the disclosing Party enters the public domain through no improper conduct of the receiving Party or its Affiliate;"
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(c) prior to disclosure by the disclosing Party was already in the possession of the receiving Party as evidenced by the receiving Party\u2019s written records (provided that this exception shall not apply with respect to Confidential Information described in foregoing clause (i)); (d) subsequent to disclosure hereunder is obtained by the receiving Party from third parties who are lawfully in possession of such information, data and know-how and are not subject to an obligation to refrain from disclosing such information, data and know-how to others (provided that this exception shall not apply with respect to Confidential Information described in foregoing clause (i)); or (e) is required to be revealed under compulsion of law, provided that the Party under a legal compulsion to disclose the Confidential Information makes every effort to preserve the confidentiality of the information and also provides the disclosing Party sufficient prior notice of the disclosure, so that such disclosing Party shall have an opportunity to take whatever action it deems necessary or desirable to protect its Confidential Information."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Exceptions. Notwithstanding the provisions of Article 9.1, a Party shall be entitled to disclose Confidential Information for the purpose of implementing this Agreement: (i) to any of the Party\u2019s representatives who have a need to know, provided the recipients have been informed of and are bound to confidentiality obligations substantially similar to the provisions of this ARTICLE 9; (ii) to the extent such disclosure is reasonably necessary in filing or prosecuting patent, copyright and trademark applications, prosecuting or defending litigation, complying with applicable governmental regulations, obtaining regulatory approval, conducting preclinical or clinical trials, or otherwise required by law;"
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "9.2"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "provided, however, that if a Party is required by law or regulation to make any such disclosure of the other Party\u2019s Confidential Information it will give reasonable advance notice to the other Party of such disclosure requirement and, except to the extent inappropriate in the case of patent applications, will use its reasonable efforts to secure confidential treatment of such Confidential Information required to be disclosed; or (iii) to the extent mutually agreed in writing by the Parties."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Permitted Disclosures by Eikon. Eikon and its Affiliates and Sublicensees may disclose Confidential Information of SW as may be necessary or useful in connection with exploiting the Licensed Compounds and Licensed Products (including in connection with any filing, application, or request for regulatory approval by or on behalf of Eikon or any of its Affiliates or its or their Sublicensees) or otherwise in connection with the performance of its obligations or exercise of Eikon\u2019s rights as contemplated by this Agreement, including to existing or potential distributors, service providers, Sublicensees, collaboration partners, or acquirers; provided that such disclosure in each case shall be subject to confidentiality obligations substantially similar to the provisions of this ARTICLE 9."
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "9.3"
+},
+{
+"tag": "header",
+"level": 1,
+"text": "9.4 Survival"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "The provisions of this ARTICLE 9 shall survive termination of this Agreement howsoever caused."
+},
+{
+"tag": "header",
+"level": 0,
+"text": "ARTICLE 10. TERM AND TERMINATION"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Term. This Agreement shall take effect from the Effective Date and will continue in full force and effect until the earlier of (i) the expiration of the last Country Term for the last Licensed Product that Eikon is commercializing under this Agreement or (ii) the date on which Eikon pays SW the last of the Commercial Milestone Payments, unless earlier terminated by the terms of this Agreement (the \u201cTerm\u201d). In the event that Eikon has paid to SW all of the Regulatory Milestone Payments and all of the Commercial Milestone Payments this Agreement will automatically expire."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "10.1"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Upon any expiration of this Agreement, Eikon\u2019s Licenses shall become unrestricted, fully paid-up, perpetual and irrevocable and no Regulatory Milestone Payments or Commercial Milestone Payments shall be due or payable."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Considerations. In the event that any of the following occurs during the Term, an Operational Party shall be entitled to immediately terminate this Agreement by giving written notice to that effect: (i) the other Operational Party becomes insolvent, bankrupt or generally unable to pay its debts as they become due; (ii) a receiver is appointed over any of the substantial property or assets of such other Operational Party so that it is not expected to achieve the purpose of this Agreement; (iii) the other Operational Party makes any voluntary arrangement with its creditors or becomes subject to an administration order; or (iv) the other Operational Party goes into liquidation (except for the purposes of amalgamation of reconstruction and in such manner that the entity resulting therefrom effectively agrees to be bound by or assume the obligation imposed on that other Operational Party under this Agreement). As used herein, \u201cOperational Party\u201d means SW or Eikon."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "10.2"
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "10.3"
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "10.4"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Termination by SW. During the Term, SW shall have the right to terminate this Agreement, without recourse by Eikon, upon: (i) an uncured, material breach of this Agreement by Eikon, where such opportunity to cure shall commence upon receipt by Eikon of a notice of such material breach and last for a reasonable period to effectuate the cure but no more than [***] (or a longer reasonable period if such default cannot be cured within such [***] period as long as Eikon commences actions to cure such breach within such [***] period and thereafter diligently continues such actions); or (ii) Eikon\u2019s failure to pay milestone payments set forth in ARTICLE 4 to SW within sixty (60) days of the due date unless otherwise agreed by SW or disputed in good faith."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Termination by Eikon. During the Term, Eikon shall have the right to terminate this Agreement, without recourse by SW, upon (i) an uncured, material breach of this Agreement by SW, where such opportunity to cure shall commence upon receipt by SW of a notice of such material breach and last for a reasonable period to effectuate the cure but no more than [***] in any event (or a longer reasonable period if such default cannot be cured within such [***] period as long as SW commences actions to cure such breach within such [***] period and thereafter diligently continues such actions); or (ii) at any time upon at least [***] prior written notice. In the event that Eikon terminates this Agreement, and transfers the Licensed Compound program to SW and thereafter SW or its Affiliate sells or licenses to any third party or otherwise commercializes the Licensed Compounds or Licensed Products, then SW shall share with Eikon [***] of the proceeds until Eikon has recouped the internal and out-of-pocket costs recorded as an expense, by or on behalf of Eikon or any of its Affiliates after the Effective Date during the Term that are incurred in connection with or otherwise reasonably allocable to the research, development or commercialization of the Licensed Compounds."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "10.5"
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "10.6"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Termination due to Termination of the 7&8 Eikon Agreement. Concurrent with the execution of this Agreement, 7&8 and Eikon entered into that certain Exclusive Collaboration Agreement (the \u201c7&8 Eikon Agreement\u201d). This Agreement shall automatically terminate upon any termination of the 7&8 Eikon Agreement."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Obligation upon Termination. If this Agreement is terminated for any reason Eikon shall forfeit any and all revocable rights related to the Intellectual Property licensed hereunder. In addition, if this Agreement is terminated pursuant to Article 10.3 or 10.4(ii): (i) all data, discoveries and materials provided to Eikon by SW under this Agreement shall be promptly returned to SW by and at the expense of Eikon to the extent then in Eikon\u2019s possession; (ii) Eikon shall transfer to SW copies of all data, discoveries, materials, information and know-how owned by Eikon or its Affiliates relating exclusively to the Licensed Compounds and the Licensed Products, at the expense of Eikon; (iii) if Eikon or its Affiliates develop or create any Improvements exclusively in relation to the Licensed Compounds, Eikon shall duly transfer the ownership of such Improvements owned by Eikon or its Affiliates to SW, at no cost to SW; (iv) if Eikon has filed and obtained any regulatory approvals for clinical trials or sale such as an IND or NDA with regulatory agencies in the Territory relating exclusively for the Licensed Compound, Eikon shall assign such approvals and the related regulatory documents supporting such approval to SW or a party designated by the SW within [***] after SW\u2019s request, at no cost to SW, to the extent permissible under applicable law, and Eikon shall cooperate with SW or its designee in evidencing the reversion of such rights to SW; (v) Eikon shall execute and deliver any and all documents, affidavits, etc., requested by SW and necessary to confirm SW\u2019s ownership to the Intellectual Property licensed to Eikon hereunder, at the expense of Eikon; and (vi) if Eikon has entered into a Sublicense Agreement with one or more sublicensees, Eikon shall upon the request of such Sublicensee, transfer any and all rights and obligations of Eikon under the Sublicense Agreement (with respect to the sublicensed rights) to SW, at no cost to SW, and if transferred to SW, the SW/7&8 Agreement shall be subject to the rights granted under such Sublicense Agreement to the applicable third party."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "10.7"
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "10.8"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Modification in Lieu of Termination. If, at any time during the Term, Eikon has the right to terminate this Agreement pursuant to Article 10.4(i), then Eikon may, by written notice to SW, elect to continue this Agreement as modified by this Article 10.7, in which case, effective as of the date Eikon delivers such notice of such election to SW (i) the amount of any Regulatory Milestone Payment for any Milestone Event achieved thereafter and the amount of any Commercial Milestone Payment for any Commercial Milestone Event shall be reduced by [***] of the applicable amount set forth in ARTICLE 4, (ii) Eikon\u2019s diligence obligations under Article 6.4 shall terminate, and (iii) all other provisions of this Agreement shall remain in full force and effect without change."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Termination upon certain assignment violation. SW may terminate this Agreement upon [***] prior written notice to Eikon in the event Eikon assigns this Agreement or sells any of its rights or obligations under Eikon\u2019s Licenses with respect to Licensed Products to a third party hereunder in a manner that is not expressly permitted under Article 11.1 hereof and such termination will be deemed due to a material breach of the Agreement by Eikon pursuant to Article 10.3(i). Eikon may terminate this Agreement upon [***] prior written notice to SW in the event SW assigns this Agreement hereunder in a manner that is not expressly permitted under Article 11.1 hereof and such termination will be deemed due to a material breach of the Agreement by SW pursuant to Article 10.4(i)."
+},
+{
+"tag": "header",
+"level": 0,
+"text": "ARTICLE 11. GENERAL PROVISIONS"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Assignment. Except as expressly provided herein, no Party shall assign this Agreement or any part thereof without the prior written consent of the other Party, which consent shall not be unreasonably withheld, conditioned or delayed (except that, for clarity, Eikon has the right, without such consent, to perform any or all of its obligations and exercise any or all of its rights under this Agreement through any of its Affiliates or Sublicensees or distributors or other subcontractors). Each Party may, however, without such consent, assign or sell its rights under this Agreement: (i) in connection with the sale or transfer of all or substantially all of its TLR7/8 agonist R&D programs or business to a third party; (ii) in the event of a merger or consolidation with a third party; or (iii) to an Affiliate. No assignment shall relieve any Party of responsibility for the performance of any accrued obligation which such Party has under this Agreement. Any permitted assignee shall assume all obligations of its assignor under this Agreement, and such assignment shall only be effective contingent upon the assignee assuming in writing all of the obligations of its assignor under this Agreement."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "11.1"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "In addition to any other rights and remedies available to the Parties under Article 10.8 of this Agreement, at law or in equity for breach of this Article 11.1, any assignment made in violation of this Article 11.1 shall be null and void."
+},
+{
+"tag": "header",
+"level": 2,
+"text": "11.2 Independent Contractors"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "The relationship between each of the Parties shall not constitute a partnership or agency. No Party has the power or the right to bind, commit or pledge the credit of any other Party."
+},
+{
+"tag": "header",
+"level": 2,
+"text": "11.3 Publicity"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "No Party shall originate any publicity, news release or public announcement relating to this Agreement. The Parties further agree to keep the existence of this Agreement and terms hereof confidential and agree not to disclose any such information to any third party (other than counsel) without the prior written approval of the other Parties."
+},
+{
+"tag": "header",
+"level": 2,
+"text": "11.4 Governing Law; Governing Language"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "This Agreement and all amendments, modifications, alterations, or supplements hereto, and the rights of the Parties hereunder, shall be construed under and governed by the laws of New York, USA, exclusive of its conflicts of laws principles. This Agreement has been prepared in the English language and the English language shall control its interpretation. All consents, notices, reports and other written documents to be delivered or provided by a Party under this Agreement shall be in the English language, and in the event of any conflict between the provisions, of any document and the English language translation thereof, the terms of the English language translation shall control. The Parties agree to exclude the application to this Agreement of the United Nations Convention on Contracts for the International Sale of Goods."
+},
+{
+"tag": "para",
+"level": 3,
+"text": "Dispute Resolution. Any dispute, whether contractual or otherwise, arising out of or in connection with this Agreement or these dispute resolution procedures, including without limitation their existence, validity, applicability or termination, will be referred to and finally resolved by arbitration pursuant to the Rules of the American Arbitration Association, which rules are deemed to be incorporated by reference into this provision. There will be three (3) independent arbitrators. The seat, or legal place of arbitration will be New York City, New York, USA. The language to be used in the arbitral proceedings will be English. The governing law of the Agreement and of these dispute resolution provisions is specified in Article 11.4, without regard to its conflicts of law rules and principles. Judgment upon the award may be entered by any court having jurisdiction of the award or having jurisdiction over the relevant party or its assets. Only Parent may commence an arbitration on behalf of itself or any other 7&8 Entity. Nothing contained in this Agreement will deny any Party the right to seek injunctive or other equitable relief from a court of competent jurisdiction in the context of a bona fide emergency or prospective irreparable harm, and such an action may be filed and maintained notwithstanding any ongoing arbitration proceeding; provided that only Parent may commence such proceedings on behalf of itself of any other 7&8 Entity. All arbitration proceedings and decisions of the arbitrators will be deemed Confidential Information of the Parties under 11.5"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "ARTICLE 9."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "hereunder."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Service. Each Party further agrees that service of any process, summons, notice or document by registered mail to its address set forth in Article 11.14 will be effective service of process for any action, suit or proceeding brought against it under this Agreement in any such court. In addition, any service of process on Parent at Cooley LLP, 3175 Hanover Street, Palo Alto, CA 94304; ATTN: [***] will constitute service of process on Parent and on any or all of the 7&8 Entities."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "11.6"
+},
+{
+"tag": "header",
+"level": 2,
+"text": "11.7 Entire Agreement"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "This Agreement, together with the Exhibits attached hereto, constitutes the entire agreement among the Parties with respect to the subject matter hereof and shall not be modified, amended or terminated, except as herein provided or except by another agreement in writing executed by the Parties hereto; provided, however, that any modification or amendment that only pertains to the rights and obligations of the Operational Parties will only require execution on behalf of both of the Operational Parties. All of the 7&8 Entities hereby agree that Eikon and SW may rely on notices, communications, amendments and waivers from Parent with respect to any matter pertaining to 7&8 and that the signatures of 7&8 Entities other than Parent are not required for any notices, communications, amendments and waivers, to the extent the foregoing are required with respect to 7&8 under this Agreement."
+},
+{
+"tag": "para",
+"level": 3,
+"text": "Waiver. No provision of this Agreement may be waived except by a writing signed by the Party entitled to the benefit thereof, and no such waiver of any provision hereof in one instance shall constitute a waiver of any other provision or of such provision in any other instance. No omission, delay or failure on the part of any Party hereto in exercising any rights hereunder will constitute a waiver of such rights or of any other rights 11.8"
+},
+{
+"tag": "header",
+"level": 2,
+"text": "11.9 Severability"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "In the event that any of the provisions of this Agreement shall be determined invalid, void or unenforceable, such provision shall be deemed to be deleted from this Agreement and the remaining provisions of this Agreement shall continue in full force and effect."
+},
+{
+"tag": "para",
+"level": 3,
+"text": "Force Majeure. If an event of force majeure, any act, cause, contingency or circumstances beyond the reasonable control of such Party, including, but not limited to, any government action, order or restriction (whether foreign, federal or state), war (whether or not declared), disease, pandemics or epidemics, public strike, riot, labor dispute, act of God, flood or public or natural disaster (\u201cForce Majeure\u201d) occurs, such occurrence could not have been reasonably foreseen by either Operational Party at the execution hereof, and such occurrence is not attributable to either Operational Party, and an Operational Party is prevented from performing its obligations under this Agreement (the \u201cAffected Party\u201d), such Affected Party shall not be liable for failure to perform, in whole or in part, its obligations under this Agreement (or be deemed to have defaulted under or breached this Agreement) and shall promptly provide written notice after the occurrence of the Force Majeure to the other non-Affected Party. The Affected Party shall use all reasonable efforts to expeditiously mitigate the delay or failure to perform its obligations affected by the Force Majeure. Both Operational Parties will discuss in good faith and determine treatment of this Agreement and shall continue at all times to perform and observe the terms and conditions of this Agreement insofar as they are not affected by such Force Majeure."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "11.10"
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "11.11"
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "11.12"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Counterparts. This Agreement may be executed in one or more counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument. Each Party agrees that the electronic signatures of the Parties,in any form or format, are intended to authenticate this writing and to have the same force and effect as manual signatures. For the purposes of this provision, \u201celectronicsignature\u201d means any electronic sound, symbol, or process attached to or logically associated with a record and executed and adopted by a party with the intent to sign such record, including e-mail signatures and processes developed by electronic signature services (e.g., DocuSign)."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Further Assurances. Each Party shall duly execute and deliver or cause to be duly executed and delivered, such further instruments and do and cause to be done such further acts and things, including the filing of such assignments, agreements, documents and instruments, as may be necessary or as another Party may reasonably request in connection with this Agreement or to carry out more effectively the provisions and purposes hereof or to better assure and confirm unto such other Party its rights and remedies under this Agreement. Parent is responsible for ensuring, and guarantees, the compliance of all of the other 7&8 Entities with the responsibilities of 7&8 under this Agreement."
+},
+{
+"tag": "header",
+"level": 2,
+"text": "11.13 Equitable Relief"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "Each Party acknowledges and agrees that the restrictions set forth in ARTICLE 2, ARTICLE 7 and ARTICLE 9 are reasonable and necessary to protect the legitimate interests of the other Parties and that such other Parties would not have entered into this Agreement in the absence of such restrictions and that any breach or threatened breach of any provision of such ARTICLES in irreparable injury to such other Parties for which there will be no adequate remedy at law. In the event of a breach or threatened breach of any provision of such ARTICLES, any non-breaching Party will be authorized and entitled to obtain from any court of competent jurisdiction injunctive relief, whether preliminary or permanent, and specific performance, which rights will be cumulative and in addition to any other rights or remedies to which such non-breaching Party may be entitled in law or equity. The Parties agree to waive any requirement that the another Party (i) post a bond or other security as a condition for obtaining any such relief and (ii) show irreparable harm, balancing of harms, consideration of the public interest or inadequacy of monetary damages as a remedy. Nothing in this Article 11.13 is intended or should be construed, to limit a Party\u2019s right to equitable relief or any other remedy for a breach of any other provision of this Agreement."
+},
+{
+"tag": "header",
+"level": 2,
+"text": "11.14 Notices"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "All notices, statements, and reports required to be given under this Agreement shall be in writing and shall be (i) delivered by hand or (ii) by recognized overnight delivery service that maintains records of delivery (e.g., FedEx or UPS), and addressed as set forth below; provided that all such addresses and any changed locations must be in the United States. Such notice will be deemed to have been given as of the date delivered by hand or on the earlier of (i) actual delivery (at the place of delivery) or (ii) the second Business Day (at the place of delivery) after deposit with a recognized overnight delivery service. Eikon and SW are only obligated to notify Parent with respect to any notice to 7&8 required under this Agreement and a notice to Parent in accordance with this Article 11.14 will be deemed an effective notice to all 7&8 Entities. To SW: Superb Wisdom Limited Address: Le Sanalele Complex, Ground Floor, Vaea Street, Saleufi, P.O. Box 1868, Apia, Samoa Attn: [***] e-mail: [***] To Eikon: Eikon Therapeutics Inc. 3929 Eden Point Way Hayward, CA 94545 USA Attn: [***] E-mail: [***] with a copy (which will not constitute notice) to: Covington & Burling LLP Salesforce Tower, 415 Mission Street, 54th Floor San Francisco, CA 94105 Attn: [***] E-mail: [***] Telephone: [***] To Parent: Seven and Eight Biopharmaceuticals Inc. 9/F, Office Tower C1 Oriental Plaza 1 Est Chang An Ave Beijing, PFC Attn: [***] E-mail: [***] Any Party hereto may change the address to which notices to such Party are to be sent by giving notice to the other Parties at the address and in the manner provided above. Any notice may be given, in addition to the manner set forth above, by e-mail provided that the Party giving such notice obtains acknowledgement by e-mail that such notice has been received by the Parties to be notified. Notices made in this manner shall be deemed to have been given when such acknowledgement has been transmitted."
+},
+{
+"tag": "para",
+"level": 3,
+"text": "[Signature Page Follows] IN WITNESS WHEREOF, SW, Eikon, and 7&8 have caused this Agreement to be signed by their duly authorized representatives, under seal, as of the day and year indicated above."
+},
+{
+"tag": "header",
+"level": 3,
+"text": "Superb Wisdom Limited"
+},
+{
+"tag": "header",
+"level": 3,
+"text": "By: /s/ Allen Chih Hao Lee"
+},
+{
+"tag": "header",
+"level": 3,
+"text": "Print Name: Allen Chih Hao Lee"
+},
+{
+"tag": "header",
+"level": 4,
+"text": "Title: Director"
+},
+{
+"tag": "para",
+"level": 5,
+"text": "Date: 3/27/2023"
+},
+{
+"tag": "header",
+"level": 4,
+"text": "Eikon Therapeutics, Inc."
+},
+{
+"tag": "header",
+"level": 4,
+"text": "By: /s/ Benjamin Thorner"
+},
+{
+"tag": "header",
+"level": 4,
+"text": "Print Name: Benjamin Thorner"
+},
+{
+"tag": "header",
+"level": 4,
+"text": "Title: GC & CBO"
+},
+{
+"tag": "para",
+"level": 5,
+"text": "Date: 3/29/2023"
+},
+{
+"tag": "header",
+"level": 3,
+"text": "Seven and Eight Biopharmaceuticals Inc."
+},
+{
+"tag": "header",
+"level": 3,
+"text": "By: /s/ Huang Xiao"
+},
+{
+"tag": "header",
+"level": 3,
+"text": "Print Name: Huang Xiao"
+},
+{
+"tag": "para",
+"level": 4,
+"text": "Title: Shareholder appointed signatory Date: 3/26/2023 Seven and Eight Biotherapeutics Corp."
+},
+{
+"tag": "header",
+"level": 3,
+"text": "By: /s/ Huang Xiao"
+},
+{
+"tag": "header",
+"level": 3,
+"text": "Print Name: Huang Xiao"
+},
+{
+"tag": "para",
+"level": 4,
+"text": "Title: Shareholder appointed signatory Date: 3/26/2023"
+},
+{
+"tag": "header",
+"level": 3,
+"text": "Birdie Biopharmaceuticals Inc."
+},
+{
+"tag": "header",
+"level": 3,
+"text": "By: /s/ Huang Xiao"
+},
+{
+"tag": "header",
+"level": 3,
+"text": "Print Name: Huang Xiao"
+},
+{
+"tag": "header",
+"level": 3,
+"text": "Date: 3/26/2023 Birdie Biotherapeutics HK Limited"
+},
+{
+"tag": "header",
+"level": 3,
+"text": "By: /s/ Huang Xiao"
+},
+{
+"tag": "header",
+"level": 4,
+"text": "Print Name: Huang Xiao"
+},
+{
+"tag": "para",
+"level": 5,
+"text": "Title: Shareholder appointed signatory Date: 3/26/2023"
+},
+{
+"tag": "header",
+"level": 4,
+"text": "Birdie Biopharmaceuticals Co. Limited"
+},
+{
+"tag": "header",
+"level": 4,
+"text": "By: /s/ Huang Xiao"
+},
+{
+"tag": "header",
+"level": 5,
+"text": "Print Name: Huang Xiao"
+},
+{
+"tag": "para",
+"level": 6,
+"text": "Title: Shareholder appointed signatory Date: 3/26/2023"
+},
+{
+"tag": "header",
+"level": 5,
+"text": "Birdie Biotechnology (BVI Limited)"
+},
+{
+"tag": "header",
+"level": 5,
+"text": "By: /s/ Huang Xiao"
+},
+{
+"tag": "header",
+"level": 6,
+"text": "Print Name: Huang Xiao"
+},
+{
+"tag": "para",
+"level": 7,
+"text": "Title: Shareholder appointed signatory Date: 3/26/2023"
+},
+{
+"tag": "header",
+"level": 6,
+"text": "Birdie Biotechnology HK Limited"
+},
+{
+"tag": "header",
+"level": 6,
+"text": "By: /s/ Huang Xiao"
+},
+{
+"tag": "header",
+"level": 7,
+"text": "Print Name: Huang Xiao"
+},
+{
+"tag": "para",
+"level": 8,
+"text": "Title: Shareholder appointed signatory Date: 3/26/2023 Birdie Biopharmaceuticals (Beijing) Co., Ltd."
+},
+{
+"tag": "header",
+"level": 6,
+"text": "By: /s/ Huang Xiao"
+},
+{
+"tag": "header",
+"level": 7,
+"text": "Print Name: Huang Xiao"
+},
+{
+"tag": "header",
+"level": 7,
+"text": "Date: 3/26/2023 Exhibit A Mutual Termination Agreement"
+},
+{
+"tag": "para",
+"level": 8,
+"text": "[***]"
+},
+{
+"tag": "header",
+"level": 8,
+"text": "Exhibit B Exclusive Collaboration Agreement"
+},
+{
+"tag": "para",
+"level": 9,
+"text": "[***] Exhibit C Licensed Compound"
+},
+{
+"tag": "para",
+"level": 9,
+"text": "[***] Exhibit E"
+},
+{
+"tag": "para",
+"level": 9,
+"text": "[***] Exhibit D Patent Rights"
+},
+{
+"tag": "para",
+"level": 9,
+"text": "[***]"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "EIKON THERAPEUTICS, INC."
+},
+{
+"tag": "header",
+"level": 1,
+"text": "SAFE (Simple Agreement for Future Equity)"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "[***]"
+}
+]
+}

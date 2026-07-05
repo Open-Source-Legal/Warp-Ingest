@@ -1,0 +1,259 @@
+{
+"name": "cerebras_s1__exhibit1013esx_f124a6",
+"num_pages": 10,
+"n_blocks": 50,
+"orig_failed": false,
+"orig_reason": null,
+"blocks": [
+{
+"tag": "header",
+"level": 0,
+"text": "Exhibit 10.13(e)"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Portions of this exhibit, indicated by [***], have been omitted in accordance with Item 601(b)(10)(iv) of Regulation S-K. The omitted information is (i) not material and (ii) treated by the Registrant as private or confidential."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Portions of this exhibit have been omitted in accordance with Item 601(a)(5) of Regulation S-K. The Registrant undertakes to furnish a copy of all omitted information, schedules, and exhibits to the U.S. Securities and Exchange Commission upon its request."
+},
+{
+"tag": "header",
+"level": 2,
+"text": "Statement of Work"
+},
+{
+"tag": "header",
+"level": 3,
+"text": "Date July 10, 2024"
+},
+{
+"tag": "para",
+"level": 4,
+"text": "This SOW is entered into and forms part of the Master Services Agreement entered into between G42 HOLDING US LLC, a Delaware corporation (\"G42\") and CEREBRAS SYSTEMS, INC., a Delaware corporation (the \"Supplier\") on 13 September 2023 (the \"Agreement\")."
+},
+{
+"tag": "table",
+"level": 4,
+"text": "Unless otherwise provided or the context otherwise requires, capitalised expressions used in this SOW shall have the meanings given to them in the main body of the Agreement. If there is any conflict or inconsistency between any term of this SOW and any term set out in the main body of the Agreement (including its Schedule), then such conflict or inconsistency shall be resolved in accordance with clause 2.5 of the Agreement. Supplier Project G42 Project Purchase Order #2024 - 0004"
+},
+{
+"tag": "header",
+"level": 3,
+"text": "Number"
+},
+{
+"tag": "para",
+"level": 4,
+"text": "SOW Effective Date The date of acceptance of at least [***] of the CS-3 systems purchased by G42 pursuant to the terms of either:"
+},
+{
+"tag": "list_item",
+"level": 5,
+"text": "(i) Purchase Order # 2023-0004; or"
+},
+{
+"tag": "list_item",
+"level": 5,
+"text": "(ii) any subsequent Purchase Orders entered into in relation to the"
+},
+{
+"tag": "para",
+"level": 6,
+"text": "purchase of additional CS-3 systems for the [***] Clusters (as"
+},
+{
+"tag": "para",
+"level": 6,
+"text": "defined below), (the \u201cRelevant Purchase Orders\u201d)."
+},
+{
+"tag": "table",
+"level": 3,
+"text": "SOW Term The period commencing on the SOW Effective Date and ending [***] Services The operation and management of the [***] Clusters (as defined \u2022 [***] means the CS-3 systems purchased under Purchase Order # 2023-0004; and Service Location The location of the Clusters will be the Delivery Location (as defined in the Relevant Purchase Orders), or such other location mutually agreed upon by the parties (\u201cService Location\u201d)."
+},
+{
+"tag": "para",
+"level": 3,
+"text": "G42 is responsible for providing Cerebras with access and use to the Service Location necessary for the provision of the Services herein subject to the following conditions:"
+},
+{
+"tag": "list_item",
+"level": 4,
+"text": "(i) Access to the Service Location by the Supplier\u2019s personnel shall be limited to those individuals who are designated by the Supplier as persons who require access to the Service Location that have been approved by the Service Location provider (each such individual being an \u201cAuthorized Contact\u201d)."
+},
+{
+"tag": "list_item",
+"level": 4,
+"text": "(ii) G42 or the Service Location provider can refuse access to the Service Location to any person not designated as an Authorized Contact or to any Authorized Contact who violates any rules or regulations of the Service Location provider, or in the Service Location provider\u2019s reasonable opinion behaves inappropriately or creates a hazard of any kind. (iii)G42 shall not be required to provide access to:"
+},
+{
+"tag": "para",
+"level": 5,
+"text": "\u25e6 any person not designated as an Authorized Contact; or \u25e6 any previously designated Authorized Contact who is subsequently refused by the Service Location provider on reasonable grounds, unless agreed to by the Service Location provider. (iv)Any Authorized Contact must present photo identification at the Service Location provider\u2019s main entrance before entering the Service Location."
+},
+{
+"tag": "list_item",
+"level": 6,
+"text": "(v) Authorized Contacts will remain at the Service Location only so long as necessary."
+},
+{
+"tag": "para",
+"level": 3,
+"text": "(vi)The Supplier shall ensure that Authorized Contacts comply with all applicable Service Location rules and guidelines implemented by the Service Location provider when accessing the Service Location."
+},
+{
+"tag": "list_item",
+"level": 4,
+"text": "(vii) The Supplier or any third party entering the Service Location on the Supplier\u2019s behalf must procure and maintain the insurance types, amounts and coverage extensions as specified by the Service Location provider from time to time."
+},
+{
+"tag": "para",
+"level": 3,
+"text": "Each of the above shall be an \u201cAccess Condition\u201d and together shall be known as the \u201cAccess Conditions\u201d."
+},
+{
+"tag": "table",
+"level": 3,
+"text": "For the avoidance of doubt, any reference to G42\u2019s premises in clause 4.1(f) and/or clause 10.2(b)(i) of the Agreement shall include the Service Location. Deliverables Operation and management of the [***] Clusters. Further details are set out in Appendix A of this SOW. Specifications Cerebras shall provide operation and management of the [***]"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "Clusters located at the Service Location as set forth in this SOW. This includes the management, monitoring and maintenance of up to [***] consuming up to [***] of power, and providing [***] of AI Compute including CS-3s, and associated MemoryX and SwarmX cluster equipment, as well as [***]. Includes any required [***]. Performing software upgrades to all equipment as necessary. The total headcount will be [***]."
+},
+{
+"tag": "table",
+"level": 4,
+"text": "[***] Performance Standards {'bbox': [201.4, 56.83, 548.04, 181.24000000000007], 'block_class': 'cls_1', 'block_idx': 42, 'page_idx': 3, 'sentences': ['(1) Subject to paragraph (2), the Supplier will use commercially reasonable efforts to ensure that the Cluster is available for the Monthly Availability Percentage (as defined in the Service Credits section set out below).', '(2) Notwithstanding paragraph (1), the Supplier acknowledges that if the Cluster is not available for the Monthly Availability Percentage, G42 will be entitled to Service Credits in accordance with sub-paragraphs (ii) to (iv) of paragraph (1) and paragraphs (2) to (5) of the Service Credits row of this table (subject only to the provisions on Scheduled Downtime and Excluded Downtime set out therein).'], 'tag': 'para'}"
+},
+{
+"tag": "table",
+"level": 4,
+"text": "Milestones, Milestone Dates or other timescales for delivery {'bbox': [183.55, 266.52, 550.66, 292.86], 'block_class': 'cls_1', 'block_idx': 43, 'page_idx': 4, 'sentences': ['The Supplier shall supply the Services on an ongoing basis during the SOW Term.'], 'tag': 'para'} G42 Dependencies Fees {'bbox': [183.55, 419.68, 548.01, 725.49], 'block_class': 'cls_1', 'block_idx': 45, 'page_idx': 4, 'sentences': ['The total Fees payable by G42 under this SOW shall be [***] in total, which shall be divided into [***] and billed [***].', 'For example, the invoice for Services supplied during [***] of the SOW Term will be sent in the [***] of the SOW Term.', 'See enclosed quotation and quotation schedule in Appendix B to this SOW for the [***] billings breakdown.', 'The parties agree as follows: \u2022 under a \u2018Letter of Award in Respect of HPC Infrastructure PO\u2019 dated April 24,2024 between G42 and the Supplier located at Appendix C of this SOW (the \u201cAward Letter\u201d, G42 advanced to the Supplier a sum of USD $300,000,000 (the \u201cPrepaid Sum\u201d); \u2022 notwithstanding the terms of the Award Letter G42 may, from time to time, direct the Supplier to deduct the [***] Fees payable under this SOW from the Prepaid Sum; \u2022 if G42 so directs, the Supplier will:'], 'tag': 'para'}"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "\u25e6 on the relevant [***] invoice issued in accordance with the Invoice row of this SOW, indicate that the relevant Fees are paid; and \u25e6 report to G42 on the remaining balance of the Prepaid Sum; and [***] (by reference to the [***] reports extracted from the system logs) and ends when the Services are restored."
+},
+{
+"tag": "table",
+"level": 3,
+"text": "\u2022 except as set out in this Fees row of this SOW or as otherwise agreed between the parties, the terms of the Award Letter shall remain in full force and effect. Service Credits {'bbox': [182.86, 56.83, 550.74, 404.02000000000004], 'block_class': 'cls_1', 'block_idx': 48, 'page_idx': 5, 'sentences': ['1. MONTHLY AVAILABILITY PERCENTAGE SERVICE LEVEL.', '(i) Subject to paragraph (ii), the Supplier shall use commercially reasonable efforts to ensure the Cluster has a Monthly Availability Percentage (defined below) of [***].', '(ii) The Supplier acknowledges that paragraph (i) above is subject to paragraph 2 of the Performance Standards row of this table.', '(iii) The \"Monthly Availability Percentage\" will be calculated as follows: the number of [***] the Cluster is accessible and not suffering from a Service Outage (as defined below) as reported to the Supplier by G42 during [***], divided by [***].', '(iv) If G42 fails to report a Service Outage within [***] of the occurrence of such Service Outage, G42 shall not be entitled to any Service Credit for such Service Outage.', 'For the purposes of this SOW, a \"Service Outage\" is defined as either the total loss of availability of the Cluster or the material degradation of core functionality of a specific element or component of the Cluster (to the extent the Cluster or core functionality of such element is / are not functional for its or their intended purpose).', 'Service Outage excludes any Scheduled Downtime or Excluded Downtime (as defined below).', '2.', 'MEASUREMENT METHOD Any Service Outage, downtime or Cluster unavailability period may begin after'], 'tag': 'para'}"
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "3. COMMUNICATION PROTOCOL G42 will communicate via email or text message to [***] Supplier Project Representatives using the contact details listed above, unless otherwise agreed upon in writing (the \u201cCommunication Protocol\u201d)."
+},
+{
+"tag": "header",
+"level": 3,
+"text": "4. MAINTENANCE AND EXCLUDED DOWNTIME"
+},
+{
+"tag": "para",
+"level": 4,
+"text": "The Supplier may perform regular scheduled maintenance and downtime of the Cluster for any or all Services during [***] (\u201cScheduled Downtime\u201d). Such Scheduled Downtime will be coordinated with G42 to minimize disruption to G42. The Supplier will use commercially reasonable efforts to provide G42 with at least [***] prior notice of such Scheduled Downtime. This notification will be provided via the agreed upon Communication Protocol to designated support representatives."
+},
+{
+"tag": "para",
+"level": 4,
+"text": "Excluded Downtime. Any downtime or interruptions to the Services caused by any of the following, shall not factor into the Monthly Availability Percentage calculation (\u201cExcluded Downtime\u201d): [***]"
+},
+{
+"tag": "para",
+"level": 4,
+"text": "For the purposes of this SOW, \u201cEmergency Maintenance\u201d shall mean such periods of maintenance to correct urgent, unscheduled activities performed by Supplier to address critical issues, such as security vulnerabilities, hardware failures, or software bugs that could significantly impact the performance, availability, or security of the Cluster, as determined reasonably necessary by Supplier. Supplier will notify the primary G42 Project Representative with as much advance notice as possible under the circumstance prior to performing the Emergency Maintenance."
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "5. SERVICE CREDIT"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "If a Service Outage results in the Cluster failing to achieve the Monthly Availability Percentage outlined above, G42 will be entitled to Service Credits according to the following table:"
+},
+{
+"tag": "table",
+"level": 4,
+"text": "Service Availability Service Credit [***] [***] [***] [***] [***] [***]"
+},
+{
+"tag": "para",
+"level": 4,
+"text": "Service Credits will [***], subject to any Excluded Downtime."
+},
+{
+"tag": "para",
+"level": 4,
+"text": "Service Credit Request Procedure. If a Service Outage occurs, G42 shall submit a \"Request for SLA Credit\" [***] after the occurrence of the Service Outage. The request should include, at minimum, the date, time and duration of each unavailability incident or Service Outage, as well reasonable documents showing the errors and corroborating the claimed outage (any confidential or sensitive information in these logs may be removed or redacted) specifying the Services that were unavailable."
+},
+{
+"tag": "para",
+"level": 4,
+"text": "If the Monthly Availability Percentage is not met in circumstances which are not due to Scheduled Downtime or Excluded Downtime, then the Supplier will notify G42 of the Service Credits due (by reference to [***])."
+},
+{
+"tag": "para",
+"level": 4,
+"text": "The Service Credits will [***]. Service Credits will only apply for Services supplied under this SOW, and cannot be used to extend any other SOW."
+},
+{
+"tag": "table",
+"level": 4,
+"text": "Nothing in this SOW (including any accrual of Service Credits) shall affect G42\u2019s rights or remedies under or in relation to the Agreement (including this SOW), including at law or in equity or require G42 to pay Fees for Services not rendered. Acceptance Tests {'bbox': [185.87, 562.68, 203.58, 572.68], 'block_class': 'cls_1', 'block_idx': 67, 'page_idx': 7, 'sentences': ['N/A'], 'tag': 'para'} Acceptance Period {'bbox': [185.87, 597.23, 203.58, 607.23], 'block_class': 'cls_1', 'block_idx': 68, 'page_idx': 7, 'sentences': ['N/A'], 'tag': 'para'} Invoices {'bbox': [183.27, 617.07, 569.91, 722.79], 'block_class': 'cls_1', 'block_idx': 69, 'page_idx': 7, 'sentences': [\"Invoices shall be sent to the following email address and must include: \u2022 the amount payable in US dollars; \u2022 the full business name and address of the Supplier; \u2022 the time period to which the invoice relates and the location of the supply (if applicable for tax purposes); and \u2022 the Supplier\\\\'s bank and account details for payment\"], 'tag': 'para'}"
+},
+{
+"tag": "para",
+"level": 4,
+"text": "[***]"
+},
+{
+"tag": "table",
+"level": 4,
+"text": "G42 shall pay each invoice within [***] from the date of receipt of the invoice, {'bbox': [186.02, 103.52, 410.65, 113.52], 'block_class': 'cls_1', 'block_idx': 71, 'page_idx': 8, 'sentences': ['in accordance with clause 6.4 of the Agreement.'], 'tag': 'para'} Liability Cap {'bbox': [183.85, 312.55, 386.31, 322.55], 'block_class': 'cls_1', 'block_idx': 72, 'page_idx': 8, 'sentences': ['As per clause 10.10(b)(1) of the Agreement.'], 'tag': 'para'} Licensed Software {'bbox': [183.85, 348.51, 212.0, 358.51], 'block_class': 'cls_1', 'block_idx': 73, 'page_idx': 8, 'sentences': ['None.'], 'tag': 'para'} Named Customer {'bbox': [183.85, 382.71, 204.24, 392.71], 'block_class': 'cls_1', 'block_idx': 74, 'page_idx': 8, 'sentences': ['N/A.'], 'tag': 'para'} Termination Compensation {'bbox': [183.85, 416.91, 550.73, 460.3], 'block_class': 'cls_1', 'block_idx': 75, 'page_idx': 8, 'sentences': ['No Termination Compensation shall be payable if G42 terminates this SOW for convenience under clause 9.1(a) of the Agreement subject to the alternative Notice Period provisions set forth below.'], 'tag': 'para'} Notice Period {'bbox': [183.85, 470.5, 553.75, 726.58], 'block_class': 'cls_1', 'block_idx': 76, 'page_idx': 8, 'sentences': ['G42 agrees that the notice period to terminate this SOW pursuant to clause 9.1(a) of the Agreement shall be [***] prior written notice of its intention to terminate this SOW (\u201cNotice Period\u201d). For the avoidance of doubt: \u2022 G42 shall continue to be liable to pay the [***] Fees as they fall due and payable in accordance with the \u201cFees\u201d section of this SOW during such Notice Period; \u2022 upon the expiry of the Notice Period, G42 shall not be liable to pay any remaining Fees due after expiration of the Notice Period to the Supplier under this SOW; and \u2022 nothing in this SOW shall operate to affect G42\u2019s entitlement to receive Service Credits in respect of any Service Outages and, accordingly, any such Service Credits shall be deducted from the Fees payable during such Notice Period.'], 'tag': 'para'}"
+},
+{
+"tag": "table",
+"level": 4,
+"text": "Notified Subcontractors None. Additional Terms None."
+},
+{
+"tag": "header",
+"level": 0,
+"text": "Page 7 of 9"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "AS WITNESS the hands of the Parties or their duly authorised representatives on the date first before written."
+},
+{
+"tag": "table",
+"level": 2,
+"text": "Signed by: {'bbox': [317.53, 335.26, 366.05, 345.26], 'block_class': 'cls_1', 'block_idx': 81, 'page_idx': 9, 'sentences': ['Signed by:'], 'tag': 'para'} /s/ Martin Edelman Name: Martin Edelman {'bbox': [317.53, 424.94, 430.26, 434.94], 'block_class': 'cls_1', 'block_idx': 83, 'page_idx': 9, 'sentences': ['Name: Andrew Feldman'], 'tag': 'para'} For and on behalf of G42 HOLDING US LLC {'bbox': [317.53, 472.99, 537.93, 482.99], 'block_class': 'cls_1', 'block_idx': 84, 'page_idx': 9, 'sentences': ['For and on behalf of CEREBRAS SYSTEMS, INC.'], 'tag': 'para'}"
+},
+{
+"tag": "header",
+"level": 1,
+"text": "APPENDIX A- SCOPE OF WORK (SERVICES AND DELIVERABLES)"
+},
+{
+"tag": "header",
+"level": 1,
+"text": "APPENDIX B - CEREBRAS QUOTE AND QUOTATION SCHEDULE"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "APPENDIX C \u2013 AWARD LETTER"
+}
+]
+}

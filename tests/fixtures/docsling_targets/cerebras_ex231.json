@@ -1,0 +1,77 @@
+{
+ "page_count": 1,
+ "pages": [
+  {
+   "index": 0,
+   "width": 612.0,
+   "height": 792.0
+  }
+ ],
+ "annotations": [
+  {
+   "id": "#/texts/0",
+   "label": "text",
+   "page": 0,
+   "bounds": {
+    "left": 160.242,
+    "top": 173.947,
+    "right": 451.754,
+    "bottom": 188.24800000000005
+   },
+   "rawText": "Consent of Independent Registered Public Accounting Firm",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/1",
+   "label": "text",
+   "page": 0,
+   "bounds": {
+    "left": 60.0,
+    "top": 214.29100000000005,
+    "right": 551.955,
+    "bottom": 261.28
+   },
+   "rawText": "We hereby consent to the use in the Prospectus constituting a part of this Registration Statement of our report dated June 17, 2024, relating to the consolidated financial statements of Cerebras Systems Inc., which is contained in that Prospectus.",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/2",
+   "label": "text",
+   "page": 0,
+   "bounds": {
+    "left": 60.0,
+    "top": 275.323,
+    "right": 477.774,
+    "bottom": 289.624
+   },
+   "rawText": "We also consent to the reference to us under the caption 'Experts' in the Prospectus.",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/3",
+   "label": "text",
+   "page": 0,
+   "bounds": {
+    "left": 60.0,
+    "top": 315.667,
+    "right": 158.7,
+    "bottom": 374.656
+   },
+   "rawText": "/s/ BDO USA, P.C. San Jose, California September 30, 2024",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/4",
+   "label": "text",
+   "page": 0,
+   "bounds": {
+    "left": 500.321,
+    "top": 63.918000000000006,
+    "right": 552.0,
+    "bottom": 74.98800000000006
+   },
+   "rawText": "Exhibit 23.1",
+   "parent_id": null
+  }
+ ]
+}

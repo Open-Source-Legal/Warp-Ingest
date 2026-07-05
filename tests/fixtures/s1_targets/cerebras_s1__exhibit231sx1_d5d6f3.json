@@ -1,0 +1,34 @@
+{
+"name": "cerebras_s1__exhibit231sx1_d5d6f3",
+"num_pages": 0,
+"n_blocks": 5,
+"orig_failed": false,
+"orig_reason": null,
+"blocks": [
+{
+"tag": "header",
+"level": 0,
+"text": "Exhibit 23.1"
+},
+{
+"tag": "para",
+"level": 0,
+"text": "Consent of Independent Registered Public Accounting Firm We hereby consent to the use in the Prospectus constituting a part of this Registration Statement of our report dated June 17, 2024, relating to the consolidated financial statements of Cerebras Systems Inc., which is contained in that Prospectus."
+},
+{
+"tag": "para",
+"level": 0,
+"text": "We also consent to the reference to us under the caption \u201cExperts\u201d in the Prospectus."
+},
+{
+"tag": "para",
+"level": 0,
+"text": "/s/ BDO USA, P.C."
+},
+{
+"tag": "para",
+"level": 0,
+"text": "San Jose, California September 30, 2024"
+}
+]
+}

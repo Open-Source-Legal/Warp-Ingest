@@ -1,0 +1,24 @@
+{
+"name": "fervo_s1__exhibit211sx1_0c768b",
+"num_pages": 0,
+"n_blocks": 3,
+"orig_failed": false,
+"orig_reason": null,
+"blocks": [
+{
+"tag": "header",
+"level": 0,
+"text": "Exhibit 21.1"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "List of Subsidiaries of Fervo Energy Company"
+},
+{
+"tag": "table",
+"level": 0,
+"text": "Legal Name Jurisdiction of Formation Cape HoldCo LLC Delaware Cape Phase 1 Intermediate Holdco LLC Delaware Escalante Desert Resources LLC Delaware Fervo HoldCo LLC Delaware"
+}
+]
+}

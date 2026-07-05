@@ -1,0 +1,24 @@
+{
+"name": "infleqtion_s1__ex211_b9070a",
+"num_pages": 0,
+"n_blocks": 3,
+"orig_failed": false,
+"orig_reason": null,
+"blocks": [
+{
+"tag": "header",
+"level": 0,
+"text": "Exhibit 21.1"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "Subsidiaries of Infleqtion, Inc."
+},
+{
+"tag": "table",
+"level": 1,
+"text": "Subsidiary Jurisdiction of Incorporation ColdQuanta UK Ltd England and Wales ColdQuanta Australia Pty Ltd Australia Infleqtion Japan GK Japan"
+}
+]
+}

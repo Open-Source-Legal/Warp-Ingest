@@ -1,0 +1,803 @@
+{
+ "page_count": 11,
+ "pages": [
+  {
+   "index": 0,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 1,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 2,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 3,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 4,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 5,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 6,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 7,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 8,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 9,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 10,
+   "width": 612.0,
+   "height": 792.0
+  }
+ ],
+ "annotations": [
+  {
+   "id": "#/texts/0",
+   "label": "page_header",
+   "page": 0,
+   "bounds": {
+    "left": 484.222,
+    "top": 63.918000000000006,
+    "right": 552.0,
+    "bottom": 74.98800000000006
+   },
+   "rawText": "Exhibit 10.13(e)",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/1",
+   "label": "text",
+   "page": 0,
+   "bounds": {
+    "left": 122.54,
+    "top": 135.918,
+    "right": 489.461,
+    "bottom": 179.67600000000004
+   },
+   "rawText": "Portions of this exhibit, indicated by [***], have been omitted in accordance with Item 601(b)(10)(iv) of Regulation S-K. The omitted information is (i) not material and (ii) treated by the Registrant as private or confidential.",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/2",
+   "label": "text",
+   "page": 0,
+   "bounds": {
+    "left": 103.379,
+    "top": 201.29399999999998,
+    "right": 508.619,
+    "bottom": 245.05200000000002
+   },
+   "rawText": "Portions of this exhibit have been omitted in accordance with Item 601(a)(5) of Regulation S-K. The Registrant undertakes to furnish a copy of all omitted information, schedules, and exhibits to the U.S.\u00a0Securities and Exchange Commission upon its request.",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/3",
+   "label": "section_header",
+   "page": 0,
+   "bounds": {
+    "left": 258.782,
+    "top": 284.546,
+    "right": 353.22,
+    "bottom": 298.166
+   },
+   "rawText": "Statement of Work",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/4",
+   "label": "text",
+   "page": 0,
+   "bounds": {
+    "left": 114.0,
+    "top": 315.243,
+    "right": 207.948,
+    "bottom": 328.863
+   },
+   "rawText": "Date \u00a0\u00a0\u00a0\u00a0July 10, 2024",
+   "parent_id": "#/texts/3"
+  },
+  {
+   "id": "#/texts/5",
+   "label": "text",
+   "page": 0,
+   "bounds": {
+    "left": 114.0,
+    "top": 345.941,
+    "right": 497.996,
+    "bottom": 409.654
+   },
+   "rawText": "This SOW is entered into and forms part of the Master Services Agreement entered into between G42 HOLDING US LLC, a Delaware corporation (\" G42 \") and CEREBRAS   SYSTEMS,   INC.,   a   Delaware   corporation   (the   \" Supplier \")   on   13 September 2023 (the \" Agreement \").",
+   "parent_id": "#/texts/3"
+  },
+  {
+   "id": "#/texts/6",
+   "label": "text",
+   "page": 0,
+   "bounds": {
+    "left": 114.0,
+    "top": 426.732,
+    "right": 497.995,
+    "bottom": 523.8389999999999
+   },
+   "rawText": "Unless   otherwise   provided   or   the   context   otherwise   requires,   capitalised expressions used in this SOW shall have the meanings given to them in the main body of the Agreement. If there is any conflict or inconsistency between any term of this SOW and any term set out in the main body of the Agreement (including its Schedule), then such conflict or inconsistency shall be resolved in accordance with clause 2.5 of the Agreement.",
+   "parent_id": "#/texts/3"
+  },
+  {
+   "id": "#/texts/7",
+   "label": "caption",
+   "page": 2,
+   "bounds": {
+    "left": 281.48,
+    "top": 590.987,
+    "right": 330.522,
+    "bottom": 604.417
+   },
+   "rawText": "Page 2 of 9",
+   "parent_id": "#/texts/3"
+  },
+  {
+   "id": "#/texts/8",
+   "label": "page_footer",
+   "page": 2,
+   "bounds": {
+    "left": 201.402,
+    "top": 696.113,
+    "right": 501.235,
+    "bottom": 726.4300000000001
+   },
+   "rawText": "(v) Authorized Contacts will remain at the Service Location only so long as necessary.",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/9",
+   "label": "page_header",
+   "page": 4,
+   "bounds": {
+    "left": 219.402,
+    "top": 56.138000000000034,
+    "right": 539.694,
+    "bottom": 86.10199999999998
+   },
+   "rawText": "Credits row of this table (subject only to the provisions on Scheduled Downtime and Excluded Downtime set out therein).",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/10",
+   "label": "caption",
+   "page": 4,
+   "bounds": {
+    "left": 281.48,
+    "top": 160.70000000000005,
+    "right": 330.522,
+    "bottom": 174.13
+   },
+   "rawText": "Page 3 of 9",
+   "parent_id": "#/texts/3"
+  },
+  {
+   "id": "#/texts/11",
+   "label": "section_header",
+   "page": 5,
+   "bounds": {
+    "left": 281.48,
+    "top": 259.82000000000005,
+    "right": 330.522,
+    "bottom": 273.25
+   },
+   "rawText": "Page 4 of 9",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/12",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 182.859,
+    "top": 56.138000000000034,
+    "right": 550.75,
+    "bottom": 102.44600000000003
+   },
+   "rawText": "Any Service Outage, downtime or Cluster unavailability period may begin after [***] (by reference to the [***] reports extracted from the system logs) and ends when the Services are restored.",
+   "parent_id": "#/texts/11"
+  },
+  {
+   "id": "#/texts/13",
+   "label": "section_header",
+   "page": 6,
+   "bounds": {
+    "left": 182.859,
+    "top": 115.16999999999996,
+    "right": 331.445,
+    "bottom": 128.78999999999996
+   },
+   "rawText": "3. COMMUNICATION PROTOCOL",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/14",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 182.859,
+    "top": 131.514,
+    "right": 550.742,
+    "bottom": 177.822
+   },
+   "rawText": "G42 will communicate via email or text message to [***] Supplier Project Representatives   using   the   contact   details   listed   above,   unless   otherwise agreed upon in writing (the ' Communication Protocol ').",
+   "parent_id": "#/texts/13"
+  },
+  {
+   "id": "#/texts/15",
+   "label": "section_header",
+   "page": 6,
+   "bounds": {
+    "left": 182.859,
+    "top": 193.54600000000005,
+    "right": 394.503,
+    "bottom": 207.16600000000005
+   },
+   "rawText": "4. MAINTENANCE AND EXCLUDED DOWNTIME",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/16",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 182.859,
+    "top": 209.89,
+    "right": 550.762,
+    "bottom": 321.573
+   },
+   "rawText": "The Supplier may perform regular scheduled maintenance and downtime of the Cluster for any or all Services during [***] (' Scheduled Downtime '). Such Scheduled Downtime will be coordinated with G42 to minimize disruption to G42. The Supplier will use commercially reasonable efforts to provide G42 with at least [***] prior notice of such Scheduled Downtime. This notification will be provided via the agreed upon Communication Protocol to designated support representatives.",
+   "parent_id": "#/texts/15"
+  },
+  {
+   "id": "#/texts/17",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 182.859,
+    "top": 334.298,
+    "right": 546.4,
+    "bottom": 396.179
+   },
+   "rawText": "Excluded Downtime. Any downtime or interruptions to the Services caused by any of the following, shall not factor into the Monthly Availability Percentage calculation (' Excluded Downtime '): [***]",
+   "parent_id": "#/texts/15"
+  },
+  {
+   "id": "#/texts/18",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 182.859,
+    "top": 409.674,
+    "right": 550.19,
+    "bottom": 537.701
+   },
+   "rawText": "For the purposes of this SOW, 'Emergency Maintenance' shall mean such periods of maintenance to correct urgent, unscheduled activities performed by Supplier to address critical issues, such as security vulnerabilities, hardware failures, or software bugs that could significantly impact the performance, availability, or security of the Cluster , as determined reasonably necessary by Supplier. Supplier will notify the primary G42 Project Representative with as much advance notice as possible under the circumstance prior to performing the Emergency Maintenance.",
+   "parent_id": "#/texts/15"
+  },
+  {
+   "id": "#/texts/19",
+   "label": "page_footer",
+   "page": 6,
+   "bounds": {
+    "left": 281.48,
+    "top": 622.3,
+    "right": 330.522,
+    "bottom": 635.73
+   },
+   "rawText": "Page 5 of 9",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/20",
+   "label": "section_header",
+   "page": 7,
+   "bounds": {
+    "left": 65.572,
+    "top": 561.988,
+    "right": 150.87,
+    "bottom": 575.607
+   },
+   "rawText": "Acceptance Tests",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/21",
+   "label": "section_header",
+   "page": 7,
+   "bounds": {
+    "left": 65.572,
+    "top": 596.535,
+    "right": 157.89,
+    "bottom": 610.155
+   },
+   "rawText": "Acceptance Period",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/22",
+   "label": "section_header",
+   "page": 7,
+   "bounds": {
+    "left": 65.572,
+    "top": 616.379,
+    "right": 106.981,
+    "bottom": 629.999
+   },
+   "rawText": "Invoices",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/23",
+   "label": "section_header",
+   "page": 7,
+   "bounds": {
+    "left": 183.271,
+    "top": 58.138000000000034,
+    "right": 268.449,
+    "bottom": 71.75800000000004
+   },
+   "rawText": "5. SERVICE CREDIT",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/24",
+   "label": "text",
+   "page": 7,
+   "bounds": {
+    "left": 183.271,
+    "top": 74.48199999999997,
+    "right": 541.102,
+    "bottom": 120.78999999999996
+   },
+   "rawText": "If a Service Outage results in the Cluster failing to achieve the Monthly Availability Percentage outlined above, G42 will be entitled to Service Credits according to the following table:",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/25",
+   "label": "text",
+   "page": 7,
+   "bounds": {
+    "left": 183.271,
+    "top": 230.64,
+    "right": 463.885,
+    "bottom": 244.26
+   },
+   "rawText": "Service Credits will [***] , subject to any Excluded Downtime.",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/26",
+   "label": "text",
+   "page": 7,
+   "bounds": {
+    "left": 183.271,
+    "top": 256.98400000000004,
+    "right": 550.743,
+    "bottom": 368.667
+   },
+   "rawText": "Service Credit Request Procedure. If a Service Outage occurs, G42 shall submit a \"Request for SLA Credit\" [***] after the occurrence of the Service Outage. The request should include, at minimum, the date, time and duration of each unavailability   incident   or   Service   Outage,   as   well   reasonable   documents showing the errors and corroborating the claimed outage (any confidential or sensitive information in these logs may be removed or redacted) specifying the Services that were unavailable.",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/27",
+   "label": "text",
+   "page": 7,
+   "bounds": {
+    "left": 183.271,
+    "top": 381.392,
+    "right": 550.669,
+    "bottom": 427.699
+   },
+   "rawText": "If the Monthly Availability Percentage is not met in circumstances which are not due to Scheduled Downtime or Excluded Downtime, then the Supplier will notify G42 of the Service Credits due (by reference to [***] ).",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/28",
+   "label": "text",
+   "page": 7,
+   "bounds": {
+    "left": 183.271,
+    "top": 440.424,
+    "right": 550.729,
+    "bottom": 470.387
+   },
+   "rawText": "The Service Credits   will [***] .   Service   Credits   will   only   apply   for   Services supplied under this SOW, and cannot be used to extend any other SOW.",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/29",
+   "label": "text",
+   "page": 7,
+   "bounds": {
+    "left": 183.271,
+    "top": 483.112,
+    "right": 550.747,
+    "bottom": 545.763
+   },
+   "rawText": "Nothing in this SOW (including any accrual of Service Credits) shall affect G42's rights or remedies under or in relation to the Agreement (including this SOW), including at law or in equity or require G42 to pay Fees for Services not rendered.",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/30",
+   "label": "text",
+   "page": 7,
+   "bounds": {
+    "left": 183.271,
+    "top": 561.988,
+    "right": 203.58,
+    "bottom": 575.607
+   },
+   "rawText": "N/A",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/31",
+   "label": "text",
+   "page": 7,
+   "bounds": {
+    "left": 183.271,
+    "top": 596.535,
+    "right": 203.58,
+    "bottom": 610.155
+   },
+   "rawText": "N/A",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/32",
+   "label": "text",
+   "page": 7,
+   "bounds": {
+    "left": 183.271,
+    "top": 616.379,
+    "right": 513.973,
+    "bottom": 629.999
+   },
+   "rawText": "Invoices shall be sent to the following email address and must include:",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/33",
+   "label": "list_item",
+   "page": 7,
+   "bounds": {
+    "left": 183.271,
+    "top": 646.723,
+    "right": 371.457,
+    "bottom": 660.343
+   },
+   "rawText": "the amount payable in US dollars;",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/34",
+   "label": "list_item",
+   "page": 7,
+   "bounds": {
+    "left": 183.271,
+    "top": 663.067,
+    "right": 453.475,
+    "bottom": 676.687
+   },
+   "rawText": "the full business name and address of the Supplier;",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/35",
+   "label": "list_item",
+   "page": 7,
+   "bounds": {
+    "left": 183.271,
+    "top": 679.4110000000001,
+    "right": 569.912,
+    "bottom": 709.375
+   },
+   "rawText": "the time period to which the invoice relates and the location of the supply (if applicable for tax purposes); and",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/36",
+   "label": "list_item",
+   "page": 7,
+   "bounds": {
+    "left": 183.271,
+    "top": 712.099,
+    "right": 457.415,
+    "bottom": 725.719
+   },
+   "rawText": "the Supplier's bank and account details for payment",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/37",
+   "label": "caption",
+   "page": 8,
+   "bounds": {
+    "left": 281.48,
+    "top": 205.04399999999998,
+    "right": 330.522,
+    "bottom": 218.47400000000005
+   },
+   "rawText": "Page 6 of 9",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/38",
+   "label": "text",
+   "page": 9,
+   "bounds": {
+    "left": 65.572,
+    "top": 58.138000000000034,
+    "right": 141.78,
+    "bottom": 88.10199999999998
+   },
+   "rawText": "Notified Subcontractors",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/39",
+   "label": "text",
+   "page": 9,
+   "bounds": {
+    "left": 186.604,
+    "top": 58.138000000000034,
+    "right": 214.753,
+    "bottom": 71.75800000000004
+   },
+   "rawText": "None.",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/40",
+   "label": "text",
+   "page": 9,
+   "bounds": {
+    "left": 65.572,
+    "top": 94.32600000000002,
+    "right": 150.35,
+    "bottom": 107.94600000000003
+   },
+   "rawText": "Additional Terms",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/41",
+   "label": "text",
+   "page": 9,
+   "bounds": {
+    "left": 183.854,
+    "top": 94.32600000000002,
+    "right": 212.003,
+    "bottom": 107.94600000000003
+   },
+   "rawText": "None.",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/42",
+   "label": "text",
+   "page": 9,
+   "bounds": {
+    "left": 60.0,
+    "top": 284.17,
+    "right": 551.995,
+    "bottom": 314.487
+   },
+   "rawText": "AS WITNESS the hands of the Parties or their duly authorised representatives on the date first before written.",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/43",
+   "label": "text",
+   "page": 9,
+   "bounds": {
+    "left": 66.155,
+    "top": 334.565,
+    "right": 114.684,
+    "bottom": 348.185
+   },
+   "rawText": "Signed by:",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/44",
+   "label": "text",
+   "page": 9,
+   "bounds": {
+    "left": 317.525,
+    "top": 334.565,
+    "right": 366.054,
+    "bottom": 348.185
+   },
+   "rawText": "Signed by:",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/45",
+   "label": "text",
+   "page": 9,
+   "bounds": {
+    "left": 66.155,
+    "top": 390.909,
+    "right": 155.833,
+    "bottom": 404.529
+   },
+   "rawText": "/s/ Martin Edelman",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/46",
+   "label": "text",
+   "page": 9,
+   "bounds": {
+    "left": 317.525,
+    "top": 390.909,
+    "right": 411.613,
+    "bottom": 404.529
+   },
+   "rawText": "/s/ Andrew Feldman",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/47",
+   "label": "text",
+   "page": 9,
+   "bounds": {
+    "left": 66.155,
+    "top": 424.253,
+    "right": 174.483,
+    "bottom": 437.873
+   },
+   "rawText": "Name: Martin Edelman",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/48",
+   "label": "text",
+   "page": 9,
+   "bounds": {
+    "left": 317.525,
+    "top": 424.253,
+    "right": 430.263,
+    "bottom": 437.873
+   },
+   "rawText": "Name: Andrew Feldman",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/49",
+   "label": "text",
+   "page": 9,
+   "bounds": {
+    "left": 66.155,
+    "top": 472.301,
+    "right": 268.732,
+    "bottom": 485.92
+   },
+   "rawText": "For and on behalf of G42 HOLDING US LLC",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/50",
+   "label": "text",
+   "page": 9,
+   "bounds": {
+    "left": 317.525,
+    "top": 472.301,
+    "right": 537.932,
+    "bottom": 485.92
+   },
+   "rawText": "For and on behalf of CEREBRAS SYSTEMS, INC.",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/51",
+   "label": "text",
+   "page": 9,
+   "bounds": {
+    "left": 281.48,
+    "top": 182.54399999999998,
+    "right": 330.522,
+    "bottom": 195.97400000000005
+   },
+   "rawText": "Page 7 of 9",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/52",
+   "label": "text",
+   "page": 9,
+   "bounds": {
+    "left": 281.48,
+    "top": 574.723,
+    "right": 330.522,
+    "bottom": 588.153
+   },
+   "rawText": "Page 8 of 9",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/53",
+   "label": "text",
+   "page": 9,
+   "bounds": {
+    "left": 60.0,
+    "top": 676.348,
+    "right": 361.623,
+    "bottom": 689.968
+   },
+   "rawText": "APPENDIX A- SCOPE OF WORK (SERVICES AND DELIVERABLES)",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/54",
+   "label": "text",
+   "page": 9,
+   "bounds": {
+    "left": 60.0,
+    "top": 706.692,
+    "right": 357.773,
+    "bottom": 720.312
+   },
+   "rawText": "APPENDIX B - CEREBRAS QUOTE AND QUOTATION SCHEDULE",
+   "parent_id": "#/texts/23"
+  },
+  {
+   "id": "#/texts/55",
+   "label": "section_header",
+   "page": 10,
+   "bounds": {
+    "left": 60.0,
+    "top": 56.138000000000034,
+    "right": 204.816,
+    "bottom": 69.75800000000004
+   },
+   "rawText": "APPENDIX C - AWARD LETTER",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/56",
+   "label": "text",
+   "page": 10,
+   "bounds": {
+    "left": 281.48,
+    "top": 142.356,
+    "right": 330.522,
+    "bottom": 155.78700000000003
+   },
+   "rawText": "Page 9 of 9",
+   "parent_id": "#/texts/55"
+  }
+ ]
+}

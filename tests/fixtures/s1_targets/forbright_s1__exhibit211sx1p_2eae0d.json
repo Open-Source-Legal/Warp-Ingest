@@ -1,0 +1,24 @@
+{
+"name": "forbright_s1__exhibit211sx1p_2eae0d",
+"num_pages": 0,
+"n_blocks": 3,
+"orig_failed": false,
+"orig_reason": null,
+"blocks": [
+{
+"tag": "header",
+"level": 0,
+"text": "Exhibit 21.1"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "List of Subsidiaries of Forbright, Inc."
+},
+{
+"tag": "table",
+"level": 1,
+"text": "Name of Subsidiary Jurisdiction of Incorporation/Formation Forbright Bank Maryland"
+}
+]
+}

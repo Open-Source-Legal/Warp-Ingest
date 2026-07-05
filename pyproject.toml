@@ -1,0 +1,113 @@
+[project]
+name = "warp-ingest"
+version = "1.0.0"
+description = "Pure-Python, RAG-friendly document parsers (PDF/HTML/text/XML/Markdown). Java- and Tika-free."
+readme = "README.md"
+requires-python = ">=3.10,<3.15"
+license = "Apache-2.0"
+license-files = ["LICENSE.txt", "NOTICE.txt"]
+authors = [
+    { name = "Ambika Sukla", email = "ambika.sukla@nlmatics.com" },
+    { name = "Jonathan", email = "jonathan.hilgart@gmail.com" },
+    { name = "John Scrudato", email = "scrudato@umich.edu" },
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Legal Industry",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+dependencies = [
+    "beautifulsoup4>=4.12.0,<5.0.0",
+    "fastapi>=0.115,<1.0",
+    "nltk>=3.9.1",
+    "numpy>=1.24,<3",
+    "pdfplumber>=0.11.4,<0.12.0",
+    "pypdfium2>=5",
+    "python-multipart>=0.0.9",
+    "uvicorn>=0.30,<1.0",
+]
+
+[project.optional-dependencies]
+# opencv is rapidocr's image-ops backend (resize/normalize/perspective-crop
+# around the ONNX models); the headless build has the identical cv2 API without
+# linking GUI libs (libGL), which a server image doesn't have. rapidocr's own
+# metadata pins the full `opencv-python`, so [tool.uv] override-dependencies
+# below strips that pin and this extra supplies headless instead.
+ocr = [
+    "onnxruntime>=1.17.0,<1.23; python_version == '3.10'",
+    "onnxruntime>=1.27.0; python_version >= '3.11' and python_version < '3.15'",
+    "opencv-python-headless>=4.13.0.92",
+    "pyclipper>=1.4.0",
+    "pyyaml>=6.0.3",
+    "rapidocr-onnxruntime>=1.3.0,<2.0.0",
+    "shapely>=2.1.2",
+    "six>=1.17.0",
+]
+# Benchmark-ablation baseline for the pluggable table provider. Warp's own
+# native table engine (warp_ingest/ingestor/table_engine.py) is the default and
+# needs nothing beyond the core install; this extra exists only to reproduce
+# the ablation comparison in benchmarks/parsebench/RESULTS.md.
+tables = [
+    "pymupdf4llm>=0.0.17",
+    "markdown2>=2.4.0",
+]
+
+[project.urls]
+Repository = "https://github.com/Open-Source-Legal/Warp-Ingest"
+Issues = "https://github.com/Open-Source-Legal/Warp-Ingest/issues"
+
+[dependency-groups]
+dev = [
+    "black>=26.3.1",
+    "httpx>=0.27",
+    "isort>=5.13.2",
+    "pytest>=9.0.3",
+    "reportlab>=4.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.7,<0.12.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+# Strip rapidocr-onnxruntime's `opencv-python` pin (never-true marker): the
+# ocr extra supplies `opencv-python-headless` instead — same cv2 API, no libGL.
+override-dependencies = ["opencv-python; sys_platform == 'never'"]
+
+[tool.uv.build-backend]
+module-name = "warp_ingest"
+module-root = ""
+
+[tool.black]
+target-version = ['py310']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 88
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+ensure_newline_before_comments = true

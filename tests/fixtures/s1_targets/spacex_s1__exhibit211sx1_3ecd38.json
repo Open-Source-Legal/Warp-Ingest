@@ -1,0 +1,24 @@
+{
+"name": "spacex_s1__exhibit211sx1_3ecd38",
+"num_pages": 0,
+"n_blocks": 3,
+"orig_failed": false,
+"orig_reason": null,
+"blocks": [
+{
+"tag": "header",
+"level": 0,
+"text": "Exhibit 21.1"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "SPACE EXPLORATION TECHNOLOGIES CORP. LIST OF SIGNIFICANT SUBSIDIARIES"
+},
+{
+"tag": "table",
+"level": 1,
+"text": "Legal Name Jurisdiction X Corp. Nevada X.AI LLC Nevada CTC Property LLC Wyoming SpaceX Services Inc. Texas"
+}
+]
+}

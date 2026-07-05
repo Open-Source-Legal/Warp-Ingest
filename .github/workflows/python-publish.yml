@@ -1,0 +1,56 @@
+name: Publish Python Package
+
+# Build the sdist/wheel and publish to PyPI on every published GitHub release,
+# using PyPI Trusted Publishing (OIDC) -- no API token/secret stored in this
+# repo. The `pypi` environment gate + `id-token: write` are what let PyPI
+# verify this workflow run's identity; PyPI-side setup (one-time) is a
+# trusted publisher registered at https://pypi.org/manage/account/publishing/
+# for owner=Open-Source-Legal, repo=Warp-Ingest, workflow=python-publish.yml,
+# environment=pypi.
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build distribution
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v8.2.0
+      - name: Build package
+        run: uv build
+      - name: Check distribution metadata
+        run: uvx twine check dist/*
+      - name: Store distribution packages
+        uses: actions/upload-artifact@v4
+        with:
+          name: python-package-distributions
+          path: dist/
+
+  publish:
+    name: Publish to PyPI
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/project/warp-ingest/
+    permissions:
+      id-token: write # mandatory for trusted publishing
+    steps:
+      - name: Download distribution packages
+        uses: actions/download-artifact@v4
+        with:
+          name: python-package-distributions
+          path: dist/
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@6733eb7d741f0b11ec6a39b58540dab7590f9b7d # v1.14.0

@@ -1,0 +1,19 @@
+{
+"name": "eikon_s1__ex231_6fa7f0",
+"num_pages": 0,
+"n_blocks": 2,
+"orig_failed": false,
+"orig_reason": null,
+"blocks": [
+{
+"tag": "para",
+"level": 0,
+"text": "Exhibit 23.1 CONSENT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM We hereby consent to the use in this Registration Statement on Form S-1 of Eikon Therapeutics, Inc. of our report dated May 9, 2025, relating to the financial statements of Eikon Therapeutics, Inc., which appears in this Registration Statement. We also consent to the reference to us under the heading \u201cExperts\u201d in such Registration Statement."
+},
+{
+"tag": "para",
+"level": 0,
+"text": "/s/ PricewaterhouseCoopers LLP San Jose, California January 9, 2026"
+}
+]
+}

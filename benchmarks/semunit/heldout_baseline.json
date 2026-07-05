@@ -1,0 +1,172 @@
+{
+ "8k": {
+  "fragmentation_frac": 0.5,
+  "mean_unit_iou": 0.7298,
+  "merge_frac": 0.0,
+  "n_pages": 4,
+  "pk": 0.3542,
+  "spurious_unit_frac": 0.0,
+  "unit_coverage": 1.0,
+  "windowdiff": 0.4375
+ },
+ "CreditcardscomInc_20070810_S-1_EX-10.33_362297_E": {
+  "fragmentation_frac": 0.0741,
+  "mean_unit_iou": 0.7185,
+  "merge_frac": 0.1111,
+  "n_pages": 9,
+  "pk": 0.2159,
+  "spurious_unit_frac": 0.0,
+  "unit_coverage": 0.7915,
+  "windowdiff": 0.2563
+ },
+ "EcoScienceSolutionsInc_20180406_8-K_EX-10.1_1113": {
+  "fragmentation_frac": 1.0,
+  "mean_unit_iou": 0.4148,
+  "merge_frac": 0.0,
+  "n_pages": 3,
+  "pk": 0.7444,
+  "spurious_unit_frac": 0.0,
+  "unit_coverage": 1.0,
+  "windowdiff": 0.7444
+ },
+ "SoupmanInc_20150814_8-K_EX-10.1_9230148_EX-10.1_": {
+  "fragmentation_frac": 0.4048,
+  "mean_unit_iou": 0.805,
+  "merge_frac": 0.0,
+  "n_pages": 2,
+  "pk": 0.1458,
+  "spurious_unit_frac": 0.0,
+  "unit_coverage": 1.0,
+  "windowdiff": 0.3958
+ },
+ "SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890": {
+  "fragmentation_frac": 0.0625,
+  "mean_unit_iou": 0.9807,
+  "merge_frac": 0.0,
+  "n_pages": 8,
+  "pk": 0.025,
+  "spurious_unit_frac": 0.0,
+  "unit_coverage": 1.0,
+  "windowdiff": 0.075
+ },
+ "cerebras_s1__exhibit231sx1_d5d6f3": {
+  "fragmentation_frac": 1.0,
+  "mean_unit_iou": 0.3612,
+  "merge_frac": 0.0,
+  "n_pages": 1,
+  "pk": 1.0,
+  "spurious_unit_frac": 0.0,
+  "unit_coverage": 1.0,
+  "windowdiff": 1.0
+ },
+ "credit_citizens": {
+  "fragmentation_frac": 0.0144,
+  "mean_unit_iou": 0.8472,
+  "merge_frac": 0.125,
+  "n_pages": 69,
+  "pk": 0.088,
+  "spurious_unit_frac": 0.0,
+  "unit_coverage": 0.8924,
+  "windowdiff": 0.1023
+ },
+ "credit_walt_disney": {
+  "fragmentation_frac": 0.2831,
+  "mean_unit_iou": 0.825,
+  "merge_frac": 0.1074,
+  "n_pages": 102,
+  "pk": 0.2397,
+  "spurious_unit_frac": 0.0,
+  "unit_coverage": 0.962,
+  "windowdiff": 0.2515
+ },
+ "eikon_s1__ex1011_d4f7e0": {
+  "fragmentation_frac": 0.0417,
+  "mean_unit_iou": 0.8964,
+  "merge_frac": 0.0244,
+  "n_pages": 86,
+  "pk": 0.1038,
+  "spurious_unit_frac": 0.0,
+  "unit_coverage": 0.966,
+  "windowdiff": 0.1134
+ },
+ "fervo_s1__exhibit211sx1_0c768b": {
+  "fragmentation_frac": 0.0,
+  "mean_unit_iou": 0.5127,
+  "merge_frac": 0.0,
+  "n_pages": 1,
+  "pk": 0.4,
+  "spurious_unit_frac": 0.0,
+  "unit_coverage": 1.0,
+  "windowdiff": 0.4
+ },
+ "forbright_s1__exhibit211sx1p_2eae0d": {
+  "fragmentation_frac": 0.0,
+  "mean_unit_iou": 0.3776,
+  "merge_frac": 0.0,
+  "n_pages": 1,
+  "pk": 0.6667,
+  "spurious_unit_frac": 0.0,
+  "unit_coverage": 1.0,
+  "windowdiff": 0.6667
+ },
+ "generate_bio_s1__ex211_84dda0": {
+  "fragmentation_frac": 0.0,
+  "mean_unit_iou": 0.4477,
+  "merge_frac": 0.0,
+  "n_pages": 1,
+  "pk": 0.6667,
+  "spurious_unit_frac": 0.0,
+  "unit_coverage": 1.0,
+  "windowdiff": 0.6667
+ },
+ "infleqtion_s1__ex211_b9070a": {
+  "fragmentation_frac": 0.0,
+  "mean_unit_iou": 0.6819,
+  "merge_frac": 0.0,
+  "n_pages": 1,
+  "pk": 0.5,
+  "spurious_unit_frac": 0.0,
+  "unit_coverage": 1.0,
+  "windowdiff": 0.5
+ },
+ "kardigan_s1__ex1017_6628ff": {
+  "fragmentation_frac": 0.1511,
+  "mean_unit_iou": 0.9022,
+  "merge_frac": 0.0231,
+  "n_pages": 126,
+  "pk": 0.1055,
+  "spurious_unit_frac": 0.0,
+  "unit_coverage": 0.9846,
+  "windowdiff": 0.1329
+ },
+ "overall": {
+  "fragmentation_frac": 0.163,
+  "mean_unit_iou": 0.8179,
+  "merge_frac": 0.0763,
+  "n_pages": 511,
+  "pk": 0.1809,
+  "spurious_unit_frac": 0.0,
+  "unit_coverage": 0.9383,
+  "windowdiff": 0.206
+ },
+ "parabilis_s1__ex1011_424531": {
+  "fragmentation_frac": 0.238,
+  "mean_unit_iou": 0.6388,
+  "merge_frac": 0.1397,
+  "n_pages": 96,
+  "pk": 0.3124,
+  "spurious_unit_frac": 0.0,
+  "unit_coverage": 0.8597,
+  "windowdiff": 0.3616
+ },
+ "spacex_s1__exhibit211sx1_3ecd38": {
+  "fragmentation_frac": 0.0,
+  "mean_unit_iou": 0.804,
+  "merge_frac": 0.0,
+  "n_pages": 1,
+  "pk": 0.4,
+  "spurious_unit_frac": 0.0,
+  "unit_coverage": 1.0,
+  "windowdiff": 0.4
+ }
+}

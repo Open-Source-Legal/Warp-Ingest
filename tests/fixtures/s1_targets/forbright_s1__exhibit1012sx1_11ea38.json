@@ -1,0 +1,464 @@
+{
+"name": "forbright_s1__exhibit1012sx1_11ea38",
+"num_pages": 16,
+"n_blocks": 91,
+"orig_failed": false,
+"orig_reason": null,
+"blocks": [
+{
+"tag": "header",
+"level": 0,
+"text": "Exhibit 10.12"
+},
+{
+"tag": "para",
+"level": 0,
+"text": "INDEMNIFICATION AGREEMENT This INDEMNIFICATION AGREEMENT (this \u201cAgreement\u201d) is made and effective as of [\u25cf], 2026, by and between Forbright, Inc., a Delaware corporation (the \u201cCompany\u201d), and [\u25cf] (\u201cIndemnitee\u201d)."
+},
+{
+"tag": "para",
+"level": 0,
+"text": "WHEREAS, it is essential to the Company to retain and attract the most capable persons available as directors and officers;"
+},
+{
+"tag": "para",
+"level": 0,
+"text": "WHEREAS, Indemnitee is a director and/or executive officer of the Company;"
+},
+{
+"tag": "para",
+"level": 0,
+"text": "WHEREAS, both the Company and Indemnitee recognize the increased risk of litigation and other proceedings with claims being asserted against directors and officers of public companies;"
+},
+{
+"tag": "para",
+"level": 0,
+"text": "WHEREAS, the Company\u2019s Amended Certificate of Incorporation (\u201cCertificate of Incorporation\u201d) and Amended Bylaws (\u201cBylaws\u201d) require the Company to indemnify, and the Bylaws further require the advancement of expenses by the Company to, the Company\u2019s directors and executive officers to the extent and subject to the conditions provided therein, and Indemnitee serves as a director and/or executive officer of the Company, in part, in reliance on such provisions in the Company\u2019s Certificate of Incorporation and Bylaws;"
+},
+{
+"tag": "para",
+"level": 0,
+"text": "WHEREAS, the Company has determined that its inability to retain and attract the most capable persons as its directors and officers available would be detrimental to the interests of the Company and that the Company therefore should provide such persons with assurances that they will be entitled in the future to indemnification and advancement of expenses and, to the extent applicable, coverage by directors\u2019 and officers\u2019 liability insurance; and WHEREAS, in recognition of Indemnitee\u2019s need for substantial protection against personal liability, and in order to enhance the likelihood of Indemnitee\u2019s continued service to the Company, and in part to provide Indemnitee with specific contractual assurance that the rights to indemnification and advancement of expenses set forth in the Company\u2019s Certificate of Incorporation and Bylaws will be available to Indemnitee (regardless of, among other things, any amendment to or recission of the applicable provisions of the Certificate of Incorporation or Bylaws, any change in the composition of the Board of Directors, or any Change of Control (each, as defined below)), the Company wishes to provide in this Agreement for the indemnification of, and advancement of expenses to, Indemnitee to the fullest extent (whether partial or complete) permitted by applicable law, on the terms and conditions set forth in this Agreement, and, to the extent that a directors\u2019 and officers\u2019 liability insurance policy is maintained with respect to the Company\u2019s directors and officers, the Company wishes to provide Indemnitee with assurance of the continued coverage of Indemnitee under such directors\u2019 and officers\u2019 liability insurance policy."
+},
+{
+"tag": "para",
+"level": 0,
+"text": "NOW, THEREFORE, in consideration of the foregoing, the covenants and agreements contained in this Agreement, and of Indemnitee\u2019s willingness to, or continue to serve"
+},
+{
+"tag": "para",
+"level": 0,
+"text": "as a director, and/or executive officer, of the Company and to serve at the Company\u2019s request as an officer, director, employee, manager, member, partner, tax matters partner, partnership representative, agent, fiduciary, or trustee of, or in any other capacity with, another Person (as defined below) or any employee benefit plan, and intending to be legally bound hereby, the parties hereto agree as follows:"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "1. Certain Definitions:"
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "(a) Board of Directors: shall mean the Board of Directors of the Company."
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "(b) Change in Control: shall be deemed to have occurred if (i) any \u201cperson\u201d (as such term is used in Sections 13(d) and 14(d) of the Exchange Act), other than (A) a trustee or other fiduciary holding securities under an employee benefit plan of the Company, (B) a Subsidiary of the Company or (C) the Company\u2019s stockholders in substantially the same proportions as their ownership of stock of the Company, is or becomes the \u201cbeneficial owner\u201d (as defined in Rule 13d-3 under the Exchange Act), directly or indirectly, of securities of the Company representing twenty percent (20%) or more of the total voting power represented by the Company\u2019s then outstanding Voting Securities, except to the extent that any repurchase or redemption of Voting Securities by the Company shall directly result in any person becoming the beneficial owner of twenty percent (20%) or more of the total voting power represented by the Company\u2019s then outstanding Voting Securities, or (ii) during any period of two (2) consecutive years, individuals who, at the beginning of such period, constitute the Board of Directors and any new director whose appointment by the Board of Directors, or nomination for election by the Company\u2019s stockholders, was approved by a vote of at least two-thirds (2/3) of the directors then in office who either were directors at the beginning of such two-year period or whose appointment or nomination for election by stockholders was previously so approved (such individuals, \u201cContinuing Directors\u201d), cease for any reason to constitute a majority of the Board of Directors, (iii) the consummation, or the approval by the Company\u2019s stockholders, of a merger, consolidation, business combination, recapitalization, restructuring or similar transaction of or involving the Company that results in, or would result in, the Voting Securities of the Company outstanding immediately prior thereto not representing, (either by remaining outstanding or by being converted into Voting Securities of the surviving or resulting entity thereof) at least fifty percent (50%) of the total voting power represented by the outstanding Voting Securities of the Company or of such surviving or resulting entity immediately after consummation of such merger, consolidation, business combination, recapitalization, restructuring or similar transaction, (iv) the stockholders of the Company approve a plan of complete liquidation or dissolution of the Company or an agreement for the sale, lease, exchange or other disposition (in one transaction or a series of related transactions) of all or substantially all of the Company\u2019s assets, or (v) there occurs any other event of a nature that would be required to be reported in response to Item 6(e) of Schedule 14A of Regulation 14A (or a response to any similar item on any similar schedule or form) promulgated under the Exchange Act, whether or not the Company is then subject to such reporting requirement."
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "(c) Claim: shall mean any threatened, asserted, pending, or completed civil, criminal, administrative, investigative, or other action, suit, or proceeding of any kind whatsoever,"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "including any arbitration or other alternative dispute resolution mechanism, any appeal of any kind from any of the foregoing, any inquiry or investigation, whether instituted by the Company, any governmental agency or any other party, that Indemnitee in good faith believes could lead to the institution of any action, suit, or proceeding, whether civil, criminal, administrative, investigative, or other."
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "(d) DGCL: shall mean the General Corporation Law of the State of Delaware."
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "(e) ERISA: shall mean the Employee Retirement Income Security Act of 1974, as amended."
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "(f) Exchange Act: shall mean the Securities Exchange Act of 1934, as amended."
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "(g) Expenses: shall mean all direct and indirect costs, expenses, and other monetary obligations (including, without limitation, attorneys\u2019 fees and disbursements, experts\u2019 fees, court costs, retainers, appeal bond premiums, arbitration costs, arbitrators\u2019 fees, transcript fees, duplicating, printing, and binding costs, as well as telecommunications, postage, and courier charges) paid or incurred by or on behalf of Indemnitee in connection with investigating, prosecuting, defending, being a witness in, or participating in (including on appeal), or preparing to investigate, prosecute, defend, be a witness in, or participate in, any Claim arising out of, relating to, or resulting from any Indemnifiable Event, and shall include (without limitation) all of the foregoing, including attorneys\u2019 fees and disbursements, incurred by or on behalf of Indemnitee in connection with enforcing Indemnitee\u2019s rights under this Agreement, including preparing and submitting any notices, requests or supporting statements for indemnification, advancement or reimbursement, or any other right provided to Indemnitee by this Agreement (including, without limitation, all such fees or expenses incurred in connection with legal proceedings contemplated by Section 2(d) hereof)."
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "(h) Indemnifiable Amounts: shall mean (i) any and all liabilities, Expenses, damages, judgments, fines, penalties, ERISA excise taxes, and amounts paid in settlement (including all interest, assessments, penalties and other charges paid or payable in connection with or in respect of such liabilities, Expenses, damages, judgments, fines, penalties, ERISA excise taxes, or amounts paid in settlement) incurred by or on behalf of Indemnitee in connection with any Claim arising out of, relating to, or resulting from an Indemnifiable Event, and (ii) any liability that an Indemnitee incurs that arises out of, relates to or results from Indemnitee\u2019s acting on behalf of the Company (whether as a fiduciary or otherwise) in connection with the operation, administration, or maintenance of an employee benefit plan or any related trust or funding mechanism (whether such liability is in the form of an excise tax assessed by the United States Internal Revenue Service, a penalty assessed by the Department of Labor, restitution to such a plan or trust or other funding mechanism or to a participant or beneficiary of such plan, trust, or other funding mechanism, or otherwise)."
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "(i) Indemnifiable Event: shall mean any event or occurrence, whether occurring before, on, or after the date of this Agreement, arising out of, relating to, or resulting from the fact that Indemnitee is or was a director, officer, employee, agent or fiduciary of the Company, or is or was serving at the request of the Company as a director, officer, employee, manager,"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "member, partner, tax matters partner, partnership representative, trustee, agent, fiduciary, or similar capacity, of a Subsidiary of the Company or another corporation, limited liability company, partnership, joint venture, employee benefit plan, trust, or other entity or enterprise, or by reason of any act or omission by Indemnitee in any such capacity (in each case, regardless of whether or not Indemnitee is acting or serving in any such capacity, or has such status, at the time any Claim is brought or any Indemnifiable Amount is incurred). The term \u201cCompany,\u201d where the context requires when used in this Agreement, shall be construed to include each such Subsidiary or other corporation, limited liability company, partnership, joint venture, employee benefit plan, trust, or other entity or enterprise referred to in the immediately preceding sentence."
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "(j) Independent Legal Counsel: shall mean an attorney or firm of attorneys, selected pursuant to and in accordance with the provisions of Section 3, who is experienced in matters of Delaware corporate law and who, at the time of any determination, shall not have performed services for the Company (or any of its Subsidiaries) or Indemnitee within the preceding three-year period (other than with respect to matters concerning the rights of Indemnitee or any other director or executive officer of the Company or its Subsidiaries under (i) this Agreement or any similar indemnification agreements, (ii) the Company\u2019s Amended Certificate of Incorporation or Amended Bylaws, each as amended and then in effect, and (iii) the DGCL and any other applicable law."
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "(k) Jointly Indemnifiable Claim: shall mean any Claim for which Indemnitee may be entitled to indemnification from the Company pursuant to this Agreement and from an Other Indemnifying Entity (as defined below) pursuant to applicable law, any indemnification agreement, or the certificate of incorporation, bylaws, partnership agreement, limited liability company agreement, or comparable organizational documents of such Other Indemnifying Entity."
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "(l) Other Indemnifying Entity: shall mean any corporation, limited liability company, partnership, joint venture, trust, employee benefit plan or other entity or enterprise (other than the Company or any of its wholly owned Subsidiaries), but excluding any insurer under any insurance policy maintained by the Company, from which Indemnitee may be entitled to indemnification and/or advancement of Expenses with respect to any Indemnifiable Amounts for which, in whole or in part, the Company may also have an indemnification or advancement obligation to Indemnitee pursuant to the terms of this Agreement."
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "(m) Person: shall mean any individual, corporation, firm, partnership, joint venture, limited liability company, estate, trust, business association, organization, governmental entity, or other entity."
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "(n) Reviewing Party: shall mean, with respect to any Claim for which Indemnitee is seeking indemnification, (i) the Board of Directors, (ii) any duly appointed committee of the Board of Directors which has been authorized by the Board of Directors to make determinations as to indemnification hereunder and who is not a party to, or otherwise involved in (including as a witness), the particular Claim for which Indemnitee is seeking indemnification, or (iii) Independent Legal Counsel."
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "(o) Subsidiary: shall mean, with respect to any Person, any corporation, partnership, limited liability company or other entity of which such Person owns, directly or indirectly, a majority of the Voting Securities."
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "(p) Voting Securities: shall mean, with respect to any Person, any securities of such Person that are entitled to vote generally in the election of directors (or members of a comparable governing body) of such Person."
+},
+{
+"tag": "header",
+"level": 2,
+"text": "2. Basic Indemnification Arrangement; Advancement of Expenses."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "(a) In the event that Indemnitee was, is or becomes subject to, a party to, or a witness or other participant in, or is threatened to be made subject to, a party to, or a witness or other participant in, a Claim by reason of, or arising out of, relating to, or resulting from, in whole or part, an Indemnifiable Event, subject to Section 2(d), the Company shall indemnify Indemnitee, or shall cause Indemnitee to be indemnified, for all Indemnifiable Amounts incurred in connection with such Claim, to the fullest extent permitted by applicable law in effect on the date hereof, provided that, to the extent that any change in applicable law (whether by statute or judicial decision) permits greater indemnification by agreement than would be afforded currently under this Agreement, it is the intent of the parties hereto that Indemnitee shall enjoy by this Agreement the greater benefits so afforded by such change; provided, further, that no change in applicable law after the date hereof shall have the effect of reducing the benefits available to Indemnitee hereunder based on applicable law as in effect on the date hereof or as such benefits may be expanded or otherwise improved as a result of any other changes to applicable law that become effective after the date hereof but prior to such change. Payments of Indemnifiable Amounts shall be made as soon as practicable following a determination pursuant to Section 2(d), but in any event no later than thirty (30) days after written demand for indemnification is delivered to the Company, unless (and to the extent) a determination is made pursuant to Section 2(d) that Indemnitee is not entitled to indemnification hereunder for such Indemnifiable Amounts."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "(b) If so requested in writing by Indemnitee, the Company shall advance or reimburse Indemnitee, or cause Indemnitee to be advanced or reimbursed (as soon as reasonably practicable, but in any event no later than thirty (30) days following the Company\u2019s receipt of such written request), any and all Expenses incurred by Indemnitee (an \u201cExpense Advance\u201d), whether prior to or after final disposition of the Claim for which such Expense Advance is requested. The Company shall, in accordance with such written request (but without duplication), pay, or cause to be paid, such Expenses on behalf of Indemnitee, unless Indemnitee shall have elected to pay such Expenses and be reimbursed by the Company for such Expenses, in which case, the Company shall reimburse, or cause to be reimbursed, Indemnitee for such Expenses. Indemnitee\u2019s right to an Expense Advance is absolute and shall not be subject to any prior determination by the Reviewing Party (or any other Person) that Indemnitee has satisfied any applicable standard of conduct. Indemnitee hereby undertakes to repay any and all amounts advanced or reimbursed by the Company as Expense Advances (without interest) if and to the extent it is ultimately determined in accordance with Section 2(d) that Indemnitee is not entitled under this Agreement to be indemnified by the Company in respect thereof. No other form of undertaking shall be required of Indemnitee other than execution of this Agreement. If Indemnitee commences legal proceedings within ninety (90) days after any determination that Indemnitee is not entitled to be indemnified hereunder in the Court of Chancery of the State of Delaware to secure a determination that Indemnitee is entitled to be indemnified pursuant to this Agreement, then Indemnitee shall not be required to reimburse the Company for any Expense Advance unless and until a final, non-appealable, judicial determination is made that Indemnitee is not entitled to indemnification hereunder."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "(c) Notwithstanding anything in this Agreement to the contrary, Indemnitee shall not be entitled to indemnification or advancement of Expenses pursuant to this Agreement in connection with any Claim initiated by Indemnitee unless (i) the Company has joined in, or the Board of Directors has authorized or consented to, the initiation of such Claim or (ii) the Claim is brought by Indemnitee to enforce Indemnitee\u2019s rights under this Agreement (including an action pursued by Indemnitee to secure a determination that Indemnitee is entitled to be indemnified or for advancement of Expenses pursuant to the terms of this Agreement), or (iii) such Claim is initiated by Indemnitee by way of compulsory counterclaim or affirmative defense."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "(d) Notwithstanding the foregoing, (i) the obligations of the Company under Section 2(a) shall be subject to the condition that the Reviewing Party shall not have determined (in a written opinion, in any case in which the Independent Legal Counsel is the Reviewing Party pursuant to Section 3 hereof) that Indemnitee is not entitled to be indemnified under applicable law, in whole or in part, and (ii) the obligation of the Company to make an Expense Advance pursuant to Section 2(b) shall be subject to the requirement that, if, when, and to the extent that the Reviewing Party ultimately determines that Indemnitee is not entitled to be indemnified under applicable law, in whole or in part, the Company shall be entitled to be reimbursed by Indemnitee pursuant to the undertaking set forth in Section 2(b) hereof, provided that such determination, if any, is made after final disposition of the Claim for which such Expense Advance was requested; provided further that, if the Reviewing Party determines that Indemnitee is not entitled to be indemnified or to have received Expense Advances, in whole or in part, under applicable law, Indemnitee shall have the right to commence an action in the Court of Chancery of the State of Delaware to secure a determination as to whether Indemnitee is entitled to be indemnified under the terms of this Agreement or any provision of the Certificate of Incorporation or Bylaws now or hereafter in effect in connection with any Claims arising out of, relating to, or resulting from any Indemnifiable Event, or challenging any determination by the Reviewing Party (or any aspect thereof) in respect of Indemnitee\u2019s right to indemnification hereunder, including the legal or factual bases therefor, in which case, any determination made by the Reviewing Party that Indemnitee is not entitled to be indemnified hereunder, in whole or in part, shall not be binding and Indemnitee shall not be required to reimburse the Company for any Expense Advance until a final, non-appealable, judicial determination is made with respect thereto (as to which all rights of appeal therefrom have been exhausted or lapsed). If there has not been a Change in Control, the Reviewing Party shall be, or shall be designated by, the Board of Directors, and if there has been a Change in Control (other than a transaction that would fall within the definition of Change in Control, except for the fact that it has been approved by a majority of Continuing Directors), the Reviewing Party shall be the Independent Legal Counsel referred to in Section 3. If there has been no determination by the Reviewing Party within thirty"
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "(30) days after a written demand for indemnification has been delivered to the Company (the \u201cDetermination Period\u201d), Indemnitee shall have the right to commence an action in the Court of Chancery of the State of Delaware seeking a determination of Indemnitee\u2019s right to indemnification hereunder; provided that the Determination Period may be extended for a reasonable time, not to exceed an additional thirty (30) days, if the Reviewing Party in good faith requires such additional time for obtaining or evaluating documentation and/or information relating thereto; provided, further if the Reviewing Party is the Independent Legal Counsel, no Determination Period shall apply. The Company hereby consents to service of process and to appear in any such action brought by Indemnitee pursuant to this Section 2(d). Subject to the foregoing, any determination by the Reviewing Party otherwise shall be conclusive and binding on the Company and Indemnitee."
+},
+{
+"tag": "header",
+"level": 2,
+"text": "3. Change in Control"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "The Company agrees that, if there is a Change in Control of the Company (other than a Change in Control, immediately following consummation of which, a majority of the Directors then in office shall be Continuing Directors), then, with respect to all determinations and other matters relating to the rights of Indemnitee to indemnification and Expense Advances under this Agreement or under any provision of the Certificate of Incorporation or Bylaws now or hereafter in effect with respect to any Claims arising out of, relating to, or resulting from Indemnifiable Events, the Company shall seek legal advice only from Independent Legal Counsel selected by the Company and approved by Indemnitee (which approval shall not be unreasonably withheld, delayed or conditioned). Such Independent Legal Counsel, among other things, shall render its written opinion to the Company and Indemnitee as to whether and to what extent Indemnitee is entitled to be indemnified under applicable law with respect to Indemnifiable Amounts arising out of such Claims. The Company agrees to pay, and be solely responsible for, all fees and disbursements of the Independent Legal Counsel in connection with the above and to reimburse and indemnify such Independent Legal Counsel against any and all expenses (including attorneys\u2019 fees), claims, liabilities, and damages arising out of, relating to, or resulting from this Agreement or its engagement or services pursuant to the terms hereof."
+},
+{
+"tag": "header",
+"level": 2,
+"text": "4. Indemnification for Additional Expenses"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "The Company shall indemnify Indemnitee, or cause Indemnitee to be indemnified, against any and all Expenses (including all attorneys\u2019 fees and disbursements) incurred by Indemnitee in connection with any action brought by Indemnitee pursuant to Section 2(d) hereof seeking a determination as to (a) Indemnitee\u2019s right to indemnification or an Expense Advance pursuant to this Agreement or any provision of the Certificate of Incorporation or Bylaws now or hereafter in effect with respect to any Claims arising out of, relating to, or resulting from Indemnifiable Events and (b) recovery under any directors\u2019 and officers\u2019 liability insurance policies maintained by the Company, regardless of whether Indemnitee is determined to be entitled to such indemnification, Expense Advance, or insurance recovery, as the case may be, and, if requested in writing by Indemnitee, the Company shall advance such Expenses to Indemnitee, subject to and in accordance with Section 2(b) hereof."
+},
+{
+"tag": "header",
+"level": 2,
+"text": "5. Partial Indemnity, Etc"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "If Indemnitee is entitled under any provision of this Agreement to indemnification by the Company for a portion of the Expenses or other"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Indemnifiable Amounts in respect of a Claim but not for the entire amount thereof, the Company shall indemnify Indemnitee for the portion thereof to which Indemnitee is entitled. Moreover, notwithstanding any other provision of this Agreement, to the extent that Indemnitee has been successful on the merits or otherwise (including dismissal without prejudice) in defense of any or all Claims arising out of, relating to, or resulting from any Indemnifiable Event, or in defense of any issue or matter therein, Indemnitee shall be indemnified against all Expenses and other Indemnifiable Amounts incurred in connection therewith."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Burden of Proof"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "of. In connection with any determination by the Reviewing Party or otherwise as to whether Indemnitee is entitled to be indemnified hereunder, the Reviewing Party, or the court, or other finder of fact or appropriate Person shall presume that Indemnitee has satisfied the applicable standard of conduct and is entitled to indemnification, and the burden of proof shall be on the Company to establish by clear and convincing evidence that Indemnitee is not so entitled."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Reliance as Safe Harbor"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "For all purposes of this Agreement, and without creating any presumption as to a lack of good faith, Indemnitee shall be deemed to have acted in good faith and in a manner Indemnitee reasonably believed to be in or not opposed to the best interests of the Company if Indemnitee\u2019s actions or omissions to act are taken in good faith reliance upon the records of the Company, including its financial statements, or upon information, opinions, reports, or statements furnished to Indemnitee by the Board of Directors or officers or employees of the Company or any of its Subsidiaries in the course of their duties, or by committees of the Board of Directors, or by any other Person (including legal counsel, accountants, and financial advisors) as to matters Indemnitee reasonably believes are within such other Person\u2019s professional or expert competence and who has been selected with reasonable care by or on behalf of the Company. In addition, the knowledge and actions, or failures to act, of any director, officer, agent, or employee of the Company shall not be imputed to Indemnitee for all purposes of determining Indemnitee\u2019s right to indemnity hereunder."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "No Other Presumptions"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "For purposes of this Agreement, the termination of any Claim by judgment, order, settlement (whether with or without court approval) or conviction, or upon a plea of nolo contendere or its equivalent, shall not create a presumption that Indemnitee did not meet any particular standard of conduct or have any particular belief or that a court or other tribunal has determined that indemnification is not permitted by applicable law. In addition, neither the failure of the Reviewing Party to have made a determination as to whether Indemnitee has met any particular standard of conduct or had any particular belief, nor an actual determination by the Reviewing Party that Indemnitee has not met any such standard of conduct or did not have such belief, prior to the commencement of legal proceedings by Indemnitee pursuant to Section 2(d) to secure a judicial determination that Indemnitee is entitled to indemnification under this Agreement shall be a defense to Indemnitee\u2019s claim seeking such determination or create a presumption that Indemnitee has not met any particular standard of conduct or did not have any particular belief."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Nonexclusivity, etc"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "The rights of Indemnitee hereunder shall be in addition to any other rights Indemnitee may have under the Certificate of Incorporation, the Bylaws, the DGCL, any other applicable law or otherwise. To the extent that there is a conflict or inconsistency between the terms of this Agreement and the Certificate of Incorporation or Bylaws, it is the intent of the parties hereto that Indemnitee shall enjoy the greater benefits regardless of whether contained herein or in the Certificate of Incorporation or Bylaws. No amendment or alteration of the Certificate of Incorporation or Bylaws or any other agreement or instrument shall adversely affect the rights provided to Indemnitee under this Agreement."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Liability Insurance"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "To the extent the Company maintains an insurance policy or policies providing directors\u2019 and officers\u2019 liability insurance, Indemnitee shall be covered by such policy or policies, in accordance with its or their terms, to the maximum extent of the coverage available for any Company director or officer, as applicable. If the Company has such insurance in effect at the time the Company receives from Indemnitee any notice of the commencement of any Claim arising out of, relating to, or resulting from an Indemnifiable Event for which Indemnitee is entitled to be indemnified hereunder, the Company shall give prompt notice of the commencement of such Claim to the insurers in accordance with the procedures set forth in the applicable policy. The Company shall thereafter take all necessary or desirable action to cause such insurers to pay, on behalf of Indemnitee, all amounts payable with respect to Indemnitee arising out of, resulting from or relating to such Claim in accordance with the terms of such policy."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Amendments, etc"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "No supplement, modification, or amendment of this Agreement shall be binding on any party hereto unless executed in writing by or on behalf of each of the Company and Indemnitee. No waiver of any of the provisions of this Agreement shall be binding on any party hereto, unless set forth in a writing executed by such party, nor shall any waiver be deemed or constitute a waiver of any other provisions hereof (whether or not similar), nor shall any such waiver constitute a continuing waiver."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Subrogation"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "In the event of any payment by or on behalf of the Company under this Agreement, except to the extent otherwise provided in Section 14, the Company shall be subrogated to the extent of such payment to all of the rights of recovery of Indemnitee, who shall execute all documents and take all other actions reasonably requested to secure such rights and to enable the Company effectively to bring suit to enforce such rights. The Company shall pay or reimburse Indemnitee for all Expenses incurred by Indemnitee in connection with such subrogation."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "No Duplication of Payments"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Except to the extent otherwise provided in Section 14, the Company shall not be liable under this Agreement to make any payment to or on behalf of Indemnitee in connection with any Indemnifiable Amounts incurred by Indemnitee to the extent Indemnitee has otherwise received payment (under any insurance policy or any provision of the Certificate of Incorporation or Bylaws or otherwise) in respect of such Indemnifiable Amounts."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Jointly Indemnifiable Claims"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Given that certain Jointly Indemnifiable Claims may arise out of, relate to, or result from Indemnitee\u2019s status as both a director or officer of the Company and as a director, officer, employee, manager, member, partner, tax matters partner, partnership representative, trustee, agent, fiduciary, or similar capacity of one or more Other"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Indemnifying Entities, or Indemnitee\u2019s service in such capacities, the Company acknowledges and agrees that the Company shall be fully and primarily responsible for the payment to Indemnitee in respect of all Indemnifiable Amounts and advancement of Expenses in connection with any such Jointly Indemnifiable Claim, pursuant to and in accordance with the terms of this Agreement, irrespective of any right of recovery Indemnitee may have from such Other Indemnifying Entities. Under no circumstance shall the Company be entitled to any right of subrogation against, or contribution by, such Other Indemnifying Entities, and no right of recovery Indemnitee may have from such Other Indemnifying Entities shall reduce or otherwise alter the rights of Indemnitee or the obligations of the Company hereunder. In the event that any of the Other Indemnifying Entities shall make any payment to Indemnitee in respect of any Indemnifiable Amounts or advancement of Expenses with respect to any Jointly Indemnifiable Claim, the Other Indemnifying Entity making such payment shall be subrogated to the extent of such payment to all rights of recovery of Indemnitee against the Company, and Indemnitee shall execute all documents and take all other actions reasonably requested to secure such rights and to enable each of the Other Indemnifying Entities effectively to bring suit to enforce such rights. Each of the Other Indemnifying Entities shall be third-party beneficiaries with respect to this Section 14, entitled to enforce this Section 14 against the Company as though each such Other Indemnifying Entity were a party to this Agreement."
+},
+{
+"tag": "header",
+"level": 2,
+"text": "15. Notification and Defense of Claims."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "(a) Indemnitee shall notify the Company in writing as soon as practicable of any Claim arising out of, relating to, or resulting from an Indemnifiable Event or for which Indemnitee could seek Expense Advances, including a brief description (based upon information then available to Indemnitee) of the nature of, and the facts underlying, and amount of monetary damages sought in connection with, such Claim. The failure by Indemnitee to timely notify the Company hereunder shall not relieve the Company from any liability hereunder, except to the extent of any final, nonappealable, award in respect of a Claim for which Indemnitee\u2019s failure to provide the Company with such timely notice deprived the Company of a reasonable opportunity to participate at its expense in the defense of such Claim."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "16. The Company shall be entitled to participate in the defense of any Claim arising out of, relating to, or resulting from an Indemnifiable Event, or to assume the defense thereof, with counsel chosen by the Company; provided that, if Indemnitee believes, after consultation with counsel selected by Indemnitee, that in the event that (a) the use of the counsel chosen by the Company to represent Indemnitee would present such counsel with an actual or potential conflict of interest, (b) the named parties in any such Claim (including any impleaded parties) include the Company or any Subsidiary of the Company, on the one hand, and Indemnitee, on the other hand, and Indemnitee concludes, after consultation with counsel selected by Indemnitee, that there may be one or more legal defenses available to Indemnitee that are different from or in addition to those available to the Company or any Subsidiary of the Company, or (c) representation of Indemnitee by such counsel chosen by the Company would be precluded under the applicable standards of professional conduct then prevailing, then Indemnitee shall be entitled to retain separate counsel reasonably satisfactory to the Company (but not more than one law firm, plus, if applicable, one local counsel in any given jurisdiction in"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "respect of any particular Claim) at the Company\u2019s expense. The Company shall not be liable to Indemnitee under this Agreement for any Indemnifiable Amounts comprised of amounts paid in settlement of any Claim effected without the Company\u2019s prior written consent. The Company shall not, without the prior written consent of Indemnitee, effect any settlement of any Claim arising out of, relating to, or resulting from an Indemnifiable Event to which Indemnitee is a party unless such settlement involves solely the payment of money (payment of which Indemnitee has no liability) and includes a complete and unconditional release of Indemnitee from all liability for all Claims arising out of, relating to, or resulting from, or based on the same underlying facts, events and circumstances that are the subject matter of such Claim and does not include any admission of fault, culpability or wrongdoing by or on behalf of the Indemnitee. Neither the Company nor Indemnitee shall unreasonably withhold, condition, or delay its consent to any proposed settlement; provided that Indemnitee may withhold consent to any settlement that does not provide for such complete and unconditional release of Indemnitee."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "17. Binding Effect, etc. This Agreement shall be binding upon and inure to the benefit of and be enforceable by the parties hereto and their respective successors, assigns (including any direct or indirect successor to the Company by purchase, merger, consolidation or otherwise to all or substantially all of the businesses or assets of the Company and its Subsidiaries), heirs, executors, and personal and legal representatives. This Agreement shall continue in effect with respect to all Indemnifiable Events that occur for so long as Indemnitee continues to serve as a director or officer of the Company or to serve, at the request of the Company, as a director, officer, employee, manager, member, partner, tax matters partner, partnership representative, trustee, agent, fiduciary, or similar capacity, of a Subsidiary of the Company or another corporation, limited liability company, partnership, joint venture, employee benefit plan, trust, or other entity or enterprise, or by reason of any act or omission by Indemnitee in any such capacity (in each case, regardless of whether or not Indemnitee is acting or serving in any such capacity, or has such status, at the time any Claim is brought or any Indemnifiable Amount is incurred). The Company shall take all actions necessary to require and cause any successor (whether direct or indirect by purchase, merger, consolidation, or otherwise) to all or substantially all of the businesses or assets of the Company and its Subsidiaries to assume and agree in writing to perform the Company\u2019s obligations under this Agreement in the same manner and to the same extent that the Company would be required to perform if no such succession had taken place."
+},
+{
+"tag": "header",
+"level": 2,
+"text": "18. Severability"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "The provisions of this Agreement shall be severable in the event that any of the provisions hereof (including any provision within a single section, paragraph or sentence) are held by a court of competent jurisdiction to be invalid, illegal, void, or otherwise unenforceable in any respect, and the validity and enforceability of any such provision in every other respect and of all of the other provisions hereof shall not be in any way impaired as a result thereof, and shall remain enforceable to the fullest extent permitted by applicable law."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Notices"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "All notices, requests for indemnification or Expense Advances, consents, waivers and other communications hereunder by either party hereto shall be deemed to be sufficient if set forth in a written document executed by such party and delivered to the other party hereto in person or by a nationally recognized overnight courier or by e-mail, in each case, addressed to such party at the address set forth below or such other address as may hereafter be designated in writing by either party and delivered to the other party in accordance with this Section 19:"
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "(a) If to the Company, to the attention of the Chief Legal Officer of the Company at 4445 Willard Ave, Suite 1000, Chevy Chase, MD 20815, or at such other current address as the Company shall have furnished to Indemnitee."
+},
+{
+"tag": "list_item",
+"level": 2,
+"text": "(b) If to Indemnitee, to the address set forth below Indemnitee\u2019s signature on the signature page hereof."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "All such notices, requests for indemnification or Expense Advances, consents, waivers and other communications delivered in accordance with Section 19 shall be deemed to have been given or made"
+},
+{
+"tag": "list_item",
+"level": 1,
+"text": "(i) if delivered in person, upon such delivery, (ii) if sent by overnight courier, the next business day after delivery to such overnight courier and (iii) if sent by e-mail, when sent to the e-mail addresses specified in Section 19 (or such other e-mail address as may be specified in a writing delivered to the other party in accordance with Section 19)."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Headings"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "The headings of the sections and paragraphs of this Agreement are inserted for convenience only and shall not be deemed to constitute part of this Agreement or to affect the construction or interpretation thereof."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Execution; Counterparts"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "This Agreement may be executed electronically (including by DocuSign) or by pdf signature and may be executed in counterparts, each of which shall for all purposes be deemed to be an original but all of which together shall constitute one and the same agreement. Only one such counterpart signed by the party against whom enforceability is sought need be produced to evidence the existence of this Agreement."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Governing Law; Submission to Jurisdiction"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "This Agreement and all claims arising out of, relating to or resulting from this Agreement, or the parties\u2019 rights and obligations hereunder, or either party\u2019s compliance with the terms hereof, shall be governed by and construed and enforced in accordance with the laws of the State of Delaware, without giving effect to the principles of conflicts of laws. Each of the parties hereby agrees that any and all disputes, claims and actions arising out of, relating to or resulting from this Agreement, or the parties\u2019 rights and obligations hereunder, or either party\u2019s compliance with the terms hereof, shall be resolved by, and brought in, the Court of Chancery of the State of Delaware, and the parties hereto hereby irrevocably submit to the exclusive jurisdiction of such court over any such dispute, claim and action. The parties hereby irrevocably waive, to the fullest extent permitted by applicable law, any objection which they may now or hereafter have to the laying of venue of any such dispute, claim or action brought in the Court of Chancery of the State of Delaware or any defense of inconvenient forum for the maintenance of such dispute, claim or action. Each of the parties hereto agrees that a judgment in any action brought in the Court of Chancery of the State of Delaware may be enforced in other jurisdictions by suit on the judgment or in any other manner provided by law."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "12"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "Waiver of Jury Trial"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "EACH OF THE PARTIES TO THIS AGREEMENT HEREBY WAIVES, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, ANY RIGHT TO TRIAL BY JURY OF ANY CLAIM, DEMAND, ACTION, OR CAUSE OF ACTION (A) ARISING UNDER, RELATING TO OR RESULTING FROM THIS AGREEMENT OR (B) THE PARTIES\u2019 PERFORMANCE OF THEIR OBLIGATIONS HEREUNDER AND COMPLIANCE WITH THE TERMS HEREOF, IN EACH CASE, WHETHER NOW EXISTING OR HEREAFTER ARISING, AND WHETHER IN CONTRACT, TORT, EQUITY OR OTHERWISE. THE PARTIES TO THIS AGREEMENT EACH HEREBY AGREE AND CONSENT THAT ANY SUCH CLAIM, DEMAND, ACTION, OR CAUSE OF ACTION SHALL BE DECIDED BY THE COURT OF CHANCERY OF THE STATE OF DELAWARE WITHOUT A JURY AND THAT THE PARTIES TO THIS AGREEMENT MAY FILE AN ORIGINAL COUNTERPART OF A COPY OF THIS AGREEMENT WITH SUCH COURT AS WRITTEN EVIDENCE OF THE CONSENT OF THE PARTIES HERETO TO THE WAIVER OF THEIR RIGHT TO TRIAL BY JURY."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "[SIGNATURE PAGE FOLLOWS] IN WITNESS WHEREOF, the parties hereto have executed this Agreement as of the date set forth above."
+},
+{
+"tag": "header",
+"level": 0,
+"text": "COMPANY:"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "FORBRIGHT, INC."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "By"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "Name:"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "Title:"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "INDEMNITEE:"
+},
+{
+"tag": "header",
+"level": 1,
+"text": "Name:"
+},
+{
+"tag": "header",
+"level": 1,
+"text": "Address:"
+}
+]
+}

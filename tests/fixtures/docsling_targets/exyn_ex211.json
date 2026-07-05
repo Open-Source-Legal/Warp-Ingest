@@ -1,0 +1,38 @@
+{
+ "page_count": 1,
+ "pages": [
+  {
+   "index": 0,
+   "width": 612.0,
+   "height": 792.0
+  }
+ ],
+ "annotations": [
+  {
+   "id": "#/texts/0",
+   "label": "text",
+   "page": 0,
+   "bounds": {
+    "left": 222.926,
+    "top": 82.14800000000002,
+    "right": 389.082,
+    "bottom": 93.21799999999996
+   },
+   "rawText": "Subsidiaries of Exyn Technologies,\u00a0Inc.",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/1",
+   "label": "section_header",
+   "page": 0,
+   "bounds": {
+    "left": 500.321,
+    "top": 60.000999999999976,
+    "right": 552.0,
+    "bottom": 71.07100000000003
+   },
+   "rawText": "Exhibit 21.1",
+   "parent_id": null
+  }
+ ]
+}

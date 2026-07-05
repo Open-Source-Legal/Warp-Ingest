@@ -1,0 +1,24 @@
+{
+"name": "parabilis_s1__ex211_f13ef7",
+"num_pages": 0,
+"n_blocks": 3,
+"orig_failed": false,
+"orig_reason": null,
+"blocks": [
+{
+"tag": "header",
+"level": 0,
+"text": "Exhibit 21.1"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "List of Subsidiaries"
+},
+{
+"tag": "table",
+"level": 0,
+"text": "Subsidiary Jurisdiction of Incorporation Parabilis Security Corporation Massachusetts Parabilis Medicines (Shanghai) Ltd Co Shanghai, China"
+}
+]
+}

@@ -1,0 +1,19 @@
+{
+"name": "xenergy_s1__ex232_ebd77e",
+"num_pages": 0,
+"n_blocks": 2,
+"orig_failed": false,
+"orig_reason": null,
+"blocks": [
+{
+"tag": "header",
+"level": 0,
+"text": "Exhibit 23.2"
+},
+{
+"tag": "para",
+"level": 0,
+"text": "Consent of Independent Registered Public Accounting Firm We consent to the reference to our firm under the caption \"Experts\" and to the use of our report dated March 20, 2026 with respect to the financial statements of X-Energy, Inc. included in the Registration Statement (Form S-1) and related Prospectus of X-Energy, Inc. /s/ Ernst & Young LLP Tysons, Virginia March 20, 2026"
+}
+]
+}

@@ -1,0 +1,2379 @@
+{
+ "page_count": 9,
+ "pages": [
+  {
+   "index": 0,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 1,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 2,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 3,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 4,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 5,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 6,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 7,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 8,
+   "width": 612.0,
+   "height": 792.0
+  }
+ ],
+ "annotations": [
+  {
+   "id": "#/texts/0",
+   "label": "text",
+   "page": 0,
+   "bounds": {
+    "left": 244.43,
+    "top": 45.01400000000001,
+    "right": 399.074,
+    "bottom": 55.813999999999965
+   },
+   "rawText": "(Release Point 117-285not263)",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/1",
+   "label": "section_header",
+   "page": 0,
+   "bounds": {
+    "left": 103.05,
+    "top": 77.95799999999997,
+    "right": 492.45,
+    "bottom": 99.55799999999999
+   },
+   "rawText": "TITLE 1-GENERAL PROVISIONS",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/2",
+   "label": "text",
+   "page": 0,
+   "bounds": {
+    "left": 127.99,
+    "top": 104.30399999999997,
+    "right": 455.314,
+    "bottom": 115.10400000000004
+   },
+   "rawText": "This title was enacted by act July 30, 1947, ch. 388, \u00a71, 61 Stat. 633",
+   "parent_id": "#/texts/1"
+  },
+  {
+   "id": "#/texts/3",
+   "label": "section_header",
+   "page": 0,
+   "bounds": {
+    "left": 184.16,
+    "top": 207.93399999999997,
+    "right": 455.283,
+    "bottom": 217.82500000000005
+   },
+   "rawText": "STATUTORY NOTES AND RELATED SUBSIDIARIES",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/4",
+   "label": "section_header",
+   "page": 0,
+   "bounds": {
+    "left": 247.99,
+    "top": 228.10400000000004,
+    "right": 391.486,
+    "bottom": 237.995
+   },
+   "rawText": "POSITIVE LAW; CITATION",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/5",
+   "label": "text",
+   "page": 0,
+   "bounds": {
+    "left": 54.0,
+    "top": 242.61400000000003,
+    "right": 534.659,
+    "bottom": 277.03499999999997
+   },
+   "rawText": "This title has been made positive law by section 1 of act July 30, 1947, ch. 388, 61 Stat. 633, which provided in part that: \"Title 1 of the United States Code entitled 'General Provisions', is codified and enacted into positive law and may be cited as '1 U. S. C., \u00a7--.'\u00a0\"",
+   "parent_id": "#/texts/4"
+  },
+  {
+   "id": "#/texts/6",
+   "label": "section_header",
+   "page": 0,
+   "bounds": {
+    "left": 294.38,
+    "top": 287.324,
+    "right": 345.066,
+    "bottom": 297.215
+   },
+   "rawText": "REPEALS",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/7",
+   "label": "text",
+   "page": 0,
+   "bounds": {
+    "left": 54.0,
+    "top": 301.834,
+    "right": 535.043,
+    "bottom": 348.505
+   },
+   "rawText": "Act July 30, 1947, ch. 388, \u00a72, 61 Stat. 640, provided that the sections or parts thereof of the Statutes at Large or the Revised Statutes covering provisions codified in this Act are repealed insofar as the provisions appeared in former Title 1, and provided that any rights or liabilities now existing under the repealed sections or parts thereof shall not be affected by the repeal.",
+   "parent_id": "#/texts/6"
+  },
+  {
+   "id": "#/texts/8",
+   "label": "section_header",
+   "page": 0,
+   "bounds": {
+    "left": 271.16,
+    "top": 358.794,
+    "right": 368.246,
+    "bottom": 368.685
+   },
+   "rawText": "WRITS OF ERROR",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/9",
+   "label": "text",
+   "page": 0,
+   "bounds": {
+    "left": 54.0,
+    "top": 373.304,
+    "right": 518.8,
+    "bottom": 395.465
+   },
+   "rawText": "Act June 25, 1948, ch. 646, \u00a723, 62 Stat. 990, provided that: \"All Acts of Congress referring to writs of error shall be construed as amended to the extent necessary to substitute appeal for writ of error.\"",
+   "parent_id": "#/texts/8"
+  },
+  {
+   "id": "#/texts/10",
+   "label": "section_header",
+   "page": 0,
+   "bounds": {
+    "left": 89.59,
+    "top": 401.384,
+    "right": 505.91,
+    "bottom": 412.724
+   },
+   "rawText": "TABLE SHOWING DISPOSITION OF ALL SECTIONS OF FORMER TITLE 1",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/11",
+   "label": "section_header",
+   "page": 1,
+   "bounds": {
+    "left": 185.32,
+    "top": 435.098,
+    "right": 466.327,
+    "bottom": 447.725
+   },
+   "rawText": "CHAPTER 1-RULES OF CONSTRUCTION",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/12",
+   "label": "section_header",
+   "page": 1,
+   "bounds": {
+    "left": 54.0,
+    "top": 452.063,
+    "right": 70.262,
+    "bottom": 460.703
+   },
+   "rawText": "Sec.",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/13",
+   "label": "list_item",
+   "page": 1,
+   "bounds": {
+    "left": 54.0,
+    "top": 462.874,
+    "right": 300.38,
+    "bottom": 476.754
+   },
+   "rawText": "Words denoting number, gender, etc. 1 1.",
+   "parent_id": "#/texts/12"
+  },
+  {
+   "id": "#/texts/14",
+   "label": "list_item",
+   "page": 1,
+   "bounds": {
+    "left": 54.0,
+    "top": 478.924,
+    "right": 293.67,
+    "bottom": 492.804
+   },
+   "rawText": "\"County\" as including \"parish\", etc. 1 2.",
+   "parent_id": "#/texts/12"
+  },
+  {
+   "id": "#/texts/15",
+   "label": "list_item",
+   "page": 1,
+   "bounds": {
+    "left": 54.0,
+    "top": 495.394,
+    "right": 384.084,
+    "bottom": 506.194
+   },
+   "rawText": "\"Vessel\" as including all means of water transportation. 3.",
+   "parent_id": "#/texts/12"
+  },
+  {
+   "id": "#/texts/16",
+   "label": "list_item",
+   "page": 1,
+   "bounds": {
+    "left": 54.0,
+    "top": 508.784,
+    "right": 383.424,
+    "bottom": 519.5840000000001
+   },
+   "rawText": "\"Vehicle\" as including all means of land transportation. 4.",
+   "parent_id": "#/texts/12"
+  },
+  {
+   "id": "#/texts/17",
+   "label": "list_item",
+   "page": 1,
+   "bounds": {
+    "left": 54.0,
+    "top": 522.164,
+    "right": 428.556,
+    "bottom": 532.9639999999999
+   },
+   "rawText": "\"Company\" or \"association\" as including successors and assigns. 5.",
+   "parent_id": "#/texts/12"
+  },
+  {
+   "id": "#/texts/18",
+   "label": "list_item",
+   "page": 1,
+   "bounds": {
+    "left": 54.0,
+    "top": 535.554,
+    "right": 369.756,
+    "bottom": 546.354
+   },
+   "rawText": "Limitation of term \"products of American fisheries.\" 6.",
+   "parent_id": "#/texts/12"
+  },
+  {
+   "id": "#/texts/19",
+   "label": "list_item",
+   "page": 1,
+   "bounds": {
+    "left": 54.0,
+    "top": 548.524,
+    "right": 308.67,
+    "bottom": 562.404
+   },
+   "rawText": "Definition of \"marriage\" and \"spouse\". 2 7.",
+   "parent_id": "#/texts/12"
+  },
+  {
+   "id": "#/texts/20",
+   "label": "list_item",
+   "page": 1,
+   "bounds": {
+    "left": 54.0,
+    "top": 564.994,
+    "right": 509.808,
+    "bottom": 575.794
+   },
+   "rawText": "\"Person\", \"human being\", \"child\", and \"individual\" as including born-alive infant. 8.",
+   "parent_id": "#/texts/12"
+  },
+  {
+   "id": "#/texts/21",
+   "label": "section_header",
+   "page": 1,
+   "bounds": {
+    "left": 268.27,
+    "top": 578.5840000000001,
+    "right": 371.169,
+    "bottom": 588.475
+   },
+   "rawText": "EDITORIAL NOTES",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/22",
+   "label": "section_header",
+   "page": 1,
+   "bounds": {
+    "left": 279.45,
+    "top": 598.754,
+    "right": 360.04,
+    "bottom": 608.645
+   },
+   "rawText": "AMENDMENTS",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/23",
+   "label": "text",
+   "page": 1,
+   "bounds": {
+    "left": 64.99,
+    "top": 613.684,
+    "right": 392.229,
+    "bottom": 623.575
+   },
+   "rawText": "2002 -Pub. L. 107-207, \u00a72(b), Aug. 5, 2002, 116 Stat. 926, added item 8.",
+   "parent_id": "#/texts/154"
+  },
+  {
+   "id": "#/texts/24",
+   "label": "text",
+   "page": 1,
+   "bounds": {
+    "left": 64.99,
+    "top": 626.354,
+    "right": 403.835,
+    "bottom": 636.245
+   },
+   "rawText": "1996 -Pub. L. 104-199, \u00a73(b), Sept. 21, 1996, 110 Stat. 2420, added item 7.",
+   "parent_id": "#/texts/154"
+  },
+  {
+   "id": "#/texts/25",
+   "label": "text",
+   "page": 1,
+   "bounds": {
+    "left": 78.0,
+    "top": 650.264,
+    "right": 346.318,
+    "bottom": 664.064
+   },
+   "rawText": "So in original. Does not conform to section catchline. 1",
+   "parent_id": "#/texts/154"
+  },
+  {
+   "id": "#/texts/26",
+   "label": "list_item",
+   "page": 1,
+   "bounds": {
+    "left": 66.0,
+    "top": 678.044,
+    "right": 497.626,
+    "bottom": 705.094
+   },
+   "rawText": "2 \u00a0Section catchline amended by Pub. L. 117-228 without corresponding amendment of chapter analysis.",
+   "parent_id": "#/texts/154"
+  },
+  {
+   "id": "#/texts/27",
+   "label": "page_footer",
+   "page": 1,
+   "bounds": {
+    "left": 54.0,
+    "top": 741.658,
+    "right": 350.201,
+    "bottom": 754.285
+   },
+   "rawText": "\u00a71. Words denoting number, gender, and so forth",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/28",
+   "label": "text",
+   "page": 2,
+   "bounds": {
+    "left": 66.0,
+    "top": 39.134000000000015,
+    "right": 512.604,
+    "bottom": 76.70399999999995
+   },
+   "rawText": "In determining the meaning of any Act of Congress, unless the context indicates otherwisewords importing the singular include and apply to several persons, parties, or things; words importing the plural include the singular;",
+   "parent_id": "#/texts/154"
+  },
+  {
+   "id": "#/texts/29",
+   "label": "text",
+   "page": 2,
+   "bounds": {
+    "left": 78.0,
+    "top": 79.29399999999998,
+    "right": 404.292,
+    "bottom": 90.09400000000005
+   },
+   "rawText": "words importing the masculine gender include the feminine as well;",
+   "parent_id": "#/texts/154"
+  },
+  {
+   "id": "#/texts/30",
+   "label": "text",
+   "page": 2,
+   "bounds": {
+    "left": 78.0,
+    "top": 92.67399999999998,
+    "right": 423.6,
+    "bottom": 103.47400000000005
+   },
+   "rawText": "words used in the present tense include the future as well as the present;",
+   "parent_id": "#/texts/154"
+  },
+  {
+   "id": "#/texts/31",
+   "label": "text",
+   "page": 2,
+   "bounds": {
+    "left": 66.0,
+    "top": 106.06399999999996,
+    "right": 536.844,
+    "bottom": 130.25400000000002
+   },
+   "rawText": "the words \"insane\" and \"insane person\" shall include every idiot, insane person, and person non compos mentis;",
+   "parent_id": "#/texts/154"
+  },
+  {
+   "id": "#/texts/32",
+   "label": "text",
+   "page": 2,
+   "bounds": {
+    "left": 66.0,
+    "top": 132.84400000000005,
+    "right": 501.18,
+    "bottom": 157.024
+   },
+   "rawText": "the words \"person\" and \"whoever\" include corporations, companies, associations, firms, partnerships, societies, and joint stock companies, as well as individuals;",
+   "parent_id": "#/texts/154"
+  },
+  {
+   "id": "#/texts/33",
+   "label": "list_item",
+   "page": 2,
+   "bounds": {
+    "left": 78.0,
+    "top": 159.61400000000003,
+    "right": 475.368,
+    "bottom": 170.414
+   },
+   "rawText": "\"officer\" includes any person authorized by law to perform the duties of the office;",
+   "parent_id": "#/texts/154"
+  },
+  {
+   "id": "#/texts/34",
+   "label": "list_item",
+   "page": 2,
+   "bounds": {
+    "left": 66.0,
+    "top": 173.00400000000002,
+    "right": 528.192,
+    "bottom": 197.19399999999996
+   },
+   "rawText": "\"signature\" or \"subscription\" includes a mark when the person making the same intended it as such;",
+   "parent_id": "#/texts/154"
+  },
+  {
+   "id": "#/texts/35",
+   "label": "list_item",
+   "page": 2,
+   "bounds": {
+    "left": 78.0,
+    "top": 199.774,
+    "right": 364.536,
+    "bottom": 210.57399999999996
+   },
+   "rawText": "\"oath\" includes affirmation, and \"sworn\" includes affirmed;",
+   "parent_id": "#/texts/154"
+  },
+  {
+   "id": "#/texts/36",
+   "label": "list_item",
+   "page": 2,
+   "bounds": {
+    "left": 66.0,
+    "top": 213.164,
+    "right": 477.108,
+    "bottom": 237.35400000000004
+   },
+   "rawText": "\"writing\" includes printing and typewriting and reproductions of visual symbols by photographing, multigraphing, mimeographing, manifolding, or otherwise.",
+   "parent_id": "#/texts/154"
+  },
+  {
+   "id": "#/texts/37",
+   "label": "list_item",
+   "page": 2,
+   "bounds": {
+    "left": 54.0,
+    "top": 243.69399999999996,
+    "right": 540.324,
+    "bottom": 267.884
+   },
+   "rawText": "(July 30, 1947, ch. 388, 61 Stat. 633; June 25, 1948, ch. 645, \u00a76, 62 Stat. 859; Oct. 31, 1951, ch. 655, \u00a71, 65 Stat. 710; Pub. L. 112-231, \u00a72(a), Dec. 28, 2012, 126 Stat. 1619.)",
+   "parent_id": "#/texts/154"
+  },
+  {
+   "id": "#/texts/38",
+   "label": "section_header",
+   "page": 2,
+   "bounds": {
+    "left": 268.27,
+    "top": 291.554,
+    "right": 371.169,
+    "bottom": 301.445
+   },
+   "rawText": "EDITORIAL NOTES",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/39",
+   "label": "section_header",
+   "page": 2,
+   "bounds": {
+    "left": 279.45,
+    "top": 311.734,
+    "right": 360.04,
+    "bottom": 321.625
+   },
+   "rawText": "AMENDMENTS",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/40",
+   "label": "list_item",
+   "page": 2,
+   "bounds": {
+    "left": 54.0,
+    "top": 326.654,
+    "right": 544.518,
+    "bottom": 348.815
+   },
+   "rawText": "2012 -Pub. L. 112-231, in fifth clause after opening clause, struck out \"and 'lunatic'\u00a0\" before \"shall include every\" and \"lunatic,\" before \"insane person,\".",
+   "parent_id": "#/texts/154"
+  },
+  {
+   "id": "#/texts/41",
+   "label": "list_item",
+   "page": 2,
+   "bounds": {
+    "left": 64.99,
+    "top": 351.594,
+    "right": 473.918,
+    "bottom": 361.485
+   },
+   "rawText": "1951 -Act Oct. 31, 1951, substituted, in fourth clause after opening clause, \"used\" for \"use\".",
+   "parent_id": "#/texts/154"
+  },
+  {
+   "id": "#/texts/42",
+   "label": "list_item",
+   "page": 2,
+   "bounds": {
+    "left": 54.0,
+    "top": 364.264,
+    "right": 539.583,
+    "bottom": 386.425
+   },
+   "rawText": "1948 -Act June 25, 1948, included \"tense\", \"whoever\", \"signature\", \"subscription\", \"writing\" and a broader definition of \"person\".",
+   "parent_id": "#/texts/154"
+  },
+  {
+   "id": "#/texts/43",
+   "label": "section_header",
+   "page": 2,
+   "bounds": {
+    "left": 184.16,
+    "top": 410.094,
+    "right": 455.283,
+    "bottom": 419.985
+   },
+   "rawText": "STATUTORY NOTES AND RELATED SUBSIDIARIES",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/44",
+   "label": "section_header",
+   "page": 2,
+   "bounds": {
+    "left": 222.34,
+    "top": 430.274,
+    "right": 417.127,
+    "bottom": 440.165
+   },
+   "rawText": "SHORT TITLE OF 2022 AMENDMENT",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/45",
+   "label": "text",
+   "page": 2,
+   "bounds": {
+    "left": 54.0,
+    "top": 444.784,
+    "right": 526.218,
+    "bottom": 491.465
+   },
+   "rawText": "Pub. L. 117-228, \u00a71, Dec. 13, 2022, 136 Stat. 2305, provided that: \"This Act [enacting section 1738C of Title 28, Judiciary and Judicial Procedure, amending section 7 of this title, repealing section 1738C of Title 28, and enacting provisions set out as notes under section 7 of this title] may be cited as the 'Respect for Marriage Act'.\"",
+   "parent_id": "#/texts/44"
+  },
+  {
+   "id": "#/texts/46",
+   "label": "section_header",
+   "page": 2,
+   "bounds": {
+    "left": 222.34,
+    "top": 501.744,
+    "right": 417.127,
+    "bottom": 511.635
+   },
+   "rawText": "SHORT TITLE OF 2012 AMENDMENT",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/47",
+   "label": "list_item",
+   "page": 2,
+   "bounds": {
+    "left": 54.0,
+    "top": 516.254,
+    "right": 534.439,
+    "bottom": 550.675
+   },
+   "rawText": "Pub. L. 112-231, \u00a71, Dec. 28, 2012, 126 Stat. 1619, provided that: \"This Act [amending this section and sections 92a, 215, and 215a of Title 12, Banks and Banking] may be cited as the '21st Century Language Act of 2012'.\"",
+   "parent_id": "#/texts/46"
+  },
+  {
+   "id": "#/texts/48",
+   "label": "section_header",
+   "page": 2,
+   "bounds": {
+    "left": 222.34,
+    "top": 560.954,
+    "right": 417.127,
+    "bottom": 570.845
+   },
+   "rawText": "SHORT TITLE OF 2002 AMENDMENT",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/49",
+   "label": "list_item",
+   "page": 2,
+   "bounds": {
+    "left": 54.0,
+    "top": 575.4739999999999,
+    "right": 533.483,
+    "bottom": 597.625
+   },
+   "rawText": "Pub. L. 107-207, \u00a71, Aug. 5, 2002, 116 Stat. 926, provided that: \"This Act [enacting section 8 of this title] may be cited as the 'Born-Alive Infants Protection Act of 2002'.\"",
+   "parent_id": "#/texts/48"
+  },
+  {
+   "id": "#/texts/50",
+   "label": "section_header",
+   "page": 2,
+   "bounds": {
+    "left": 222.34,
+    "top": 607.904,
+    "right": 417.127,
+    "bottom": 617.795
+   },
+   "rawText": "SHORT TITLE OF 1996 AMENDMENT",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/51",
+   "label": "text",
+   "page": 2,
+   "bounds": {
+    "left": 54.0,
+    "top": 622.424,
+    "right": 541.428,
+    "bottom": 656.835
+   },
+   "rawText": "Pub. L. 104-199, \u00a71, Sept. 21, 1996, 110 Stat. 2419, provided that: \"This Act [enacting section 7 of this title and section 1738C of Title 28, Judiciary and Judicial Procedure] may be cited as the 'Defense of Marriage Act'.\"",
+   "parent_id": "#/texts/50"
+  },
+  {
+   "id": "#/texts/52",
+   "label": "section_header",
+   "page": 2,
+   "bounds": {
+    "left": 234.56,
+    "top": 667.124,
+    "right": 404.916,
+    "bottom": 677.015
+   },
+   "rawText": "REFERENCES IN PUB. L. 117-229",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/53",
+   "label": "text",
+   "page": 2,
+   "bounds": {
+    "left": 54.0,
+    "top": 681.634,
+    "right": 540.549,
+    "bottom": 728.315
+   },
+   "rawText": "Pub. L. 117-229, \u00a73, Dec. 16, 2022, 136 Stat. 2308, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Further Continuing Appropriations and Extensions Act, 2023, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/52"
+  },
+  {
+   "id": "#/texts/54",
+   "label": "page_footer",
+   "page": 2,
+   "bounds": {
+    "left": 234.56,
+    "top": 738.594,
+    "right": 404.916,
+    "bottom": 748.485
+   },
+   "rawText": "REFERENCES IN PUB. L. 117-103",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/55",
+   "label": "text",
+   "page": 3,
+   "bounds": {
+    "left": 54.0,
+    "top": 38.35400000000004,
+    "right": 531.625,
+    "bottom": 72.77499999999998
+   },
+   "rawText": "Pub. L. 117-103, \u00a73, Mar. 15, 2022, 136 Stat. 51, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Consolidated Appropriations Act, 2022, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/52"
+  },
+  {
+   "id": "#/texts/56",
+   "label": "section_header",
+   "page": 3,
+   "bounds": {
+    "left": 237.3,
+    "top": 83.05399999999997,
+    "right": 402.161,
+    "bottom": 92.94500000000005
+   },
+   "rawText": "REFERENCES IN PUB. L. 117-58",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/57",
+   "label": "text",
+   "page": 3,
+   "bounds": {
+    "left": 54.0,
+    "top": 97.57399999999996,
+    "right": 532.241,
+    "bottom": 131.985
+   },
+   "rawText": "Pub. L. 117-58, \u00a72, Nov. 15, 2021, 135 Stat. 442, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Infrastructure Investment and Jobs Act, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/56"
+  },
+  {
+   "id": "#/texts/58",
+   "label": "section_header",
+   "page": 3,
+   "bounds": {
+    "left": 237.3,
+    "top": 142.274,
+    "right": 402.161,
+    "bottom": 152.16499999999996
+   },
+   "rawText": "REFERENCES IN PUB. L. 117-43",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/59",
+   "label": "list_item",
+   "page": 3,
+   "bounds": {
+    "left": 54.0,
+    "top": 156.784,
+    "right": 532.856,
+    "bottom": 203.46500000000003
+   },
+   "rawText": "Pub. L. 117-43, \u00a73, Sept. 30, 2021, 135 Stat. 344, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Extending Government Funding and Delivering Emergency Assistance Act, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/58"
+  },
+  {
+   "id": "#/texts/60",
+   "label": "section_header",
+   "page": 3,
+   "bounds": {
+    "left": 234.56,
+    "top": 213.74400000000003,
+    "right": 404.916,
+    "bottom": 223.635
+   },
+   "rawText": "REFERENCES IN PUB. L. 116-260",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/61",
+   "label": "list_item",
+   "page": 3,
+   "bounds": {
+    "left": 54.0,
+    "top": 228.25400000000002,
+    "right": 535.351,
+    "bottom": 262.67499999999995
+   },
+   "rawText": "Pub. L. 116-260, \u00a73, Dec. 27, 2020, 134 Stat. 1185, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Consolidated Appropriations Act, 2021, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/60"
+  },
+  {
+   "id": "#/texts/62",
+   "label": "list_item",
+   "page": 3,
+   "bounds": {
+    "left": 54.0,
+    "top": 265.044,
+    "right": 538.384,
+    "bottom": 299.465
+   },
+   "rawText": "Pub. L. 116-260, div. K, title VII, \u00a77034(q)(7), Dec. 27, 2020, 134 Stat. 1754, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in titles I through VII [of div. K of Pub. L. 116-260, see Tables for classification] shall be treated as referring only to the provisions of such titles.\"",
+   "parent_id": "#/texts/60"
+  },
+  {
+   "id": "#/texts/63",
+   "label": "section_header",
+   "page": 3,
+   "bounds": {
+    "left": 234.56,
+    "top": 309.744,
+    "right": 404.916,
+    "bottom": 319.635
+   },
+   "rawText": "REFERENCES IN PUB. L. 116-159",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/64",
+   "label": "list_item",
+   "page": 3,
+   "bounds": {
+    "left": 54.0,
+    "top": 324.254,
+    "right": 531.977,
+    "bottom": 370.935
+   },
+   "rawText": "Pub. L. 116-159, \u00a73, Oct. 1, 2020, 134 Stat. 709, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Continuing Appropriations Act, 2021 and Other Extensions Act, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/63"
+  },
+  {
+   "id": "#/texts/65",
+   "label": "section_header",
+   "page": 3,
+   "bounds": {
+    "left": 234.56,
+    "top": 381.224,
+    "right": 404.916,
+    "bottom": 391.115
+   },
+   "rawText": "REFERENCES IN PUB. L. 116-136",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/66",
+   "label": "text",
+   "page": 3,
+   "bounds": {
+    "left": 54.0,
+    "top": 395.734,
+    "right": 537.12,
+    "bottom": 442.415
+   },
+   "rawText": "Pub. L. 116-136, \u00a73, Mar. 27, 2020, 134 Stat. 285, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Coronavirus Aid, Relief, and Economic Security Act or the CARES Act, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/65"
+  },
+  {
+   "id": "#/texts/67",
+   "label": "section_header",
+   "page": 3,
+   "bounds": {
+    "left": 234.56,
+    "top": 452.694,
+    "right": 404.916,
+    "bottom": 462.585
+   },
+   "rawText": "REFERENCES IN PUB. L. 116-127",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/68",
+   "label": "text",
+   "page": 3,
+   "bounds": {
+    "left": 54.0,
+    "top": 467.204,
+    "right": 539.329,
+    "bottom": 501.625
+   },
+   "rawText": "Pub. L. 116-127, \u00a73, Mar. 18, 2020, 134 Stat. 178, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Families First Coronavirus Response Act, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/67"
+  },
+  {
+   "id": "#/texts/69",
+   "label": "section_header",
+   "page": 3,
+   "bounds": {
+    "left": 237.3,
+    "top": 511.904,
+    "right": 402.161,
+    "bottom": 521.7950000000001
+   },
+   "rawText": "REFERENCES IN PUB. L. 116-94",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/70",
+   "label": "list_item",
+   "page": 3,
+   "bounds": {
+    "left": 54.0,
+    "top": 526.424,
+    "right": 536.505,
+    "bottom": 560.835
+   },
+   "rawText": "Pub. L. 116-94, \u00a73, Dec. 20, 2019, 133 Stat. 2536, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Further Consolidated Appropriations Act, 2020, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/69"
+  },
+  {
+   "id": "#/texts/71",
+   "label": "list_item",
+   "page": 3,
+   "bounds": {
+    "left": 54.0,
+    "top": 563.204,
+    "right": 539.022,
+    "bottom": 597.625
+   },
+   "rawText": "Pub. L. 116-94, div. F, title VI, \u00a7612, Dec. 20, 2019, 133 Stat. 2815, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in this division [div. F of Pub. L. 116-94, see Tables for classification] shall be treated as referring only to the provisions of this division.\"",
+   "parent_id": "#/texts/69"
+  },
+  {
+   "id": "#/texts/72",
+   "label": "list_item",
+   "page": 3,
+   "bounds": {
+    "left": 54.0,
+    "top": 599.994,
+    "right": 540.846,
+    "bottom": 634.415
+   },
+   "rawText": "Pub. L. 116-94, div. H, title IV, \u00a7420, Dec. 20, 2019, 133 Stat. 3017, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in this division [div. H of Pub. L. 116-94, see Tables for classifcation] shall be treated as referring only to the provisions of this division.\"",
+   "parent_id": "#/texts/69"
+  },
+  {
+   "id": "#/texts/73",
+   "label": "section_header",
+   "page": 3,
+   "bounds": {
+    "left": 237.3,
+    "top": 644.694,
+    "right": 402.161,
+    "bottom": 654.585
+   },
+   "rawText": "REFERENCES IN PUB. L. 116-93",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/74",
+   "label": "list_item",
+   "page": 3,
+   "bounds": {
+    "left": 54.0,
+    "top": 659.204,
+    "right": 536.505,
+    "bottom": 693.625
+   },
+   "rawText": "Pub. L. 116-93, \u00a73, Dec. 20, 2019, 133 Stat. 2318, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Consolidated Appropriations Act, 2020, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/73"
+  },
+  {
+   "id": "#/texts/75",
+   "label": "section_header",
+   "page": 3,
+   "bounds": {
+    "left": 240.04,
+    "top": 703.904,
+    "right": 399.406,
+    "bottom": 713.795
+   },
+   "rawText": "REFERENCES IN PUB. L. 116-6",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/76",
+   "label": "list_item",
+   "page": 3,
+   "bounds": {
+    "left": 54.0,
+    "top": 718.424,
+    "right": 537.428,
+    "bottom": 752.835
+   },
+   "rawText": "Pub. L. 116-6, \u00a73, Feb. 15, 2019, 133 Stat. 14, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Consolidated Appropriations Act, 2019, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/75"
+  },
+  {
+   "id": "#/texts/77",
+   "label": "section_header",
+   "page": 4,
+   "bounds": {
+    "left": 234.56,
+    "top": 43.11400000000003,
+    "right": 404.916,
+    "bottom": 53.004999999999995
+   },
+   "rawText": "REFERENCES IN PUB. L. 115-245",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/78",
+   "label": "text",
+   "page": 4,
+   "bounds": {
+    "left": 54.0,
+    "top": 57.634000000000015,
+    "right": 539.582,
+    "bottom": 104.30499999999995
+   },
+   "rawText": "Pub. L. 115-245, \u00a73, Sept. 28, 2018, 132 Stat. 2981, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Department of Defense and Labor, Health and Human Services, and Education Appropriations Act, 2019 and Continuing Appropriations Act, 2019, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/77"
+  },
+  {
+   "id": "#/texts/79",
+   "label": "section_header",
+   "page": 4,
+   "bounds": {
+    "left": 234.56,
+    "top": 114.59400000000005,
+    "right": 404.916,
+    "bottom": 124.48500000000001
+   },
+   "rawText": "REFERENCES IN PUB. L. 115-244",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/80",
+   "label": "text",
+   "page": 4,
+   "bounds": {
+    "left": 54.0,
+    "top": 129.10400000000004,
+    "right": 520.976,
+    "bottom": 175.78499999999997
+   },
+   "rawText": "Pub. L. 115-244, \u00a73, Sept. 21, 2018, 132 Stat. 2897, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Energy and Water, Legislative Branch, and Military Construction and Veterans Affairs Appropriations Act, 2019, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/79"
+  },
+  {
+   "id": "#/texts/81",
+   "label": "section_header",
+   "page": 4,
+   "bounds": {
+    "left": 234.56,
+    "top": 186.07399999999996,
+    "right": 404.916,
+    "bottom": 195.96500000000003
+   },
+   "rawText": "REFERENCES IN PUB. L. 115-141",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/82",
+   "label": "text",
+   "page": 4,
+   "bounds": {
+    "left": 54.0,
+    "top": 200.58399999999995,
+    "right": 537.12,
+    "bottom": 234.995
+   },
+   "rawText": "Pub. L. 115-141, \u00a73, Mar. 23, 2018, 132 Stat. 350, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Consolidated Appropriations Act, 2018, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/81"
+  },
+  {
+   "id": "#/texts/83",
+   "label": "section_header",
+   "page": 4,
+   "bounds": {
+    "left": 237.3,
+    "top": 245.284,
+    "right": 402.161,
+    "bottom": 255.17499999999995
+   },
+   "rawText": "REFERENCES IN PUB. L. 115-56",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/84",
+   "label": "text",
+   "page": 4,
+   "bounds": {
+    "left": 54.0,
+    "top": 259.794,
+    "right": 532.856,
+    "bottom": 306.475
+   },
+   "rawText": "Pub. L. 115-56, \u00a73, Sept. 8, 2017, 131 Stat. 1129, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Continuing Appropriations Act, 2018 and Supplemental Appropriations for Disaster Relief Requirements Act, 2017, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/83"
+  },
+  {
+   "id": "#/texts/85",
+   "label": "section_header",
+   "page": 4,
+   "bounds": {
+    "left": 237.3,
+    "top": 316.754,
+    "right": 402.161,
+    "bottom": 326.645
+   },
+   "rawText": "REFERENCES IN PUB. L. 115-31",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/86",
+   "label": "text",
+   "page": 4,
+   "bounds": {
+    "left": 54.0,
+    "top": 331.264,
+    "right": 531.384,
+    "bottom": 365.685
+   },
+   "rawText": "Pub. L. 115-31, \u00a73, May 5, 2017, 131 Stat. 137, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Consolidated Appropriations Act, 2017, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/85"
+  },
+  {
+   "id": "#/texts/87",
+   "label": "section_header",
+   "page": 4,
+   "bounds": {
+    "left": 234.56,
+    "top": 375.974,
+    "right": 404.916,
+    "bottom": 385.865
+   },
+   "rawText": "REFERENCES IN PUB. L. 114-113",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/88",
+   "label": "text",
+   "page": 4,
+   "bounds": {
+    "left": 54.0,
+    "top": 390.484,
+    "right": 535.351,
+    "bottom": 424.895
+   },
+   "rawText": "Pub. L. 114-113, \u00a73, Dec. 18, 2015, 129 Stat. 2244, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Consolidated Appropriations Act, 2016, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/87"
+  },
+  {
+   "id": "#/texts/89",
+   "label": "section_header",
+   "page": 4,
+   "bounds": {
+    "left": 237.3,
+    "top": 435.184,
+    "right": 402.161,
+    "bottom": 445.075
+   },
+   "rawText": "REFERENCES IN PUB. L. 114-94",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/90",
+   "label": "text",
+   "page": 4,
+   "bounds": {
+    "left": 54.0,
+    "top": 449.694,
+    "right": 532.878,
+    "bottom": 484.115
+   },
+   "rawText": "Pub. L. 114-94, div. A, \u00a71004, Dec. 4, 2015, 129 Stat. 1322, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in this division [see Tables for classification] shall be treated as referring only to the provisions of this division.\"",
+   "parent_id": "#/texts/89"
+  },
+  {
+   "id": "#/texts/91",
+   "label": "section_header",
+   "page": 4,
+   "bounds": {
+    "left": 234.56,
+    "top": 494.394,
+    "right": 404.916,
+    "bottom": 504.285
+   },
+   "rawText": "REFERENCES IN PUB. L. 113-235",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/92",
+   "label": "text",
+   "page": 4,
+   "bounds": {
+    "left": 54.0,
+    "top": 508.904,
+    "right": 522.526,
+    "bottom": 555.585
+   },
+   "rawText": "Pub. L. 113-235, \u00a73, Dec. 16, 2014, 128 Stat. 2132, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Consolidated and Further Continuing Appropriations Act, 2015, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/91"
+  },
+  {
+   "id": "#/texts/93",
+   "label": "section_header",
+   "page": 4,
+   "bounds": {
+    "left": 237.3,
+    "top": 565.874,
+    "right": 402.161,
+    "bottom": 575.765
+   },
+   "rawText": "REFERENCES IN PUB. L. 113-76",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/94",
+   "label": "text",
+   "page": 4,
+   "bounds": {
+    "left": 54.0,
+    "top": 580.384,
+    "right": 535.593,
+    "bottom": 614.795
+   },
+   "rawText": "Pub. L. 113-76, \u00a73, Jan. 17, 2014, 128 Stat. 7, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Consolidated Appropriations Act, 2014, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/93"
+  },
+  {
+   "id": "#/texts/95",
+   "label": "section_header",
+   "page": 4,
+   "bounds": {
+    "left": 237.3,
+    "top": 625.0840000000001,
+    "right": 402.161,
+    "bottom": 634.975
+   },
+   "rawText": "REFERENCES IN PUB. L. 113-67",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/96",
+   "label": "text",
+   "page": 4,
+   "bounds": {
+    "left": 54.0,
+    "top": 639.594,
+    "right": 541.143,
+    "bottom": 674.015
+   },
+   "rawText": "Pub. L. 113-67, div. A, \u00a71(c), Dec. 26, 2013, 127 Stat. 1166, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Bipartisan Budget Act of 2013, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/95"
+  },
+  {
+   "id": "#/texts/97",
+   "label": "section_header",
+   "page": 4,
+   "bounds": {
+    "left": 240.04,
+    "top": 684.294,
+    "right": 399.406,
+    "bottom": 694.185
+   },
+   "rawText": "REFERENCES IN PUB. L. 113-6",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/98",
+   "label": "text",
+   "page": 4,
+   "bounds": {
+    "left": 54.0,
+    "top": 698.804,
+    "right": 526.13,
+    "bottom": 745.485
+   },
+   "rawText": "Pub. L. 113-6, \u00a73, Mar. 26, 2013, 127 Stat. 199, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in division A, B, C, D, or E of this Act [Consolidated and Further Continuing Appropriations Act, 2013, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/97"
+  },
+  {
+   "id": "#/texts/99",
+   "label": "section_header",
+   "page": 5,
+   "bounds": {
+    "left": 237.3,
+    "top": 38.774,
+    "right": 402.161,
+    "bottom": 48.664999999999964
+   },
+   "rawText": "REFERENCES IN PUB. L. 112-74",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/100",
+   "label": "text",
+   "page": 5,
+   "bounds": {
+    "left": 54.0,
+    "top": 53.28399999999999,
+    "right": 531.384,
+    "bottom": 87.69500000000005
+   },
+   "rawText": "Pub. L. 112-74, \u00a73, Dec. 23, 2011, 125 Stat. 787, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Consolidated Appropriations Act, 2012, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/99"
+  },
+  {
+   "id": "#/texts/101",
+   "label": "section_header",
+   "page": 5,
+   "bounds": {
+    "left": 237.3,
+    "top": 97.98400000000004,
+    "right": 402.161,
+    "bottom": 107.875
+   },
+   "rawText": "REFERENCES IN PUB. L. 112-55",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/102",
+   "label": "text",
+   "page": 5,
+   "bounds": {
+    "left": 54.0,
+    "top": 112.49400000000003,
+    "right": 532.241,
+    "bottom": 159.17499999999995
+   },
+   "rawText": "Pub. L. 112-55, \u00a73, Nov. 18, 2011, 125 Stat. 552, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Consolidated and Further Continuing Appropriations Act, 2012, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/101"
+  },
+  {
+   "id": "#/texts/103",
+   "label": "section_header",
+   "page": 5,
+   "bounds": {
+    "left": 237.3,
+    "top": 169.45399999999995,
+    "right": 402.161,
+    "bottom": 179.34500000000003
+   },
+   "rawText": "REFERENCES IN PUB. L. 112-10",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/104",
+   "label": "text",
+   "page": 5,
+   "bounds": {
+    "left": 54.0,
+    "top": 183.96400000000006,
+    "right": 536.208,
+    "bottom": 218.385
+   },
+   "rawText": "Pub. L. 112-10, div. A, title IX, \u00a79015, Apr. 15, 2011, 125 Stat. 102, provided that: \"Any reference to 'this Act' in this division [Department of Defense Appropriations Act, 2011, see Tables for classification] shall apply solely to this division.\"",
+   "parent_id": "#/texts/103"
+  },
+  {
+   "id": "#/texts/105",
+   "label": "section_header",
+   "page": 5,
+   "bounds": {
+    "left": 234.56,
+    "top": 228.664,
+    "right": 404.916,
+    "bottom": 238.55499999999995
+   },
+   "rawText": "REFERENCES IN PUB. L. 111-118",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/106",
+   "label": "text",
+   "page": 5,
+   "bounds": {
+    "left": 54.0,
+    "top": 243.18399999999997,
+    "right": 530.757,
+    "bottom": 289.865
+   },
+   "rawText": "Pub. L. 111-118, \u00a73, Dec. 19, 2009, 123 Stat. 3409, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Department of Defense Appropriations Act, 2010, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/105"
+  },
+  {
+   "id": "#/texts/107",
+   "label": "section_header",
+   "page": 5,
+   "bounds": {
+    "left": 234.56,
+    "top": 300.144,
+    "right": 404.916,
+    "bottom": 310.035
+   },
+   "rawText": "REFERENCES IN PUB. L. 111-117",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/108",
+   "label": "text",
+   "page": 5,
+   "bounds": {
+    "left": 54.0,
+    "top": 314.654,
+    "right": 535.351,
+    "bottom": 349.075
+   },
+   "rawText": "Pub. L. 111-117, \u00a73, Dec. 16, 2009, 123 Stat. 3035, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Consolidated Appropriations Act, 2010, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/107"
+  },
+  {
+   "id": "#/texts/109",
+   "label": "section_header",
+   "page": 5,
+   "bounds": {
+    "left": 240.04,
+    "top": 359.354,
+    "right": 399.406,
+    "bottom": 369.245
+   },
+   "rawText": "REFERENCES IN PUB. L. 111-8",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/110",
+   "label": "text",
+   "page": 5,
+   "bounds": {
+    "left": 54.0,
+    "top": 373.864,
+    "right": 526.13,
+    "bottom": 408.285
+   },
+   "rawText": "Pub. L. 111-8, \u00a73, Mar. 11, 2009, 123 Stat. 525, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Omnibus Appropriations Act, 2009, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/109"
+  },
+  {
+   "id": "#/texts/111",
+   "label": "section_header",
+   "page": 5,
+   "bounds": {
+    "left": 240.04,
+    "top": 418.574,
+    "right": 399.406,
+    "bottom": 428.465
+   },
+   "rawText": "REFERENCES IN PUB. L. 111-5",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/112",
+   "label": "text",
+   "page": 5,
+   "bounds": {
+    "left": 54.0,
+    "top": 433.084,
+    "right": 538.989,
+    "bottom": 467.495
+   },
+   "rawText": "Pub. L. 111-5, \u00a74, Feb. 17, 2009, 123 Stat. 116, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [American Recovery and Reinvestment Act of 2009, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/111"
+  },
+  {
+   "id": "#/texts/113",
+   "label": "section_header",
+   "page": 5,
+   "bounds": {
+    "left": 234.56,
+    "top": 477.784,
+    "right": 404.916,
+    "bottom": 487.675
+   },
+   "rawText": "REFERENCES IN PUB. L. 110-329",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/114",
+   "label": "text",
+   "page": 5,
+   "bounds": {
+    "left": 54.0,
+    "top": 492.294,
+    "right": 502.403,
+    "bottom": 538.975
+   },
+   "rawText": "Pub. L. 110-329, \u00a73, Sept. 30, 2008, 122 Stat. 3574, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' or 'this joint resolution' contained in any division of this Act [Consolidated Security, Disaster Assistance, and Continuing Appropriations Act, 2009, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/113"
+  },
+  {
+   "id": "#/texts/115",
+   "label": "section_header",
+   "page": 5,
+   "bounds": {
+    "left": 234.56,
+    "top": 549.254,
+    "right": 404.916,
+    "bottom": 559.145
+   },
+   "rawText": "REFERENCES IN PUB. L. 110-161",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/116",
+   "label": "text",
+   "page": 5,
+   "bounds": {
+    "left": 54.0,
+    "top": 563.774,
+    "right": 535.351,
+    "bottom": 598.185
+   },
+   "rawText": "Pub. L. 110-161, \u00a73, Dec. 26, 2007, 121 Stat. 1845, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Consolidated Appropriations Act, 2008, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/115"
+  },
+  {
+   "id": "#/texts/117",
+   "label": "section_header",
+   "page": 5,
+   "bounds": {
+    "left": 234.56,
+    "top": 608.4739999999999,
+    "right": 404.916,
+    "bottom": 618.365
+   },
+   "rawText": "REFERENCES IN PUB. L. 110-116",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/118",
+   "label": "text",
+   "page": 5,
+   "bounds": {
+    "left": 54.0,
+    "top": 622.984,
+    "right": 536.241,
+    "bottom": 657.395
+   },
+   "rawText": "Pub. L. 110-116, \u00a72, Nov. 13, 2007, 121 Stat. 1295, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [see Tables for classification] shall be treated as referencing only to the provisions of that division.\"",
+   "parent_id": "#/texts/117"
+  },
+  {
+   "id": "#/texts/119",
+   "label": "section_header",
+   "page": 5,
+   "bounds": {
+    "left": 234.56,
+    "top": 667.684,
+    "right": 404.916,
+    "bottom": 677.575
+   },
+   "rawText": "REFERENCES IN PUB. L. 109-289",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/120",
+   "label": "text",
+   "page": 5,
+   "bounds": {
+    "left": 54.0,
+    "top": 682.194,
+    "right": 526.163,
+    "bottom": 728.875
+   },
+   "rawText": "Pub. L. 109-289, div. A, title VIII, \u00a78112, Sept. 29, 2006, 120 Stat. 1299, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in this division [Department of Defense Appropriations Act, 2007, see Tables for classification] shall be referring only to the provisions of this division.\"",
+   "parent_id": "#/texts/119"
+  },
+  {
+   "id": "#/texts/121",
+   "label": "page_footer",
+   "page": 5,
+   "bounds": {
+    "left": 234.56,
+    "top": 739.154,
+    "right": 404.916,
+    "bottom": 749.045
+   },
+   "rawText": "REFERENCES IN PUB. L. 109-148",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/122",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 54.0,
+    "top": 38.35400000000004,
+    "right": 534.087,
+    "bottom": 97.29499999999996
+   },
+   "rawText": "Pub. L. 109-148, div. B, title V, \u00a75002, Dec. 30, 2005, 119 Stat. 2813, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in either division A [Department of Defense Appropriations Act, 2006, see Tables for classification] or division B [Emergency Supplemental Appropriations Act to Address Hurricanes in the Gulf of Mexico and Pandemic Influenza, 2006, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/119"
+  },
+  {
+   "id": "#/texts/123",
+   "label": "section_header",
+   "page": 6,
+   "bounds": {
+    "left": 234.56,
+    "top": 107.58399999999995,
+    "right": 404.916,
+    "bottom": 117.47500000000002
+   },
+   "rawText": "REFERENCES IN PUB. L. 109-115",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/124",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 54.0,
+    "top": 122.09400000000005,
+    "right": 535.637,
+    "bottom": 168.77499999999998
+   },
+   "rawText": "Pub. L. 109-115, div. A, title VIII, \u00a7847, Nov. 30, 2005, 119 Stat. 2507, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in this division [Transportation, Treasury, Housing and Urban Development, the Judiciary, and Independent Agencies Appropriations Act, 2006, see Tables for classification] shall be treated as referring only to the provisions of this division.\"",
+   "parent_id": "#/texts/123"
+  },
+  {
+   "id": "#/texts/125",
+   "label": "section_header",
+   "page": 6,
+   "bounds": {
+    "left": 234.56,
+    "top": 179.05399999999997,
+    "right": 404.916,
+    "bottom": 188.94500000000005
+   },
+   "rawText": "REFERENCES IN PUB. L. 108-447",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/126",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 54.0,
+    "top": 193.57399999999996,
+    "right": 536.505,
+    "bottom": 227.985
+   },
+   "rawText": "Pub. L. 108-447, \u00a73, Dec. 8, 2004, 118 Stat. 2810, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Consolidated Appropriations Act, 2005, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/125"
+  },
+  {
+   "id": "#/texts/127",
+   "label": "section_header",
+   "page": 6,
+   "bounds": {
+    "left": 234.56,
+    "top": 238.274,
+    "right": 404.916,
+    "bottom": 248.16499999999996
+   },
+   "rawText": "REFERENCES IN PUB. L. 108-199",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/128",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 54.0,
+    "top": 252.784,
+    "right": 541.088,
+    "bottom": 287.195
+   },
+   "rawText": "Pub. L. 108-199, \u00a73, Jan. 23, 2004, 118 Stat. 4, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this Act [Consolidated Appropriations Act, 2004, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/127"
+  },
+  {
+   "id": "#/texts/129",
+   "label": "section_header",
+   "page": 6,
+   "bounds": {
+    "left": 240.04,
+    "top": 297.484,
+    "right": 399.406,
+    "bottom": 307.375
+   },
+   "rawText": "REFERENCES IN PUB. L. 108-7",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/130",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 54.0,
+    "top": 311.994,
+    "right": 537.428,
+    "bottom": 358.675
+   },
+   "rawText": "Pub. L. 108-7, \u00a73, Feb. 20, 2003, 117 Stat. 12, provided that: \"Except as expressly provided otherwise, any reference to 'this Act' contained in any division of this joint resolution [Consolidated Appropriations Resolution, 2003, see Tables for classification] shall be treated as referring only to the provisions of that division.\"",
+   "parent_id": "#/texts/129"
+  },
+  {
+   "id": "#/texts/131",
+   "label": "section_header",
+   "page": 6,
+   "bounds": {
+    "left": 233.63,
+    "top": 368.954,
+    "right": 405.832,
+    "bottom": 378.845
+   },
+   "rawText": "CONTINENTAL UNITED STATES",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/132",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 54.0,
+    "top": 383.474,
+    "right": 534.725,
+    "bottom": 430.145
+   },
+   "rawText": "Pub. L. 86-70, \u00a748, June 25, 1959, 73 Stat. 154, provided that: \"Whenever the phrase 'continental United States' is used in any law of the United States enacted after the date of enactment of this Act [June 25, 1959], it shall mean the 49 States on the North American Continent and the District of Columbia, unless otherwise expressly provided.\"",
+   "parent_id": "#/texts/131"
+  },
+  {
+   "id": "#/texts/133",
+   "label": "section_header",
+   "page": 6,
+   "bounds": {
+    "left": 54.0,
+    "top": 462.248,
+    "right": 347.48,
+    "bottom": 474.875
+   },
+   "rawText": "\u00a72. \"County\" as including \"parish\", and so forth",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/134",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 54.0,
+    "top": 479.714,
+    "right": 537.384,
+    "bottom": 503.904
+   },
+   "rawText": "The word \"county\" includes a parish, or any other equivalent subdivision of a State or Territory of the United States.",
+   "parent_id": "#/texts/133"
+  },
+  {
+   "id": "#/texts/135",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 54.0,
+    "top": 510.244,
+    "right": 234.996,
+    "bottom": 521.044
+   },
+   "rawText": "(July 30, 1947, ch. 388, 61 Stat. 633.)",
+   "parent_id": "#/texts/133"
+  },
+  {
+   "id": "#/texts/136",
+   "label": "section_header",
+   "page": 6,
+   "bounds": {
+    "left": 54.0,
+    "top": 553.148,
+    "right": 407.458,
+    "bottom": 565.775
+   },
+   "rawText": "\u00a73. \"Vessel\" as including all means of water transportation",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/137",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 54.0,
+    "top": 570.614,
+    "right": 532.332,
+    "bottom": 594.804
+   },
+   "rawText": "The word \"vessel\" includes every description of watercraft or other artificial contrivance used, or capable of being used, as a means of transportation on water.",
+   "parent_id": "#/texts/136"
+  },
+  {
+   "id": "#/texts/138",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 54.0,
+    "top": 601.144,
+    "right": 234.996,
+    "bottom": 611.944
+   },
+   "rawText": "(July 30, 1947, ch. 388, 61 Stat. 633.)",
+   "parent_id": "#/texts/136"
+  },
+  {
+   "id": "#/texts/139",
+   "label": "section_header",
+   "page": 6,
+   "bounds": {
+    "left": 54.0,
+    "top": 644.048,
+    "right": 406.714,
+    "bottom": 656.675
+   },
+   "rawText": "\u00a74. \"Vehicle\" as including all means of land transportation",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/140",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 54.0,
+    "top": 661.514,
+    "right": 527.664,
+    "bottom": 685.704
+   },
+   "rawText": "The word \"vehicle\" includes every description of carriage or other artificial contrivance used, or capable of being used, as a means of transportation on land.",
+   "parent_id": "#/texts/139"
+  },
+  {
+   "id": "#/texts/141",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 54.0,
+    "top": 692.044,
+    "right": 234.996,
+    "bottom": 702.844
+   },
+   "rawText": "(July 30, 1947, ch. 388, 61 Stat. 633.)",
+   "parent_id": "#/texts/139"
+  },
+  {
+   "id": "#/texts/142",
+   "label": "section_header",
+   "page": 6,
+   "bounds": {
+    "left": 54.0,
+    "top": 734.948,
+    "right": 462.834,
+    "bottom": 747.575
+   },
+   "rawText": "\u00a75. \"Company\" or \"association\" as including successors and assigns",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/143",
+   "label": "text",
+   "page": 7,
+   "bounds": {
+    "left": 54.0,
+    "top": 38.563999999999965,
+    "right": 539.808,
+    "bottom": 76.144
+   },
+   "rawText": "The word \"company\" or \"association\", when used in reference to a corporation, shall be deemed to embrace the words \"successors and assigns of such company or association\", in like manner as if these last-named words, or words of similar import, were expressed.",
+   "parent_id": "#/texts/142"
+  },
+  {
+   "id": "#/texts/144",
+   "label": "text",
+   "page": 7,
+   "bounds": {
+    "left": 54.0,
+    "top": 82.47400000000005,
+    "right": 234.996,
+    "bottom": 93.274
+   },
+   "rawText": "(July 30, 1947, ch. 388, 61 Stat. 633.)",
+   "parent_id": "#/texts/142"
+  },
+  {
+   "id": "#/texts/145",
+   "label": "section_header",
+   "page": 7,
+   "bounds": {
+    "left": 54.0,
+    "top": 125.37800000000004,
+    "right": 389.878,
+    "bottom": 138.005
+   },
+   "rawText": "\u00a76. Limitation of term \"products of American fisheries\"",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/146",
+   "label": "text",
+   "page": 7,
+   "bounds": {
+    "left": 54.0,
+    "top": 142.85400000000004,
+    "right": 538.596,
+    "bottom": 220.59400000000005
+   },
+   "rawText": "Wherever, in the statutes of the United States or in the rulings, regulations, or interpretations of various administrative bureaus and agencies of the United States there appears or may appear the term \"products of American fisheries\" said term shall not include fresh or frozen fish fillets, fresh or frozen fish steaks, or fresh or frozen slices of fish substantially free of bone (including any of the foregoing divided into sections), produced in a foreign country or its territorial waters, in whole or in part with the use of the labor of persons who are not residents of the United States.",
+   "parent_id": "#/texts/145"
+  },
+  {
+   "id": "#/texts/147",
+   "label": "text",
+   "page": 7,
+   "bounds": {
+    "left": 54.0,
+    "top": 226.92399999999998,
+    "right": 234.996,
+    "bottom": 237.72400000000005
+   },
+   "rawText": "(July 30, 1947, ch. 388, 61 Stat. 634.)",
+   "parent_id": "#/texts/145"
+  },
+  {
+   "id": "#/texts/148",
+   "label": "section_header",
+   "page": 7,
+   "bounds": {
+    "left": 54.0,
+    "top": 269.828,
+    "right": 131.923,
+    "bottom": 282.455
+   },
+   "rawText": "\u00a77. Marriage",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/149",
+   "label": "text",
+   "page": 7,
+   "bounds": {
+    "left": 54.0,
+    "top": 287.304,
+    "right": 540.924,
+    "bottom": 351.654
+   },
+   "rawText": "(a) For the purposes of any Federal law, rule, or regulation in which marital status is a factor, an individual shall be considered married if that individual's marriage is between 2 individuals and is valid in the State where the marriage was entered into or, in the case of a marriage entered into outside any State, if the marriage is between 2 individuals and is valid in the place where entered into and the marriage could have been entered into in a State.",
+   "parent_id": "#/texts/148"
+  },
+  {
+   "id": "#/texts/150",
+   "label": "text",
+   "page": 7,
+   "bounds": {
+    "left": 54.0,
+    "top": 354.244,
+    "right": 538.092,
+    "bottom": 378.434
+   },
+   "rawText": "(b) In this section, the term \"State\" means a State, the District of Columbia, the Commonwealth of Puerto Rico, or any other territory or possession of the United States.",
+   "parent_id": "#/texts/148"
+  },
+  {
+   "id": "#/texts/151",
+   "label": "list_item",
+   "page": 7,
+   "bounds": {
+    "left": 54.0,
+    "top": 381.014,
+    "right": 518.256,
+    "bottom": 418.594
+   },
+   "rawText": "(c) For purposes of subsection (a), in determining whether a marriage is valid in a State or the place where entered into, if outside of any State, only the law of the jurisdiction applicable at the time the marriage was entered into may be considered.",
+   "parent_id": "#/texts/148"
+  },
+  {
+   "id": "#/texts/152",
+   "label": "text",
+   "page": 7,
+   "bounds": {
+    "left": 54.0,
+    "top": 424.924,
+    "right": 534.3,
+    "bottom": 449.114
+   },
+   "rawText": "(Added Pub. L. 104-199, \u00a73(a), Sept. 21, 1996, 110 Stat. 2419; amended Pub. L. 117-228, \u00a75, Dec. 13, 2022, 136 Stat. 2306.)",
+   "parent_id": "#/texts/148"
+  },
+  {
+   "id": "#/texts/153",
+   "label": "section_header",
+   "page": 7,
+   "bounds": {
+    "left": 268.27,
+    "top": 472.794,
+    "right": 371.169,
+    "bottom": 482.685
+   },
+   "rawText": "EDITORIAL NOTES",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/154",
+   "label": "section_header",
+   "page": 7,
+   "bounds": {
+    "left": 279.45,
+    "top": 492.974,
+    "right": 360.04,
+    "bottom": 502.865
+   },
+   "rawText": "AMENDMENTS",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/155",
+   "label": "text",
+   "page": 7,
+   "bounds": {
+    "left": 54.0,
+    "top": 507.894,
+    "right": 532.604,
+    "bottom": 566.835
+   },
+   "rawText": "2022 -Pub. L. 117-228 amended section generally. Prior to amendment, text read as follows: \"In determining the meaning of any Act of Congress, or of any ruling, regulation, or interpretation of the various administrative bureaus and agencies of the United States, the word 'marriage' means only a legal union between one man and one woman as husband and wife, and the word 'spouse' refers only to a person of the opposite sex who is a husband or a wife.\"",
+   "parent_id": "#/texts/154"
+  },
+  {
+   "id": "#/texts/156",
+   "label": "section_header",
+   "page": 7,
+   "bounds": {
+    "left": 184.16,
+    "top": 590.504,
+    "right": 455.283,
+    "bottom": 600.395
+   },
+   "rawText": "STATUTORY NOTES AND RELATED SUBSIDIARIES",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/157",
+   "label": "section_header",
+   "page": 7,
+   "bounds": {
+    "left": 278.21,
+    "top": 610.684,
+    "right": 361.261,
+    "bottom": 620.575
+   },
+   "rawText": "SEVERABILITY",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/158",
+   "label": "text",
+   "page": 7,
+   "bounds": {
+    "left": 54.0,
+    "top": 625.194,
+    "right": 531.636,
+    "bottom": 684.135
+   },
+   "rawText": "Pub. L. 117-228, \u00a78, Dec. 13, 2022, 136 Stat. 2307, provided that: \"If any provision of this Act [see Short Title of 2022 Amendment note set out under section 1 of this title], or any amendment made by this Act, or the application of such provision to any person, entity, government, or circumstance, is held to be unconstitutional, the remainder of this Act, or any amendment made thereby, or the application of such provision to all other persons, entities, governments, or circumstances, shall not be affected thereby.\"",
+   "parent_id": "#/texts/157"
+  },
+  {
+   "id": "#/texts/159",
+   "label": "section_header",
+   "page": 7,
+   "bounds": {
+    "left": 292.88,
+    "top": 694.424,
+    "right": 346.61,
+    "bottom": 704.315
+   },
+   "rawText": "FINDINGS",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/160",
+   "label": "list_item",
+   "page": 7,
+   "bounds": {
+    "left": 64.99,
+    "top": 708.934,
+    "right": 495.633,
+    "bottom": 718.825
+   },
+   "rawText": "Pub. L. 117-228, \u00a72, Dec. 13, 2022, 136 Stat. 2305, provided that: \"Congress finds the following:",
+   "parent_id": "#/texts/159"
+  },
+  {
+   "id": "#/texts/161",
+   "label": "list_item",
+   "page": 7,
+   "bounds": {
+    "left": 64.99,
+    "top": 721.194,
+    "right": 514.812,
+    "bottom": 743.345
+   },
+   "rawText": "\"(1) No union is more profound than marriage, for it embodies the highest ideals of love, fidelity, devotion, sacrifice, and family.",
+   "parent_id": "#/texts/159"
+  },
+  {
+   "id": "#/texts/162",
+   "label": "list_item",
+   "page": 7,
+   "bounds": {
+    "left": 86.96,
+    "top": 745.724,
+    "right": 519.922,
+    "bottom": 755.615
+   },
+   "rawText": "\"(2) Diverse beliefs about the role of gender in marriage are held by reasonable and sincere people",
+   "parent_id": "#/texts/159"
+  },
+  {
+   "id": "#/texts/163",
+   "label": "text",
+   "page": 8,
+   "bounds": {
+    "left": 64.99,
+    "top": 38.35400000000004,
+    "right": 529.23,
+    "bottom": 60.504999999999995
+   },
+   "rawText": "based on decent and honorable religious or philosophical premises. Therefore, Congress affirms that such people and their diverse beliefs are due proper respect.",
+   "parent_id": "#/texts/159"
+  },
+  {
+   "id": "#/texts/164",
+   "label": "list_item",
+   "page": 8,
+   "bounds": {
+    "left": 64.99,
+    "top": 62.884000000000015,
+    "right": 526.989,
+    "bottom": 97.29499999999996
+   },
+   "rawText": "\"(3) Millions of people, including interracial and same-sex couples, have entered into marriages and have enjoyed the rights and privileges associated with marriage. Couples joining in marriage deserve to have the dignity, stability, and ongoing protection that marriage affords to families and children.\"",
+   "parent_id": "#/texts/159"
+  },
+  {
+   "id": "#/texts/165",
+   "label": "section_header",
+   "page": 8,
+   "bounds": {
+    "left": 168.3,
+    "top": 107.58399999999995,
+    "right": 471.151,
+    "bottom": 117.47500000000002
+   },
+   "rawText": "NO IMPACT ON RELIGIOUS LIBERTY AND CONSCIENCE",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/166",
+   "label": "text",
+   "page": 8,
+   "bounds": {
+    "left": 64.99,
+    "top": 122.09400000000005,
+    "right": 358.049,
+    "bottom": 131.985
+   },
+   "rawText": "Pub. L. 117-228, \u00a76, Dec. 13, 2022, 136 Stat. 2306, provided that:",
+   "parent_id": "#/texts/165"
+  },
+  {
+   "id": "#/texts/167",
+   "label": "list_item",
+   "page": 8,
+   "bounds": {
+    "left": 54.0,
+    "top": 134.35400000000004,
+    "right": 540.264,
+    "bottom": 181.03499999999997
+   },
+   "rawText": "\"(a) IN GENERAL.-Nothing in this Act [see Short Title of 2022 Amendment note set out under section 1 of this title], or any amendment made by this Act, shall be construed to diminish or abrogate a religious liberty or conscience protection otherwise available to an individual or organization under the Constitution of the United States or Federal law.",
+   "parent_id": "#/texts/165"
+  },
+  {
+   "id": "#/texts/168",
+   "label": "list_item",
+   "page": 8,
+   "bounds": {
+    "left": 54.0,
+    "top": 183.404,
+    "right": 535.933,
+    "bottom": 279.135
+   },
+   "rawText": "\"(b) GOODS OR SERVICES.-Consistent with the First Amendment to the Constitution, nonprofit religious organizations, including churches, mosques, synagogues, temples, nondenominational ministries, interdenominational and ecumenical organizations, mission organizations, faith-based social agencies, religious educational institutions, and nonprofit entities whose principal purpose is the study, practice, or advancement of religion, and any employee of such an organization, shall not be required to provide services, accommodations, advantages, facilities, goods, or privileges for the solemnization or celebration of a marriage. Any refusal under this subsection to provide such services, accommodations, advantages, facilities, goods, or privileges shall not create any civil claim or cause of action.\"",
+   "parent_id": "#/texts/165"
+  },
+  {
+   "id": "#/texts/169",
+   "label": "section_header",
+   "page": 8,
+   "bounds": {
+    "left": 246.3,
+    "top": 289.424,
+    "right": 393.159,
+    "bottom": 299.315
+   },
+   "rawText": "STATUTORY PROHIBITION",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/170",
+   "label": "text",
+   "page": 8,
+   "bounds": {
+    "left": 64.99,
+    "top": 303.934,
+    "right": 358.049,
+    "bottom": 313.825
+   },
+   "rawText": "Pub. L. 117-228, \u00a77, Dec. 13, 2022, 136 Stat. 2306, provided that:",
+   "parent_id": "#/texts/169"
+  },
+  {
+   "id": "#/texts/171",
+   "label": "list_item",
+   "page": 8,
+   "bounds": {
+    "left": 54.0,
+    "top": 316.194,
+    "right": 537.802,
+    "bottom": 387.395
+   },
+   "rawText": "\"(a) NO IMPACT ON STATUS AND BENEFITS NOT ARISING FROM A MARRIAGE.-Nothing in this Act [see Short Title of 2022 Amendment note set out under section 1 of this title], or any amendment made by this Act, shall be construed to deny or alter any benefit, status, or right of an otherwise eligible entity or person which does not arise from a marriage, including tax-exempt status, tax treatment, educational funding, or a grant, contract, agreement, guarantee, loan, scholarship, license, certification, accreditation, claim, or defense.",
+   "parent_id": "#/texts/169"
+  },
+  {
+   "id": "#/texts/172",
+   "label": "list_item",
+   "page": 8,
+   "bounds": {
+    "left": 54.0,
+    "top": 389.774,
+    "right": 525.922,
+    "bottom": 424.185
+   },
+   "rawText": "\"(b) NO FEDERAL RECOGNITION OF POLYGAMOUS MARRIAGES.-Nothing in this Act, or any amendment made by this Act, shall be construed to require or authorize Federal recognition of marriages between more than 2 individuals.\"",
+   "parent_id": "#/texts/169"
+  },
+  {
+   "id": "#/texts/173",
+   "label": "section_header",
+   "page": 8,
+   "bounds": {
+    "left": 54.0,
+    "top": 456.278,
+    "right": 535.355,
+    "bottom": 485.105
+   },
+   "rawText": "\u00a78. \"Person\", \"human being\", \"child\", and \"individual\" as including born-alive infant",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/174",
+   "label": "list_item",
+   "page": 8,
+   "bounds": {
+    "left": 54.0,
+    "top": 489.954,
+    "right": 536.772,
+    "bottom": 540.914
+   },
+   "rawText": "(a) In determining the meaning of any Act of Congress, or of any ruling, regulation, or interpretation of the various administrative bureaus and agencies of the United States, the words \"person\", \"human being\", \"child\", and \"individual\", shall include every infant member of the species homo sapiens who is born alive at any stage of development.",
+   "parent_id": "#/texts/173"
+  },
+  {
+   "id": "#/texts/175",
+   "label": "list_item",
+   "page": 8,
+   "bounds": {
+    "left": 54.0,
+    "top": 543.504,
+    "right": 527.256,
+    "bottom": 621.244
+   },
+   "rawText": "(b) As used in this section, the term \"born alive\", with respect to a member of the species homo sapiens, means the complete expulsion or extraction from his or her mother of that member, at any stage of development, who after such expulsion or extraction breathes or has a beating heart, pulsation of the umbilical cord, or definite movement of voluntary muscles, regardless of whether the umbilical cord has been cut, and regardless of whether the expulsion or extraction occurs as a result of natural or induced labor, cesarean section, or induced abortion.",
+   "parent_id": "#/texts/173"
+  },
+  {
+   "id": "#/texts/176",
+   "label": "list_item",
+   "page": 8,
+   "bounds": {
+    "left": 54.0,
+    "top": 623.8340000000001,
+    "right": 538.164,
+    "bottom": 661.404
+   },
+   "rawText": "(c) Nothing in this section shall be construed to affirm, deny, expand, or contract any legal status or legal right applicable to any member of the species homo sapiens at any point prior to being \"born alive\" as defined in this section.",
+   "parent_id": "#/texts/173"
+  },
+  {
+   "id": "#/texts/177",
+   "label": "text",
+   "page": 8,
+   "bounds": {
+    "left": 54.0,
+    "top": 667.744,
+    "right": 349.644,
+    "bottom": 678.544
+   },
+   "rawText": "(Added Pub. L. 107-207, \u00a72(a), Aug. 5, 2002, 116 Stat. 926.)",
+   "parent_id": "#/texts/173"
+  },
+  {
+   "id": "#/texts/178",
+   "label": "text",
+   "page": 8,
+   "bounds": {
+    "left": 125.7,
+    "top": 719.608,
+    "right": 525.976,
+    "bottom": 748.435
+   },
+   "rawText": "CHAPTER 2-ACTS AND RESOLUTIONS; FORMALITIES OF ENACTMENT; REPEALS; SEALING OF INSTRUMENTS",
+   "parent_id": "#/texts/173"
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+  "cerebras_ex1013e": {
+    "aligned_words": 845,
+    "head_ancestor_agree": 0.5397,
+    "label_agree": 0.4639,
+    "overlong_heading_count": 0,
+    "page_count": 11,
+    "word_seq_similarity": 0.5516
+  },
+  "cerebras_ex231": {
+    "aligned_words": 75,
+    "head_ancestor_agree": 0.04,
+    "label_agree": 0.8667,
+    "overlong_heading_count": 0,
+    "page_count": 1,
+    "word_seq_similarity": 1.0
+  },
+  "eton_dev_agreement": {
+    "aligned_words": 10435,
+    "head_ancestor_agree": 0.2299,
+    "label_agree": 0.5639,
+    "overlong_heading_count": 0,
+    "page_count": 23,
+    "word_seq_similarity": 0.988
+  },
+  "exyn_ex1010": {
+    "aligned_words": 3502,
+    "head_ancestor_agree": 0.4747,
+    "label_agree": 0.3943,
+    "overlong_heading_count": 0,
+    "page_count": 7,
+    "word_seq_similarity": 0.9943
+  },
+  "exyn_ex211": {
+    "aligned_words": 8,
+    "head_ancestor_agree": 1.0,
+    "label_agree": 0.375,
+    "overlong_heading_count": 0,
+    "page_count": 1,
+    "word_seq_similarity": 0.5517
+  },
+  "forbright_ex1012": {
+    "aligned_words": 6908,
+    "head_ancestor_agree": 0.0007,
+    "label_agree": 0.3497,
+    "overlong_heading_count": 0,
+    "page_count": 17,
+    "word_seq_similarity": 0.9973
+  },
+  "generate_bio_ex33": {
+    "aligned_words": 7042,
+    "head_ancestor_agree": 0.2092,
+    "label_agree": 0.5586,
+    "overlong_heading_count": 0,
+    "page_count": 21,
+    "word_seq_similarity": 0.9544
+  },
+  "spacex_ex211": {
+    "aligned_words": 11,
+    "head_ancestor_agree": 1.0,
+    "label_agree": 1.0,
+    "overlong_heading_count": 0,
+    "page_count": 1,
+    "word_seq_similarity": 0.5641
+  },
+  "spacex_ex41": {
+    "aligned_words": 455,
+    "head_ancestor_agree": 0.6591,
+    "label_agree": 0.7451,
+    "overlong_heading_count": 0,
+    "page_count": 3,
+    "word_seq_similarity": 0.8046
+  },
+  "usc_title1": {
+    "aligned_words": 4558,
+    "head_ancestor_agree": 0.9069,
+    "label_agree": 0.7157,
+    "overlong_heading_count": 0,
+    "page_count": 9,
+    "word_seq_similarity": 0.9533
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "EtonPharmaceuticalsInc_20191114_10-Q_EX-10.1_11893941_EX-10.1_Development_Agreement_ZrZJLLv.pdf": {
+    "anchored_fraction": 0.872,
+    "annotation_count": 211,
+    "content_recall": 0.9972,
+    "image_annotation_count": 0,
+    "image_token_count": 0,
+    "page_count": 23,
+    "root_count": 18,
+    "token_count": 10256,
+    "token_coverage": 0.9824
+  },
+  "USC Title 1 - CHAPTER 1.pdf": {
+    "anchored_fraction": 1.0,
+    "annotation_count": 213,
+    "content_recall": 0.9994,
+    "image_annotation_count": 0,
+    "image_token_count": 0,
+    "page_count": 9,
+    "root_count": 2,
+    "token_count": 4852,
+    "token_coverage": 0.9934
+  },
+  "needs_ocr.pdf": {
+    "anchored_fraction": 1.0,
+    "annotation_count": 39,
+    "content_recall": 0.9735,
+    "image_annotation_count": 0,
+    "image_token_count": 0,
+    "page_count": 1,
+    "root_count": 3,
+    "token_count": 302,
+    "token_coverage": 1.0
+  },
+  "with_images.pdf": {
+    "anchored_fraction": 1.0,
+    "annotation_count": 5,
+    "content_recall": 1.0,
+    "image_annotation_count": 2,
+    "image_token_count": 2,
+    "page_count": 1,
+    "root_count": 1,
+    "token_count": 68,
+    "token_coverage": 1.0
+  }
+}

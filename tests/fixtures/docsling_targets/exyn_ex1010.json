@@ -1,0 +1,822 @@
+{
+ "page_count": 7,
+ "pages": [
+  {
+   "index": 0,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 1,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 2,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 3,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 4,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 5,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 6,
+   "width": 612.0,
+   "height": 792.0
+  }
+ ],
+ "annotations": [
+  {
+   "id": "#/texts/0",
+   "label": "text",
+   "page": 0,
+   "bounds": {
+    "left": 495.321,
+    "top": 71.07399999999996,
+    "right": 551.999,
+    "bottom": 82.144
+   },
+   "rawText": "Exhibit\u00a010.10",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/1",
+   "label": "text",
+   "page": 0,
+   "bounds": {
+    "left": 60.0,
+    "top": 93.221,
+    "right": 551.927,
+    "bottom": 115.36500000000001
+   },
+   "rawText": "Certain information has been excluded as marked by [*] from this exhibit because it (i)\u00a0is not material and (ii)\u00a0would be competitively harmful if publicly disclosed.",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/2",
+   "label": "section_header",
+   "page": 0,
+   "bounds": {
+    "left": 229.833,
+    "top": 126.44200000000001,
+    "right": 382.159,
+    "bottom": 137.51199999999994
+   },
+   "rawText": "SUBORDINATION AGREEMENT",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/3",
+   "label": "text",
+   "page": 0,
+   "bounds": {
+    "left": 60.0,
+    "top": 277.64700000000005,
+    "right": 553.227,
+    "bottom": 310.864
+   },
+   "rawText": "This   SUBORDINATION   AGREEMENT (this   ' Agreement '),   dated   as   of   July \u00a0 11,   2025,   is   between NEOLYNC   ELECTRONICS   PRIVATE   LIMITED (' Creditor '), and   WESTERN   ALLIANCE   BANK,   AN ARIZONA CORPORATION, (' Lender ').",
+   "parent_id": "#/texts/2"
+  },
+  {
+   "id": "#/texts/4",
+   "label": "section_header",
+   "page": 0,
+   "bounds": {
+    "left": 272.696,
+    "top": 321.941,
+    "right": 339.314,
+    "bottom": 333.011
+   },
+   "rawText": "R E C I T A L S",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/5",
+   "label": "list_item",
+   "page": 0,
+   "bounds": {
+    "left": 60.0,
+    "top": 344.088,
+    "right": 551.999,
+    "bottom": 377.305
+   },
+   "rawText": "EXYN TECHNOLOGIES,\u202fINC., a Delaware corporation (' Borrower ') has requested and/or obtained certain credit accommodations from Lender which are or may be from time to time secured by assets and property of Borrower.",
+   "parent_id": "#/texts/4"
+  },
+  {
+   "id": "#/texts/6",
+   "label": "list_item",
+   "page": 0,
+   "bounds": {
+    "left": 60.0,
+    "top": 388.382,
+    "right": 551.896,
+    "bottom": 421.599
+   },
+   "rawText": "Creditor has extended loans or other credit accommodations to Borrower, and/or may extend loans or other credit accommodations to Borrower from time to time that are or may from time to time be secured by assets and property of Borrower.",
+   "parent_id": "#/texts/4"
+  },
+  {
+   "id": "#/texts/7",
+   "label": "list_item",
+   "page": 0,
+   "bounds": {
+    "left": 60.0,
+    "top": 432.676,
+    "right": 551.979,
+    "bottom": 510.187
+   },
+   "rawText": "In order to induce Lender to extend credit to Borrower and, at any time or from time to time, at Lender's option, to make such further loans, extensions of credit, or other accommodations to or for the account of Borrower, or to extend credit upon any instrument or writing in respect of which Borrower may be liable in any capacity, or to grant such renewals or extension of any such loan, extension of credit, or other accommodation as Lender may deem advisable, Creditor is willing to subordinate: (i)\u202fall of Borrower's indebtedness and obligations to Creditor, whether presently existing or arising in the future (the ' Subordinated Debt ') to all of Borrower's indebtedness and obligations to Lender; and (ii)\u202fall of Creditor's security interests, if any, to all of Lender's security interests in the property of Borrower.",
+   "parent_id": "#/texts/4"
+  },
+  {
+   "id": "#/texts/8",
+   "label": "section_header",
+   "page": 0,
+   "bounds": {
+    "left": 96.0,
+    "top": 521.264,
+    "right": 367.033,
+    "bottom": 532.3340000000001
+   },
+   "rawText": "NOW, THEREFORE, THE PARTIES AGREE AS FOLLOWS:",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/9",
+   "label": "list_item",
+   "page": 0,
+   "bounds": {
+    "left": 60.0,
+    "top": 543.4110000000001,
+    "right": 552.018,
+    "bottom": 620.921
+   },
+   "rawText": "Creditor subordinates to Lender any security interest or lien that Creditor may have in any property of Borrower. Notwithstanding the respective dates of attachment or perfection of the security interest of Creditor and the security interest of Lender, the security interest of Lender in the accounts, including health care receivables, chattel paper, general intangibles (including without limitations, intellectual property), inventory, equipment, instruments, including promissory notes, deposit accounts, investment property, documents, letter of credit rights, any commercial tort claim of Borrower which is now or hereafter identified by Borrower or Lender, and other property of the Borrower (the ' Collateral ') shall at all times be prior to the security interest of Creditor.",
+   "parent_id": "#/texts/8"
+  },
+  {
+   "id": "#/texts/10",
+   "label": "list_item",
+   "page": 0,
+   "bounds": {
+    "left": 60.0,
+    "top": 631.999,
+    "right": 552.771,
+    "bottom": 676.289
+   },
+   "rawText": "All Subordinated Debt is subordinated in right of payment to all obligations of Borrower to Lender now existing or hereafter arising, together with all costs of collecting such obligations (including attorneys' fees), including, without limitation, all interest accruing after the commencement by or against Borrower of any bankruptcy, reorganization or similar proceeding (the ' Senior Debt ').",
+   "parent_id": "#/texts/8"
+  },
+  {
+   "id": "#/texts/11",
+   "label": "list_item",
+   "page": 0,
+   "bounds": {
+    "left": 60.0,
+    "top": 687.366,
+    "right": 551.959,
+    "bottom": 731.656
+   },
+   "rawText": "Creditor will not demand or receive from Borrower (and Borrower will not pay to Creditor) all or any part of the Subordinated Debt, by way of payment, prepayment, setoff, lawsuit or otherwise, nor will Creditor exercise any remedy with respect to the Collateral or any other collateral securing the Subordinated Debt, nor will Creditor accelerate the Subordinated Debt, or commence, or cause to commence, prosecute or participate in any administrative, legal or equitable",
+   "parent_id": "#/texts/8"
+  },
+  {
+   "id": "#/texts/12",
+   "label": "text",
+   "page": 1,
+   "bounds": {
+    "left": 60.0,
+    "top": 54.000999999999976,
+    "right": 552.446,
+    "bottom": 120.43799999999999
+   },
+   "rawText": "action against Borrower, until such time as all the Senior Debt is fully paid in cash, and all of Lender's obligations owing to Borrower have been terminated. Nothing in the foregoing paragraph shall prohibit Creditor from converting all or any part of the Subordinated Debt into equity securities of Borrower. Notwithstanding anything in this Agreement to the contrary, nothing herein shall be deemed to restrict the contractual rights of Creditor, or the Borrower's obligations under any warrants, options or capital stock that the Borrower may issue to Creditor from time to time, other than any such rights involving the payment of money by Borrower to Creditor.",
+   "parent_id": "#/texts/8"
+  },
+  {
+   "id": "#/texts/13",
+   "label": "text",
+   "page": 2,
+   "bounds": {
+    "left": 60.0,
+    "top": 94.14800000000002,
+    "right": 552.017,
+    "bottom": 127.36500000000001
+   },
+   "rawText": "4. Creditor shall promptly deliver to Lender in the form received (except for endorsement or assignment by Creditor where required by Lender) for application to the Senior Debt any payment, distribution, security or proceeds received by Creditor with respect to the Subordinated Debt other than in accordance with this Agreement.",
+   "parent_id": "#/texts/8"
+  },
+  {
+   "id": "#/texts/14",
+   "label": "text",
+   "page": 2,
+   "bounds": {
+    "left": 60.0,
+    "top": 138.442,
+    "right": 552.044,
+    "bottom": 204.87900000000002
+   },
+   "rawText": "5. In   the   event   of   Borrower's   insolvency,   reorganization   or   any   case   or   proceeding   under   any   bankruptcy   or insolvency law or laws relating to the relief of debtors, these provisions shall remain in full force and effect, and Lender's claims against Borrower and the estate of Borrower shall be paid in full before any payment is made to Creditor. For the avoidance of any doubt, Senior Debt includes, without limitation, any Lender's claims against Borrower and the estate of Borrower arising from the granting of credit under Section\u202f364 or the use of cash collateral under Section\u202f363 of the United States Bankruptcy Code, and Creditor agrees that it will raise no objection thereto.",
+   "parent_id": "#/texts/8"
+  },
+  {
+   "id": "#/texts/15",
+   "label": "text",
+   "page": 2,
+   "bounds": {
+    "left": 60.0,
+    "top": 215.95600000000002,
+    "right": 551.993,
+    "bottom": 282.393
+   },
+   "rawText": "6. Until the Senior Debt is fully paid in cash, and all of Lender's obligations owing to Borrower have been terminated, Creditor agrees that it will not object to or oppose (i)\u202fthe sale of the Borrower, or (ii)\u202fthe sale or other disposition of any property of the Borrower or the estate of Borrower, if Lender has consented to such sale of the Borrower or sale or disposition of any property of the Borrower or the estate of Borrower. If requested by Lender, Creditor shall affirmatively consent to such sale or disposition and shall take all necessary actions and execute such documents and instruments as Lender may reasonably request in connection with and to facilitate such sale or disposition.",
+   "parent_id": "#/texts/8"
+  },
+  {
+   "id": "#/texts/16",
+   "label": "text",
+   "page": 2,
+   "bounds": {
+    "left": 60.0,
+    "top": 293.471,
+    "right": 552.007,
+    "bottom": 393.128
+   },
+   "rawText": "7. Until the Senior Debt is fully paid in cash, and all of Lender's obligations owing to Borrower have been terminated, Creditor irrevocably appoints Lender as Creditor's attorney-in-fact, and grants to Lender a power of attorney with full power of substitution, in the name of Creditor or in the name of Lender, for the use and benefit of Lender, without notice to Creditor, to perform at Lender's option the following acts in any bankruptcy, insolvency or similar proceeding involving Borrower: (i)\u202fto file the appropriate claim or claims in respect of the Subordinated Debt on behalf of Creditor if Creditor does not do so prior to 30 days before the expiration of the time to file claims in such proceeding and if Lender elects, in its sole discretion, to file such claim or claims; and (ii)\u202fto accept or reject any plan of reorganization or arrangement on behalf of Creditor and to otherwise vote Creditor's claims in respect of any Subordinated Debt in any manner that Lender deems appropriate for the enforcement of its rights hereunder.",
+   "parent_id": "#/texts/8"
+  },
+  {
+   "id": "#/texts/17",
+   "label": "text",
+   "page": 2,
+   "bounds": {
+    "left": 60.0,
+    "top": 404.205,
+    "right": 552.748,
+    "bottom": 481.716
+   },
+   "rawText": "8. Creditor shall immediately affix a legend to the instruments evidencing the Subordinated Debt stating that the instruments are subject to the terms of this Agreement. Without limiting the foregoing, no amendment of the documents evidencing or relating to the Subordinated Debt shall directly or indirectly modify the provisions of this Agreement in any manner which might terminate or impair the subordination of the Subordinated Debt or the subordination of the security interest or lien that Creditor may have in any property of Borrower. By way of example, such instruments shall not be amended to (i)\u202fincrease the rate of interest with respect to the Subordinated Debt, or (ii)\u202faccelerate the payment of the principal or interest or any other portion of the Subordinated Debt.",
+   "parent_id": "#/texts/8"
+  },
+  {
+   "id": "#/texts/18",
+   "label": "page_footer",
+   "page": 2,
+   "bounds": {
+    "left": 302.25,
+    "top": 504.793,
+    "right": 309.75,
+    "bottom": 515.863
+   },
+   "rawText": "2.",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/19",
+   "label": "text",
+   "page": 3,
+   "bounds": {
+    "left": 60.0,
+    "top": 94.14800000000002,
+    "right": 552.58,
+    "bottom": 337.761
+   },
+   "rawText": "9. This Agreement shall remain effective for so long as Lender has any obligation to make credit extensions to Borrower or Borrower owes any amounts to Lender. If, at any time after payment in full of the Senior Debt, any payments of the Senior Debt must be disgorged by Lender for any reason (including, without limitation, the bankruptcy of Borrower), this Agreement and the relative rights and priorities set forth herein shall be reinstated as to all such disgorged payments as though such payments had not been made and Creditor shall immediately pay over to Lender all payments received with respect to the Subordinated Debt to the extent that such payments would have been prohibited hereunder. At any time and from time to time, without notice to Creditor, Lender may take such actions with respect to the Senior Debt and the Collateral as Lender, in its sole discretion, may deem appropriate, including, without limitation, terminating advances to Borrower, increasing the principal amount, extending the time of payment, increasing applicable interest rates, renewing, compromising or otherwise amending the terms of any documents affecting the Senior Debt and any Collateral, judicial foreclosure, nonjudicial foreclosure, exercise of a power of sale, and taking a deed, assignment or transfer in lieu of foreclosure as to any of the Collateral, and enforcing or failing to enforce any rights against Borrower or any other person. No such action or inaction shall impair or otherwise affect Lender's rights hereunder. Creditor agrees not to assert against Lender (a)\u202fany rights which a guarantor or surety could exercise; but nothing in this Agreement shall constitute Creditor a guarantor or surety; (b)\u202fthe right, if any, to require Lender to marshal or otherwise require Lender to proceed to dispose of or foreclose upon any of the Collateral in any manner or order; and (c)\u202fany right of subrogation, contribution, reimbursement, or indemnity which it may have against Borrower arising directly or indirectly out of this Agreement. Creditor waives the benefits, if any, of California Civil Code Sections 2799, 2808, 2809, 2810, 2815, 2819, 2820, 2821, 2822, 2839, 2845, 2847, 2848, 2849, 2850, 2899 and 3433. Pursuant to Section\u202f2856 of the California Civil Code, Creditor waives all rights and defenses that Creditor may have because the Senior Debt may be secured by real property. These rights and defenses include, but are not limited to, any rights or defenses based upon Section\u202f580a, 580b, 580d, or 726 of the California Code of Civil Procedure.",
+   "parent_id": "#/texts/8"
+  },
+  {
+   "id": "#/texts/20",
+   "label": "text",
+   "page": 3,
+   "bounds": {
+    "left": 60.0,
+    "top": 348.838,
+    "right": 552.744,
+    "bottom": 437.422
+   },
+   "rawText": "10. All necessary action on the part of Lender and Creditor, their respective officers, directors, partners, members and shareholders, as applicable, necessary for the authorization of this Agreement and the performance of all obligations of both Lender and Creditor hereunder has been taken. This Agreement constitutes the legal, valid and binding obligation of Lender and Creditor, enforceable against either in accordance with its terms. The execution, delivery and performance of and compliance with this Agreement by Lender and Creditor will not (i)\u202fresult in any material violation or default of any term of any of Lender or Creditor's charter, formation or other organizational documents (such as Articles or Certificate of Incorporation, bylaws, partnership agreement, operating agreement,\u202fetc.) or (ii)\u202fviolate any material applicable law, rule\u202for regulation.",
+   "parent_id": "#/texts/8"
+  },
+  {
+   "id": "#/texts/21",
+   "label": "text",
+   "page": 3,
+   "bounds": {
+    "left": 60.0,
+    "top": 448.499,
+    "right": 552.618,
+    "bottom": 503.863
+   },
+   "rawText": "11. This Agreement shall bind any successors or assignees of Creditor and shall benefit any successors or assigns of Lender. This Agreement is solely for the benefit of Creditor and Lender and not for the benefit of Borrower or any other party. Creditor further agrees that if Borrower is in the process of refinancing a portion of the Senior Debt with a new lender, and if Lender makes a request of Creditor, Creditor shall agree to enter into a new subordination agreement with the new lender on substantially the terms and conditions of this Agreement.",
+   "parent_id": "#/texts/8"
+  },
+  {
+   "id": "#/texts/22",
+   "label": "text",
+   "page": 3,
+   "bounds": {
+    "left": 60.0,
+    "top": 514.94,
+    "right": 552.532,
+    "bottom": 570.304
+   },
+   "rawText": "12. This Agreement may be executed in two or more counterparts, each of which shall be deemed an original and all of which together shall constitute one instrument. In the event that any signature is delivered by facsimile transmission or by e-mail delivery of a '.pdf' format data file, such signature shall create a valid and binding obligation of the party executing (or on whose behalf such signature is executed) with the same force and effect as if such facsimile or '.pdf' signature page\u202fwere an original thereof.",
+   "parent_id": "#/texts/8"
+  },
+  {
+   "id": "#/texts/23",
+   "label": "text",
+   "page": 3,
+   "bounds": {
+    "left": 60.0,
+    "top": 581.381,
+    "right": 556.297,
+    "bottom": 636.745
+   },
+   "rawText": "13. This Agreement shall be governed by and construed in accordance with the laws of the State of California, without giving effect to conflicts of law principles. Creditor and Lender submit to the exclusive jurisdiction of the state and federal courts located in Santa Clara County, California. CREDITOR AND LENDER WAIVE THEIR RESPECTIVE RIGHTS TO A JURY TRIAL OF ANY CLAIM OR CAUSE OF ACTION BASED UPON OR ARISING OUT OF THIS AGREEMENT OR ANY OF THE TRANSACTIONS CONTEMPLATED HEREIN.",
+   "parent_id": "#/texts/8"
+  },
+  {
+   "id": "#/texts/24",
+   "label": "section_header",
+   "page": 3,
+   "bounds": {
+    "left": 60.0,
+    "top": 647.822,
+    "right": 215.836,
+    "bottom": 658.892
+   },
+   "rawText": "14.\u202f\u202f\u202f\u202f\u202f\u202f\u202f\u202f\u202f\u202fREFERENCE PROVISION.",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/25",
+   "label": "text",
+   "page": 3,
+   "bounds": {
+    "left": 60.0,
+    "top": 669.969,
+    "right": 552.033,
+    "bottom": 692.112
+   },
+   "rawText": "(a) In the event the jury trial waiver set forth above is not enforceable, the parties elect to proceed under this judicial reference provision.",
+   "parent_id": "#/texts/24"
+  },
+  {
+   "id": "#/texts/26",
+   "label": "page_footer",
+   "page": 3,
+   "bounds": {
+    "left": 302.25,
+    "top": 715.19,
+    "right": 309.75,
+    "bottom": 726.259
+   },
+   "rawText": "3.",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/27",
+   "label": "list_item",
+   "page": 4,
+   "bounds": {
+    "left": 60.0,
+    "top": 94.14800000000002,
+    "right": 552.538,
+    "bottom": 193.80499999999995
+   },
+   "rawText": "(b) With the exception of the items specified in the subsection (c)\u202fbelow, any controversy, dispute or claim (each, a ' Claim ') between the parties arising out of or relating to this Agreement or any other document, instrument or agreement between the undersigned parties (collectively in this Section, the ' Loan Documents '), will be resolved by a reference proceeding in California in accordance with the provisions of Sections 638 et seq. of the California Code of Civil Procedure (' CCP '), or their successor sections, which shall constitute the exclusive remedy for the resolution of any Claim, including whether the Claim is subject to the reference proceeding. Except as otherwise provided in the Loan Documents, venue for the reference proceeding will be in the state or federal court in the county or district where the real property involved in the action, if any, is located or in the state or federal court in the county or district where venue is otherwise appropriate under applicable law (the ' Court ').",
+   "parent_id": "#/texts/24"
+  },
+  {
+   "id": "#/texts/28",
+   "label": "list_item",
+   "page": 4,
+   "bounds": {
+    "left": 60.0,
+    "top": 204.88300000000004,
+    "right": 552.183,
+    "bottom": 293.467
+   },
+   "rawText": "(c) The matters that shall not be subject to a reference are the following: (i)\u202fnonjudicial foreclosure of any security interests in real or personal property, (ii)\u202fexercise of self-help remedies (including, without limitation, set-off), (iii)\u202fappointment of a receiver and (iv)\u202ftemporary, provisional or ancillary remedies (including, without limitation, writs of attachment, writs of possession, temporary restraining orders or preliminary injunctions). This reference provision does not limit the right of any party to exercise or oppose any of the rights and remedies described in clauses (i)\u202fand (ii)\u202for to seek or oppose from a court of competent jurisdiction any of the items described in clauses (iii)\u202fand (iv). The exercise of, or opposition to, any of those items does not waive the right of any party to a reference pursuant to this reference provision as provided herein.",
+   "parent_id": "#/texts/24"
+  },
+  {
+   "id": "#/texts/29",
+   "label": "list_item",
+   "page": 4,
+   "bounds": {
+    "left": 60.0,
+    "top": 304.544,
+    "right": 553.023,
+    "bottom": 370.981
+   },
+   "rawText": "(d) The referee shall be a retired judge or justice selected by mutual written agreement of the parties. If the parties do not agree within ten (10)\u202fdays of a written request to do so by any party, then, upon request of any party, the referee shall be selected by the Presiding Judge of the Court (or his or her representative). A request for appointment of a referee may be heard on an ex parte or expedited basis, and the parties agree that irreparable harm would result if ex parte relief is not granted. Pursuant to CCP \u00a7 170.6, each party shall have one peremptory challenge to the referee selected by the Presiding Judge of the Court (or his or her representative).",
+   "parent_id": "#/texts/24"
+  },
+  {
+   "id": "#/texts/30",
+   "label": "list_item",
+   "page": 4,
+   "bounds": {
+    "left": 60.0,
+    "top": 382.058,
+    "right": 552.523,
+    "bottom": 437.422
+   },
+   "rawText": "(e) The parties agree that time is of the essence in conducting the reference proceedings. Accordingly, the referee shall be requested, subject to change in the time periods specified herein for good cause shown, to (i)\u202fset the matter for a status and trial-setting conference within fifteen (15) days after the date of selection of the referee, (ii)\u202fif practicable, try all issues of law or fact within one hundred twenty (120) days after the date of the conference and (iii)\u202freport a statement of decision within twenty (20) days after the matter has been submitted for decision.",
+   "parent_id": "#/texts/24"
+  },
+  {
+   "id": "#/texts/31",
+   "label": "list_item",
+   "page": 4,
+   "bounds": {
+    "left": 60.0,
+    "top": 448.499,
+    "right": 552.466,
+    "bottom": 514.937
+   },
+   "rawText": "(f) The referee will have power to expand or limit the amount and duration of discovery. The referee may set or extend discovery deadlines or cutoffs for good cause, including a party's failure to provide requested discovery for any reason whatsoever. Unless otherwise ordered based upon good cause shown, no party shall be entitled to 'priority' in conducting discovery, depositions may be taken by either party upon seven (7)\u202fdays written notice, and all other discovery shall be responded to within fifteen (15) days after service. All disputes relating to discovery which cannot be resolved by the parties shall be submitted to the referee whose decision shall be final and binding.",
+   "parent_id": "#/texts/24"
+  },
+  {
+   "id": "#/texts/32",
+   "label": "list_item",
+   "page": 4,
+   "bounds": {
+    "left": 60.0,
+    "top": 526.014,
+    "right": 552.446,
+    "bottom": 614.598
+   },
+   "rawText": "(g) Except as expressly set forth herein, the referee shall determine the manner in which the reference proceeding is conducted including the time and place of hearings, the order of presentation of evidence, and all other questions that arise with respect to the course of the reference proceeding. All proceedings and hearings conducted before the referee, except for trial, shall be conducted without a court reporter, except that when any party so requests, a court reporter will be used at any hearing conducted before the referee, and the referee will be provided a courtesy copy of the transcript. The party making such a request shall have the obligation to arrange for and pay the court reporter. Subject to the referee's power to award costs to the prevailing party, the parties will equally share the cost of the referee and the court reporter at trial.",
+   "parent_id": "#/texts/24"
+  },
+  {
+   "id": "#/texts/33",
+   "label": "page_footer",
+   "page": 4,
+   "bounds": {
+    "left": 302.25,
+    "top": 637.675,
+    "right": 309.75,
+    "bottom": 648.745
+   },
+   "rawText": "4.",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/34",
+   "label": "text",
+   "page": 5,
+   "bounds": {
+    "left": 60.0,
+    "top": 94.14800000000002,
+    "right": 552.244,
+    "bottom": 227.02599999999995
+   },
+   "rawText": "(h) The referee shall be required to determine all issues in accordance with existing case law and the statutory laws of the State of California. The rules\u202fof evidence applicable to proceedings at law in the State of California will be applicable to the reference proceeding. The referee shall be empowered to enter equitable as well as legal relief, enter equitable orders that will be binding on the parties and rule\u202fon any motion which would be authorized in a court proceeding, including without limitation motions for summary judgment or summary adjudication. The referee shall issue a decision at the close of the reference proceeding which disposes of all claims of the parties that are the subject of the reference. Pursuant to CCP \u00a7 644, such decision shall be entered by the Court as a judgment or an order in the same manner as if the action had been tried by the Court and any such decision will be final, binding and conclusive. The parties reserve the right to appeal from the final judgment or order or from any appealable decision or order entered by the referee. The parties reserve the right to findings of fact, conclusions of laws, a written statement of decision, and the right to move for a new trial or a different judgment, which new trial, if granted, is also to be a reference proceeding under this provision.",
+   "parent_id": "#/texts/24"
+  },
+  {
+   "id": "#/texts/35",
+   "label": "text",
+   "page": 5,
+   "bounds": {
+    "left": 60.0,
+    "top": 238.10299999999995,
+    "right": 553.555,
+    "bottom": 293.467
+   },
+   "rawText": "(i) If the enabling legislation which provides for appointment of a referee is repealed (and no successor statute is enacted), any dispute between the parties that would otherwise be determined by reference procedure will be resolved and determined by arbitration. The arbitration will be conducted by a retired judge or justice, in accordance with the California Arbitration Act \u00a71280 through \u00a71294.2 of the CCP as amended from time to time. The limitations with respect to discovery set forth above shall apply to any such arbitration proceeding.",
+   "parent_id": "#/texts/24"
+  },
+  {
+   "id": "#/texts/36",
+   "label": "text",
+   "page": 5,
+   "bounds": {
+    "left": 60.0,
+    "top": 304.544,
+    "right": 556.328,
+    "bottom": 382.055
+   },
+   "rawText": "(j) THE PARTIES   RECOGNIZE   AND   AGREE   THAT   ALL   CONTROVERSIES,   DISPUTES   AND CLAIMS RESOLVED UNDER THIS REFERENCE PROVISION WILL BE DECIDED BY A REFEREE AND NOT BY A JURY. AFTER CONSULTING (OR HAVING HAD THE OPPORTUNITY TO CONSULT) WITH COUNSEL OF ITS, HIS OR HER OWN CHOICE, EACH PARTY KNOWINGLY AND VOLUNTARILY, AND FOR THE MUTUAL BENEFIT   OF   ALL   PARTIES,   AGREES   THAT   THIS   REFERENCE   PROVISION   WILL   APPLY   TO   ANY CONTROVERSY, DISPUTE OR CLAIM BETWEEN OR AMONG THEM ARISING OUT OF OR IN ANY WAY RELATED TO, THIS AGREEMENT OR THE OTHER LOAN DOCUMENTS.",
+   "parent_id": "#/texts/24"
+  },
+  {
+   "id": "#/texts/37",
+   "label": "text",
+   "page": 5,
+   "bounds": {
+    "left": 60.0,
+    "top": 393.132,
+    "right": 552.516,
+    "bottom": 437.422
+   },
+   "rawText": "15. This Agreement represents the entire agreement with respect to the subject matter hereof, and supersedes all prior negotiations, agreements and commitments. Creditor is not relying on any representations by Lender or Borrower in entering into this Agreement, and Creditor has kept and will continue to keep itself fully apprised of the financial and other condition of Borrower. This Agreement may be amended only by written instrument signed by Creditor and Lender.",
+   "parent_id": "#/texts/24"
+  },
+  {
+   "id": "#/texts/38",
+   "label": "text",
+   "page": 5,
+   "bounds": {
+    "left": 60.0,
+    "top": 448.499,
+    "right": 552.423,
+    "bottom": 481.716
+   },
+   "rawText": "16. In the event of any legal action to enforce the rights of a party under this Agreement, the party prevailing in such action shall be entitled, in addition to such other relief as may be granted, all reasonable costs and expenses, including reasonable attorneys' fees, incurred in such action.",
+   "parent_id": "#/texts/24"
+  },
+  {
+   "id": "#/texts/39",
+   "label": "section_header",
+   "page": 5,
+   "bounds": {
+    "left": 217.783,
+    "top": 492.793,
+    "right": 394.216,
+    "bottom": 503.863
+   },
+   "rawText": "[ Balance of Page\u202fIntentionally Left Blank ]",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/40",
+   "label": "page_footer",
+   "page": 5,
+   "bounds": {
+    "left": 302.25,
+    "top": 526.94,
+    "right": 309.75,
+    "bottom": 538.01
+   },
+   "rawText": "5.",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/41",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 96.0,
+    "top": 94.14800000000002,
+    "right": 550.344,
+    "bottom": 105.21799999999996
+   },
+   "rawText": "IN WITNESS WHEREOF, the undersigned have executed this Agreement as of the date first above written.",
+   "parent_id": "#/texts/39"
+  },
+  {
+   "id": "#/texts/42",
+   "label": "section_header",
+   "page": 6,
+   "bounds": {
+    "left": 60.75,
+    "top": 117.04499999999996,
+    "right": 356.234,
+    "bottom": 128.115
+   },
+   "rawText": "CREDITOR: LENDER:",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/43",
+   "label": "section_header",
+   "page": 6,
+   "bounds": {
+    "left": 60.75,
+    "top": 142.192,
+    "right": 515.42,
+    "bottom": 153.26199999999994
+   },
+   "rawText": "NEOLYNC ELECTRONICS PRIVATE LIMITED WESTERN ALLIANCE BANK, AN ARIZONA",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/44",
+   "label": "section_header",
+   "page": 6,
+   "bounds": {
+    "left": 311.235,
+    "top": 153.265,
+    "right": 386.603,
+    "bottom": 164.33500000000004
+   },
+   "rawText": "CORPORATION",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/45",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 311.235,
+    "top": 178.41200000000003,
+    "right": 396.312,
+    "bottom": 189.48199999999997
+   },
+   "rawText": "By: /s/ Ben Schwartz",
+   "parent_id": "#/texts/44"
+  },
+  {
+   "id": "#/texts/46",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 311.235,
+    "top": 191.986,
+    "right": 396.213,
+    "bottom": 203.05499999999995
+   },
+   "rawText": "Name: Ben Schwartz",
+   "parent_id": "#/texts/44"
+  },
+  {
+   "id": "#/texts/47",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 311.235,
+    "top": 204.55899999999997,
+    "right": 392.883,
+    "bottom": 215.62900000000002
+   },
+   "rawText": "Title: Vice President",
+   "parent_id": "#/texts/44"
+  },
+  {
+   "id": "#/texts/48",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 311.235,
+    "top": 229.70600000000002,
+    "right": 393.996,
+    "bottom": 240.77599999999995
+   },
+   "rawText": "Address for Notices:",
+   "parent_id": "#/texts/44"
+  },
+  {
+   "id": "#/texts/49",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 60.75,
+    "top": 178.41200000000003,
+    "right": 198.656,
+    "bottom": 189.48199999999997
+   },
+   "rawText": "By: /s/ Mohammed Azgar Hussain",
+   "parent_id": "#/texts/44"
+  },
+  {
+   "id": "#/texts/50",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 60.75,
+    "top": 191.986,
+    "right": 199.337,
+    "bottom": 203.05499999999995
+   },
+   "rawText": "Name: Mohammed Azgar Hussain",
+   "parent_id": "#/texts/44"
+  },
+  {
+   "id": "#/texts/51",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 60.75,
+    "top": 204.55899999999997,
+    "right": 195.077,
+    "bottom": 215.62900000000002
+   },
+   "rawText": "Title: General Manager (Finance)",
+   "parent_id": "#/texts/44"
+  },
+  {
+   "id": "#/texts/52",
+   "label": "section_header",
+   "page": 6,
+   "bounds": {
+    "left": 60.75,
+    "top": 229.70600000000002,
+    "right": 148.01,
+    "bottom": 240.77599999999995
+   },
+   "rawText": "Address for Notices:",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/53",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 60.75,
+    "top": 254.85299999999995,
+    "right": 423.293,
+    "bottom": 321.29
+   },
+   "rawText": "Attn: Finance Department 4TH Floor, Plot 1269, Jubilee Hills Hyderabad 500033 Telangana,\u202fINDIA Tel: [*] Email: [*] Attn: Legal Department One East Washington Street Phoenix, AZ 85004 Email: [*]",
+   "parent_id": "#/texts/52"
+  },
+  {
+   "id": "#/texts/54",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 60.0,
+    "top": 333.118,
+    "right": 292.454,
+    "bottom": 344.187
+   },
+   "rawText": "The undersigned approves of the terms of this Agreement.",
+   "parent_id": "#/texts/52"
+  },
+  {
+   "id": "#/texts/55",
+   "label": "section_header",
+   "page": 6,
+   "bounds": {
+    "left": 60.75,
+    "top": 356.015,
+    "right": 124.638,
+    "bottom": 367.084
+   },
+   "rawText": "BORROWER:",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/56",
+   "label": "section_header",
+   "page": 6,
+   "bounds": {
+    "left": 60.75,
+    "top": 381.162,
+    "right": 198.417,
+    "bottom": 392.231
+   },
+   "rawText": "EXYN TECHNOLOGIES,\u202fINC.",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/57",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 60.75,
+    "top": 406.308,
+    "right": 182.813,
+    "bottom": 443.525
+   },
+   "rawText": "By: /s/ Brandon Torres Declet Name: Brandon Torres Declet Title: Chief Executive Officer",
+   "parent_id": "#/texts/56"
+  },
+  {
+   "id": "#/texts/58",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 60.75,
+    "top": 457.602,
+    "right": 177.907,
+    "bottom": 512.966
+   },
+   "rawText": "Attn: Richard Sotelo 2118 Washington Avenue Suite\u202f1000 Philadelphia, PA 19146-2842 Email: [*]",
+   "parent_id": "#/texts/56"
+  },
+  {
+   "id": "#/texts/59",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 211.424,
+    "top": 524.793,
+    "right": 400.576,
+    "bottom": 535.863
+   },
+   "rawText": "[ Signature Page\u202fto Subordination Agreement ]",
+   "parent_id": "#/texts/56"
+  }
+ ]
+}

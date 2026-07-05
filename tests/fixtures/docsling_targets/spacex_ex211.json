@@ -1,0 +1,38 @@
+{
+ "page_count": 1,
+ "pages": [
+  {
+   "index": 0,
+   "width": 612.0,
+   "height": 792.0
+  }
+ ],
+ "annotations": [
+  {
+   "id": "#/texts/0",
+   "label": "section_header",
+   "page": 0,
+   "bounds": {
+    "left": 230.47,
+    "top": 131.66700000000003,
+    "right": 500.086,
+    "bottom": 159.351
+   },
+   "rawText": "SPACE EXPLORATION TECHNOLOGIES CORP. LIST OF SIGNIFICANT SUBSIDIARIES",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/1",
+   "label": "section_header",
+   "page": 0,
+   "bounds": {
+    "left": 549.1,
+    "top": 73.59900000000005,
+    "right": 600.779,
+    "bottom": 84.66899999999998
+   },
+   "rawText": "Exhibit 21.1",
+   "parent_id": null
+  }
+ ]
+}

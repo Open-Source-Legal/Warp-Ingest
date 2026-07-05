@@ -1,0 +1,910 @@
+{
+ "tests/fixtures/EtonPharmaceuticalsInc_20191114_10-Q_EX-10.1_11893941_EX-10.1_Development_Agreement_ZrZJLLv.pdf::p2": {
+  "units": [
+   {
+    "bbox_frac": [
+     0.13504201680672268,
+     0.06678503562945368,
+     0.5933613445378152,
+     0.07653087885985747
+    ],
+    "member_order": [
+     0
+    ],
+    "text": "1.16 \u201cGMP\u201d means current good manufacturing practices as defined by the FDA.",
+    "unit_id": "g0"
+   },
+   {
+    "bbox_frac": [
+     0.08411764705882352,
+     0.07952969121140142,
+     0.9158823529411766,
+     0.1260106888361045
+    ],
+    "member_order": [
+     1
+    ],
+    "text": "1.17 \u201cGovernmental Entity\u201d means any arbitrator, court, judicial, legislative, administrative, or regulatory agency, commission, department, board, or bureau or body or other government authority or instrumentality or any Person or entity exercising executive, legislative, judicial, regulatory, or administrative functions of or pertaining to government, whether foreign or domestic, whether federal, state, provincial, municipal, or other.",
+    "unit_id": "g1"
+   },
+   {
+    "bbox_frac": [
+     0.13504201680672268,
+     0.1282600950118765,
+     0.575326050420168,
+     0.1380059382422803
+    ],
+    "member_order": [
+     2
+    ],
+    "text": "1.18 \u201cGross Sales\u201d shall have the meaning ascribed to the term in Section 1.26.",
+    "unit_id": "g2"
+   },
+   {
+    "bbox_frac": [
+     0.13504201680672268,
+     0.14100475059382422,
+     0.6888436974789917,
+     0.15075059382422804
+    ],
+    "member_order": [
+     3
+    ],
+    "text": "1.19 \u201cIndemnitee\u201d shall have the meaning ascribed to the term in Section 13.3.1 of this Agreement.",
+    "unit_id": "g3"
+   },
+   {
+    "bbox_frac": [
+     0.13504201680672268,
+     0.15375059382422804,
+     0.6888436974789917,
+     0.16349643705463182
+    ],
+    "member_order": [
+     4
+    ],
+    "text": "1.20 \u201cIndemnitor\u201d shall have the meaning ascribed to the term in Section 13.3.1 of this Agreement.",
+    "unit_id": "g4"
+   },
+   {
+    "bbox_frac": [
+     0.13504201680672268,
+     0.16649524940617577,
+     0.7906941176470589,
+     0.17624109263657955
+    ],
+    "member_order": [
+     5
+    ],
+    "text": "1.21 \u201cInfringement Notification Date\u201d shall have the meaning ascribed to the term in Section 7.4 of this Agreement.",
+    "unit_id": "g5"
+   },
+   {
+    "bbox_frac": [
+     0.13504201680672268,
+     0.1792399049881235,
+     0.745073949579832,
+     0.1889857482185273
+    ],
+    "member_order": [
+     6
+    ],
+    "text": "1.22 \u201cIntellectual Rights Suit\u201d shall have the meaning ascribed to the term in Section 7.4 of this Agreement.",
+    "unit_id": "g6"
+   },
+   {
+    "bbox_frac": [
+     0.08411764705882352,
+     0.19198456057007127,
+     0.9158823529411766,
+     0.21447624703087886
+    ],
+    "member_order": [
+     7
+    ],
+    "text": "1.23 \u201cLosses\u201d means all losses, costs, damages, judgments, settlements, interest, fees or expenses including, without limitation, all reasonable attorneys\u2019 fees, experts\u2019 or consultants\u2019 fees, expenses and costs.",
+    "unit_id": "g7"
+   },
+   {
+    "bbox_frac": [
+     0.13504201680672268,
+     0.21672565320665083,
+     0.7440134453781513,
+     0.22647149643705464
+    ],
+    "member_order": [
+     8
+    ],
+    "text": "1.24 \u201cMarket\u201d or \u201cMarketing\u201d shall have the meaning ascribed to the term in Section 2.1 of this Agreement.",
+    "unit_id": "g8"
+   },
+   {
+    "bbox_frac": [
+     0.13504201680672268,
+     0.2294703087885986,
+     0.4893899159663866,
+     0.23921615201900237
+    ],
+    "member_order": [
+     9
+    ],
+    "text": "1.25 \u201cNDC\u201d means a national drug code as issued by the FDA.",
+    "unit_id": "g9"
+   },
+   {
+    "bbox_frac": [
+     0.08411764705882352,
+     0.24221496437054632,
+     0.9158823529411766,
+     0.3854085510688836
+    ],
+    "member_order": [
+     10
+    ],
+    "text": "1.26 \u201cNet Sales\u201d means, with respect to each Product sold in the Territory, the aggregate gross sales amount invoiced by ETON or any sublicensee or other party authorized by ETON to wholesale or distribute the Products on an arms-length basis to Third Parties in the Territory (\u201cGross Sales\u201d), less (as applicable) the following ETON expenses as accrued and adjusted for amounts actually taken, consistent with ETON\u2019S standard accounting practices in accordance with GAAP: (a) amounts refunded or credited for returned, damaged, outdated, short-dated or defective goods, and bad debts, and (b) all of the following: (i) taxes, duties and other governmental charges related to the production, use or sale of the Products (including, including without limitation the brand manufacturer\u2019s tax imposed pursuant to the Patient Protection and Affordable Care Act (Pub. L. No. 111-148) as amended or replaced, but not including taxes assessed against the income derived from such sale)\u037e (ii) trade, quantity and cash discounts, allowances, retroactive price adjustments, credit incentive payments, chargebacks, patient support programs, and rebates (including governmental rebates or other price reductions provided, based on sales by ETON to any Governmental Entity or regulatory authority in respect of state or federal Medicare, Medicaid, government pricing or similar programs\u037e)\u037e and (iii) any costs incurred in connection with or arising out of compliance with any Risk Evaluation and Mitigation Strategies approved by the FDA and (iv) any expenses associated with serialization of the Products. Distribution of Licensed Products for clinical trials or as samples will not be deemed a \u201cNet Sale\u201d under this definition.",
+    "unit_id": "g10"
+   }
+  ]
+ },
+ "tests/fixtures/USC Title 1 - CHAPTER 1.pdf::p0": {
+  "units": [
+   {
+    "bbox_frac": [
+     0.08823529411764706,
+     0.05532070707070707,
+     0.8847908496732025,
+     0.18913257575757578
+    ],
+    "member_order": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "text": "(Release Point 117-285not263) TITLE 1\u2014GENERAL PROVISIONS This title was enacted by act July 30, 1947, ch. 388, \u00a71, 61 Stat. 633 Chap. Sec.",
+    "unit_id": "g0"
+   },
+   {
+    "bbox_frac": [
+     0.08823529411764706,
+     0.1914570707070707,
+     0.8848039215686274,
+     0.20660858585858585
+    ],
+    "member_order": [
+     4
+    ],
+    "text": "1. Rules of construction 1",
+    "unit_id": "g1"
+   },
+   {
+    "bbox_frac": [
+     0.08823529411764706,
+     0.20891919191919192,
+     0.8848039215686274,
+     0.22407070707070706
+    ],
+    "member_order": [
+     5
+    ],
+    "text": "2. Acts and resolutions; formalities of enactment; repeals; sealing of instruments 101",
+    "unit_id": "g2"
+   },
+   {
+    "bbox_frac": [
+     0.08823529411764706,
+     0.2263939393939394,
+     0.8848039215686274,
+     0.3497916666666667
+    ],
+    "member_order": [
+     6,
+     7,
+     8
+    ],
+    "text": "3. Code of Laws of United States and Supplements; District of Columbia Code and 201 Supplements STATUTORY NOTES AND RELATED SUBSIDIARIES POSITIVE LAW; CITATION This title has been made positive law by section 1 of act July 30, 1947, ch. 388, 61 Stat. 633, which provided in part that: \"Title 1 of the United States Code entitled 'General Provisions', is codified and enacted into positive law and may be cited as '1 U. S. C., \u00a7\u2014\u2014.' \"",
+    "unit_id": "g3"
+   },
+   {
+    "bbox_frac": [
+     0.08823529411764706,
+     0.36139520202020203,
+     0.8742532679738563,
+     0.44003156565656565
+    ],
+    "member_order": [
+     9,
+     10
+    ],
+    "text": "REPEALS Act July 30, 1947, ch. 388, \u00a72, 61 Stat. 640, provided that the sections or parts thereof of the Statutes at Large or the Revised Statutes covering provisions codified in this Act are repealed insofar as the provisions appeared in former Title 1, and provided that any rights or liabilities now existing under the repealed sections or parts thereof shall not be affected by the repeal.",
+    "unit_id": "g4"
+   },
+   {
+    "bbox_frac": [
+     0.08823529411764706,
+     0.451635101010101,
+     0.8477124183006535,
+     0.949790404040404
+    ],
+    "member_order": [
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35
+    ],
+    "text": "WRITS OF ERROR Act June 25, 1948, ch. 646, \u00a723, 62 Stat. 990, provided that: \"All Acts of Congress referring to writs of error shall be construed as amended to the extent necessary to substitute appeal for writ of error.\" TABLE SHOWING DISPOSITION OF ALL SECTIONS OF FORMER TITLE 1 Title 1 Former Revised Statutes Title 1 New Sections Statutes at Large Sections 1 R.S., \u00a71 1 2 R.S., \u00a72 2 3 R.S., \u00a73 3 4 R.S., \u00a74 4 5 R.S., \u00a75 5 6 June 11, 1940, ch. 325, \u00a71, 54 Stat. 305 6 21 R.S., \u00a77 101 22 R.S., \u00a78 102 23 R.S., \u00a79 103 24 R.S., \u00a710 104 25 R.S., \u00a711 105 26 Nov. 1, 1893, 28 Stat. App. 5 106 Mar. 2, 1895, ch. 177, \u00a71, 28 Stat. 769. 27 Mar. 6, 1920, ch. 94, \u00a71, 41 Stat. 520 107 28 R.S., \u00a712 108 29 R.S., \u00a713 109 Mar. 22, 1944, ch. 123, 58 Stat. 118. 29a R.S., \u00a75599 110 29b Mar. 3, 1933, ch. 202, \u00a73, 47 Stat. 1431 111 30 Jan. 12, 1895, ch. 23, \u00a773, 28 Stat. 615",
+    "unit_id": "g5"
+   }
+  ]
+ },
+ "tests/fixtures/contracts/fw_nctcog.pdf::p1": {
+  "units": [
+   {
+    "bbox_frac": [
+     0.17725490196078433,
+     0.043597222222222225,
+     0.8818545751633988,
+     0.13425378787878786
+    ],
+    "member_order": [
+     0,
+     1,
+     2
+    ],
+    "text": "Location: 624 Six Flags Drive, Suite 125, Arlington, Texas 76011 Cost is up to $ 3, 000 per trainee Total cost to be due and payable under this Interlocal Agreement will not exceed eighteen thousand dollars ($ 18, 000).",
+    "unit_id": "g0"
+   },
+   {
+    "bbox_frac": [
+     0.11843137254901961,
+     0.15723358585858585,
+     0.8849738562091504,
+     0.2957689393939394
+    ],
+    "member_order": [
+     3,
+     4
+    ],
+    "text": "ARTICLE 2. \u2014 PAYMENTS In accordance with the Interlocal Cooperation Act, the parties will make payments for goods or services rendered under this Agreement from available current revenues. NCTCOG will invoice the City for its participation in the Basic Peace Officer Training Program, and the City shall remit the amount of the invoice to NCTCOG within thirty ( 30) calendar days of receipt of the invoice In the event that payment of invoiced services is not received by the NCTCOG within thirty ( 30) calendar days of receipt of the accepted invoice, NCTCOG is authorized to charge the party interest in accordance with the Prompt Payment Act.",
+    "unit_id": "g1"
+   },
+   {
+    "bbox_frac": [
+     0.11843137254901961,
+     0.3187487373737374,
+     0.8834133986928104,
+     0.39538257575757574
+    ],
+    "member_order": [
+     5,
+     6
+    ],
+    "text": "ARTICLE 3. - SEVERABILITY CLAUSE If any provision of this Agreement or any application hereof shall be invalid, illegal, or unenforceable, the validity, legality, and enforceability of the remaining provisions and applications shall not in any way be affected or impaired thereby.",
+    "unit_id": "g2"
+   },
+   {
+    "bbox_frac": [
+     0.11843137254901961,
+     0.41480934343434345,
+     0.883859477124183,
+     0.4721325757575757
+    ],
+    "member_order": [
+     7,
+     8
+    ],
+    "text": "ARTICLE 4. - GOVERNING LAW This Agreement shall be construed in accordance with and governed by the laws of the State of Texas.",
+    "unit_id": "g3"
+   },
+   {
+    "bbox_frac": [
+     0.11843137254901961,
+     0.49511237373737377,
+     0.8814215686274509,
+     0.5705340909090909
+    ],
+    "member_order": [
+     9,
+     10
+    ],
+    "text": "ARTICLE 5. - WHOLE AGREEMENT This Agreement, as provided herein, constitutes the complete contract between the parties hereto regarding the subject matter herein described, and supersedes any and all prior oral and written agreements between the parties relating to the matters herein.",
+    "unit_id": "g4"
+   },
+   {
+    "bbox_frac": [
+     0.11843137254901961,
+     0.5899608585858586,
+     0.8841339869281046,
+     0.6499280303030303
+    ],
+    "member_order": [
+     11,
+     12
+    ],
+    "text": "ARTICLE 6. - RECORDS RETENTION Records shall be retained by NCTCOG for at least THREE ( 3) YEARS following the closure of the most recent audit report and until any outstanding litigation, audit, or claim has been resolved.",
+    "unit_id": "g5"
+   },
+   {
+    "bbox_frac": [
+     0.1180392156862745,
+     0.6699608585858586,
+     0.8901339869281045,
+     0.9381098484848485
+    ],
+    "member_order": [
+     13,
+     14,
+     15,
+     16,
+     17
+    ],
+    "text": "ARTICLE 7. - MISCELLANEOUS It is expressly understood and agreed that in the execution of this Agreement neither the parties to this Agreement nor NCTCOG waive, nor shall be deemed to waive, any immunity or defense that would otherwise be available to each against claims arising in the exercise of governmental powers and functions. Each individual signing this Agreement on behalf of a party warrants that he or she is legally authorized to do so and that the party is legally authorized to perform the obligations undertaken. Also, this Agreement states the entire agreement of the parties, and an amendment to it is not effective unless in writing and signed by both parties. By entering into this Interlocal Agreement, the parties do not create any obligations, express or implied, other than those set forth herein, and this Agreement shall not create any rights in parties not signatories hereto. IN WITNESS WHEREOF, the parties hereto have caused this Agreement to be duly executed as of the date signed by the C; ity' s Assistant City Manager.",
+    "unit_id": "g6"
+   }
+  ]
+ },
+ "tests/fixtures/s1/cerebras_s1__exhibit1013esx_f124a6.pdf::p0": {
+  "units": [
+   {
+    "bbox_frac": [
+     0.10714379084967321,
+     0.08205555555555555,
+     0.9019607843137255,
+     0.8638320707070707
+    ],
+    "member_order": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "text": "Exhibit 10.13(e) Portions of this exhibit, indicated by [***], have been omitted in accordance with Item 601(b)(10)(iv) of Regulation S-K. The omitted information is (i) not material and (ii) treated by the Registrant as private or confidential. Portions of this exhibit have been omitted in accordance with Item 601(a)(5) of Regulation S-K. The Registrant undertakes to furnish a copy of all omitted information, schedules, and exhibits to the U.S. Securities and Exchange Commission upon its request. Statement of Work Date July 10, 2024 This SOW is entered into and forms part of the Master Services Agreement entered into between G42 HOLDING US LLC, a Delaware corporation (\"G42\") and CEREBRAS SYSTEMS, INC., a Delaware corporation (the \"Supplier\") on 13 September 2023 (the \"Agreement\"). Unless otherwise provided or the context otherwise requires, capitalised expressions used in this SOW shall have the meanings given to them in the main body of the Agreement. If there is any conflict or inconsistency between any term of this SOW and any term set out in the main body of the Agreement (including its Schedule), then such conflict or inconsistency shall be resolved in accordance with clause 2.5 of the Agreement. Supplier Representatives G42 Representatives Purchase Number SOW Effective Date The date of acceptance of at least [***] of the CS-3 systems purchased by G42 pursuant to the terms of either:",
+    "unit_id": "g0"
+   },
+   {
+    "bbox_frac": [
+     0.33445261437908497,
+     0.8937563131313132,
+     0.6098366013071896,
+     0.9063825757575757
+    ],
+    "member_order": [
+     13
+    ],
+    "text": "(i) Purchase Order # 2023-0004; or",
+    "unit_id": "g1"
+   }
+  ]
+ },
+ "tests/fixtures/s1/cerebras_s1__exhibit1013esx_f124a6.pdf::p3": {
+  "units": [
+   {
+    "bbox_frac": [
+     0.3290882352941176,
+     0.0754520202020202,
+     0.8190130718954248,
+     0.1513270202020202
+    ],
+    "member_order": [
+     0
+    ],
+    "text": "(vi)The Supplier shall ensure that Authorized Contacts comply with all applicable Service Location rules and guidelines implemented by the Service Location provider when accessing the Service Location.",
+    "unit_id": "g0"
+   },
+   {
+    "bbox_frac": [
+     0.10714379084967321,
+     0.15978282828282828,
+     0.8954967320261438,
+     0.8997941919191919
+    ],
+    "member_order": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "text": "(vii) The Supplier or any third party entering the Service Location on the Supplier\u2019s behalf must procure and maintain the insurance types, amounts and coverage extensions as specified by the Service Location provider from time to time. Each of the above shall be an \u201cAccess Condition\u201d and together shall be known as the \u201cAccess Conditions\u201d. For the avoidance of doubt, any reference to G42\u2019s premises in clause 4.1(f) and/or clause 10.2(b)(i) of the Agreement shall include the Service Location. Deliverables Operation and management of the [***] Clusters. Further details are set out in Appendix A of this SOW. Specifications Cerebras shall provide operation and management of the [***] Clusters located at the Service Location as set forth in this SOW. This includes the management, monitoring and maintenance of up to [***] consuming up to [***] of power, and providing [***] of AI Compute including CS-3s, and associated MemoryX and SwarmX cluster equipment, as well as [***]. Includes any required [***]. Performing software upgrades to all equipment as necessary. The total headcount will be [***]. [***] Performance (1) Subject to paragraph (2), the Supplier will use commercially reasonable Standards efforts to ensure that the Cluster is available for the Monthly Availability Percentage (as defined in the Service Credits section set out below). (2) Notwithstanding paragraph (1), the Supplier acknowledges that if the Cluster is not available for the Monthly Availability Percentage, G42 will be entitled to Service Credits in accordance with sub-paragraphs (ii) to (iv) of paragraph (1) and paragraphs (2) to (5) of the Service Credits row of this table (subject only to the provisions on Scheduled Downtime and Excluded Downtime set out therein).",
+    "unit_id": "g1"
+   }
+  ]
+ },
+ "tests/fixtures/s1/eikon_s1__ex1010_2e241e.pdf::p1": {
+  "units": [
+   {
+    "bbox_frac": [
+     0.09909640522875816,
+     0.09415530303030303,
+     1.0,
+     0.3161287878787879
+    ],
+    "member_order": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "text": "THIS EXCLUSIVE LICENSE AND DEVELOPMENT AGREEMENT (this \u201cAgreement\u201d) is made and entered in to as of this 29 day of March, 2023 (\u201cEffective Date\u201d) between (i) Superb Wisdom Limited, a company organized and existing under the laws of Samoa with its principal office at Le Sanalele Complex, Ground Floor, Vaea Street, Saleufi, P.O. Box 1868, Apia, Samoa (\u201cSW\u201d), (ii) Eikon Therapeutics, Inc., a company organized and existing under the laws of Delaware with offices at 3929 Point Eden Way, Hayward, CA, 94545 (\u201cEikon\u201d) and (iii) Seven and Eight Biotherapeutics Corp., a Cayman corporation (\u201cParent\u201d) and Birdie Biopharmaceuticals Inc., a Cayman [corporation] (\u201cBirdie Cayman\u201d) and Birdie Biotherapeutics HK Limited, a Hong Kong entity; Birdie Biopharmaceuticals Co. Limited, a Taiwanese entity; Seven and Eight Biopharmaceuticals Inc., a Delaware (U.S.) entity; Birdie Biopharmaceuticals HK Limited, a Hong Kong entity; Birdie Biotechnology (BVI Limited), British Virgin Islands entity; Birdie Biotechnology HK Limited, a Hong Kong entity; and Birdie Biopharmaceuticals (Beijing) Co., Ltd., a Chinese entity (all of the foregoing entities in this clause (iii), collectively, \u201c7&8\u201d and each a \u201c7&8 Entity\u201d). SW, Eikon and 7&8 may each be referred to herein individually as a \u201cParty\u201d and collectively as the \u201cParties\u201d. Recitals: SW and certain 7&8 Entities were parties to a certain Exclusive License and Development Agreement dated as of May 15, 2017 (the \u201cOld Agreement\u201d) and immediately prior to executing this Agreement, together with the other subsidiaries and affiliates party to the Old Agreement, have",
+    "unit_id": "g0"
+   },
+   {
+    "bbox_frac": [
+     0.09926470588235294,
+     0.3104936868686869,
+     1.0,
+     0.5065631313131312
+    ],
+    "member_order": [
+     4,
+     5,
+     6,
+     7
+    ],
+    "text": "A. mutually agreed to terminate the Old Agreement and remove any registrations of the Old Agreement by executing the Mutual Termination Agreement attached hereto as Exhibit A (the \u201cMutual Termination Agreement\u201d). SW and 7&8 desire that in the event that this Agreement is terminated for any reason, then, upon 7&8\u2019s request, SW and 7&8 shall be obligated to sign the form of Exclusive License and Development Agreement attached hereto as Exhibit B (the \u201cSW/7&8 Agreement\u201d), and SW and 7&8 hereby B. covenant to each other to do so without making any changes other than to enter a new effective date and stipulate the names and titles of the signatories executing it on behalf of the respective entities. SW is the owner of all rights, title and interest in and to the Patent Rights (as defined in Article 1.24) and the Licensed Compound (as defined in Article 1.19) disclosed in the Patent Rights, and desires to have Eikon conduct clinical research and development relating to the Licensed Compound C. (and pre-clinical research to the extent Eikon believes advisable) and be able to manufacture and market and sell the Licensed Compounds and Licensed Products in the Territory (as defined in Article 1.30). SW retains the Patent Rights except for the licenses granted in this Agreement. Eikon has expertise in the areas of pre-clinical and clinical development in oncology and other fields in the Territory. Eikon wishes to: (i) conduct defined in Article 1.13) with the relevant regulatory agencies in the Territory to obtain approval to conduct clinical development of the Licensed Compound in such parts of the Territory as it believes will benefit the program; and (iii) if the clinical data so merit (in Eikon\u2019s sole discretion) file an NDA (as defined in Article 1.22) with such regulatory agencies to obtain marketing approval of the Licensed Compound in such countries within the Territory as Eikon shall select (in its sole discretion).",
+    "unit_id": "g1"
+   },
+   {
+    "bbox_frac": [
+     0.09926470588235294,
+     0.5079179292929293,
+     1.0,
+     0.5345265151515152
+    ],
+    "member_order": [
+     8
+    ],
+    "text": "D. pre-clinical research (as it deems necessary or useful) and clinical development at its sole expense; (ii) operate under the existing IND filed by or on behalf of 7&8, and if it deems necessary or useful, file INDs (as Hence, the Parties desire to collaborate with the aim of developing and commercializing the Licensed Products (as defined in Article 1.20), and SW E. wishes to grant Eikon an exclusive license to develop, make, have made, use, sell, offer to sell and import the Licensed Compounds and the Licensed Products in the Territory for this purpose.",
+    "unit_id": "g2"
+   }
+  ]
+ },
+ "tests/fixtures/s1/eikon_s1__ex231_6fa7f0.pdf::p0": {
+  "units": [
+   {
+    "bbox_frac": [
+     0.1039656862745098,
+     0.07710984848484848,
+     1.0,
+     0.24821338383838384
+    ],
+    "member_order": [
+     0,
+     1,
+     2
+    ],
+    "text": "Exhibit 23.1 CONSENT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM We hereby consent to the use in this Registration Statement on Form S-1 of Eikon Therapeutics, Inc. of our report dated May 9, 2025, relating to the financial statements of Eikon Therapeutics, Inc., which appears in this Registration Statement. We also consent to the reference to us under the heading \u201cExperts\u201d in such Registration Statement. /s/ PricewaterhouseCoopers LLP San Jose, California January 9, 2026",
+    "unit_id": "g0"
+   }
+  ]
+ },
+ "tests/fixtures/s1/exyn_s1__ex1010_de36c8.pdf::p0": {
+  "units": [
+   {
+    "bbox_frac": [
+     0.09803921568627451,
+     0.0910909090909091,
+     0.9019591503267974,
+     0.14566287878787879
+    ],
+    "member_order": [
+     0,
+     1
+    ],
+    "text": "Exhibit 10.10 Certain information has been excluded as marked by [*] from this exhibit because it (i) is not material and (ii) would be competitively harmful if publicly disclosed.",
+    "unit_id": "g0"
+   },
+   {
+    "bbox_frac": [
+     0.09803921568627451,
+     0.161,
+     0.9039656862745098,
+     0.4204684343434344
+    ],
+    "member_order": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "text": "SUBORDINATION AGREEMENT Borrower: EXYN TECHNOLOGIES, INC. 2118 Washington Avenue Suite 1000 Philadelphia, PA 19146-2842 Creditor: NEOLYNC ELECTRONICS This SUBORDINATION AGREEMENT (this \u201cAgreement\u201d), dated as of July 11, 2025, is between NEOLYNC ELECTRONICS PRIVATE LIMITED (\u201cCreditor\u201d), and WESTERN ALLIANCE BANK, AN ARIZONA CORPORATION, (\u201cLender\u201d). R E C I T A L S",
+    "unit_id": "g1"
+   },
+   {
+    "bbox_frac": [
+     0.09803921568627451,
+     0.43580555555555556,
+     0.9019591503267974,
+     0.476395202020202
+    ],
+    "member_order": [
+     10
+    ],
+    "text": "A. EXYN TECHNOLOGIES, INC., a Delaware corporation (\u201cBorrower\u201d) has requested and/or obtained certain credit accommodations from Lender which are or may be from time to time secured by assets and property of Borrower.",
+    "unit_id": "g2"
+   },
+   {
+    "bbox_frac": [
+     0.09803921568627451,
+     0.49173232323232324,
+     0.9017908496732026,
+     0.5323219696969697
+    ],
+    "member_order": [
+     11
+    ],
+    "text": "B. Creditor has extended loans or other credit accommodations to Borrower, and/or may extend loans or other credit accommodations to Borrower from time to time that are or may from time to time be secured by assets and property of Borrower.",
+    "unit_id": "g3"
+   },
+   {
+    "bbox_frac": [
+     0.09803921568627451,
+     0.5476590909090909,
+     0.9019264705882354,
+     0.6721388888888888
+    ],
+    "member_order": [
+     12,
+     13
+    ],
+    "text": "C. In order to induce Lender to extend credit to Borrower and, at any time or from time to time, at Lender\u2019s option, to make such further loans, extensions of credit, or other accommodations to or for the account of Borrower, or to extend credit upon any instrument or writing in respect of which Borrower may be liable in any capacity, or to grant such renewals or extension of any such loan, extension of credit, or other accommodation as Lender may deem advisable, Creditor is willing to subordinate: (i) all of Borrower\u2019s indebtedness and obligations to Creditor, whether presently existing or arising in the future (the \u201cSubordinated Debt\u201d) to all of Borrower\u2019s indebtedness and obligations to Lender; and (ii) all of Creditor\u2019s security interests, if any, to all of Lender\u2019s security interests in the property of Borrower. NOW, THEREFORE, THE PARTIES AGREE AS FOLLOWS:",
+    "unit_id": "g4"
+   },
+   {
+    "bbox_frac": [
+     0.09803921568627451,
+     0.6874760101010101,
+     0.9019901960784314,
+     0.7839924242424243
+    ],
+    "member_order": [
+     14
+    ],
+    "text": "1. Creditor subordinates to Lender any security interest or lien that Creditor may have in any property of Borrower. Notwithstanding the respective dates of attachment or perfection of the security interest of Creditor and the security interest of Lender, the security interest of Lender in the accounts, including health care receivables, chattel paper, general intangibles (including without limitations, intellectual property), inventory, equipment, instruments, including promissory notes, deposit accounts, investment property, documents, letter of credit rights, any commercial tort claim of Borrower which is now or hereafter identified by Borrower or Lender, and other property of the Borrower (the \u201cCollateral\u201d) shall at all times be prior to the security interest of Creditor.",
+    "unit_id": "g5"
+   },
+   {
+    "bbox_frac": [
+     0.09803921568627451,
+     0.7993295454545454,
+     0.903220588235294,
+     0.8539002525252525
+    ],
+    "member_order": [
+     15
+    ],
+    "text": "2. All Subordinated Debt is subordinated in right of payment to all obligations of Borrower to Lender now existing or hereafter arising, together with all costs of collecting such obligations (including attorneys\u2019 fees), including, without limitation, all interest accruing after the commencement by or against Borrower of any bankruptcy, reorganization or similar proceeding (the \u201cSenior Debt\u201d).",
+    "unit_id": "g6"
+   },
+   {
+    "bbox_frac": [
+     0.09803921568627451,
+     0.8692373737373738,
+     0.9018937908496731,
+     0.9238093434343435
+    ],
+    "member_order": [
+     16
+    ],
+    "text": "3. Creditor will not demand or receive from Borrower (and Borrower will not pay to Creditor) all or any part of the Subordinated Debt, by way of payment, prepayment, setoff, lawsuit or otherwise, nor will Creditor exercise any remedy with respect to the Collateral or any other collateral securing the Subordinated Debt, nor will Creditor accelerate the Subordinated Debt, or commence, or cause to commence, prosecute or participate in any administrative, legal or equitable action against Borrower, until such time as all the Senior Debt is fully paid in cash, and all of Lender\u2019s obligations owing to Borrower have been terminated. Nothing in the foregoing paragraph shall prohibit Creditor from converting all or any part of the Subordinated Debt into equity securities of Borrower. Notwithstanding anything in this Agreement to the contrary, nothing herein shall be deemed to restrict the contractual rights of Creditor, or the Borrower\u2019s obligations under any warrants, options or capital stock that the Borrower may issue to Creditor from time to time, other than any such rights involving the payment of money by Borrower to Creditor.",
+    "unit_id": "g7"
+   }
+  ]
+ },
+ "tests/fixtures/s1/exyn_s1__ex1010_de36c8.pdf::p2": {
+  "units": [
+   {
+    "bbox_frac": [
+     0.09803921568627451,
+     0.12022474747474748,
+     0.9019885620915034,
+     0.16081439393939392
+    ],
+    "member_order": [
+     0
+    ],
+    "text": "4. Creditor shall promptly deliver to Lender in the form received (except for endorsement or assignment by Creditor where required by Lender) for application to the Senior Debt any payment, distribution, security or proceeds received by Creditor with respect to the Subordinated Debt other than in accordance with this Agreement.",
+    "unit_id": "g0"
+   },
+   {
+    "bbox_frac": [
+     0.09803921568627451,
+     0.17615151515151514,
+     0.902032679738562,
+     0.25868560606060603
+    ],
+    "member_order": [
+     1
+    ],
+    "text": "5. In the event of Borrower\u2019s insolvency, reorganization or any case or proceeding under any bankruptcy or insolvency law or laws relating to the relief of debtors, these provisions shall remain in full force and effect, and Lender\u2019s claims against Borrower and the estate of Borrower shall be paid in full before any payment is made to Creditor. For the avoidance of any doubt, Senior Debt includes, without limitation, any Lender\u2019s claims against Borrower and the estate of Borrower arising from the granting of credit under Section 364 or the use of cash collateral under Section 363 of the United States Bankruptcy Code, and Creditor agrees that it will raise no objection thereto.",
+    "unit_id": "g1"
+   },
+   {
+    "bbox_frac": [
+     0.09803921568627451,
+     0.2740227272727273,
+     0.9019493464052288,
+     0.3565580808080808
+    ],
+    "member_order": [
+     2
+    ],
+    "text": "6. Until the Senior Debt is fully paid in cash, and all of Lender\u2019s obligations owing to Borrower have been terminated, Creditor agrees that it will not object to or oppose (i) the sale of the Borrower, or (ii) the sale or other disposition of any property of the Borrower or the estate of Borrower, if Lender has consented to such sale of the Borrower or sale or disposition of any property of the Borrower or the estate of Borrower. If requested by Lender, Creditor shall affirmatively consent to such sale or disposition and shall take all necessary actions and execute such documents and instruments as Lender may reasonably request in connection with and to facilitate such sale or disposition.",
+    "unit_id": "g2"
+   },
+   {
+    "bbox_frac": [
+     0.09803921568627451,
+     0.37189520202020204,
+     0.9019722222222222,
+     0.49637373737373736
+    ],
+    "member_order": [
+     3
+    ],
+    "text": "7. Until the Senior Debt is fully paid in cash, and all of Lender\u2019s obligations owing to Borrower have been terminated, Creditor irrevocably appoints Lender as Creditor\u2019s attorney-in-fact, and grants to Lender a power of attorney with full power of substitution, in the name of Creditor or in the name of Lender, for the use and benefit of Lender, without notice to Creditor, to perform at Lender\u2019s option the following acts in any bankruptcy, insolvency or similar proceeding involving Borrower: (i) to file the appropriate claim or claims in respect of the Subordinated Debt on behalf of Creditor if Creditor does not do so prior to 30 days before the expiration of the time to file claims in such proceeding and if Lender elects, in its sole discretion, to file such claim or claims; and (ii) to accept or reject any plan of reorganization or arrangement on behalf of Creditor and to otherwise vote Creditor\u2019s claims in respect of any Subordinated Debt in any manner that Lender deems appropriate for the enforcement of its rights hereunder.",
+    "unit_id": "g3"
+   },
+   {
+    "bbox_frac": [
+     0.09803921568627451,
+     0.5117108585858585,
+     0.9031830065359477,
+     0.6513421717171718
+    ],
+    "member_order": [
+     4,
+     5
+    ],
+    "text": "8. Creditor shall immediately affix a legend to the instruments evidencing the Subordinated Debt stating that the instruments are subject to the terms of this Agreement. Without limiting the foregoing, no amendment of the documents evidencing or relating to the Subordinated Debt shall directly or indirectly modify the provisions of this Agreement in any manner which might terminate or impair the subordination of the Subordinated Debt or the subordination of the security interest or lien that Creditor may have in any property of Borrower. By way of example, such instruments shall not be amended to (i) increase the rate of interest with respect to the Subordinated Debt, or (ii) accelerate the payment of the principal or interest or any other portion of the Subordinated Debt. 2.",
+    "unit_id": "g4"
+   }
+  ]
+ },
+ "tests/fixtures/s1/exyn_s1__ex1010_de36c8.pdf::p3": {
+  "units": [
+   {
+    "bbox_frac": [
+     0.09803921568627451,
+     0.12022474747474748,
+     0.9029084967320262,
+     0.42646590909090915
+    ],
+    "member_order": [
+     0
+    ],
+    "text": "9. This Agreement shall remain effective for so long as Lender has any obligation to make credit extensions to Borrower or Borrower owes any amounts to Lender. If, at any time after payment in full of the Senior Debt, any payments of the Senior Debt must be disgorged by Lender for any reason (including, without limitation, the bankruptcy of Borrower), this Agreement and the relative rights and priorities set forth herein shall be reinstated as to all such disgorged payments as though such payments had not been made and Creditor shall immediately pay over to Lender all payments received with respect to the Subordinated Debt to the extent that such payments would have been prohibited hereunder. At any time and from time to time, without notice to Creditor, Lender may take such actions with respect to the Senior Debt and the Collateral as Lender, in its sole discretion, may deem appropriate, including, without limitation, terminating advances to Borrower, increasing the principal amount, extending the time of payment, increasing applicable interest rates, renewing, compromising or otherwise amending the terms of any documents affecting the Senior Debt and any Collateral, judicial foreclosure, nonjudicial foreclosure, exercise of a power of sale, and taking a deed, assignment or transfer in lieu of foreclosure as to any of the Collateral, and enforcing or failing to enforce any rights against Borrower or any other person. No such action or inaction shall impair or otherwise affect Lender\u2019s rights hereunder. Creditor agrees not to assert against Lender (a) any rights which a guarantor or surety could exercise; but nothing in this Agreement shall constitute Creditor a guarantor or surety; (b) the right, if any, to require Lender to marshal or otherwise require Lender to proceed to dispose of or foreclose upon any of the Collateral in any manner or order; and (c) any right of subrogation, contribution, reimbursement, or indemnity which it may have against Borrower arising directly or indirectly out of this Agreement. Creditor waives the benefits, if any, of California Civil Code Sections 2799, 2808, 2809, 2810, 2815, 2819, 2820, 2821, 2822, 2839, 2845, 2847, 2848, 2849, 2850, 2899 and 3433. Pursuant to Section 2856 of the California Civil Code, Creditor waives all rights and defenses that Creditor may have because the Senior Debt may be secured by real property. These rights and defenses include, but are not limited to, any rights or defenses based upon Section 580a, 580b, 580d, or 726 of the California Code of Civil Procedure.",
+    "unit_id": "g0"
+   },
+   {
+    "bbox_frac": [
+     0.09803921568627451,
+     0.4418030303030303,
+     0.9031764705882354,
+     0.5523005050505051
+    ],
+    "member_order": [
+     1
+    ],
+    "text": "10. All necessary action on the part of Lender and Creditor, their respective officers, directors, partners, members and shareholders, as applicable, necessary for the authorization of this Agreement and the performance of all obligations of both Lender and Creditor hereunder has been taken. This Agreement constitutes the legal, valid and binding obligation of Lender and Creditor, enforceable against either in accordance with its terms. The execution, delivery and performance of and compliance with this Agreement by Lender and Creditor will not (i) result in any material violation or default of any term of any of Lender or Creditor\u2019s charter, formation or other organizational documents (such as Articles or Certificate of Incorporation, bylaws, partnership agreement, operating agreement, etc.) or (ii) violate any material applicable law, rule or regulation.",
+    "unit_id": "g1"
+   },
+   {
+    "bbox_frac": [
+     0.09803921568627451,
+     0.5676376262626263,
+     0.9029705882352942,
+     0.6361906565656565
+    ],
+    "member_order": [
+     2
+    ],
+    "text": "11. This Agreement shall bind any successors or assignees of Creditor and shall benefit any successors or assigns of Lender. This Agreement is solely for the benefit of Creditor and Lender and not for the benefit of Borrower or any other party. Creditor further agrees that if Borrower is in the process of refinancing a portion of the Senior Debt with a new lender, and if Lender makes a request of Creditor, Creditor shall agree to enter into a new subordination agreement with the new lender on substantially the terms and conditions of this Agreement.",
+    "unit_id": "g2"
+   },
+   {
+    "bbox_frac": [
+     0.09803921568627451,
+     0.6515277777777778,
+     0.9028300653594772,
+     0.7200808080808081
+    ],
+    "member_order": [
+     3
+    ],
+    "text": "12. This Agreement may be executed in two or more counterparts, each of which shall be deemed an original and all of which together shall constitute one instrument. In the event that any signature is delivered by facsimile transmission or by e-mail delivery of a \u201c.pdf\u201d format data file, such signature shall create a valid and binding obligation of the party executing (or on whose behalf such signature is executed) with the same force and effect as if such facsimile or \u201c.pdf\u201d signature page were an original thereof.",
+    "unit_id": "g3"
+   },
+   {
+    "bbox_frac": [
+     0.09803921568627451,
+     0.7354179292929294,
+     0.9089820261437909,
+     0.8039709595959597
+    ],
+    "member_order": [
+     4
+    ],
+    "text": "13. This Agreement shall be governed by and construed in accordance with the laws of the State of California, without giving effect to conflicts of law principles. Creditor and Lender submit to the exclusive jurisdiction of the state and federal courts located in Santa Clara County, California. CREDITOR AND LENDER WAIVE THEIR RESPECTIVE RIGHTS TO A JURY TRIAL OF ANY CLAIM OR CAUSE OF ACTION BASED UPON OR ARISING OUT OF THIS AGREEMENT OR ANY OF THE TRANSACTIONS CONTEMPLATED HEREIN.",
+    "unit_id": "g4"
+   },
+   {
+    "bbox_frac": [
+     0.09803921568627451,
+     0.8193080808080809,
+     0.3526732026143791,
+     0.8319343434343435
+    ],
+    "member_order": [
+     5
+    ],
+    "text": "14. REFERENCE PROVISION.",
+    "unit_id": "g5"
+   },
+   {
+    "bbox_frac": [
+     0.09803921568627451,
+     0.8472714646464646,
+     0.902014705882353,
+     0.9169949494949495
+    ],
+    "member_order": [
+     6,
+     7
+    ],
+    "text": "(a) In the event the jury trial waiver set forth above is not enforceable, the parties elect to proceed under this judicial reference provision. 3.",
+    "unit_id": "g6"
+   }
+  ]
+ },
+ "tests/fixtures/s1/forbright_s1__exhibit1012sx1_11ea38.pdf::p1": {
+  "units": [
+   {
+    "bbox_frac": [
+     0.09803921568627451,
+     0.14956060606060606,
+     0.9021911764705882,
+     0.48190909090909095
+    ],
+    "member_order": [
+     0,
+     1
+    ],
+    "text": "NOW, THEREFORE, in consideration of the foregoing, the covenants and agreements contained in this Agreement, and of Indemnitee\u2019s willingness to, or continue to serve as a director, and/or executive officer, of the Company and to serve at the Company\u2019s request as an officer, director, employee, manager, member, partner, tax matters partner, partnership representative, agent, fiduciary, or trustee of, or in any other capacity with, another Person (as defined below) or any employee benefit plan, and intending to be legally bound hereby, the parties hereto agree as follows:",
+    "unit_id": "g0"
+   },
+   {
+    "bbox_frac": [
+     0.1568627450980392,
+     0.5025454545454545,
+     0.3474673202614379,
+     0.5176969696969698
+    ],
+    "member_order": [
+     2
+    ],
+    "text": "1. Certain Definitions:",
+    "unit_id": "g1"
+   },
+   {
+    "bbox_frac": [
+     0.1568627450980392,
+     0.5383333333333333,
+     0.7556944444444444,
+     0.5534848484848485
+    ],
+    "member_order": [
+     3
+    ],
+    "text": "(a) Board of Directors: shall mean the Board of Directors of the Company.",
+    "unit_id": "g2"
+   },
+   {
+    "bbox_frac": [
+     0.09803921568627451,
+     0.5741212121212121,
+     0.9030441176470588,
+     0.9194532828282829
+    ],
+    "member_order": [
+     4
+    ],
+    "text": "(b) Change in Control: shall be deemed to have occurred if (i) any \u201cperson\u201d (as such term is used in Sections 13(d) and 14(d) of the Exchange Act), other than (A) a trustee or other fiduciary holding securities under an employee benefit plan of the Company, (B) a Subsidiary of the Company or (C) the Company\u2019s stockholders in substantially the same proportions as their ownership of stock of the Company, is or becomes the \u201cbeneficial owner\u201d (as defined in Rule 13d-3 under the Exchange Act), directly or indirectly, of securities of the Company representing twenty percent (20%) or more of the total voting power represented by the Company\u2019s then outstanding Voting Securities, except to the extent that any repurchase or redemption of Voting Securities by the Company shall directly result in any person becoming the beneficial owner of twenty percent (20%) or more of the total voting power represented by the Company\u2019s then outstanding Voting Securities, or (ii) during any period of two (2) consecutive years, individuals who, at the beginning of such period, constitute the Board of Directors and any new director whose appointment by the Board of Directors, or nomination for election by the Company\u2019s stockholders, was approved by a vote of at least two-thirds (2/3) of the directors then in office who either were directors at the beginning of such two-year period or whose appointment or nomination for election by stockholders was previously so approved (such individuals, \u201cContinuing Directors\u201d), cease for any reason to constitute a majority of the Board of Directors, (iii) the consummation, or the approval by the Company\u2019s stockholders, of a merger, consolidation, business combination, recapitalization, restructuring or similar transaction of or involving the Company that results in, or would result in, the Voting Securities of the Company outstanding immediately prior thereto not representing, (either by remaining outstanding or by being converted into Voting Securities of the surviving or resulting entity thereof) at least fifty percent (50%) of the total voting power represented by the outstanding Voting Securities of the Company or of such surviving or resulting entity immediately after consummation of such merger, consolidation, business combination, recapitalization, restructuring or similar transaction, (iv) the stockholders of the Company approve a plan of complete liquidation or dissolution of the Company or an agreement for the sale, lease, exchange or other disposition (in one transaction or a series of related transactions) of all or substantially all of the Company\u2019s assets, or (v) there occurs any other event of a nature that would be required to be reported in response to Item 6(e) of Schedule 14A of Regulation 14A (or a response to any similar item on any similar schedule or form) promulgated under the Exchange Act, whether or not the Company is then subject to such reporting requirement.",
+    "unit_id": "g3"
+   }
+  ]
+ },
+ "tests/fixtures/s1/generate_bio_s1__ex33_a3ab0f.pdf::p0": {
+  "units": [
+   {
+    "bbox_frac": [
+     0.9041192810457517,
+     0.2536010101010101,
+     0.9803921568627451,
+     0.26622727272727276
+    ],
+    "member_order": [
+     0
+    ],
+    "text": "Exhibit 3.3",
+    "unit_id": "g0"
+   },
+   {
+    "bbox_frac": [
+     0.5566454248366013,
+     0.5191717171717172,
+     0.6394297385620915,
+     0.5343232323232323
+    ],
+    "member_order": [
+     1
+    ],
+    "text": "BYLAWS",
+    "unit_id": "g1"
+   },
+   {
+    "bbox_frac": [
+     0.5855065359477124,
+     0.7037411616161617,
+     0.6105653594771242,
+     0.7188926767676769
+    ],
+    "member_order": [
+     2
+    ],
+    "text": "OF",
+    "unit_id": "g2"
+   },
+   {
+    "bbox_frac": [
+     0.4493578431372549,
+     0.8883118686868687,
+     0.7467107843137255,
+     0.9034633838383839
+    ],
+    "member_order": [
+     3
+    ],
+    "text": "GENERATE BIOMEDICINES, INC. TABLE OF CONTENTS",
+    "unit_id": "g3"
+   }
+  ]
+ }
+}

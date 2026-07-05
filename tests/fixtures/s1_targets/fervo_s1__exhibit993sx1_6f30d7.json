@@ -1,0 +1,634 @@
+{
+"name": "fervo_s1__exhibit993sx1_6f30d7",
+"num_pages": 15,
+"n_blocks": 125,
+"orig_failed": false,
+"orig_reason": null,
+"blocks": [
+{
+"tag": "header",
+"level": 0,
+"text": "Exhibit 99.3"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "CERTAIN CONFIDENTIAL INFORMATION CONTAINED IN THIS DOCUMENT, MARKED BY [***] HAS BEEN OMITTED PURSUANT TO REGULATION S-K, ITEM 601(B) BECAUSE THE REGISTRANT HAS DETERMINED THAT THE OMITTED INFORMATION (I) IS NOT MATERIAL AND (II) IS THE TYPE THAT THE REGISTRANT TREATS AS PRIVATE OR CONFIDENTIAL."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "DEGOLYER AND MACNAUGHTON 5001 SPRING VALLEY ROAD SUITE 800 EAST DALLAS, TEXAS 75244 REPORT as of DECEMBER 31, 2025 on HEAT INITIALLY IN PLACE and TECHNICALLY RECOVERABLE GEOTHERMAL RESOURCES for the SWIFT AREA with interests attributable to FERVO ENERGY COMPANY"
+},
+{
+"tag": "header",
+"level": 3,
+"text": "DEGOLYER AND MACNAUGHTON"
+},
+{
+"tag": "header",
+"level": 3,
+"text": "TABLE of CONTENTS"
+},
+{
+"tag": "para",
+"level": 4,
+"text": "Page"
+},
+{
+"tag": "table",
+"level": 0,
+"text": "FOREWORD 1 Scope of Investigation 1 Authority 2 Source of Information 2 INTRODUCTION 3 DEFINITION of HEAT INITIALLY in PLACE and TECHNICALLY RECOVERABLE GEOTHERMAL RESOURCES 6 ESTIMATION of HEAT INITIALLY in PLACE 7 DEFINITION of TECHNICALLY RECOVERABLE GEOTHERMAL RESOURCES 9 ESTIMATION of POTENTIAL ELECTRICAL POWER CAPACITY 11 SUMMARY and CONCLUSIONS 14 TABLES Table 1 - List of Properties Evaluated Table 2 - Gross Heat Initially in Place Table 3 - Gross Technically Recoverable Geothermal Resources Table 4 - Potential Gross Electrical Power Capacity and Potential Gross Electrical Power Capacity per Rock Volume Associated with Gross Heat Initially in Place Table 5 - Potential Net Electrical Power Capacity and Potential Net Electrical Power Capacity per Rock Volume and Potential Net Generated Electrical Energy associated with Gross Technically Recoverable Geothermal Resources"
+},
+{
+"tag": "para",
+"level": 0,
+"text": "DeGolyer and MacNaughton 500 I Spring Valley Road Suite 800 East Dallas, Texas 75244"
+},
+{
+"tag": "para",
+"level": 0,
+"text": "REPORT as of DECEMBER 31, 2025 on HEAT INITIALLY IN PLACE and TECHNICALLY RECOVERABLE GEOTHERMAL RESOURCES for the SWIFT AREA with interests attributable to FERVO ENERGY COMPANY"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "FOREWORD"
+},
+{
+"tag": "table",
+"level": 1,
+"text": ""
+},
+{
+"tag": "table",
+"level": 1,
+"text": "Scope of Investigation This report presents estimates, as of December 31, 2025, of the extent of the heat initially in place Estimates of TRGR presented in this report are not classified as reserves, since no consideration is given to commercial criteria and project boundaries. However, the potentially recovered thermal energy resources are discovered. The TRGR estimated herein were based on technical evaluations associated with certain notional potential operation or development plans and realizations of market or fiscal conditions not currently fixed. The TRGR estimated in this report are provided as a means of quantifying the potential rates, recoveries, or outcomes that could be associated with certain conditions or actions were they to be implemented. TRGR are provided as a means of comparison to other TRGR and do not provide a means of comparison to reserves. A detailed explanation of the TRGR estimated herein is included in the Estimation of Technically Recoverable Geothermal Resources section of this report. DeGolyer and MacNaughton TRGR should not be confused with those quantities that are associated with reserves due to the additional risks involved. The quantities that might actually be recovered, should they be developed, may differ significantly from the estimates presented herein. There is no certainty that it will be commercially viable to produce any portion of the TRGR evaluated herein. Estimates of HIIP and TRGR should be regarded only as estimates that may change as further production history and additional information become available. Not only are such estimates based on that information which is currently available, but such estimates are also subject to the uncertainties inherent in the application of judgmental factors in interpreting such information. Authority This report was authorized by Dr. Jack Norbeck, Chief Technology Officer, Fervo Energy Company. Source of Information Information used in the preparation of this report was obtained from Fervo. In the preparation of this"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "report we have relied, without independent verification, upon information furnished by Fervo with respect to the property interests being evaluated and various other information and data that were accepted as represented. A field examination was not considered necessary for the purposes of this report."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "DeGolyer and MacNaughton"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "INTRODUCTION"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "The evaluated portion of the Swift Area encompasses [***] leased by Fervo located in [***] Nevada. The primary formations of interest within the Swift Area are the Paleozoic Basement and Tertiary Volcanics. Fervo has represented that it holds 100-percent working interest in the properties located in the Swift Area and evaluated herein."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "The Swift Area targets potential high geothermal gradients logged in wells within the Paleozoic Basement and Tertiary Volcanics evaluated herein. The Tertiary Volcanics are composed of andesitic lava flows and ash-flow tuffs, are found at a volume-weighted average true vertical depth (TVD) of 2,262 meters, and have a thickness of 9 meters. The Tertiary Volcanics make up a minor portion of the target reservoir volume. The Paleozoic Basement is composed of fine-grained clastic and carbonate sedimentary rocks, are found at a volume-weighted average TVD of 3,376 meters, and have a thickness of 1,097 meters."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Fervo provided data for the Swift Area that included drilling, well logs, gravity, magnetotelluric, and seismic data, and outcrop information. The gravity, magnetotelluric, and seismic data are the primary sources of subsurface data away from well control that have been integrated and calibrated to the wells to provide a robust source of subsurface data to map the depth structure of the Paleozoic Basement and Tertiary Volcanics formation contacts and fault system. Fervo provided a threedimensional (3-D) geologic model that encompasses the Fervo lease position for the Swift Area. The 3-D geologic model characterizes the depth and extent of the Paleozoic Basement and Tertiary Volcanics and multiple in-situ temperature scenarios."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Geothermal resources are the thermal energy derived from the Earth\u2019s natural heat and stored in the reservoir. Such thermal energy can be extracted from the reservoir rock through heat exchange with either natural reservoir fluids or injected fluids, and such energy can be converted into electricity and applied for the purposes of electrical power generation."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "The viability of using geothermal resources for the purposes of power generation is determined by the temperature of the heated fluid, which must meet a minimum threshold suitable for the power plant\u2019s operation. Conversely, the maximum temperature is limited by the technological constraints of the tools and equipment, as well as the heat extraction methods employed at the reservoir conditions."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "The estimated HIIP and TRGR quantities in this report are associated with a conceptual EGS project in the Swift Area, which is limited to specific sections of Fervo\u2019s acreage position that would be interpreted as a discovered geothermal resource accumulation."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "A discovered geothermal resources accumulation is determined to exist when one or more exploratory wells have established, through testing, sampling, and/or logging, the existence of a significant quantity of potentially recoverable geothermal resources. Based on the current stage of field development and analysis of available data, the geothermal resources accumulation within certain parts of the Swift Area was classified as discovered."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "DeGolyer and MacNaughton 4"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "DEFINITION of HEAT INITIALLY in PLACE and TECHNICALLY RECOVERABLE GEOTHERMAL RESOURCES"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Estimates of HIIP and TRGR presented in this report have been prepared using a systematic classification framework consistent with established practices in subsurface resource evaluations. Because of the lack of commercial considerations, the resources estimated herein cannot be classified as reserves. The HIIP and TRGR included herein are defined as follows:"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Heat Initially In Place are those quantities of total thermal energy estimated, as of a given date, to be contained in place within the rock and pore fluid in a defined geothermal accumulation."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Technically Recoverable Geothermal Resources are those quantities of thermal energy estimated, as of a given date, to be potentially recoverable from known geothermal accumulations using currently available technology and industry practices, regardless of commercial considerations."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "The estimation of HIIP and TRGR is subject to both technical and commercial uncertainties and, in general, may be quoted as a range. The range of uncertainty reflects a reasonable range of estimated potentially recoverable quantities. In all cases, the range of uncertainty is dependent on the amount and quality of the available technical data and may change as more data become available. Estimates of HIIP and TRGR in this report are expressed using the terms low estimate, best estimate, and high estimate to reflect the range of uncertainty."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Low Estimate - If deterministic methods are used, there is a reasonable certainty, intended to express a high degree of confidence, that the HIIP quantities actually in place and TRGR quantities actually recovered will equal or exceed the low estimate. If probabilistic methods are used, there should be at least a 90-percent probability (P90) that the HIIP quantities actually in place and TRGR quantities actually recovered will equal or exceed the low estimate."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Best Estimate - If deterministic methods are used, it is equally likely that the HIIP quantities actually in place and TRGR quantities actually recovered will be greater than or less than the Best Estimate. If probabilistic methods are used, there should be at least a 50-percent probability (P50) that the HIIP quantities actually in place and TRGR quantities actually recovered will equal or exceed the best estimate."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "High Estimate - If deterministic methods are used, there will be a low probability that the HIIP quantities actually in place and TRGR quantities actually recovered will be greater than the High Estimate. If probabilistic methods are used, there should be at least a 10-percent probability (PIO) that the HIIP quantities actually in place and TRGR quantities actually recovered will equal or exceed the high estimate."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "DeGolyer and MacNaughton 5"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "ESTIMATION of HEAT INITIALLY in PLACE"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Estimates of HIIP were prepared by the use of standard geologic, engineering, and evaluation principles and techniques that are in accordance with practices generally recognized by the industry involved in subsurface evaluations. The method or combination of methods used in the analysis of each project area was tempered by experience with similar projects, stage of development, and quality and completeness of basic data."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "The probabilistic analysis of potential resources in this study considered the uncertainty in the amount of thermal energy that may be initially in place. The uncertainty analysis addresses the range of possibilities for any given reservoir parameter. The range of uncertainty reflects a reasonable range of estimated HIIP. In all cases, the range of uncertainty is dependent on the amount and quality of both technical and commercial data and may change as more data become available."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Standard probabilistic methods were used in the uncertainty analysis. Probability distributions were estimated from representations of productive rock volume, bulk density (Pb), reservoir temperature (T), specific heat capacity (c), and depth for the Swift Area. These representations were prepared based on known data, analogy, and other standard estimation methods including experience."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Statistical measures describing the probability distributions of these representations were identified and input into a Monte Carlo simulation to produce low estimate (P90), best estimate (P50), and high estimate (PIO) estimations of HIIP."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Low, best, and high representations of potential productive volume were interpreted from maps and 3-D models based on well data, gravity data, and/or analogy. Representations for the petrophysical and engineering parameters (pb, c, temperature, and net thickness) were estimated based on available well data, gravity, regional data, analog field data, and global experience. Individual probability distributions for rock volume and petrophysical and engineering parameters were estimated from these representations."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "The distributions for the variables were derived from (1) scenario-based interpretations, (2) the geologic, geophysical, petrophysical, and engineering data available, (3) local, regional, and global knowledge, and (4) field and case studies in literature. The parameters used to model HIIP quantities were potential productive volume, P, c, depth, T, and reference temperature (T f). Minimum, mean, and maximum representations were used to statistically model and shape the input P90, P50, and PIO parameters. Potential productive volume, P and c were modeled using truncated normal distributions. Latin hypercube sampling was used to better represent the tails of the distributions."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "b res re"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "b Each individual volumetric parameter was investigated using a probabilistic approach with attention to variability. Deterministic data were used to anchor and shape the various distributions. The rock volume parameters and T had the greatest range of variability, and therefore had the greatest impact on the uncertainty of the simulation. The volumetric parameter variability was based on temperature and depth. Regional geothermal trends based on well data were incorporated to derive uncertainty limits and constraints on the T. Uncertainties associated with the depth and T were also derived from multiple interpretative scenarios and sensitivity analysis."
+},
+{
+"tag": "table",
+"level": 2,
+"text": "res res DeGolyer and MacNaughton 6"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Lease position and drilling and completion technology are limits to thermal energy in place that can be exploited in terms of depth and temperature. Geothermal resources accumulations encountered at depths of less than 4,000 meters TVD have been discovered and are limited by the size of the rig employed to date. This depth can be extended with a larger drilling rig to exploit deeper development benches at depth intervals equal to the stimulation fracture growth 200 meters above and below the horizontal well. The temperature range of 150 to 330 degrees Celsius (\u00b0C) was determined on the low end by the input requirements of the power plant and on the high end by current drilling and completion technology."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "The HIIP quantities were estimated for the potential accumulation, limited to a temperature range of 150 to 330 \u00b0C, and at a depth of less than 4,000 meters TVD. The T f is the injection temperature of the produced water after it has been run through the power plant. This temperature is fixed at 80 \u00b0C as determined by the power plant system design. The estimated gross HIIP, as of December 31, 2025, of the properties evaluated herein are summarized for each case as follows, expressed in quadrillions of joules (10 J):"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "re"
+},
+{
+"tag": "header",
+"level": 2,
+"text": "Gross HIIP"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "15"
+},
+{
+"tag": "header",
+"level": 2,
+"text": "Temperature Range (\u00b0C)"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "15"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "150-330 0-4,000 34,362 63,253 92,818"
+},
+{
+"tag": "table",
+"level": 4,
+"text": "Total Vertical Depth Range (meters) Low Estimate (10 J) 15 Best Estimate (10 J)"
+},
+{
+"tag": "header",
+"level": 3,
+"text": "High Estimate (10 J)"
+},
+{
+"tag": "header",
+"level": 2,
+"text": "Notes:"
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "1. Application of any risk factor to HIIP does not equate HIIP with reserves or TRGR."
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "2. There is no certainty that it will be commercially viable to produce any portion of the HIIP evaluated herein."
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "3. The HIIP estimated in this report are at a stage such that it is premature to clearly define the ultimate chance of commerciality."
+},
+{
+"tag": "para",
+"level": 4,
+"text": "DeGolyer and MacNaughton"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "ESTIMATION of TECHNICALLY RECOVERABLE GEOTHERMAL RESOURCES"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "7"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Estimates of TRGR were prepared by the use of standard geologic, engineering, and evaluation principles and techniques that are in accordance with practices generally recognized by the industry involved in subsurface evaluations. The method or combination of methods used in the analysis of each project area was tempered by experience with similar projects, stage of development, quality and completeness of basic data, and production history (if available)."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Based on the current level of project maturity, the notional development plans provided by Fervo, and the range of uncertainty associated with the quantities potentially recoverable from the geothermal reservoir, TRGR have been estimated and categorized as low estimate, best estimate, or high estimate."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "For the estimation of TRGR, a notional EGS development plan was utilized. The development plan included the drilling of horizontal producer and injector wells stacked in alternating lines of producers and injectors. These wells are to be hydraulically fractured to enhance permeability and thereby create stimulated reservoir volume. Water is to be injected through the injector wells, heated in the reservoir, and then produced through the producing wells. Heat energy from the produced water is to be converted to electrical energy in a power plant using an Organic Rankine Cycle (ORC) system."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Estimates of TRGR were obtained after applying recovery factors to HIIP. These recovery factors were based on consideration of data from analog EGS development projects and data based on analytical and numerical models for the EGS project area described herein. Uncertainty associated with the recoverable thermal energy quantities based on the prescribed notional development plan was modeled using a probability distribution for the recovery factors. The probability distribution for the recovery factors was input into a Monte Carlo simulation to produce low estimate, best estimate, and high estimate estimations of TRGR."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Estimates of recovery efficiency presented in this report do not incorporate variations in the development plan or economic inputs and are subject to change upon the selection of alternative development options or different costs, economic parameters, and power purchase agreement scenarios."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "The TRGR estimates presented herein were based on data available through December 31, 2025. The development status represents the status applicable on December 31, 2025."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "TRGR estimated herein are associated with hot water production from the reservoir, and are reported prior to the electricity generation at the wellhead. TRGR included in this report are expressed in quadrillions of joules (10 J)."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "DeGolyer and MacNaughton 8"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "The estimated gross TRGR, as of December 31, 2025, of the properties evaluated herein are summarized as follows, expressed in quadrillions of joules (10 J): 15"
+},
+{
+"tag": "header",
+"level": 2,
+"text": "(10 J)"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "Gross TRGR"
+},
+{
+"tag": "table",
+"level": 2,
+"text": "Low Estimate 10,728 Best Estimate 21,804 High Estimate 36,223"
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "1. Application of any risk factor to TRGR does not equate TRGR with reserves."
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "2. There is no certainty that it will be commercially viable to produce any portion of the TRGR evaluated herein."
+},
+{
+"tag": "para",
+"level": 4,
+"text": "DeGolyer and MacNaughton 9"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "ESTIMATION of POTENTIAL ELECTRICAL POWER CAPACITY"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "At the request of Fervo, thermal energy associated with the estimated HIIP and TRGR were converted to potential electrical power capacity. This process is based on the ORC principle, which transforms thermal energy into electrical power using specifically designed turbines. Information regarding the efficiency of the designed ORC system was provided by Fervo. Fervo has represented that this information was based on the design specifications obtained from analog projects and on manufacturer-guaranteed specifications."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Provided design specifications indicated 19.5-percent efficiency for the ORC system at an intake temperature of 199 \u00b0C and an outlet temperature of 85 \u00b0C."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Electrical power quantities estimated herein are expressed as gross and net electrical power. Gross electrical power is defined as the electrical power generated by the turbine generator before any internal usage. Net electrical power is the electricity delivered at the sales point after deducting parasitic energy loads consumed primarily by electric pumping units, transformer losses, and line losses. At the request of Fervo, an overall 30-percent total system parasitic load (inclusive of ORC parasitic load and injection pump parasitic load) was assumed for the estimation of net generated electrical power."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Total energy generated by the system over a certain period of time was estimated using an assumption for the capacity factor, which is defined as the ratio of actual electrical energy output over a given period of time to the maximum theoretical electrical energy output (nameplate). At the request of Fervo, a specific capacity factor of 94.3 percent was utilized to convert thermal energy to net generated electrical energy for the Swift Area."
+},
+{
+"tag": "table",
+"level": 2,
+"text": "DeGolyer and MacNaughton {'bbox': [541.0, 239.05, 551.0, 249.05], 'block_class': 'cls_0', 'block_idx': 149, 'page_idx': 11, 'sentences': ['10'], 'tag': 'para'} 3 Potential Gross Electrical Power Capacity Associated with Gross HIIP (MW) {'bbox': [308.94, 410.77, 407.26, 501.49], 'block_class': 'cls_8', 'block_idx': 153, 'page_idx': 11, 'sentences': ['Potential Gross Electrical Power Capacity Associated with Gross HIIP per Rock Volume (MW/km )'], 'tag': 'para'}"
+},
+{
+"tag": "table",
+"level": 2,
+"text": "Low Estimate 7,571 60 Best Estimate 13,937 64 High Estimate 20,451 71"
+},
+{
+"tag": "header",
+"level": 2,
+"text": "Notes:"
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "1. Potential gross electrical power capacity is associated with HIIP estimates, and do not incorporate recovery factors."
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "2. Conversion to electric power assumes 19.5-percent efficiency of the ORC turbine and a 30-year"
+},
+{
+"tag": "para",
+"level": 4,
+"text": "project life."
+},
+{
+"tag": "para",
+"level": 5,
+"text": "DeGolyer and MacNaughton"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Based on the design specifications and an assumed project life of 30 years, the estimated potential net electrical power capacity, and that same capacity normalized by mean gross rock volume, and potential net generated electrical energy associated with TRGR, as of December 31, 2025, of the properties evaluated herein are summarized as follows, expressed in megawatts (MW), megawatts per cubic kilometers (MW/km), and megawatt hours (MWh):"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "3"
+},
+{
+"tag": "table",
+"level": 2,
+"text": "Potential Net Electrical Power Capacity Associated with Gross TRGR (MW) Potential Net Electrical Power Capacity Associated with Gross TRGR per Rock Volume (MW/km ) Potential Net Generated Electrical Energy Associated with Gross TRGR (MWh) Low Estimate 1,655 13 Best Estimate 3,363 15 High Estimate 5,587 19"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "1,384,519,526"
+},
+{
+"tag": "header",
+"level": 2,
+"text": "Notes:"
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "1. Conversion to electric power assumes 19.5-percent efficiency of the ORC turbine, and a 30-year project life."
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "2. Capacity factor of 94.3 percent was applied for estimating potential generated electrical energy."
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "3. An overall 30-percent total system parasitic load (inclusive of ORC parasitic load and injection pump parasitic load) was assumed for the estimation of potential net generated electrical power."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Estimates of potential electrical power capacity presented herein are subject to certain limitations and uncertainties related to technical and commercial contingencies which may potentially impact the extraction of thermal energy from the reservoir rock and its conversion into electricity for power generation."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Technical and commercial contingencies for the potential development of the Swift Area include, but are not limited to, lack of approval of a formal development plan, lack of facilities and infrastructure in the area necessary to support development, uncertainty regarding reservoir connectivity, stimulation effectiveness, and flow performance."
+},
+{
+"tag": "para",
+"level": 2,
+"text": "DeGolyer and MacNaughton"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "SUMMARY and CONCLUSIONS"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "Fervo has represented that it holds an interest in certain properties located in [***] Nevada. The properties evaluated herein are associated with the Swift Area. The estimated gross HIIP, as of December 31, 2025, of the properties evaluated herein are summarized as follows, expressed in quadrillions of joules (10 J):"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "15"
+},
+{
+"tag": "header",
+"level": 2,
+"text": "Swift Area"
+},
+{
+"tag": "header",
+"level": 2,
+"text": "Low Estimate (10 J)"
+},
+{
+"tag": "table",
+"level": 3,
+"text": "15 15 15 Best Estimate (10 J) High Estimate (10 J)"
+},
+{
+"tag": "header",
+"level": 2,
+"text": "Gross HIIP 34,362"
+},
+{
+"tag": "para",
+"level": 3,
+"text": "63,253 92,818"
+},
+{
+"tag": "header",
+"level": 3,
+"text": "Notes:"
+},
+{
+"tag": "list_item",
+"level": 4,
+"text": "1. Application of any risk factor to HIIP does not equate HIIP with TRGR."
+},
+{
+"tag": "list_item",
+"level": 4,
+"text": "2. There is no certainty that it will be commercially viable to produce any portion of the HIIP evaluated herein."
+},
+{
+"tag": "list_item",
+"level": 4,
+"text": "3. The HIIP estimated in this report are at a stage such that it is premature to clearly define the ultimate chance of commerciality."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "The estimated gross TRGR and associated potential net electrical power capacity, as of December 31, 2025, of the properties evaluated herein are summarized as follows, expressed in quadrillions of joules (10 J) and megawatts (MW):"
+},
+{
+"tag": "para",
+"level": 2,
+"text": "15"
+},
+{
+"tag": "table",
+"level": 2,
+"text": "Gross TRGR (10 J) Potential Net Electrical Power Capacity Associated with Gross TRGR (MW) Low Estimate 10,728 1,655 Best Estimate 21,804 3,363 High Estimate 36,223 5,587"
+},
+{
+"tag": "header",
+"level": 2,
+"text": "Notes:"
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "1. Application of any risk factor to TRGR quantities and does not equate TRGR with"
+},
+{
+"tag": "para",
+"level": 4,
+"text": "reserves."
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "2. There is no certainty that it will be commercially viable to produce any portion of the TRGR evaluated herein."
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "3. Conversion to electric power assumes 19.5-percent efficiency of the ORC turbine and a 30-year project life."
+},
+{
+"tag": "list_item",
+"level": 3,
+"text": "4. An overall 30-percent total system parasitic load (inclusive of ORC parasitic load and injection pump parasitic load) was assumed for the estimation of potential net generated electrical power."
+},
+{
+"tag": "para",
+"level": 4,
+"text": "DeGolyer and MacNaughton 13"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "DeGolyer and MacNaughton is an"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "independent engineering consulting firm that has been providing energy consulting services throughout the world since 1936. Our fees were not contingent on the results of our evaluation. This report has been prepared at the request of Fervo. DeGolyer and MacNaughton has used all assumptions, procedures, data, and methods that it considers necessary to prepare this report."
+},
+{
+"tag": "header",
+"level": 0,
+"text": "Submitted,"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "DeGOLYER and MacNAUGHTON Texas Registered Engineering Firm F-716"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "SIGNED: February 27, 2026"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "Dilhan Ilk, P.E. Executive Vice President DeGolyer and MacNaughton"
+}
+]
+}

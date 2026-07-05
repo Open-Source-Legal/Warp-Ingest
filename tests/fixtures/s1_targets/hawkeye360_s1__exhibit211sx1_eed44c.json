@@ -1,0 +1,24 @@
+{
+"name": "hawkeye360_s1__exhibit211sx1_eed44c",
+"num_pages": 0,
+"n_blocks": 3,
+"orig_failed": false,
+"orig_reason": null,
+"blocks": [
+{
+"tag": "header",
+"level": 0,
+"text": "Exhibit 21.1"
+},
+{
+"tag": "para",
+"level": 0,
+"text": "Subsidiaries of HawkEye 360, Inc."
+},
+{
+"tag": "table",
+"level": 0,
+"text": "Name of Subsidiary Jurisdiction of Organization HawkEye 360 Federal, Inc. Delaware Innovative Signal Analysis, Inc. Texas"
+}
+]
+}

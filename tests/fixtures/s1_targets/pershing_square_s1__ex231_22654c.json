@@ -1,0 +1,24 @@
+{
+"name": "pershing_square_s1__ex231_22654c",
+"num_pages": 0,
+"n_blocks": 3,
+"orig_failed": false,
+"orig_reason": null,
+"blocks": [
+{
+"tag": "header",
+"level": 0,
+"text": "Exhibit 23.1"
+},
+{
+"tag": "para",
+"level": 0,
+"text": "Consent of Independent Registered Public Accounting Firm We consent to the reference to our firm under the caption \u201cExperts\u201d and to the use of our report dated March 9, 2026, in the Registration Statement (Form S-1) and related Prospectus of Pershing Square Holdco, L.P. for the registration of shares of its common stock."
+},
+{
+"tag": "para",
+"level": 0,
+"text": "/s/ Ernst & Young LLP New York, New York March 9, 2026"
+}
+]
+}

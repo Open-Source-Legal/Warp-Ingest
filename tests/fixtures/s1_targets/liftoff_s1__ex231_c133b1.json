@@ -1,0 +1,34 @@
+{
+"name": "liftoff_s1__ex231_c133b1",
+"num_pages": 0,
+"n_blocks": 5,
+"orig_failed": false,
+"orig_reason": null,
+"blocks": [
+{
+"tag": "header",
+"level": 0,
+"text": "Exhibit 23.1"
+},
+{
+"tag": "header",
+"level": 0,
+"text": "CONSENT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "We consent to the use in this Registration Statement on Form S-1 of our report dated March 13, 2026, relating to the financial statements of Liftoff Mobile, Inc. We also consent to the reference to us under the heading \u201cExperts\u201d in such Registration Statement."
+},
+{
+"tag": "para",
+"level": 1,
+"text": "/s/ Deloitte & Touche LLP"
+},
+{
+"tag": "para",
+"level": 1,
+"text": "San Francisco, California April 17, 2026"
+}
+]
+}

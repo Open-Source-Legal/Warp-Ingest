@@ -1,0 +1,1568 @@
+{
+ "page_count": 21,
+ "pages": [
+  {
+   "index": 0,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 1,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 2,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 3,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 4,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 5,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 6,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 7,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 8,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 9,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 10,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 11,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 12,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 13,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 14,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 15,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 16,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 17,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 18,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 19,
+   "width": 612.0,
+   "height": 792.0
+  },
+  {
+   "index": 20,
+   "width": 612.0,
+   "height": 792.0
+  }
+ ],
+ "annotations": [
+  {
+   "id": "#/texts/0",
+   "label": "text",
+   "page": 0,
+   "bounds": {
+    "left": 340.667,
+    "top": 409.9,
+    "right": 391.331,
+    "bottom": 423.184
+   },
+   "rawText": "BYLAWS",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/1",
+   "label": "text",
+   "page": 0,
+   "bounds": {
+    "left": 358.33,
+    "top": 556.079,
+    "right": 373.666,
+    "bottom": 569.363
+   },
+   "rawText": "OF",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/2",
+   "label": "text",
+   "page": 0,
+   "bounds": {
+    "left": 275.007,
+    "top": 702.259,
+    "right": 456.987,
+    "bottom": 715.543
+   },
+   "rawText": "GENERATE BIOMEDICINES, INC.",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/3",
+   "label": "section_header",
+   "page": 0,
+   "bounds": {
+    "left": 553.321,
+    "top": 199.78200000000004,
+    "right": 600.0,
+    "bottom": 210.85199999999998
+   },
+   "rawText": "Exhibit 3.3",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/4",
+   "label": "section_header",
+   "page": 1,
+   "bounds": {
+    "left": 304.667,
+    "top": 323.251,
+    "right": 427.331,
+    "bottom": 336.535
+   },
+   "rawText": "TABLE OF CONTENTS",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/5",
+   "label": "text",
+   "page": 3,
+   "bounds": {
+    "left": 358.67,
+    "top": 405.142,
+    "right": 373.33,
+    "bottom": 418.426
+   },
+   "rawText": "-ii-",
+   "parent_id": "#/texts/4"
+  },
+  {
+   "id": "#/texts/6",
+   "label": "section_header",
+   "page": 3,
+   "bounds": {
+    "left": 334.825,
+    "top": 623.744,
+    "right": 397.165,
+    "bottom": 637.028
+   },
+   "rawText": "ARTICLE I",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/7",
+   "label": "section_header",
+   "page": 3,
+   "bounds": {
+    "left": 315.653,
+    "top": 649.033,
+    "right": 416.345,
+    "bottom": 662.317
+   },
+   "rawText": "STOCKHOLDERS",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/8",
+   "label": "list_item",
+   "page": 3,
+   "bounds": {
+    "left": 132.0,
+    "top": 674.322,
+    "right": 602.94,
+    "bottom": 727.473
+   },
+   "rawText": "1.1 Place of Meetings. All meetings of stockholders shall be held at such place as may be designated from time to time by the Board of Directors, the Chairman of the Board, the Chief Executive Officer or the President or, if not so designated, at the principal office of the corporation. The Board of Directors may, in its sole discretion, determine that a meeting shall not",
+   "parent_id": "#/texts/7"
+  },
+  {
+   "id": "#/texts/9",
+   "label": "text",
+   "page": 4,
+   "bounds": {
+    "left": 132.0,
+    "top": 54.000999999999976,
+    "right": 578.268,
+    "bottom": 80.57399999999996
+   },
+   "rawText": "be held at any place, but may instead be held solely by means of remote communication in a manner consistent with the General Corporation Law of the State of Delaware.",
+   "parent_id": "#/texts/7"
+  },
+  {
+   "id": "#/texts/10",
+   "label": "list_item",
+   "page": 4,
+   "bounds": {
+    "left": 132.0,
+    "top": 92.57899999999995,
+    "right": 602.916,
+    "bottom": 159.01999999999998
+   },
+   "rawText": "1.2 Annual Meeting. The annual meeting of stockholders for the election of directors and for the transaction of such other business as may properly be brought before the meeting shall be held on a date and at a time designated by the Board of Directors, the Chairman of the Board, the Chief Executive Officer or the President (which date shall not be a legal holiday in the place where the meeting is to be held).",
+   "parent_id": "#/texts/7"
+  },
+  {
+   "id": "#/texts/11",
+   "label": "list_item",
+   "page": 4,
+   "bounds": {
+    "left": 168.0,
+    "top": 171.02499999999998,
+    "right": 230.328,
+    "bottom": 184.30899999999997
+   },
+   "rawText": "1.3 Special",
+   "parent_id": "#/texts/7"
+  },
+  {
+   "id": "#/texts/12",
+   "label": "text",
+   "page": 4,
+   "bounds": {
+    "left": 132.0,
+    "top": 184.31399999999996,
+    "right": 600.576,
+    "bottom": 264.043
+   },
+   "rawText": "Meetings. Special meetings of stockholders for any purpose or purposes may be called at any time by only the Board of Directors, the Chairman of the Board, the Chief Executive Officer or the President, and may not be called by any other person or persons. The Board of Directors may postpone or reschedule any previously scheduled special meeting of stockholders. Business transacted at any special meeting of stockholders shall be limited to matters relating to the purpose or purposes stated in the notice of meeting.",
+   "parent_id": "#/texts/7"
+  },
+  {
+   "id": "#/texts/13",
+   "label": "list_item",
+   "page": 4,
+   "bounds": {
+    "left": 132.0,
+    "top": 276.048,
+    "right": 598.575,
+    "bottom": 462.09
+   },
+   "rawText": "1.4 Notice of Meetings. Except as otherwise provided by law, notice of each meeting of stockholders, whether annual or special, shall be given not less than 10 nor more than 60 days before the date of the meeting to each stockholder entitled to vote at such meeting. Without limiting the manner by which notice otherwise may be given to stockholders, any notice shall be effective if given by a form of electronic transmission consented to (in a manner consistent with the General Corporation Law of the State of Delaware) by the stockholder to whom the notice is given. The notices of all meetings shall state the place, if any, date and time of the meeting and the means of remote communications, if any, by which stockholders and proxyholders may be deemed to be present in person and vote at such meeting. The notice of a special meeting shall state, in addition, the purpose or purposes for which the meeting is called. If notice is given by mail, such notice shall be deemed given when deposited in the United States mail, postage prepaid, directed to the stockholder at such stockholder's address as it appears on the records of the corporation. If notice is given by electronic transmission, such notice shall be deemed given at the time specified in Section 232 of the General Corporation Law of the State of Delaware.",
+   "parent_id": "#/texts/7"
+  },
+  {
+   "id": "#/texts/14",
+   "label": "list_item",
+   "page": 4,
+   "bounds": {
+    "left": 132.0,
+    "top": 474.095,
+    "right": 596.244,
+    "bottom": 580.403
+   },
+   "rawText": "1.5 Voting List. The Secretary shall prepare, at least 10 days before every meeting of stockholders, a complete list of the stockholders entitled to vote at the meeting, arranged in alphabetical order, and showing the address of each stockholder and the number of shares registered in the name of each stockholder. Such list shall be open to the examination of any stockholder, for any purpose germane to the meeting, for a period of at least 10 days prior to the meeting: (a) on a reasonably accessible electronic network, provided that the information required to gain access to such list is provided with the notice of the meeting, or (b) during ordinary business hours, at the principal place of business of the corporation. If the meeting is to",
+   "parent_id": "#/texts/7"
+  },
+  {
+   "id": "#/texts/15",
+   "label": "list_item",
+   "page": 5,
+   "bounds": {
+    "left": 132.0,
+    "top": 193.87599999999998,
+    "right": 597.576,
+    "bottom": 300.184
+   },
+   "rawText": "be held at a physical location (and not solely by means of remote communication), then the list shall be produced and kept at the time and place of the meeting during the whole time thereof, and may be inspected by any stockholder who is present. If the meeting is to be held solely by means of remote communication, then the list shall also be open to the examination of any stockholder during the whole time of the meeting on a reasonably accessible electronic network, and the information required to access such list shall be provided with the notice of the meeting. The list shall presumptively determine the identity of the stockholders entitled to vote at the meeting and the number of shares held by each of them.",
+   "parent_id": "#/texts/7"
+  },
+  {
+   "id": "#/texts/16",
+   "label": "list_item",
+   "page": 5,
+   "bounds": {
+    "left": 132.0,
+    "top": 312.189,
+    "right": 601.56,
+    "bottom": 484.942
+   },
+   "rawText": "1.6 Quorum. Except as otherwise provided by law, the Certificate of Incorporation or these Bylaws, the holders of a majority in voting power of the shares of the capital stock of the corporation issued and outstanding and entitled to vote at the meeting, present in person, present by means of remote communication in a manner, if any, authorized by the Board of Directors in its sole discretion, or represented by proxy, shall constitute a quorum for the transaction of business; provided, however, that where a separate vote by a class or classes or series of capital stock is required by law or the Certificate of Incorporation, the holders of a majority in voting power of the shares of such class or classes or series of the capital stock of the corporation issued and outstanding and entitled to vote on such matter, present in person, present by means of remote communication in a manner, if any, authorized by the Board of Directors in its sole discretion, or represented by proxy, shall constitute a quorum entitled to take action with respect to the vote on such matter. A quorum, once established at a meeting, shall not be broken by the withdrawal of enough votes to leave less than a quorum.",
+   "parent_id": "#/texts/7"
+  },
+  {
+   "id": "#/texts/17",
+   "label": "list_item",
+   "page": 5,
+   "bounds": {
+    "left": 132.0,
+    "top": 496.947,
+    "right": 598.908,
+    "bottom": 629.832
+   },
+   "rawText": "1.7 Adjournments. Any meeting of stockholders may be adjourned from time to time to any other time and to any other place at which a meeting of stockholders may be held under these Bylaws by the chairman of the meeting or by the stockholders present or represented at the meeting and entitled to vote, although less than a quorum. It shall not be necessary to notify any stockholder of any adjournment of less than 30 days if the time and place, if any, of the adjourned meeting, and the means of remote communication, if any, by which stockholders and proxyholders may be deemed to be present in person and vote at such adjourned meeting, are announced at the meeting at which adjournment is taken, unless after the adjournment a new record date is fixed for the adjourned meeting. At the adjourned meeting, the corporation may transact any business which might have been transacted at the original meeting.",
+   "parent_id": "#/texts/7"
+  },
+  {
+   "id": "#/texts/18",
+   "label": "list_item",
+   "page": 5,
+   "bounds": {
+    "left": 132.0,
+    "top": 641.837,
+    "right": 587.232,
+    "bottom": 734.856
+   },
+   "rawText": "1.8 Voting and Proxies. Each stockholder shall have one vote for each share of stock entitled to vote held of record by such stockholder and a proportionate vote for each fractional share so held, unless otherwise provided by law or the Certificate of Incorporation. Each stockholder of record entitled to vote at a meeting of stockholders, or to express consent or dissent to corporate action without a meeting, may vote or express such consent or dissent in person (including by means of remote communications, if any, by which stockholders may be deemed to be present in person and vote at such meeting) or may authorize another person or",
+   "parent_id": "#/texts/7"
+  },
+  {
+   "id": "#/texts/19",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 132.0,
+    "top": 54.000999999999976,
+    "right": 590.544,
+    "bottom": 120.44200000000001
+   },
+   "rawText": "persons to vote or act for such stockholder by a proxy executed or transmitted in a manner permitted by the General Corporation Law of the State of Delaware by the stockholder or such stockholder's authorized agent and delivered (including by electronic transmission) to the Secretary of the corporation. No such proxy shall be voted or acted upon after three years from the date of its execution, unless the proxy expressly provides for a longer period.",
+   "parent_id": "#/texts/7"
+  },
+  {
+   "id": "#/texts/20",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 363.0,
+    "top": 171.09500000000003,
+    "right": 369.0,
+    "bottom": 184.37900000000002
+   },
+   "rawText": "2",
+   "parent_id": "#/texts/7"
+  },
+  {
+   "id": "#/texts/21",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 132.0,
+    "top": 401.697,
+    "right": 601.932,
+    "bottom": 547.871
+   },
+   "rawText": "1.9 Action at Meeting. When a quorum is present at any meeting, any matter other than the election of directors to be voted upon by the stockholders at such meeting shall be decided by the vote of the holders of shares of stock having a majority in voting power of the votes cast by the holders of all of the shares of stock present or represented at the meeting and voting affirmatively or negatively on such matter (or if there are two or more classes or series of stock entitled to vote as separate classes, then in the case of each such class or series, the holders of a majority in voting power of the shares of stock of that class or series present or represented at the meeting and voting affirmatively or negatively on such matter), except when a different vote is required by law, the Certificate of Incorporation or these Bylaws. When a quorum is present at any meeting, any election by stockholders of directors shall be determined by a plurality of the votes cast by the stockholders entitled to vote on the election.",
+   "parent_id": "#/texts/7"
+  },
+  {
+   "id": "#/texts/22",
+   "label": "list_item",
+   "page": 6,
+   "bounds": {
+    "left": 168.0,
+    "top": 559.876,
+    "right": 296.32,
+    "bottom": 573.16
+   },
+   "rawText": "1.10 Conduct of Meetings.",
+   "parent_id": "#/texts/7"
+  },
+  {
+   "id": "#/texts/23",
+   "label": "list_item",
+   "page": 6,
+   "bounds": {
+    "left": 204.0,
+    "top": 585.165,
+    "right": 291.324,
+    "bottom": 598.4490000000001
+   },
+   "rawText": "(a) Chairman of",
+   "parent_id": "#/texts/7"
+  },
+  {
+   "id": "#/texts/24",
+   "label": "text",
+   "page": 6,
+   "bounds": {
+    "left": 132.0,
+    "top": 598.454,
+    "right": 600.252,
+    "bottom": 704.762
+   },
+   "rawText": "Meeting. Meetings of stockholders shall be presided over by the Chairman of the Board, if any, or in the Chairman's absence by the Vice Chairman of the Board, if any, or in the Vice Chairman's absence by the Chief Executive Officer, or in the Chief Executive Officer's absence, by the President, or in the President's absence by a Vice President, or in the absence of all of the foregoing persons by a chairman designated by the Board of Directors, or in the absence of such designation by a chairman chosen by vote of the stockholders at the meeting. The Secretary shall act as secretary of the meeting, but in the Secretary's absence the chairman of the meeting may appoint any person to act as secretary of the meeting.",
+   "parent_id": "#/texts/7"
+  },
+  {
+   "id": "#/texts/25",
+   "label": "text",
+   "page": 7,
+   "bounds": {
+    "left": 132.0,
+    "top": 54.000999999999976,
+    "right": 601.248,
+    "bottom": 306.488
+   },
+   "rawText": "(b) Rules, Regulations and Procedures. The Board of Directors may adopt by resolution such rules, regulations and procedures for the conduct of any meeting of stockholders of the corporation as it shall deem appropriate including, without limitation, such guidelines and procedures as it may deem appropriate regarding the participation by means of remote communication of stockholders and proxyholders not physically present at a meeting. Except to the extent inconsistent with such rules, regulations and procedures as adopted by the Board of Directors, the chairman of any meeting of stockholders shall have the right and authority to prescribe such rules, regulations and procedures and to do all such acts as, in the judgment of such chairman, are appropriate for the proper conduct of the meeting. Such rules, regulations or procedures, whether adopted by the Board of Directors or prescribed by the chairman of the meeting, may include, without limitation, the following: (i) the establishment of an agenda or order of business for the meeting; (ii) rules and procedures for maintaining order at the meeting and the safety of those present; (iii) limitations on attendance at or participation in the meeting to stockholders of record of the corporation, their duly authorized and constituted proxies or such other persons as shall be determined; (iv) restrictions on entry to the meeting after the time fixed for the commencement thereof; and (v) limitations on the time allotted to questions or comments by participants. Unless and to the extent determined by the Board of Directors or the chairman of the meeting, meetings of stockholders shall not be required to be held in accordance with the rules of parliamentary procedure.",
+   "parent_id": "#/texts/7"
+  },
+  {
+   "id": "#/texts/26",
+   "label": "section_header",
+   "page": 7,
+   "bounds": {
+    "left": 168.0,
+    "top": 587.744,
+    "right": 310.318,
+    "bottom": 601.028
+   },
+   "rawText": "1.11 Action without Meeting.",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/27",
+   "label": "section_header",
+   "page": 7,
+   "bounds": {
+    "left": 204.0,
+    "top": 613.033,
+    "right": 328.656,
+    "bottom": 626.317
+   },
+   "rawText": "(a) Taking of Action by",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/28",
+   "label": "text",
+   "page": 7,
+   "bounds": {
+    "left": 132.0,
+    "top": 626.322,
+    "right": 602.616,
+    "bottom": 732.629
+   },
+   "rawText": "Consent. Any action required or permitted to be taken at any annual or special meeting of stockholders of the corporation may be taken without a meeting, without prior notice and without a vote, if a consent in writing, setting forth the action so taken, is signed by the holders of outstanding stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote on such action were present and voted. Except as otherwise provided by the Certificate of Incorporation, stockholders may act by written consent to elect directors; provided, however, that, if such consent is less than unanimous, such action by written consent may be in lieu of holding an annual meeting only if",
+   "parent_id": "#/texts/27"
+  },
+  {
+   "id": "#/texts/29",
+   "label": "page_footer",
+   "page": 7,
+   "bounds": {
+    "left": 363.0,
+    "top": 357.142,
+    "right": 369.0,
+    "bottom": 370.426
+   },
+   "rawText": "3",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/30",
+   "label": "text",
+   "page": 8,
+   "bounds": {
+    "left": 132.0,
+    "top": 54.000999999999976,
+    "right": 568.92,
+    "bottom": 80.57399999999996
+   },
+   "rawText": "all of the directorships to which directors could be elected at an annual meeting held at the effective time of such action are vacant and are filled by such action.",
+   "parent_id": "#/texts/27"
+  },
+  {
+   "id": "#/texts/31",
+   "label": "text",
+   "page": 8,
+   "bounds": {
+    "left": 132.0,
+    "top": 92.57899999999995,
+    "right": 602.592,
+    "bottom": 424.801
+   },
+   "rawText": "(b) Electronic Transmission of Consents. A telegram, cablegram or other electronic transmission consenting to an action to be taken and transmitted by a stockholder or proxyholder, or by a person or persons authorized to act for a stockholder or proxyholder, shall be deemed to be written, signed and dated for the purposes of this section, provided that any such telegram, cablegram or other electronic transmission sets forth or is delivered with information from which the corporation can determine (i) that the telegram, cablegram or other electronic transmission was transmitted by the stockholder or proxyholder or by a person or persons authorized to act for the stockholder or proxyholder and (ii) the date on which such stockholder or proxyholder or authorized person or persons transmitted such telegram, cablegram or electronic transmission. The date on which such telegram, cablegram or electronic transmission is transmitted shall be deemed to be the date on which such consent was signed. No consent given by telegram, cablegram or other electronic transmission shall be deemed to have been delivered until such consent is reproduced in paper form and until such paper form shall be delivered to the corporation by delivery to its registered office in the State of Delaware, its principal place of business or an officer or agent of the corporation having custody of the book in which proceedings of meetings of stockholders are recorded. Delivery made to a corporation's registered office shall be made by hand or by certified or registered mail, return receipt requested. Notwithstanding the foregoing limitations on delivery, consents given by telegram, cablegram or other electronic transmission may be otherwise delivered to the principal place of business of the corporation or to an officer or agent of the corporation having custody of the book in which proceedings of meetings of stockholders are recorded if, to the extent and in the manner provided by resolution of the Board of Directors. Any copy, facsimile or other reliable reproduction of a consent in writing may be substituted or used in lieu of the original writing for any and all purposes for which the original writing could be used, provided that such copy, facsimile or other reproduction shall be a complete reproduction of the entire original writing.",
+   "parent_id": "#/texts/27"
+  },
+  {
+   "id": "#/texts/32",
+   "label": "text",
+   "page": 8,
+   "bounds": {
+    "left": 132.0,
+    "top": 436.806,
+    "right": 594.924,
+    "bottom": 516.5350000000001
+   },
+   "rawText": "(c) Notice of Taking of Corporate Action. Prompt notice of the taking of corporate action without a meeting by less than unanimous written consent shall be given to those stockholders who have not consented in writing and who, if the action had been taken at a meeting, would have been entitled to notice of the meeting if the record date for such meeting had been the date that written consents signed by a sufficient number of holders to take the action were delivered to the corporation.",
+   "parent_id": "#/texts/27"
+  },
+  {
+   "id": "#/texts/33",
+   "label": "page_footer",
+   "page": 8,
+   "bounds": {
+    "left": 363.0,
+    "top": 567.189,
+    "right": 369.0,
+    "bottom": 580.473
+   },
+   "rawText": "4",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/34",
+   "label": "section_header",
+   "page": 9,
+   "bounds": {
+    "left": 332.49,
+    "top": 165.93899999999996,
+    "right": 399.498,
+    "bottom": 179.22299999999996
+   },
+   "rawText": "ARTICLE II",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/35",
+   "label": "section_header",
+   "page": 9,
+   "bounds": {
+    "left": 330.325,
+    "top": 191.22799999999995,
+    "right": 401.665,
+    "bottom": 204.51199999999994
+   },
+   "rawText": "DIRECTORS",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/36",
+   "label": "list_item",
+   "page": 9,
+   "bounds": {
+    "left": 132.0,
+    "top": 216.51700000000005,
+    "right": 596.903,
+    "bottom": 256.379
+   },
+   "rawText": "2.1 General Powers. The business and affairs of the corporation shall be managed by or under the direction of a Board of Directors, who may exercise all of the powers of the corporation except as otherwise provided by law or the Certificate of Incorporation.",
+   "parent_id": "#/texts/35"
+  },
+  {
+   "id": "#/texts/37",
+   "label": "list_item",
+   "page": 9,
+   "bounds": {
+    "left": 132.0,
+    "top": 268.384,
+    "right": 597.588,
+    "bottom": 348.113
+   },
+   "rawText": "2.2 Number, Election and Qualification. Subject to the rights of holders of any series of Preferred Stock to elect directors, the number of directors of the corporation shall be established from time to time by the stockholders or the Board of Directors. The directors shall be elected at the annual meeting of stockholders by such stockholders as have the right to vote on such election. Election of directors need not be by written ballot. Directors need not be stockholders of the corporation.",
+   "parent_id": "#/texts/35"
+  },
+  {
+   "id": "#/texts/38",
+   "label": "list_item",
+   "page": 9,
+   "bounds": {
+    "left": 132.0,
+    "top": 360.119,
+    "right": 600.252,
+    "bottom": 506.293
+   },
+   "rawText": "2.3 Chairman of the Board; Vice Chairman of the Board. The Board of Directors may appoint from its members a Chairman of the Board and a Vice Chairman of the Board, neither of whom need be an employee or officer of the corporation. If the Board of Directors appoints a Chairman of the Board, such Chairman shall perform such duties and possess such powers as are assigned by the Board of Directors and, if the Chairman of the Board is also designated as the corporation's Chief Executive Officer, shall have the powers and duties of the Chief Executive Officer prescribed in Section 3.7 of these Bylaws. If the Board of Directors appoints a Vice Chairman of the Board, such Vice Chairman shall perform such duties and possess such powers as are assigned by the Board of Directors. Unless otherwise provided by the Board of Directors, the Chairman of the Board or, in the Chairman's absence, the Vice Chairman of the Board, if any, shall preside at all meetings of the Board of Directors.",
+   "parent_id": "#/texts/35"
+  },
+  {
+   "id": "#/texts/39",
+   "label": "list_item",
+   "page": 9,
+   "bounds": {
+    "left": 132.0,
+    "top": 518.298,
+    "right": 599.923,
+    "bottom": 558.16
+   },
+   "rawText": "2.4 Tenure. Each director shall hold office until the next annual meeting of stockholders and until a successor is elected and qualified, or until such director's earlier death, resignation or removal.",
+   "parent_id": "#/texts/35"
+  },
+  {
+   "id": "#/texts/40",
+   "label": "list_item",
+   "page": 9,
+   "bounds": {
+    "left": 132.0,
+    "top": 570.165,
+    "right": 598.956,
+    "bottom": 649.895
+   },
+   "rawText": "2.5 Quorum. The greater of (a) a majority of the directors at any time in office and (b) one-third of the number of directors fixed pursuant to Section 2.2 of these Bylaws shall constitute a quorum of the Board of Directors. If at any meeting of the Board of Directors there shall be less than such a quorum, a majority of the directors present may adjourn the meeting from time to time without further notice other than announcement at the meeting, until a quorum shall be present.",
+   "parent_id": "#/texts/35"
+  },
+  {
+   "id": "#/texts/41",
+   "label": "list_item",
+   "page": 9,
+   "bounds": {
+    "left": 168.0,
+    "top": 661.9,
+    "right": 239.328,
+    "bottom": 675.184
+   },
+   "rawText": "2.6 Action at",
+   "parent_id": "#/texts/35"
+  },
+  {
+   "id": "#/texts/42",
+   "label": "text",
+   "page": 9,
+   "bounds": {
+    "left": 132.0,
+    "top": 675.189,
+    "right": 592.902,
+    "bottom": 728.34
+   },
+   "rawText": "Meeting. Every act or decision done or made by a majority of the directors present at a meeting of the Board of Directors duly held at which a quorum is present shall be regarded as the act of the Board of Directors, unless a greater number is required by law or by the Certificate of Incorporation.",
+   "parent_id": "#/texts/35"
+  },
+  {
+   "id": "#/texts/43",
+   "label": "list_item",
+   "page": 10,
+   "bounds": {
+    "left": 168.0,
+    "top": 54.000999999999976,
+    "right": 183.0,
+    "bottom": 67.28499999999997
+   },
+   "rawText": "2.7",
+   "parent_id": "#/texts/35"
+  },
+  {
+   "id": "#/texts/44",
+   "label": "text",
+   "page": 10,
+   "bounds": {
+    "left": 132.0,
+    "top": 67.28999999999996,
+    "right": 582.6,
+    "bottom": 120.44200000000001
+   },
+   "rawText": "Removal. Except as otherwise provided by the General Corporation Law of the State of Delaware, any one or more or all of the directors of the corporation may be removed, with or without cause, by the holders of a majority of the shares then entitled to vote at an election of directors, except that the directors elected by the holders of a particular class or series",
+   "parent_id": "#/texts/35"
+  },
+  {
+   "id": "#/texts/45",
+   "label": "text",
+   "page": 10,
+   "bounds": {
+    "left": 363.0,
+    "top": 171.09500000000003,
+    "right": 369.0,
+    "bottom": 184.37900000000002
+   },
+   "rawText": "5",
+   "parent_id": "#/texts/35"
+  },
+  {
+   "id": "#/texts/46",
+   "label": "text",
+   "page": 10,
+   "bounds": {
+    "left": 132.0,
+    "top": 401.697,
+    "right": 553.272,
+    "bottom": 428.27
+   },
+   "rawText": "of stock may be removed without cause only by vote of the holders of a majority of the outstanding shares of such class or series.",
+   "parent_id": "#/texts/35"
+  },
+  {
+   "id": "#/texts/47",
+   "label": "list_item",
+   "page": 10,
+   "bounds": {
+    "left": 132.0,
+    "top": 440.275,
+    "right": 602.568,
+    "bottom": 546.582
+   },
+   "rawText": "2.8 Vacancies. Subject to the rights of holders of any series of Preferred Stock to elect directors, unless and until filled by the stockholders, any vacancy or newly-created directorship on the Board of Directors, however occurring, may be filled by vote of a majority of the directors then in office, although less than a quorum, or by a sole remaining director. A director elected to fill a vacancy shall be elected for the unexpired term of such director's predecessor in office, and a director chosen to fill a position resulting from a newly-created directorship shall hold office until the next annual meeting of stockholders and until a successor is elected and qualified, or until such director's earlier death, resignation or removal.",
+   "parent_id": "#/texts/35"
+  },
+  {
+   "id": "#/texts/48",
+   "label": "list_item",
+   "page": 10,
+   "bounds": {
+    "left": 132.0,
+    "top": 558.587,
+    "right": 596.268,
+    "bottom": 625.028
+   },
+   "rawText": "2.9 Resignation. Any director may resign by delivering a resignation in writing or by electronic transmission to the corporation at its principal office or to the Chairman of the Board, the Chief Executive Officer, the President or the Secretary. Such resignation shall be effective upon delivery unless it is specified to be effective at some later time or upon the happening of some later event.",
+   "parent_id": "#/texts/35"
+  },
+  {
+   "id": "#/texts/49",
+   "label": "list_item",
+   "page": 10,
+   "bounds": {
+    "left": 132.0,
+    "top": 637.033,
+    "right": 601.596,
+    "bottom": 703.473
+   },
+   "rawText": "2.10 Regular Meetings. Regular meetings of the Board of Directors may be held without notice at such time and place as shall be determined from time to time by the Board of Directors; provided that any director who is absent when such a determination is made shall be given notice of the determination. A regular meeting of the Board of Directors may be held without notice immediately after and at the same place as the annual meeting of stockholders.",
+   "parent_id": "#/texts/35"
+  },
+  {
+   "id": "#/texts/50",
+   "label": "text",
+   "page": 11,
+   "bounds": {
+    "left": 132.0,
+    "top": 54.000999999999976,
+    "right": 588.24,
+    "bottom": 107.15300000000002
+   },
+   "rawText": "2.11 Special Meetings. Special meetings of the Board of Directors may be held at any time and place designated in a call by the Chairman of the Board, the Chief Executive Officer, the President, two or more directors, or by one director in the event that there is only a single director in office.",
+   "parent_id": "#/texts/35"
+  },
+  {
+   "id": "#/texts/51",
+   "label": "text",
+   "page": 11,
+   "bounds": {
+    "left": 132.0,
+    "top": 119.15800000000002,
+    "right": 602.892,
+    "bottom": 252.043
+   },
+   "rawText": "2.12 Notice of Special Meetings. Notice of the date, place, if any, and time of any special meeting of directors shall be given to each director by the Secretary or by the officer or one of the directors calling the meeting. Notice shall be duly given to each director (a) in person or by telephone at least 24 hours in advance of the meeting, (b) by sending written notice by reputable overnight courier, telecopy, facsimile or electronic transmission, or delivering written notice by hand, to such director's last known business, home or electronic transmission address at least 48 hours in advance of the meeting, or (c) by sending written notice by first-class mail to such director's last known business or home address at least 72 hours in advance of the meeting. A notice or waiver of notice of a meeting of the Board of Directors need not specify the purposes of the meeting.",
+   "parent_id": "#/texts/35"
+  },
+  {
+   "id": "#/texts/52",
+   "label": "text",
+   "page": 11,
+   "bounds": {
+    "left": 132.0,
+    "top": 264.048,
+    "right": 593.919,
+    "bottom": 330.488
+   },
+   "rawText": "2.13 Meetings by Conference Communications Equipment. Directors may participate in meetings of the Board of Directors or any committee thereof by means of conference telephone or other communications equipment by means of which all persons participating in the meeting can hear each other, and participation by such means shall constitute presence in person at such meeting.",
+   "parent_id": "#/texts/35"
+  },
+  {
+   "id": "#/texts/53",
+   "label": "text",
+   "page": 11,
+   "bounds": {
+    "left": 132.0,
+    "top": 611.744,
+    "right": 591.27,
+    "bottom": 704.762
+   },
+   "rawText": "2.14 Action by Consent. Any action required or permitted to be taken at any meeting of the Board of Directors or of any committee thereof may be taken without a meeting, if all members of the Board of Directors or committee, as the case may be, consent to the action in writing or by electronic transmission, and the written consents or electronic transmissions are filed with the minutes of proceedings of the Board of Directors or committee. Such filing shall be in paper form if the minutes are maintained in paper form and shall be in electronic form if the minutes are maintained in electronic form.",
+   "parent_id": "#/texts/35"
+  },
+  {
+   "id": "#/texts/54",
+   "label": "page_footer",
+   "page": 11,
+   "bounds": {
+    "left": 363.0,
+    "top": 381.142,
+    "right": 369.0,
+    "bottom": 394.426
+   },
+   "rawText": "6",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/55",
+   "label": "text",
+   "page": 12,
+   "bounds": {
+    "left": 132.0,
+    "top": 54.000999999999976,
+    "right": 600.948,
+    "bottom": 346.356
+   },
+   "rawText": "2.15 Committees. The Board of Directors may designate one or more committees, each committee to consist of one or more of the directors of the corporation with such lawfully delegable powers and duties as the Board of Directors thereby confers, to serve at the pleasure of the Board of Directors. The Board of Directors may designate one or more directors as alternate members of any committee, who may replace any absent or disqualified member at any meeting of the committee. In the absence or disqualification of a member of a committee, the member or members of the committee present at any meeting and not disqualified from voting, whether or not such member or members constitute a quorum, may unanimously appoint another member of the Board of Directors to act at the meeting in the place of any such absent or disqualified member. Any such committee, to the extent provided in the resolution of the Board of Directors and subject to the provisions of law, shall have and may exercise all the powers and authority of the Board of Directors in the management of the business and affairs of the corporation and may authorize the seal of the corporation to be affixed to all papers which may require it. Each such committee shall keep minutes and make such reports as the Board of Directors may from time to time request. Except as the Board of Directors may otherwise determine, any committee may make rules for the conduct of its business, but unless otherwise provided by the directors or in such rules, its business shall be conducted as nearly as possible in the same manner as is provided in these Bylaws for the Board of Directors. Except as otherwise provided in the Certificate of Incorporation, these Bylaws, or the resolution of the Board of Directors designating the committee, a committee may create one or more subcommittees, each subcommittee to consist of one or more members of the committee, and delegate to a subcommittee any or all of the powers and authority of the committee.",
+   "parent_id": "#/texts/35"
+  },
+  {
+   "id": "#/texts/56",
+   "label": "text",
+   "page": 12,
+   "bounds": {
+    "left": 132.0,
+    "top": 358.361,
+    "right": 588.588,
+    "bottom": 424.801
+   },
+   "rawText": "2.16 Compensation of Directors. Directors may be paid such compensation for their services and such reimbursement for expenses of attendance at meetings as the Board of Directors may from time to time determine. No such payment shall preclude any director from serving the corporation or any of its parent or subsidiary entities in any other capacity and receiving compensation for such service.",
+   "parent_id": "#/texts/35"
+  },
+  {
+   "id": "#/texts/57",
+   "label": "section_header",
+   "page": 12,
+   "bounds": {
+    "left": 330.155,
+    "top": 436.806,
+    "right": 401.831,
+    "bottom": 450.09
+   },
+   "rawText": "ARTICLE III",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/58",
+   "label": "section_header",
+   "page": 12,
+   "bounds": {
+    "left": 335.663,
+    "top": 462.095,
+    "right": 396.335,
+    "bottom": 475.379
+   },
+   "rawText": "OFFICERS",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/59",
+   "label": "text",
+   "page": 12,
+   "bounds": {
+    "left": 132.0,
+    "top": 487.384,
+    "right": 591.552,
+    "bottom": 553.8240000000001
+   },
+   "rawText": "3.1 Titles. The officers of the corporation shall consist of a Chief Executive Officer, a President, a Secretary, a Treasurer and such other officers with such other titles as the Board of Directors shall determine, including one or more Vice Presidents, Assistant Treasurers and Assistant Secretaries. The Board of Directors may appoint such other officers as it may deem appropriate.",
+   "parent_id": "#/texts/58"
+  },
+  {
+   "id": "#/texts/60",
+   "label": "page_footer",
+   "page": 12,
+   "bounds": {
+    "left": 363.0,
+    "top": 604.4780000000001,
+    "right": 369.0,
+    "bottom": 617.762
+   },
+   "rawText": "7",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/61",
+   "label": "list_item",
+   "page": 13,
+   "bounds": {
+    "left": 132.0,
+    "top": 165.93899999999996,
+    "right": 589.212,
+    "bottom": 219.09000000000003
+   },
+   "rawText": "3.2 Election. The Chief Executive Officer, President, Treasurer and Secretary shall be elected annually by the Board of Directors at its first meeting following the annual meeting of stockholders. Other officers may be appointed by the Board of Directors at such meeting or at any other meeting.",
+   "parent_id": "#/texts/58"
+  },
+  {
+   "id": "#/texts/62",
+   "label": "list_item",
+   "page": 13,
+   "bounds": {
+    "left": 132.0,
+    "top": 231.09500000000003,
+    "right": 583.223,
+    "bottom": 257.668
+   },
+   "rawText": "3.3 Qualification. No officer need be a stockholder. Any two or more offices may be held by the same person.",
+   "parent_id": "#/texts/58"
+  },
+  {
+   "id": "#/texts/63",
+   "label": "list_item",
+   "page": 13,
+   "bounds": {
+    "left": 132.0,
+    "top": 269.673,
+    "right": 600.924,
+    "bottom": 322.824
+   },
+   "rawText": "3.4 Tenure. Except as otherwise provided by law, by the Certificate of Incorporation or by these Bylaws, each officer shall hold office until such officer's successor is elected and qualified, unless a different term is specified in the resolution electing or appointing such officer, or until such officer's earlier death, resignation or removal.",
+   "parent_id": "#/texts/58"
+  },
+  {
+   "id": "#/texts/64",
+   "label": "list_item",
+   "page": 13,
+   "bounds": {
+    "left": 132.0,
+    "top": 334.829,
+    "right": 599.592,
+    "bottom": 467.715
+   },
+   "rawText": "3.5 Resignation and Removal. Any officer may resign by delivering a written resignation to the corporation at its principal office or to the Chief Executive Officer, the President or the Secretary. Such resignation shall be effective upon receipt unless it is specified to be effective at some later time or upon the happening of some later event. Any officer may be removed at any time, with or without cause, by vote of a majority of the directors then in office. Except as the Board of Directors may otherwise determine, no officer who resigns or is removed shall have any right to any compensation as an officer for any period following such officer's resignation or removal, or any right to damages on account of such removal, whether such officer's compensation be by the month or by the year or otherwise, unless such compensation is expressly provided for in a duly authorized written agreement with the corporation.",
+   "parent_id": "#/texts/58"
+  },
+  {
+   "id": "#/texts/65",
+   "label": "list_item",
+   "page": 13,
+   "bounds": {
+    "left": 132.0,
+    "top": 479.72,
+    "right": 594.869,
+    "bottom": 546.16
+   },
+   "rawText": "3.6 Vacancies. The Board of Directors may fill any vacancy occurring in any office for any reason and may, in its discretion, leave unfilled for such period as it may determine any offices other than those of Chief Executive Officer, President, Treasurer and Secretary. Each such successor shall hold office for the unexpired term of such officer's predecessor and until a successor is elected and qualified, or until such officer's earlier death, resignation or removal.",
+   "parent_id": "#/texts/58"
+  },
+  {
+   "id": "#/texts/66",
+   "label": "list_item",
+   "page": 13,
+   "bounds": {
+    "left": 132.0,
+    "top": 558.165,
+    "right": 600.576,
+    "bottom": 717.629
+   },
+   "rawText": "3.7 President; Chief Executive Officer. Unless the Board of Directors has designated another person as the corporation's Chief Executive Officer, the President shall be the Chief Executive Officer of the corporation. The Chief Executive Officer shall have general charge and supervision of the business of the corporation subject to the direction of the Board of Directors, and shall perform all duties and have all powers that are commonly incident to the office of chief executive or that are delegated to such officer by the Board of Directors. The President shall perform such other duties and shall have such other powers as the Board of Directors or the Chief Executive Officer (if the President is not the Chief Executive Officer) may from time to time prescribe. In the event of the absence, inability or refusal to act of the Chief Executive Officer or the President (if the President is not the Chief Executive Officer), the Vice President (or if there shall be more than one, the Vice Presidents in the order determined by the Board of Directors) shall perform the duties of the Chief Executive Officer and when so performing such",
+   "parent_id": "#/texts/58"
+  },
+  {
+   "id": "#/texts/67",
+   "label": "text",
+   "page": 14,
+   "bounds": {
+    "left": 132.0,
+    "top": 54.000999999999976,
+    "right": 596.604,
+    "bottom": 80.57399999999996
+   },
+   "rawText": "duties shall have all the powers of and be subject to all the restrictions upon the Chief Executive Officer.",
+   "parent_id": "#/texts/58"
+  },
+  {
+   "id": "#/texts/68",
+   "label": "text",
+   "page": 14,
+   "bounds": {
+    "left": 132.0,
+    "top": 92.57899999999995,
+    "right": 581.598,
+    "bottom": 119.15300000000002
+   },
+   "rawText": "3.8 Vice Presidents. Each Vice President shall perform such duties and possess such powers as the Board of Directors or the Chief Executive Officer may from time to time prescribe. The Board of Directors may assign to any Vice President the title of Executive Vice President, Senior Vice President or any other title selected by the Board of Directors.",
+   "parent_id": "#/texts/58"
+  },
+  {
+   "id": "#/texts/69",
+   "label": "text",
+   "page": 14,
+   "bounds": {
+    "left": 132.0,
+    "top": 438.986,
+    "right": 601.272,
+    "bottom": 558.582
+   },
+   "rawText": "3.9 Secretary and Assistant Secretaries. The Secretary shall perform such duties and shall have such powers as the Board of Directors or the Chief Executive Officer may from time to time prescribe. In addition, the Secretary shall perform such duties and have such powers as are incident to the office of the secretary, including without limitation the duty and power to give notices of all meetings of stockholders and special meetings of the Board of Directors, to attend all meetings of stockholders and the Board of Directors and keep a record of the proceedings, to maintain a stock ledger and prepare lists of stockholders and their addresses as required, to be custodian of corporate records and the corporate seal and to affix and attest to the same on documents.",
+   "parent_id": "#/texts/58"
+  },
+  {
+   "id": "#/texts/70",
+   "label": "text",
+   "page": 14,
+   "bounds": {
+    "left": 132.0,
+    "top": 570.587,
+    "right": 602.22,
+    "bottom": 637.028
+   },
+   "rawText": "Any Assistant Secretary shall perform such duties and possess such powers as the Board of Directors, the Chief Executive Officer or the Secretary may from time to time prescribe. In the event of the absence, inability or refusal to act of the Secretary, the Assistant Secretary (or if there shall be more than one, the Assistant Secretaries in the order determined by the Board of Directors) shall perform the duties and exercise the powers of the Secretary.",
+   "parent_id": "#/texts/58"
+  },
+  {
+   "id": "#/texts/71",
+   "label": "text",
+   "page": 14,
+   "bounds": {
+    "left": 132.0,
+    "top": 649.033,
+    "right": 597.564,
+    "bottom": 688.895
+   },
+   "rawText": "In the absence of the Secretary or any Assistant Secretary at any meeting of stockholders or directors, the chairman of the meeting shall designate a temporary secretary to keep a record of the meeting.",
+   "parent_id": "#/texts/58"
+  },
+  {
+   "id": "#/texts/72",
+   "label": "text",
+   "page": 14,
+   "bounds": {
+    "left": 132.0,
+    "top": 700.9,
+    "right": 584.928,
+    "bottom": 727.473
+   },
+   "rawText": "3.10 Treasurer and Assistant Treasurers. The Treasurer shall perform such duties and shall have such powers as may from time to time be assigned by the Board of Directors or the",
+   "parent_id": "#/texts/58"
+  },
+  {
+   "id": "#/texts/73",
+   "label": "page_footer",
+   "page": 14,
+   "bounds": {
+    "left": 363.0,
+    "top": 169.80600000000004,
+    "right": 369.0,
+    "bottom": 183.09000000000003
+   },
+   "rawText": "8",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/74",
+   "label": "text",
+   "page": 15,
+   "bounds": {
+    "left": 132.0,
+    "top": 54.000999999999976,
+    "right": 596.928,
+    "bottom": 147.01999999999998
+   },
+   "rawText": "Chief Executive Officer. In addition, the Treasurer shall perform such duties and have such powers as are incident to the office of treasurer, including without limitation the duty and power to keep and be responsible for all funds and securities of the corporation, to deposit funds of the corporation in depositories selected in accordance with these Bylaws, to disburse such funds as ordered by the Board of Directors, to make proper accounts of such funds, and to render as required by the Board of Directors statements of all such transactions and of the financial condition of the corporation.",
+   "parent_id": "#/texts/58"
+  },
+  {
+   "id": "#/texts/75",
+   "label": "text",
+   "page": 15,
+   "bounds": {
+    "left": 132.0,
+    "top": 159.02499999999998,
+    "right": 602.88,
+    "bottom": 225.46500000000003
+   },
+   "rawText": "The Assistant Treasurers shall perform such duties and possess such powers as the Board of Directors, the Chief Executive Officer or the Treasurer may from time to time prescribe. In the event of the absence, inability or refusal to act of the Treasurer, the Assistant Treasurer (or if there shall be more than one, the Assistant Treasurers in the order determined by the Board of Directors) shall perform the duties and exercise the powers of the Treasurer.",
+   "parent_id": "#/texts/58"
+  },
+  {
+   "id": "#/texts/76",
+   "label": "text",
+   "page": 15,
+   "bounds": {
+    "left": 132.0,
+    "top": 237.47000000000003,
+    "right": 595.254,
+    "bottom": 264.043
+   },
+   "rawText": "3.11 Salaries. Officers of the corporation shall be entitled to such salaries, compensation or reimbursement as shall be fixed or allowed from time to time by the Board of Directors.",
+   "parent_id": "#/texts/58"
+  },
+  {
+   "id": "#/texts/77",
+   "label": "text",
+   "page": 15,
+   "bounds": {
+    "left": 132.0,
+    "top": 276.048,
+    "right": 599.591,
+    "bottom": 315.91
+   },
+   "rawText": "3.12 Delegation of Authority. The Board of Directors may from time to time delegate the powers or duties of any officer to any other officer or agent, notwithstanding any provision hereof.",
+   "parent_id": "#/texts/58"
+  },
+  {
+   "id": "#/texts/78",
+   "label": "section_header",
+   "page": 15,
+   "bounds": {
+    "left": 330.492,
+    "top": 597.165,
+    "right": 401.496,
+    "bottom": 610.4490000000001
+   },
+   "rawText": "ARTICLE IV",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/79",
+   "label": "section_header",
+   "page": 15,
+   "bounds": {
+    "left": 316.491,
+    "top": 622.454,
+    "right": 415.503,
+    "bottom": 635.738
+   },
+   "rawText": "CAPITAL STOCK",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/80",
+   "label": "text",
+   "page": 15,
+   "bounds": {
+    "left": 132.0,
+    "top": 647.744,
+    "right": 600.576,
+    "bottom": 727.473
+   },
+   "rawText": "4.1 Issuance of Stock. Subject to the provisions of the Certificate of Incorporation, the whole or any part of any unissued balance of the authorized capital stock of the corporation or the whole or any part of any shares of the authorized capital stock of the corporation held in the corporation's treasury may be issued, sold, transferred or otherwise disposed of by vote of the Board of Directors in such manner, for such lawful consideration and on such terms as the Board of Directors may determine.",
+   "parent_id": "#/texts/79"
+  },
+  {
+   "id": "#/texts/81",
+   "label": "page_footer",
+   "page": 15,
+   "bounds": {
+    "left": 363.0,
+    "top": 366.564,
+    "right": 369.0,
+    "bottom": 379.848
+   },
+   "rawText": "9",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/82",
+   "label": "text",
+   "page": 16,
+   "bounds": {
+    "left": 132.0,
+    "top": 54.000999999999976,
+    "right": 601.536,
+    "bottom": 160.30899999999997
+   },
+   "rawText": "4.2 Stock Certificates; Uncertificated Shares. The shares of the corporation shall be represented by certificates, provided that the Board of Directors may provide by resolution or resolutions that some or all of any or all classes or series of the corporation's stock shall be uncertificated shares. Every holder of stock of the corporation represented by certificates shall be entitled to have a certificate, in such form as may be prescribed by law and by the Board of Directors, representing the number of shares held by such holder registered in certificate form. Each such certificate shall be signed in a manner that complies with Section 158 of the General Corporation Law of the State of Delaware.",
+   "parent_id": "#/texts/79"
+  },
+  {
+   "id": "#/texts/83",
+   "label": "text",
+   "page": 16,
+   "bounds": {
+    "left": 132.0,
+    "top": 172.31399999999996,
+    "right": 591.252,
+    "bottom": 238.75400000000002
+   },
+   "rawText": "Each certificate for shares of stock which are subject to any restriction on transfer pursuant to the Certificate of Incorporation, these Bylaws, applicable securities laws or any agreement among any number of stockholders or among such holders and the corporation shall have conspicuously noted on the face or back of the certificate either the full text of the restriction or a statement of the existence of such restriction.",
+   "parent_id": "#/texts/79"
+  },
+  {
+   "id": "#/texts/84",
+   "label": "text",
+   "page": 16,
+   "bounds": {
+    "left": 132.0,
+    "top": 250.75900000000001,
+    "right": 601.92,
+    "bottom": 396.934
+   },
+   "rawText": "If the corporation shall be authorized to issue more than one class of stock or more than one series of any class, the powers, designations, preferences and relative, participating, optional or other special rights of each class of stock or series thereof and the qualifications, limitations or restrictions of such preferences and/or rights shall be set forth in full or summarized on the face or back of each certificate representing shares of such class or series of stock, provided that in lieu of the foregoing requirements there may be set forth on the face or back of each certificate representing shares of such class or series of stock a statement that the corporation will furnish without charge to each stockholder who so requests a copy of the full text of the powers, designations, preferences and relative, participating, optional or other special rights of each class of stock or series thereof and the qualifications, limitations or restrictions of such preferences and/or rights.",
+   "parent_id": "#/texts/79"
+  },
+  {
+   "id": "#/texts/85",
+   "label": "text",
+   "page": 16,
+   "bounds": {
+    "left": 132.0,
+    "top": 408.939,
+    "right": 599.916,
+    "bottom": 515.246
+   },
+   "rawText": "Within a reasonable time after the issuance or transfer of uncertificated shares, the corporation shall send to the registered owner thereof a written notice containing the information required to be set forth or stated on certificates pursuant to Sections 151, 202(a) or 218(a) of the General Corporation Law of the State of Delaware or, with respect to Section 151 of the General Corporation Law of the State of Delaware, a statement that the corporation will furnish without charge to each stockholder who so requests the powers, designations, preferences and relative participating, optional or other special rights of each class of stock or series thereof and the qualifications, limitations or restrictions of such preferences and/or rights.",
+   "parent_id": "#/texts/79"
+  },
+  {
+   "id": "#/texts/86",
+   "label": "page_footer",
+   "page": 16,
+   "bounds": {
+    "left": 360.0,
+    "top": 565.9,
+    "right": 372.0,
+    "bottom": 579.184
+   },
+   "rawText": "10",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/87",
+   "label": "list_item",
+   "page": 17,
+   "bounds": {
+    "left": 132.0,
+    "top": 165.93899999999996,
+    "right": 601.248,
+    "bottom": 351.981
+   },
+   "rawText": "4.3 Transfers. Shares of stock of the corporation shall be transferable in the manner prescribed by law and in these Bylaws. Transfers of shares of stock of the corporation shall be made only on the books of the corporation or by transfer agents designated to transfer shares of stock of the corporation. Subject to applicable law, shares of stock represented by certificates shall be transferred only on the books of the corporation by the surrender to the corporation or its transfer agent of the certificate representing such shares properly endorsed or accompanied by a written assignment or power of attorney properly executed, and with such proof of authority or the authenticity of signature as the corporation or its transfer agent may reasonably require. Except as may be otherwise required by law, by the Certificate of Incorporation or by these Bylaws, the corporation shall be entitled to treat the record holder of stock as shown on its books as the owner of such stock for all purposes, including the payment of dividends and the right to vote with respect to such stock, regardless of any transfer, pledge or other disposition of such stock until the shares have been transferred on the books of the corporation in accordance with the requirements of these Bylaws.",
+   "parent_id": "#/texts/79"
+  },
+  {
+   "id": "#/texts/88",
+   "label": "list_item",
+   "page": 17,
+   "bounds": {
+    "left": 132.0,
+    "top": 363.986,
+    "right": 602.928,
+    "bottom": 443.715
+   },
+   "rawText": "4.4 Lost, Stolen or Destroyed Certificates. The corporation may issue a new certificate of stock in place of any previously issued certificate alleged to have been lost, stolen or destroyed, upon such terms and conditions as the Board of Directors may prescribe, including the presentation of reasonable evidence of such loss, theft or destruction and the giving of such indemnity and posting of such bond as the Board of Directors may require for the protection of the corporation or any transfer agent or registrar.",
+   "parent_id": "#/texts/79"
+  },
+  {
+   "id": "#/texts/89",
+   "label": "list_item",
+   "page": 17,
+   "bounds": {
+    "left": 132.0,
+    "top": 455.72,
+    "right": 601.56,
+    "bottom": 575.317
+   },
+   "rawText": "4.5 Record Date. The Board of Directors may fix in advance a date as a record date for the determination of the stockholders entitled to notice of or to vote at any meeting of stockholders or to express consent (or dissent) to corporate action without a meeting, or entitled to receive payment of any dividend or other distribution or allotment of any rights in respect of any change, conversion or exchange of stock, or for the purpose of any other lawful action. Such record date shall not precede the date on which the resolution fixing the record date is adopted, and such record date shall not be more than 60 nor less than 10 days before the date of such meeting, nor more than 10 days after the date of adoption of a record date for a consent without a meeting, nor more than 60 days prior to any other action to which such record date relates.",
+   "parent_id": "#/texts/79"
+  },
+  {
+   "id": "#/texts/90",
+   "label": "text",
+   "page": 17,
+   "bounds": {
+    "left": 132.0,
+    "top": 587.322,
+    "right": 591.912,
+    "bottom": 706.918
+   },
+   "rawText": "If no record date is fixed, the record date for determining stockholders entitled to notice of or to vote at a meeting of stockholders shall be at the close of business on the day before the day on which notice is given, or, if notice is waived, at the close of business on the day before the day on which the meeting is held. If no record date is fixed, the record date for determining stockholders entitled to express consent to corporate action without a meeting, when no prior action by the Board of Directors is necessary, shall be the day on which the first consent is properly delivered to the corporation. If no record date is fixed, the record date for determining stockholders for any other purpose shall be at the close of business on the day on which the Board of Directors adopts the resolution relating to such purpose.",
+   "parent_id": "#/texts/79"
+  },
+  {
+   "id": "#/texts/91",
+   "label": "text",
+   "page": 18,
+   "bounds": {
+    "left": 132.0,
+    "top": 54.000999999999976,
+    "right": 602.94,
+    "bottom": 93.86300000000006
+   },
+   "rawText": "A determination of stockholders of record entitled to notice of or to vote at a meeting of stockholders shall apply to any adjournment of the meeting; provided, however, that the Board of Directors may fix a new record date for the adjourned meeting.",
+   "parent_id": "#/texts/79"
+  },
+  {
+   "id": "#/texts/92",
+   "label": "text",
+   "page": 18,
+   "bounds": {
+    "left": 168.0,
+    "top": 375.119,
+    "right": 183.0,
+    "bottom": 388.403
+   },
+   "rawText": "4.6",
+   "parent_id": "#/texts/79"
+  },
+  {
+   "id": "#/texts/93",
+   "label": "text",
+   "page": 18,
+   "bounds": {
+    "left": 132.0,
+    "top": 388.408,
+    "right": 599.572,
+    "bottom": 414.981
+   },
+   "rawText": "Regulations. The issue, transfer, conversion and registration of shares of stock of the corporation shall be governed by such other regulations as the Board of Directors may establish.",
+   "parent_id": "#/texts/79"
+  },
+  {
+   "id": "#/texts/94",
+   "label": "section_header",
+   "page": 18,
+   "bounds": {
+    "left": 332.827,
+    "top": 426.986,
+    "right": 399.163,
+    "bottom": 440.27
+   },
+   "rawText": "ARTICLE V",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/95",
+   "label": "section_header",
+   "page": 18,
+   "bounds": {
+    "left": 297.486,
+    "top": 452.275,
+    "right": 434.502,
+    "bottom": 465.559
+   },
+   "rawText": "GENERAL PROVISIONS",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/96",
+   "label": "list_item",
+   "page": 18,
+   "bounds": {
+    "left": 132.0,
+    "top": 477.564,
+    "right": 587.544,
+    "bottom": 517.4259999999999
+   },
+   "rawText": "5.1 Fiscal Year. Except as from time to time otherwise designated by the Board of Directors, the fiscal year of the corporation shall begin on the first day of January of each year and end on the last day of December in each year.",
+   "parent_id": "#/texts/95"
+  },
+  {
+   "id": "#/texts/97",
+   "label": "list_item",
+   "page": 18,
+   "bounds": {
+    "left": 132.0,
+    "top": 529.431,
+    "right": 598.239,
+    "bottom": 556.004
+   },
+   "rawText": "5.2 Corporate Seal. The corporate seal shall be in such form as shall be approved by the Board of Directors.",
+   "parent_id": "#/texts/95"
+  },
+  {
+   "id": "#/texts/98",
+   "label": "list_item",
+   "page": 18,
+   "bounds": {
+    "left": 168.0,
+    "top": 568.009,
+    "right": 243.312,
+    "bottom": 581.293
+   },
+   "rawText": "5.3 Waiver of",
+   "parent_id": "#/texts/95"
+  },
+  {
+   "id": "#/texts/99",
+   "label": "text",
+   "page": 18,
+   "bounds": {
+    "left": 132.0,
+    "top": 581.298,
+    "right": 598.89,
+    "bottom": 700.895
+   },
+   "rawText": "Notice. Whenever notice is required to be given by law, by the Certificate of Incorporation or by these Bylaws, a written waiver, signed by the person entitled to notice, or a waiver by electronic transmission by the person entitled to notice, whether before, at or after the time of the event for which notice is to be given, shall be deemed equivalent to notice required to be given to such person. Neither the business nor the purpose of any meeting need be specified in any such waiver. Attendance of a person at a meeting shall constitute a waiver of notice of such meeting, except when the person attends a meeting for the express purpose of objecting at the beginning of the meeting, to the transaction of any business because the meeting is not lawfully called or convened.",
+   "parent_id": "#/texts/95"
+  },
+  {
+   "id": "#/texts/100",
+   "label": "page_footer",
+   "page": 18,
+   "bounds": {
+    "left": 360.0,
+    "top": 144.51700000000005,
+    "right": 372.0,
+    "bottom": 157.80100000000004
+   },
+   "rawText": "11",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/101",
+   "label": "list_item",
+   "page": 19,
+   "bounds": {
+    "left": 132.0,
+    "top": 54.000999999999976,
+    "right": 600.888,
+    "bottom": 133.731
+   },
+   "rawText": "5.4 Voting of Securities. Except as the Board of Directors may otherwise designate, the Chief Executive Officer, the President or the Treasurer may waive notice of, vote, or appoint any person or persons to vote, on behalf of the corporation at, and act as, or appoint any person or persons to act as, proxy or attorney-in-fact for this corporation (with or without power of substitution) at, any meeting of stockholders or securityholders of any other entity, the securities of which may be held by this corporation.",
+   "parent_id": "#/texts/95"
+  },
+  {
+   "id": "#/texts/102",
+   "label": "list_item",
+   "page": 19,
+   "bounds": {
+    "left": 132.0,
+    "top": 145.736,
+    "right": 598.883,
+    "bottom": 198.88699999999994
+   },
+   "rawText": "5.5 Evidence of Authority. A certificate by the Secretary, or an Assistant Secretary, or a temporary Secretary, as to any action taken by the stockholders, directors, a committee or any officer or representative of the corporation shall as to all persons who rely on the certificate in good faith be conclusive evidence of such action.",
+   "parent_id": "#/texts/95"
+  },
+  {
+   "id": "#/texts/103",
+   "label": "list_item",
+   "page": 19,
+   "bounds": {
+    "left": 132.0,
+    "top": 210.89200000000005,
+    "right": 588.552,
+    "bottom": 250.75400000000002
+   },
+   "rawText": "5.6 Certificate of Incorporation. All references in these Bylaws to the Certificate of Incorporation shall be deemed to refer to the Certificate of Incorporation of the corporation, as amended and in effect from time to time.",
+   "parent_id": "#/texts/95"
+  },
+  {
+   "id": "#/texts/104",
+   "label": "list_item",
+   "page": 19,
+   "bounds": {
+    "left": 132.0,
+    "top": 262.759,
+    "right": 571.584,
+    "bottom": 315.91
+   },
+   "rawText": "5.7 Severability. Any determination that any provision of these Bylaws is for any reason inapplicable, illegal or ineffective shall not affect or invalidate any other provision of these Bylaws.",
+   "parent_id": "#/texts/95"
+  },
+  {
+   "id": "#/texts/105",
+   "label": "list_item",
+   "page": 19,
+   "bounds": {
+    "left": 132.0,
+    "top": 327.915,
+    "right": 582.264,
+    "bottom": 367.778
+   },
+   "rawText": "5.8 Pronouns. All pronouns used in these Bylaws shall be deemed to refer to the masculine, feminine or neuter, singular or plural, as the identity of the person or persons may require.",
+   "parent_id": "#/texts/95"
+  },
+  {
+   "id": "#/texts/106",
+   "label": "section_header",
+   "page": 19,
+   "bounds": {
+    "left": 330.492,
+    "top": 649.033,
+    "right": 401.496,
+    "bottom": 662.317
+   },
+   "rawText": "ARTICLE VI",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/107",
+   "label": "section_header",
+   "page": 19,
+   "bounds": {
+    "left": 321.999,
+    "top": 674.322,
+    "right": 409.995,
+    "bottom": 687.606
+   },
+   "rawText": "AMENDMENTS",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/108",
+   "label": "list_item",
+   "page": 19,
+   "bounds": {
+    "left": 132.0,
+    "top": 699.611,
+    "right": 588.231,
+    "bottom": 726.184
+   },
+   "rawText": "6.1 By the Board of Directors. These Bylaws may be altered, amended or repealed, in whole or in part, or new Bylaws may be adopted by the Board of Directors.",
+   "parent_id": "#/texts/107"
+  },
+  {
+   "id": "#/texts/109",
+   "label": "page_footer",
+   "page": 19,
+   "bounds": {
+    "left": 360.0,
+    "top": 418.431,
+    "right": 372.0,
+    "bottom": 431.715
+   },
+   "rawText": "12",
+   "parent_id": null
+  },
+  {
+   "id": "#/texts/110",
+   "label": "text",
+   "page": 20,
+   "bounds": {
+    "left": 132.0,
+    "top": 54.000999999999976,
+    "right": 602.256,
+    "bottom": 133.731
+   },
+   "rawText": "6.2 By the Stockholders. These Bylaws may be altered, amended or repealed, in whole or in part, or new Bylaws may be adopted by the affirmative vote of the holders of a majority of the shares of the capital stock of the corporation issued and outstanding and entitled to vote at any annual meeting of stockholders, or at any special meeting of stockholders, provided notice of such alteration, amendment, repeal or adoption of new Bylaws shall have been stated in the notice of such special meeting.",
+   "parent_id": "#/texts/107"
+  },
+  {
+   "id": "#/texts/111",
+   "label": "page_footer",
+   "page": 20,
+   "bounds": {
+    "left": 360.0,
+    "top": 184.38400000000001,
+    "right": 372.0,
+    "bottom": 197.668
+   },
+   "rawText": "13",
+   "parent_id": null
+  }
+ ]
+}

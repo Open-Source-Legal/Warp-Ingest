@@ -1,0 +1,34 @@
+# Pure-Python test image. No Java, no Apache Tika, no Tesseract binary.
+FROM python:3.14-bookworm
+
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /usr/local/bin/
+
+# Install from uv.lock with the image's own interpreter — the same frozen
+# resolution the CI matrix proves on 3.14 (pip would refuse: rapidocr's
+# metadata still says <3.13 even though it runs green on 3.14).
+ENV APP_HOME=/app \
+  PYTHONUNBUFFERED=1 \
+  UV_PYTHON=python3.14 \
+  UV_PYTHON_DOWNLOADS=never \
+  PATH="/app/.venv/bin:$PATH"
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+  libgomp1 \
+  libmagic1 \
+  && rm -rf /var/lib/apt/lists/*
+
+WORKDIR ${APP_HOME}
+COPY . .
+
+# Dev group provides pytest. The OCR model warm-up alone is allowed to fail
+# (it only pre-fetches; the service degrades gracefully without it) — a failed
+# dependency install must fail the build, so no blanket `|| true` here.
+RUN uv sync --frozen --extra ocr --group dev && \
+  python -m nltk.downloader -d /usr/share/nltk_data punkt punkt_tab stopwords && \
+  { python -c "from rapidocr_onnxruntime import RapidOCR; RapidOCR()" || true; }
+
+RUN chmod +x run.sh
+EXPOSE 5001
+HEALTHCHECK --interval=30s --timeout=5s --start-period=15s --retries=3 \
+  CMD python -c "import os,sys,urllib.request; port=os.environ.get('WARP_PORT') or os.environ.get('PORT') or '5001'; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:%s/healthz' % port, timeout=4).status == 200 else 1)"
+CMD ["./run.sh"]

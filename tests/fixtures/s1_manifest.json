@@ -1,0 +1,352 @@
+[
+ {
+  "company": "exyn_s1",
+  "zip": "exyn_s1_oc_corpus_v3.zip",
+  "member": "1960355_0001104659-26-032156_tm2525579-9_s1.pdf",
+  "size": 1353087,
+  "fixture": "exyn_s1__s1_b6bd4c.pdf"
+ },
+ {
+  "company": "pershing_square_s1",
+  "zip": "pershing_square_s1_oc_corpus_v3.zip",
+  "member": "2026053_0001140361-26-008560_ny20040230x14_s1.pdf",
+  "size": 2440576,
+  "fixture": "pershing_square_s1__s1_f498b3.pdf"
+ },
+ {
+  "company": "swarmer_s1",
+  "zip": "swarmer_s1_oc_corpus_v3.zip",
+  "member": "2092574_0001104659-26-009198_tm2529424-6_s1.pdf",
+  "size": 770150,
+  "fixture": "swarmer_s1__s1_fe1f49.pdf"
+ },
+ {
+  "company": "yesway_s1",
+  "zip": "yesway_s1_oc_corpus_v3.zip",
+  "member": "1859836_0001104659-26-035973_tm2527636-7_s1.pdf",
+  "size": 3932634,
+  "fixture": "yesway_s1__s1_558e28.pdf"
+ },
+ {
+  "company": "cerebras_s1",
+  "zip": "cerebras_s1_oc_corpus_v3.zip",
+  "member": "2021728_0001628280-24-041596_exhibit231-sx1.pdf",
+  "size": 8445,
+  "fixture": "cerebras_s1__exhibit231sx1_d5d6f3.pdf"
+ },
+ {
+  "company": "eikon_s1",
+  "zip": "eikon_s1_oc_corpus_v3.zip",
+  "member": "1861123_0001193125-26-008888_d903262dex231.pdf",
+  "size": 9087,
+  "fixture": "eikon_s1__ex231_6fa7f0.pdf"
+ },
+ {
+  "company": "exyn_s1",
+  "zip": "exyn_s1_oc_corpus_v3.zip",
+  "member": "1960355_0001104659-26-032156_tm2525579d10_ex21-1.pdf",
+  "size": 8607,
+  "fixture": "exyn_s1__ex211_812970.pdf"
+ },
+ {
+  "company": "fervo_s1",
+  "zip": "fervo_s1_oc_corpus_v3.zip",
+  "member": "1853868_0001628280-26-025821_exhibit211-sx1.pdf",
+  "size": 8373,
+  "fixture": "fervo_s1__exhibit211sx1_0c768b.pdf"
+ },
+ {
+  "company": "forbright_s1",
+  "zip": "forbright_s1_oc_corpus_v3.zip",
+  "member": "1925062_0001628280-26-035713_exhibit211-sx1publicflip.pdf",
+  "size": 7652,
+  "fixture": "forbright_s1__exhibit211sx1p_2eae0d.pdf"
+ },
+ {
+  "company": "generate_bio_s1",
+  "zip": "generate_bio_s1_oc_corpus_v3.zip",
+  "member": "2100782_0001193125-26-037799_ck0002100782-ex21_1.pdf",
+  "size": 6649,
+  "fixture": "generate_bio_s1__ex211_84dda0.pdf"
+ },
+ {
+  "company": "hawkeye360_s1",
+  "zip": "hawkeye360_s1_oc_corpus_v3.zip",
+  "member": "1750704_0001628280-26-024593_exhibit211-sx1.pdf",
+  "size": 9236,
+  "fixture": "hawkeye360_s1__exhibit211sx1_eed44c.pdf"
+ },
+ {
+  "company": "infleqtion_s1",
+  "zip": "infleqtion_s1_oc_corpus_v3.zip",
+  "member": "2007825_0001193125-26-134544_d94946dex211.pdf",
+  "size": 8288,
+  "fixture": "infleqtion_s1__ex211_b9070a.pdf"
+ },
+ {
+  "company": "innio_s1",
+  "zip": "innio_s1_oc_corpus_v3.zip",
+  "member": "2109150_0001193125-26-216625_ck0002109150-ex23_1.pdf",
+  "size": 9507,
+  "fixture": "innio_s1__ex231_490e47.pdf"
+ },
+ {
+  "company": "kardigan_s1",
+  "zip": "kardigan_s1_oc_corpus_v3.zip",
+  "member": "2123613_0001193125-26-239298_d107928dex211.pdf",
+  "size": 7328,
+  "fixture": "kardigan_s1__ex211_6d4418.pdf"
+ },
+ {
+  "company": "liftoff_s1",
+  "zip": "liftoff_s1_oc_corpus_v3.zip",
+  "member": "1850351_0001193125-26-161596_iron-ex23_1.pdf",
+  "size": 9826,
+  "fixture": "liftoff_s1__ex231_c133b1.pdf"
+ },
+ {
+  "company": "neutron_lime_s1",
+  "zip": "neutron_lime_s1_oc_corpus_v3.zip",
+  "member": "1699963_0001628280-26-032523_exhibit231-sx1.pdf",
+  "size": 10021,
+  "fixture": "neutron_lime_s1__exhibit231sx1_96d831.pdf"
+ },
+ {
+  "company": "parabilis_s1",
+  "zip": "parabilis_s1_oc_corpus_v3.zip",
+  "member": "1657677_0001193125-26-230994_ck0001657677-ex21_1.pdf",
+  "size": 7970,
+  "fixture": "parabilis_s1__ex211_f13ef7.pdf"
+ },
+ {
+  "company": "pershing_square_s1",
+  "zip": "pershing_square_s1_oc_corpus_v3.zip",
+  "member": "2026053_0001140361-26-008560_ny20040230x14_ex23-1.pdf",
+  "size": 8911,
+  "fixture": "pershing_square_s1__ex231_22654c.pdf"
+ },
+ {
+  "company": "quantinuum_s1",
+  "zip": "quantinuum_s1_oc_corpus_v3.zip",
+  "member": "2110105_0001628280-26-032836_exhibit997-sx1.pdf",
+  "size": 10280,
+  "fixture": "quantinuum_s1__exhibit997sx1_bead0b.pdf"
+ },
+ {
+  "company": "solv_energy_s1",
+  "zip": "solv_energy_s1_oc_corpus_v3.zip",
+  "member": "2065636_0001193125-26-239368_d150146dex231.pdf",
+  "size": 10529,
+  "fixture": "solv_energy_s1__ex231_98c758.pdf"
+ },
+ {
+  "company": "spacex_s1",
+  "zip": "spacex_s1_oc_corpus_v3.zip",
+  "member": "1181412_0001628280-26-036936_exhibit211-sx1.pdf",
+  "size": 9643,
+  "fixture": "spacex_s1__exhibit211sx1_3ecd38.pdf"
+ },
+ {
+  "company": "swarmer_s1",
+  "zip": "swarmer_s1_oc_corpus_v3.zip",
+  "member": "2092574_0001104659-26-009198_tm2529424d7_ex21-1.pdf",
+  "size": 7373,
+  "fixture": "swarmer_s1__ex211_b96bf3.pdf"
+ },
+ {
+  "company": "xenergy_s1",
+  "zip": "xenergy_s1_oc_corpus_v3.zip",
+  "member": "2088896_0001104659-26-032794_tm2527015d9_ex23-2.pdf",
+  "size": 9794,
+  "fixture": "xenergy_s1__ex232_ebd77e.pdf"
+ },
+ {
+  "company": "yesway_s1",
+  "zip": "yesway_s1_oc_corpus_v3.zip",
+  "member": "1859836_0001104659-26-035973_tm2527636d8_ex23-1.pdf",
+  "size": 8674,
+  "fixture": "yesway_s1__ex231_598e22.pdf"
+ },
+ {
+  "company": "cerebras_s1",
+  "zip": "cerebras_s1_oc_corpus_v3.zip",
+  "member": "2021728_0001628280-26-025762_exhibit1018-sx1.pdf",
+  "size": 1001689,
+  "fixture": "cerebras_s1__exhibit1018sx1_56fdc8.pdf"
+ },
+ {
+  "company": "eikon_s1",
+  "zip": "eikon_s1_oc_corpus_v3.zip",
+  "member": "1861123_0001193125-26-008888_d903262dex1011.pdf",
+  "size": 424713,
+  "fixture": "eikon_s1__ex1011_d4f7e0.pdf"
+ },
+ {
+  "company": "exyn_s1",
+  "zip": "exyn_s1_oc_corpus_v3.zip",
+  "member": "1960355_0001104659-26-032156_tm2525579d10_ex1-1.pdf",
+  "size": 239660,
+  "fixture": "exyn_s1__ex11_a8500b.pdf"
+ },
+ {
+  "company": "fervo_s1",
+  "zip": "fervo_s1_oc_corpus_v3.zip",
+  "member": "1853868_0001628280-26-025821_exhibit1016-sx1.pdf",
+  "size": 1009887,
+  "fixture": "fervo_s1__exhibit1016sx1_9df974.pdf"
+ },
+ {
+  "company": "forbright_s1",
+  "zip": "forbright_s1_oc_corpus_v3.zip",
+  "member": "1925062_0001628280-26-035713_forbright-sx1publicflip.pdf",
+  "size": 2757357,
+  "fixture": "forbright_s1__forbrightsx1pu_4bba16.pdf"
+ },
+ {
+  "company": "generate_bio_s1",
+  "zip": "generate_bio_s1_oc_corpus_v3.zip",
+  "member": "2100782_0001193125-26-037799_ck0002100782-ex10_15.pdf",
+  "size": 3073651,
+  "fixture": "generate_bio_s1__ex1015_68a8fd.pdf"
+ },
+ {
+  "company": "hawkeye360_s1",
+  "zip": "hawkeye360_s1_oc_corpus_v3.zip",
+  "member": "1750704_0001628280-26-024593_exhibit21-sx1.pdf",
+  "size": 411807,
+  "fixture": "hawkeye360_s1__exhibit21sx1_fa98cc.pdf"
+ },
+ {
+  "company": "infleqtion_s1",
+  "zip": "infleqtion_s1_oc_corpus_v3.zip",
+  "member": "2007825_0001193125-26-135000_d946641ds1.pdf",
+  "size": 946966,
+  "fixture": "infleqtion_s1__s1_60ea51.pdf"
+ },
+ {
+  "company": "innio_s1",
+  "zip": "innio_s1_oc_corpus_v3.zip",
+  "member": "2109150_0001193125-26-216625_ck0002109150-20260511.pdf",
+  "size": 2087708,
+  "fixture": "innio_s1__ck000210915020_101b8d.pdf"
+ },
+ {
+  "company": "kardigan_s1",
+  "zip": "kardigan_s1_oc_corpus_v3.zip",
+  "member": "2123613_0001193125-26-239298_d107928dex1017.pdf",
+  "size": 681382,
+  "fixture": "kardigan_s1__ex1017_6628ff.pdf"
+ },
+ {
+  "company": "liftoff_s1",
+  "zip": "liftoff_s1_oc_corpus_v3.zip",
+  "member": "1850351_0001193125-26-011825_iron-20260113.pdf",
+  "size": 3775769,
+  "fixture": "liftoff_s1__iron20260113_231d60.pdf"
+ },
+ {
+  "company": "neutron_lime_s1",
+  "zip": "neutron_lime_s1_oc_corpus_v3.zip",
+  "member": "1699963_0001628280-26-032523_exhibit45-sx1.pdf",
+  "size": 647911,
+  "fixture": "neutron_lime_s1__exhibit45sx1_4208ac.pdf"
+ },
+ {
+  "company": "parabilis_s1",
+  "zip": "parabilis_s1_oc_corpus_v3.zip",
+  "member": "1657677_0001193125-26-230994_ck0001657677-ex10_11.pdf",
+  "size": 380506,
+  "fixture": "parabilis_s1__ex1011_424531.pdf"
+ },
+ {
+  "company": "pershing_square_s1",
+  "zip": "pershing_square_s1_oc_corpus_v3.zip",
+  "member": "2026053_0001140361-26-008560_ny20040230x14_ex10-9.pdf",
+  "size": 676686,
+  "fixture": "pershing_square_s1__ex109_9133b3.pdf"
+ },
+ {
+  "company": "quantinuum_s1",
+  "zip": "quantinuum_s1_oc_corpus_v3.zip",
+  "member": "2110105_0001628280-26-032836_exhibit33-sx1.pdf",
+  "size": 91825,
+  "fixture": "quantinuum_s1__exhibit33sx1_eefad8.pdf"
+ },
+ {
+  "company": "solv_energy_s1",
+  "zip": "solv_energy_s1_oc_corpus_v3.zip",
+  "member": "2065636_0001193125-26-239368_d150146ds1.pdf",
+  "size": 3399428,
+  "fixture": "solv_energy_s1__s1_becbd8.pdf"
+ },
+ {
+  "company": "spacex_s1",
+  "zip": "spacex_s1_oc_corpus_v3.zip",
+  "member": "1181412_0001628280-26-036936_exhibit41-sx1.pdf",
+  "size": 1691202,
+  "fixture": "spacex_s1__exhibit41sx1_331523.pdf"
+ },
+ {
+  "company": "swarmer_s1",
+  "zip": "swarmer_s1_oc_corpus_v3.zip",
+  "member": "2092574_0001104659-26-009198_tm2529424d7_ex10-18.pdf",
+  "size": 254469,
+  "fixture": "swarmer_s1__ex1018_765a25.pdf"
+ },
+ {
+  "company": "xenergy_s1",
+  "zip": "xenergy_s1_oc_corpus_v3.zip",
+  "member": "2088896_0001104659-26-032794_tm2527015-8_drsa.pdf",
+  "size": 3476535,
+  "fixture": "xenergy_s1__drsa_1ae6c6.pdf"
+ },
+ {
+  "company": "yesway_s1",
+  "zip": "yesway_s1_oc_corpus_v3.zip",
+  "member": "1859836_0001104659-26-035973_tm2527636d8_ex10-5b.pdf",
+  "size": 982998,
+  "fixture": "yesway_s1__ex105b_379ea6.pdf"
+ },
+ {
+  "company": "cerebras_s1",
+  "zip": "cerebras_s1_oc_corpus_v3.zip",
+  "member": "2021728_0001628280-24-041596_exhibit1013e-sx1.pdf",
+  "size": 62101,
+  "fixture": "cerebras_s1__exhibit1013esx_f124a6.pdf"
+ },
+ {
+  "company": "eikon_s1",
+  "zip": "eikon_s1_oc_corpus_v3.zip",
+  "member": "1861123_0001193125-26-008888_d903262dex1010.pdf",
+  "size": 103686,
+  "fixture": "eikon_s1__ex1010_2e241e.pdf"
+ },
+ {
+  "company": "exyn_s1",
+  "zip": "exyn_s1_oc_corpus_v3.zip",
+  "member": "1960355_0001104659-26-032156_tm2525579d10_ex10-10.pdf",
+  "size": 45330,
+  "fixture": "exyn_s1__ex1010_de36c8.pdf"
+ },
+ {
+  "company": "fervo_s1",
+  "zip": "fervo_s1_oc_corpus_v3.zip",
+  "member": "1853868_0001628280-26-025821_exhibit993-sx1.pdf",
+  "size": 80897,
+  "fixture": "fervo_s1__exhibit993sx1_6f30d7.pdf"
+ },
+ {
+  "company": "forbright_s1",
+  "zip": "forbright_s1_oc_corpus_v3.zip",
+  "member": "1925062_0001628280-26-035713_exhibit1012-sx1publicflip.pdf",
+  "size": 63855,
+  "fixture": "forbright_s1__exhibit1012sx1_11ea38.pdf"
+ },
+ {
+  "company": "generate_bio_s1",
+  "zip": "generate_bio_s1_oc_corpus_v3.zip",
+  "member": "2100782_0001193125-26-037799_ck0002100782-ex3_3.pdf",
+  "size": 51298,
+  "fixture": "generate_bio_s1__ex33_a3ab0f.pdf"
+ }
+]
