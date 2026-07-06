@@ -10,8 +10,13 @@ as ``X-API-Key: <key>`` or ``Authorization: Bearer <key>``.
 import os
 import secrets
 
-from fastapi import HTTPException, Security
-from fastapi.security import APIKeyHeader
+from warp_ingest.ingestion_daemon.service_dependencies import require_service_dependency
+
+_fastapi = require_service_dependency("fastapi")
+_fastapi_security = require_service_dependency("fastapi.security", "fastapi")
+HTTPException = _fastapi.HTTPException
+Security = _fastapi.Security
+APIKeyHeader = _fastapi_security.APIKeyHeader
 
 DEFAULT_API_KEY = "abc123"
 

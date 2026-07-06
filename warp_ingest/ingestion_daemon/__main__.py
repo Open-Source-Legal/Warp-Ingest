@@ -11,14 +11,23 @@ WARP_HOST, WARP_PORT (or PORT), WARP_API_KEY, LOG_LEVEL.
 
 import os
 
-import uvicorn
-
 import warp_ingest.ingestion_daemon.config as cfg
-from warp_ingest.ingestion_daemon.auth import DEFAULT_API_KEY, expected_api_key
 from warp_ingest.ingestion_daemon.autotune import compute_settings
+from warp_ingest.ingestion_daemon.service_dependencies import (
+    MissingServiceExtraError,
+    require_service_dependency,
+)
 
 
 def main():
+    try:
+        uvicorn = require_service_dependency("uvicorn")
+        require_service_dependency("fastapi")
+    except MissingServiceExtraError as exc:
+        raise SystemExit(str(exc)) from None
+
+    from warp_ingest.ingestion_daemon.auth import DEFAULT_API_KEY, expected_api_key
+
     settings = compute_settings()
     # Export the computed budget for the worker processes (a user-set variable
     # is already reflected in `settings` and setdefault leaves it alone).
