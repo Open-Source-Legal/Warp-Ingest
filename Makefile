@@ -20,7 +20,7 @@ run_fmt: format
 check: lint
 
 generate_requirements:
-	uv export --format requirements.txt --extra ocr --group dev --output-file requirements.txt
+	uv export --format requirements.txt --extra all --group dev --output-file requirements.txt
 
 download_nltk_data:
 	uv run python -m nltk.downloader punkt punkt_tab stopwords

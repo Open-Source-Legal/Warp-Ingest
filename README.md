@@ -69,11 +69,24 @@ reproduction commands are in [benchmarks/parsebench/RESULTS.md](benchmarks/parse
 ## Installation
 
 ```bash
-# install the project and dev tools with uv
+# parser-only install
+pip install "warp-ingest[parser]"
+
+# hosted service runtime (FastAPI/uvicorn)
+pip install "warp-ingest[service]"
+
+# full service runtime with OCR support
+pip install "warp-ingest[all]"
+
+# install the project and dev/test tools with uv
+# (dev includes service dependencies because the test suite covers the API)
 uv sync --group dev
 
 # include the optional OCR backend for scanned PDFs
 uv sync --group dev --extra ocr
+
+# full service runtime with OCR
+uv sync --group dev --extra all
 
 # one-time NLTK data download
 uv run python -m nltk.downloader punkt punkt_tab stopwords
@@ -82,6 +95,7 @@ uv run python -m nltk.downloader punkt punkt_tab stopwords
 ## Running the service
 
 ```bash
+# install with the `service` or `all` extra first
 python -m warp_ingest.ingestion_daemon      # or: ./run.sh   (FastAPI/uvicorn, port 5001)
 ```
 

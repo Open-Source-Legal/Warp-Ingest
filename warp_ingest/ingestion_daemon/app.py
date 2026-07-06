@@ -19,9 +19,21 @@ import traceback
 from importlib import metadata
 from typing import Literal
 
-from fastapi import Depends, FastAPI, File, HTTPException, Query, UploadFile
-
 import warp_ingest.ingestion_daemon.config as cfg
+from warp_ingest.ingestion_daemon.service_dependencies import (
+    require_any_service_dependency,
+    require_service_dependency,
+)
+
+_fastapi = require_service_dependency("fastapi")
+require_any_service_dependency(("python_multipart", "multipart"), "python-multipart")
+Depends = _fastapi.Depends
+FastAPI = _fastapi.FastAPI
+File = _fastapi.File
+HTTPException = _fastapi.HTTPException
+Query = _fastapi.Query
+UploadFile = _fastapi.UploadFile
+
 from warp_ingest.ingestion_daemon.auth import require_api_key
 from warp_ingest.ingestion_daemon.autotune import compute_settings
 from warp_ingest.ingestor import ingestor_api
