@@ -1,7 +1,6 @@
 import json
 import logging
 import re
-from collections import defaultdict, namedtuple
 from timeit import default_timer
 from typing import Optional
 
@@ -131,6 +130,57 @@ def parse_to_markdown(
         doc_location,
         parse_options=parse_options,
         include_native_tables=include_native_tables,
+    )
+
+
+def parse_to_markdown_payload(
+    doc_location,
+    parse_options: Optional[dict] = None,
+    *,
+    include_native_tables: bool = True,
+):
+    """Parse a PDF to the generic Markdown/layout payload.
+
+    The payload is JSON-friendly and contains serialized blocks with text,
+    table metadata, style masks, and PDF-coordinate boxes. It can be rendered to
+    Markdown or generic layout predictions by
+    :mod:`warp_ingest.ingestor.markdown_exporter`.
+    """
+    from warp_ingest.ingestor.markdown_exporter import (
+        parse_to_markdown_payload as _parse_to_markdown_payload,
+    )
+
+    return _parse_to_markdown_payload(
+        doc_location,
+        parse_options=parse_options,
+        include_native_tables=include_native_tables,
+    )
+
+
+def parse_to_layout_predictions(
+    doc_location,
+    parse_options: Optional[dict] = None,
+    *,
+    include_native_tables: bool = True,
+    page_filter: int | None = None,
+    label_map: dict[str, str] | None = None,
+):
+    """Parse a PDF to framework-neutral layout predictions.
+
+    Pages are 1-indexed and bboxes are ``[x1, y1, x2, y2]`` in PDF coordinate
+    space. The result is a plain dictionary suitable for adapters, viewers, and
+    evaluation harnesses.
+    """
+    from warp_ingest.ingestor.markdown_exporter import (
+        parse_to_layout_predictions as _parse_to_layout_predictions,
+    )
+
+    return _parse_to_layout_predictions(
+        doc_location,
+        parse_options=parse_options,
+        include_native_tables=include_native_tables,
+        page_filter=page_filter,
+        label_map=label_map,
     )
 
 

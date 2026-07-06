@@ -38,6 +38,7 @@ from pathlib import Path
 from typing import Any
 
 from benchmarks.parsebench.table_providers import get_table_provider
+from warp_ingest.ingestor.markdown_exporter import box_xywh as _engine_box_xywh
 
 # Tunables for the table keep-open behavior (swept via the fast eval). Defaults
 # match the shipped rule; env overrides are for measurement only.
@@ -89,16 +90,7 @@ def _box_xywh(box_style: Any) -> list[float] | None:
     BoxStyle is indexable as ``[top, left, right, width, height]`` and also
     exposes ``.top/.left/.width/.height``; we read defensively.
     """
-    if box_style is None:
-        return None
-    try:
-        left = float(getattr(box_style, "left", box_style[1]))
-        top = float(getattr(box_style, "top", box_style[0]))
-        width = float(getattr(box_style, "width", box_style[3]))
-        height = float(getattr(box_style, "height", box_style[4]))
-    except (TypeError, IndexError, ValueError):
-        return None
-    return [left, top, width, height]
+    return _engine_box_xywh(box_style)
 
 
 def _renderer_manifest() -> dict[str, Any]:
@@ -775,14 +767,14 @@ def _reorder_page_columns(
     splits = [(xa + xb) / 2.0 for xa, xb in gutters]
 
     def col_of(b: dict[str, Any]) -> int:
-        l, _t, w, _h = b["box"]
-        cx = l + w / 2.0
+        left, _top, width, _height = b["box"]
+        cx = left + width / 2.0
         return sum(1 for s in splits if cx >= s)
 
     def spans_gutter(b: dict[str, Any]) -> bool:
-        l, _t, w, _h = b["box"]
-        r = l + w
-        return any(l < xa and r > xb for xa, xb in gutters)
+        left, _top, width, _height = b["box"]
+        right = left + width
+        return any(left < xa and right > xb for xa, xb in gutters)
 
     ordered = sorted(page_blocks, key=lambda b: b["box"][1])  # top-to-bottom sweep
     out: list[dict[str, Any]] = []

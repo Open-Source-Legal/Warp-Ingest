@@ -141,6 +141,8 @@ from warp_ingest.ingestor import pdf_ingestor
 
 export = pdf_ingestor.parse_to_opencontracts("document.pdf")   # OpenContracts export
 markdown = pdf_ingestor.parse_to_markdown("document.pdf")       # Markdown export
+payload = pdf_ingestor.parse_to_markdown_payload("document.pdf") # Blocks + tables + geometry
+layout = pdf_ingestor.parse_to_layout_predictions("document.pdf") # Generic layout predictions
 ingestor = pdf_ingestor.PDFIngestor("document.pdf", {"render_format": "all"})
 blocks = ingestor.blocks
 ```

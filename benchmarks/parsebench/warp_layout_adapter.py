@@ -18,8 +18,6 @@ Importing this module registers the adapter for provider key ``warp_ingest``.
 
 from __future__ import annotations
 
-from typing import Any
-
 from parse_bench.evaluation.layout_adapters.base import LayoutAdapter
 from parse_bench.evaluation.layout_adapters.registry import register_layout_adapter
 from parse_bench.evaluation.layout_label_mappers.base import (
@@ -39,7 +37,7 @@ from parse_bench.schemas.layout_detection_output import (
 from parse_bench.schemas.layout_ontology import CanonicalLabel
 from parse_bench.schemas.pipeline_io import InferenceResult
 
-from benchmarks.parsebench.warp_markdown import _table_html
+from warp_ingest.ingestor.markdown_exporter import render_layout_predictions
 
 # Warp emits already-canonical labels; a non-LlamaParse carrier model + a
 # warp-keyed passthrough mapper keep label resolution off any provider-specific
@@ -58,27 +56,6 @@ class WarpIngestPassthroughLabelMapper(LayoutLabelMapper):
         return CanonicalLabel(label)
 
 
-# Warp block_type -> ParseBench Canonical17 label.
-_LABEL_MAP = {
-    "header": CanonicalLabel.SECTION_HEADER.value,
-    "para": CanonicalLabel.TEXT.value,
-    "list_item": CanonicalLabel.LIST_ITEM.value,
-    "table_row": CanonicalLabel.TABLE.value,
-}
-
-
-def _union_box(boxes: list[list[float]]) -> list[float] | None:
-    """Union of ``[left, top, w, h]`` boxes -> ``[x1, y1, x2, y2]``."""
-    rects = [b for b in boxes if b]
-    if not rects:
-        return None
-    x1 = min(b[0] for b in rects)
-    y1 = min(b[1] for b in rects)
-    x2 = max(b[0] + b[2] for b in rects)
-    y2 = max(b[1] + b[3] for b in rects)
-    return [x1, y1, x2, y2]
-
-
 @register_layout_adapter("warp_ingest", priority=100)
 class WarpIngestLayoutAdapter(LayoutAdapter):
     """Build a ``LayoutOutput`` from Warp-Ingest's geometric block stream."""
@@ -94,90 +71,28 @@ class WarpIngestLayoutAdapter(LayoutAdapter):
             if isinstance(inference_result.raw_output, dict)
             else {}
         )
-        page_dim = raw.get("page_dim") or [612.0, 792.0]
-        img_w = max(1, int(round(float(page_dim[0]))))
-        img_h = max(1, int(round(float(page_dim[1]))))
-        blocks = raw.get("blocks", []) or []
-
+        rendered = render_layout_predictions(raw, page_filter=page_filter)
+        img_w = max(1, int(rendered.get("image_width", 612)))
+        img_h = max(1, int(rendered.get("image_height", 792)))
         predictions: list[LayoutPrediction] = []
-        order = 0
-
-        # Table accumulator (merge consecutive table_row blocks per table_idx).
-        tbl_idx: Any = None
-        tbl_boxes: list[list[float]] = []
-        tbl_header: list[str] | None = None
-        tbl_rows: list[list[str]] = []
-        tbl_page = 1
-
-        def flush_table() -> None:
-            nonlocal order, tbl_idx, tbl_boxes, tbl_header, tbl_rows
-            if not (tbl_rows or tbl_header):
-                tbl_idx = None
-                return
-            box = _union_box(tbl_boxes)
-            if box is not None:
-                header = tbl_header
-                body = [r for r in tbl_rows if not (header and r == header)]
-                predictions.append(
-                    LayoutPrediction(
-                        bbox=box,
-                        score=1.0,
-                        label=CanonicalLabel.TABLE.value,
-                        page=tbl_page,
-                        content=LayoutTableContent(html=_table_html(header, body)),
-                        provider_metadata={"order_index": order},
-                    )
-                )
-                order += 1
-            tbl_idx = None
-            tbl_boxes = []
-            tbl_header = None
-            tbl_rows = []
-
-        for b in blocks:
-            page = int(b.get("page_idx", 0) or 0) + 1
-            btype = b.get("block_type")
-            box = b.get("box")
-            text = (b.get("block_text") or "").strip()
-
-            if btype == "table_row":
-                tidx = b.get("table_idx")
-                if (tbl_rows or tbl_header) and tidx != tbl_idx:
-                    flush_table()
-                tbl_idx = tidx
-                tbl_page = page
-                if box:
-                    tbl_boxes.append(box)
-                hdr = b.get("header_cell_values")
-                if tbl_header is None and hdr:
-                    tbl_header = [str(c) for c in hdr]
-                cells = b.get("cell_values") or ([text] if text else [])
-                tbl_rows.append([str(c) for c in cells])
-                continue
-
-            if tbl_rows or tbl_header:
-                flush_table()
-
-            if not text or box is None:
-                continue
-            xyxy = [box[0], box[1], box[0] + box[2], box[1] + box[3]]
+        for prediction in rendered["predictions"]:
+            content_payload = prediction.get("content") or {}
+            if content_payload.get("type") == "table":
+                content = LayoutTableContent(html=content_payload.get("html", ""))
+            else:
+                content = LayoutTextContent(text=content_payload.get("text", ""))
             predictions.append(
                 LayoutPrediction(
-                    bbox=xyxy,
-                    score=1.0,
-                    label=_LABEL_MAP.get(btype, CanonicalLabel.TEXT.value),
-                    page=page,
-                    content=LayoutTextContent(text=text),
-                    provider_metadata={"order_index": order},
+                    bbox=prediction["bbox"],
+                    score=float(prediction.get("score", 1.0)),
+                    label=str(prediction.get("label") or CanonicalLabel.TEXT.value),
+                    page=int(prediction.get("page", 1)),
+                    content=content,
+                    provider_metadata={
+                        "order_index": int(prediction.get("order_index", 0))
+                    },
                 )
             )
-            order += 1
-
-        if tbl_rows or tbl_header:
-            flush_table()
-
-        if page_filter is not None:
-            predictions = [p for p in predictions if p.page == page_filter]
 
         return LayoutOutput(
             example_id=inference_result.request.example_id,
