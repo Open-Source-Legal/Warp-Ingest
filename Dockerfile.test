@@ -20,10 +20,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 WORKDIR ${APP_HOME}
 COPY . .
 
-# Dev group provides pytest. The OCR model warm-up alone is allowed to fail
-# (it only pre-fetches; the service degrades gracefully without it) — a failed
-# dependency install must fail the build, so no blanket `|| true` here.
-RUN uv sync --frozen --extra ocr --group dev && \
+# Dev group provides pytest and service test dependencies. The OCR model warm-up
+# alone is allowed to fail (it only pre-fetches; the service degrades gracefully
+# without it) — a failed dependency install must fail the build, so no blanket
+# `|| true` here.
+RUN uv sync --frozen --extra all --group dev && \
   python -m nltk.downloader -d /usr/share/nltk_data punkt punkt_tab stopwords && \
   { python -c "from rapidocr_onnxruntime import RapidOCR; RapidOCR()" || true; }
 

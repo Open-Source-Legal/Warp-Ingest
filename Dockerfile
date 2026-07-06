@@ -24,10 +24,10 @@ RUN apt-get update && apt-get upgrade -y && \
 WORKDIR ${APP_HOME}
 COPY . ./
 
-# Install the package with the optional OCR backend, then pre-fetch NLTK data and
-# warm the bundled OCR models so the service can start fully offline.  Only the
-# model warm-up may fail softly; a failed dependency install fails the build.
-RUN uv sync --frozen --extra ocr --no-dev && \
+# Install the full service runtime with OCR, then pre-fetch NLTK data and warm
+# the bundled OCR models so the service can start fully offline.  Only the model
+# warm-up may fail softly; a failed dependency install fails the build.
+RUN uv sync --frozen --extra all --no-dev && \
   python -m nltk.downloader -d /usr/share/nltk_data punkt punkt_tab stopwords && \
   { python -c "from rapidocr_onnxruntime import RapidOCR; RapidOCR()" || true; }
 
