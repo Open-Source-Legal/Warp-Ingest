@@ -6,6 +6,7 @@ from warp_ingest.ingestor import pdf_ingestor
 from warp_ingest.ingestor.markdown_exporter import (
     box_xywh,
     parse_to_markdown,
+    render_layout_predictions,
     render_pages,
 )
 
@@ -21,6 +22,19 @@ def test_box_xywh_from_indexable_and_attrs():
 
     assert box_xywh(_Box()) == [20.0, 10.0, 100.0, 12.0]
     assert box_xywh(None) is None
+
+
+def test_box_xywh_from_attrs_only_and_dict():
+    class _AttrOnlyBox:
+        top, left, width, height = 10.0, 20.0, 100.0, 12.0
+
+    assert box_xywh(_AttrOnlyBox()) == [20.0, 10.0, 100.0, 12.0]
+    assert box_xywh({"top": 1, "left": 2, "width": 3, "height": 4}) == [
+        2.0,
+        1.0,
+        3.0,
+        4.0,
+    ]
 
 
 def test_render_pages_groups_tables_and_emphasis():
@@ -141,6 +155,69 @@ def test_render_pages_appends_unplaced_table_html():
     assert "<td>Loose</td>" in markdown
 
 
+def test_render_pages_accepts_ext_tables_alias():
+    payload = {
+        "num_pages": 1,
+        "blocks": [
+            {
+                "page_idx": 0,
+                "block_type": "para",
+                "block_text": "Keep this prose.",
+                "box": [50, 10, 200, 10],
+            }
+        ],
+        "ext_tables": {0: [[None, "<table><tr><td>Alias</td></tr></table>"]]},
+    }
+
+    markdown = render_pages(payload)[0][1]
+
+    assert "Keep this prose." in markdown
+    assert "<td>Alias</td>" in markdown
+
+
+def test_render_layout_predictions_merges_tables_per_page_and_table_idx():
+    payload = {
+        "num_pages": 2,
+        "page_dim": [612.0, 792.0],
+        "blocks": [
+            {
+                "page_idx": 0,
+                "block_type": "para",
+                "block_text": "Intro",
+                "box": [10, 20, 100, 10],
+            },
+            {
+                "page_idx": 0,
+                "block_type": "table_row",
+                "cell_values": ["a"],
+                "table_idx": 0,
+                "box": [50, 100, 200, 12],
+            },
+            {
+                "page_idx": 1,
+                "block_type": "table_row",
+                "cell_values": ["b"],
+                "table_idx": 0,
+                "box": [60, 110, 180, 12],
+            },
+        ],
+    }
+
+    rendered = render_layout_predictions(payload)
+    predictions = rendered["predictions"]
+
+    assert rendered["image_width"] == 612
+    assert [prediction["page"] for prediction in predictions] == [1, 1, 2]
+    tables = [
+        prediction
+        for prediction in predictions
+        if prediction["content"]["type"] == "table"
+    ]
+    assert len(tables) == 2
+    assert tables[0]["bbox"] == [50.0, 100.0, 250.0, 112.0]
+    assert tables[1]["bbox"] == [60.0, 110.0, 240.0, 122.0]
+
+
 def test_parse_to_markdown_public_api():
     path = os.path.join(FIX_DIR, "sample.pdf")
 
@@ -149,6 +226,16 @@ def test_parse_to_markdown_public_api():
         path,
         include_native_tables=False,
     )
+    payload = pdf_ingestor.parse_to_markdown_payload(
+        path,
+        include_native_tables=False,
+    )
+    layout = pdf_ingestor.parse_to_layout_predictions(
+        path,
+        include_native_tables=False,
+    )
 
     assert len(markdown) > 100
     assert markdown == wrapper_markdown
+    assert payload["blocks"]
+    assert layout["predictions"]
