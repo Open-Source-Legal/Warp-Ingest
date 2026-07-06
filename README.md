@@ -140,6 +140,7 @@ cosign-signed) via `.github/workflows/docker-publish.yml`.
 from warp_ingest.ingestor import pdf_ingestor
 
 export = pdf_ingestor.parse_to_opencontracts("document.pdf")   # OpenContracts export
+markdown = pdf_ingestor.parse_to_markdown("document.pdf")       # Markdown export
 ingestor = pdf_ingestor.PDFIngestor("document.pdf", {"render_format": "all"})
 blocks = ingestor.blocks
 ```
