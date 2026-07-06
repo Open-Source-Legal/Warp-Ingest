@@ -53,4 +53,9 @@ jobs:
           name: python-package-distributions
           path: dist/
       - name: Publish to PyPI
-        uses: pypa/gh-action-pypi-publish@6733eb7d741f0b11ec6a39b58540dab7590f9b7d # v1.14.0
+        # Pinned to the release tag rather than its commit SHA: this action is a
+        # Docker-image action, and GitHub's immutable-actions resolution pulls
+        # ghcr.io/pypa/gh-action-pypi-publish:<ref> literally -- pypa only publishes
+        # that OCI image under the version tag, not under the raw commit SHA, so a
+        # SHA pin here 404s ("manifest unknown") even though the SHA is correct.
+        uses: pypa/gh-action-pypi-publish@v1.14.0
