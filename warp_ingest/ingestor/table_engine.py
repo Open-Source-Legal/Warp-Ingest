@@ -852,6 +852,23 @@ def _looks_degenerate(grid: Sequence[Sequence[Cell]]) -> bool:
     return fill < 0.5 and sum(1 for c in nonempty if len(c.text) > 150) >= 2
 
 
+def _looks_prose_grid(grid: Sequence[Sequence[Cell]]) -> bool:
+    """An *inferred* (unruled) grid whose cells are predominantly long text
+    runs is side-by-side flowing prose (a multi-column body, a pull-quote
+    beside a paragraph, a scanned newsletter), not a data table.  The
+    alignment-band proposer sees such pages as one huge aligned band -- every
+    line of two book-justified columns shares the same whitespace channel --
+    so the gate is applied to the inference *output*, where the evidence
+    (sentence-length cells) is unambiguous.  A real table with one long
+    description column stays: its other columns keep the long-cell fraction
+    low.  Structural word counts only -- no content matching."""
+    cells = [c for row in grid for c in row if c.text.strip()]
+    if not cells:
+        return True  # nothing extractable: never worth replacing real blocks
+    long_cells = sum(1 for c in cells if len(c.text.split()) >= 6)
+    return long_cells / len(cells) >= 0.5
+
+
 # --------------------------------------------------------------------------
 # standalone region proposal (alignment bands)
 # --------------------------------------------------------------------------
@@ -1282,6 +1299,10 @@ def extract_page_tables(
             continue
         v_rules, h_rules = _region_rules(page, reg)
         found = infer_tables(rwords, reg, v_rules=v_rules, h_rules=h_rules)
+        # An inferred grid of sentence-length cells is side-by-side prose
+        # (multi-column body / pull-quote / scanned newsletter), not a table:
+        # emitting it would *replace* real prose blocks with a fake grid.
+        found = [t for t in found if not _looks_prose_grid(t.grid)]
         if found:
             tables.extend(found)
             claimed.extend(tuple(t.bbox) for t in found)

@@ -24,6 +24,7 @@ import html
 import logging
 import multiprocessing
 import os
+import re
 import statistics
 import threading
 from concurrent.futures import ProcessPoolExecutor
@@ -108,6 +109,17 @@ COL_MIN_LINES = 5
 # prose's width/balance), this admits genuine 2-column prose while a data-table
 # column (few words/line) is rejected.
 COL_MIN_MEDIAN_WORDS_PER_LINE = 6
+# 3+-column layouts (2+ gutters) use this lower words-per-line floor: their
+# narrower columns legitimately run ~3-5 words/line, and the label|value
+# data-table shape the strict floor guards against is two-column.
+COL_MIN_MEDIAN_WORDS_3COL = 3
+# A sparse-words column (median below the strict floor) must ALSO have regular
+# line pitch to count as prose: in flowing prose nearly every consecutive line
+# gap is ~1.2-1.5x the font size (measured >= 0.65 regular on genuine 3-column
+# pages), while TOC / data-card / financial-highlight columns are gappy
+# (measured <= 0.45).  A gap counts as regular when < 1.8x the font size.
+COL_MIN_PITCH_REGULARITY = 0.5
+COL_REGULAR_PITCH_FONT_MULT = 1.8
 # Resolution of the x-projection used to locate gutters.
 COL_PROJECTION_BINS = 300
 # A column whose rows are this fraction (or more) "tabular" -- splitting into 3+
@@ -489,12 +501,49 @@ def _tabular_row_fraction(lines):
     return tabular / len(lines)
 
 
+def _is_cjk_char(ch):
+    """CJK ideographs / kana / hangul -- scripts written without word spaces."""
+    cp = ord(ch)
+    return (
+        0x4E00 <= cp <= 0x9FFF  # CJK Unified Ideographs
+        or 0x3400 <= cp <= 0x4DBF  # CJK Extension A
+        or 0x3040 <= cp <= 0x30FF  # hiragana + katakana
+        or 0xAC00 <= cp <= 0xD7AF  # hangul syllables
+    )
+
+
+def _line_effective_word_count(ln):
+    """Words per line with CJK awareness: scripts without word spaces extract
+    as one glued 'word' per run, so every two CJK characters count as one word
+    (average CJK word length is ~2 chars).  Deliberately conservative: a short
+    glued run (a Japanese financial-table cell of 3-5 chars) still reads as
+    only 1-2 'words', so the prose floors keep rejecting CJK data-table
+    columns, while a genuine CJK prose line (15+ chars) passes.  Latin lines
+    are counted exactly as before."""
+    n = 0
+    for w in ln:
+        cjk = sum(1 for ch in w["text"] if _is_cjk_char(ch))
+        n += max(1, cjk // 2)
+    return n
+
+
 def _count_prose_columns(words, gutters):
     """Number of columns that read like flowing prose: >= COL_MIN_LINES lines,
     median words/line >= COL_MIN_MEDIAN_WORDS_PER_LINE, and not table-heavy
     (tabular-row fraction < COL_MAX_TABULAR_ROW_FRACTION).  A column containing a
-    table is rejected so the split never disturbs in-column tables/lists."""
+    table is rejected so the split never disturbs in-column tables/lists.
+
+    The words-per-line floor drops to COL_MIN_MEDIAN_WORDS_3COL for layouts
+    with 3+ columns: their narrower columns legitimately run ~3-5 words/line,
+    while the label|value false-positive the strict floor protects against is
+    a *two*-column shape (and a 3+-column data table's narrow cells already
+    fail the COL_MIN_WIDTH_FRACTION gate)."""
     splits = [(xa + xb) / 2 for xa, xb in gutters]
+    min_medw = (
+        COL_MIN_MEDIAN_WORDS_3COL
+        if len(gutters) >= 2
+        else COL_MIN_MEDIAN_WORDS_PER_LINE
+    )
     col_words = [[] for _ in range(len(gutters) + 1)]
     for w in words:
         if any(w["x0"] < xb and w["x1"] > xa for xa, xb in gutters):
@@ -508,12 +557,30 @@ def _count_prose_columns(words, gutters):
         lines = _group_words_into_lines(cw)
         if len(lines) < COL_MIN_LINES:
             continue
-        if statistics.median(len(ln) for ln in lines) < COL_MIN_MEDIAN_WORDS_PER_LINE:
+        med_words = statistics.median(_line_effective_word_count(ln) for ln in lines)
+        if med_words < min_medw:
+            continue
+        if med_words < COL_MIN_MEDIAN_WORDS_PER_LINE and not _regular_pitch(lines):
+            # sparse-words column admitted by the relaxed 3+-column floor:
+            # require the flowing-prose line pitch too, so a TOC / data-card /
+            # financial-highlight column (gappy) never counts as prose.
             continue
         if _tabular_row_fraction(lines) >= COL_MAX_TABULAR_ROW_FRACTION:
             continue  # column contains a table -> not safe to split
         prose += 1
     return prose
+
+
+def _regular_pitch(lines):
+    """True when the column's consecutive-line gaps are mostly regular (see
+    COL_MIN_PITCH_REGULARITY): the vertical-fill signature of flowing prose."""
+    tops = sorted(min(w["top"] for w in ln) for ln in lines)
+    pitches = [b - a for a, b in zip(tops, tops[1:]) if b - a > 0.5]
+    if not pitches:
+        return False
+    med_size = statistics.median(w.get("size") or 10.0 for ln in lines for w in ln)
+    regular = sum(1 for p in pitches if p < COL_REGULAR_PITCH_FONT_MULT * med_size)
+    return regular / len(pitches) >= COL_MIN_PITCH_REGULARITY
 
 
 def _group_words_into_lines_columns(words, bbox, gutters=None):
@@ -546,11 +613,44 @@ def _group_words_into_lines_columns(words, bbox, gutters=None):
                 out.extend(_group_words_into_lines(buf))
                 buf.clear()
 
+    def row_spans(r):
+        # A row is full-width (a title / banner / figure caption crossing the
+        # columns) only when a word genuinely BRIDGES a gutter band -- fully
+        # crossing it, or sitting mostly inside it (a real gutter is empty, so
+        # a word centered in the band is continuous full-width text).  A word
+        # that merely pokes into the band from one side (a hyphenated overhang
+        # or a slightly-long justified line) is NOT spanning: treating overlap
+        # as spanning flushed the columns on nearly every row of narrow-gutter
+        # layouts, degenerating the output to the row-major interleave this
+        # function exists to prevent.
+        for xa, xb in gutters:
+            for w in r:
+                if w["x0"] < xa and w["x1"] > xb:
+                    return True
+                ov = min(w["x1"], xb) - max(w["x0"], xa)
+                if ov > 0 and ov >= 0.6 * max(w["x1"] - w["x0"], 1e-6):
+                    return True
+        return False
+
+    # Band-break flush: a page-wide horizontal whitespace gap (no text in ANY
+    # column) separates vertically stacked layout bands -- side-by-side panels
+    # / cards / stacked sections that happen to share the page's gutters.
+    # Reading order is band-by-band, so the column buffers are flushed at each
+    # break.  Continuous multi-column prose has no page-wide gap mid-flow
+    # (paragraph spacing is well under the threshold), so those pages are
+    # unaffected.  Same gap rule as the XY-cut region peel.
+    h_gap = COL_XYCUT_HGAP_FONT_MULT * _median_line_height(words)
+
+    prev_bottom = None
     for r in sorted(_group_words_into_lines(words), key=lambda ln: ln[0]["top"]):
-        spanning = any(
-            any(w["x0"] < xb and w["x1"] > xa for w in r) for xa, xb in gutters
+        top = min(w["top"] for w in r)
+        if prev_bottom is not None and top - prev_bottom > h_gap:
+            flush()
+        prev_bottom = max(
+            prev_bottom if prev_bottom is not None else top,
+            max(w["bottom"] for w in r),
         )
-        if spanning:
+        if row_spans(r):
             flush()
             out.append(sorted(r, key=lambda w: w["x0"]))
         else:
@@ -998,6 +1098,33 @@ def _words_from_chars(chars):
     )
 
 
+# A font with no usable ToUnicode CMap makes pdfminer emit the literal string
+# "(cid:NN)" for every glyph it cannot map to text.  Those markers are not
+# content -- they are unextractable glyphs -- so they are stripped from the
+# word stream.  A page whose text layer is entirely unmapped then collapses to
+# (near) zero words and the ordinary sparse-page detector routes it to OCR,
+# which reads the rendered pixels and recovers the real text; a page with one
+# bad symbol font keeps its clean words and merely loses the dead glyphs.
+_CID_GLYPH_RE = re.compile(r"\(cid:\d+\)")
+
+
+def _strip_cid_words(words):
+    """Remove unmapped-glyph markers from *words* (see note above)."""
+    if not any("(cid:" in w["text"] for w in words):
+        return words
+    out = []
+    for w in words:
+        text = w["text"]
+        if "(cid:" in text:
+            text = _CID_GLYPH_RE.sub("", text)
+            if not text.strip():
+                continue  # wholly unmapped word: nothing extractable
+            w = dict(w)
+            w["text"] = text
+        out.append(w)
+    return out
+
+
 def _render_svg_from_paths(lines, rects, page_width, page_height):
     """Build the table-detection <svg> from pre-extracted line/rect dicts.
 
@@ -1119,6 +1246,11 @@ def _render_page(page, force_ocr=False, disable_ocr=False):
             logger.warning("text extraction failed (%s); routing page to OCR", e2)
             words = []
             svg = ""
+    # Unmapped-glyph markers ("(cid:NN)") are unextractable glyphs, not text:
+    # strip them so a page whose fonts carry no usable ToUnicode CMap collapses
+    # to (near) zero words and is routed to OCR below, exactly like a scanned
+    # page, instead of emitting thousands of garbage tokens.
+    words = _strip_cid_words(words)
     lines = _group_words_into_lines(words)
 
     # Confident multi-column gutters (empty on single-column / table / OCR pages).
@@ -1142,15 +1274,29 @@ def _render_page(page, force_ocr=False, disable_ocr=False):
         if ocr_parser.ocr_available():
             ocr_lines = ocr_parser.ocr_page_lines(page)
             if ocr_lines:
-                # Scanned signature/approval grids weld the same way as text
-                # pages, so the grid-cell split applies here too (OCR word
-                # boxes are origin-(0,0) PDF points).
-                lines = _apply_grid_regions(
-                    ocr_lines,
-                    _detect_grid_regions(
-                        ocr_lines, (0.0, 0.0, page.width, page.height)
-                    ),
-                )
+                # Multi-column *prose* routing applies to scanned pages exactly
+                # as it does to text pages: OCR word boxes are ordinary
+                # PDF-point word dicts, and without the column split a scanned
+                # newspaper/newsletter page interleaves its columns row-by-row
+                # (and the engine then welds same-top lines into fake table
+                # rows).  The detector's conservative gates are geometry-only,
+                # so single-column scans and scanned data tables stay on the
+                # plain path, byte-identical to before.
+                ocr_bbox = (0.0, 0.0, page.width, page.height)
+                ocr_words = [w for ln in ocr_lines for w in ln]
+                gutters = _detect_column_gutters(ocr_words, ocr_bbox)
+                if gutters:
+                    lines = _group_words_into_lines_columns(
+                        ocr_words, ocr_bbox, gutters=gutters
+                    )
+                else:
+                    # Scanned signature/approval grids weld the same way as
+                    # text pages, so the grid-cell split applies here too (OCR
+                    # word boxes are origin-(0,0) PDF points).
+                    lines = _apply_grid_regions(
+                        ocr_lines,
+                        _detect_grid_regions(ocr_lines, ocr_bbox),
+                    )
         elif force_ocr:
             logger.warning(
                 "OCR requested but rapidocr-onnxruntime is not installed; "

@@ -18,6 +18,7 @@ from warp_ingest.ingestor.table_engine import (
     PageTable,
     _cluster_rects,
     _extend_header_up,
+    _looks_prose_grid,
     _looks_undersegmented,
     _merge_symbol_columns,
     _n_header_rows,
@@ -609,3 +610,59 @@ class TestRuledPdf:
         # PDF y=700 -> top = 792-700 = 92 ; y=640 -> bottom = 152
         assert 95 <= x0 <= 105 and 305 <= x1 <= 315
         assert 88 <= top <= 96 and 148 <= bottom <= 156
+
+
+# ---------------------------------------------------------------------------
+# prose-grid rejection (multi-column prose must never become a fake table)
+# ---------------------------------------------------------------------------
+
+
+class TestLooksProseGrid:
+    def test_two_column_prose_rows_rejected(self):
+        grid = [
+            [
+                Cell("Several foreign governments subscribing to the treaty"),
+                Cell("The examined ways to comply with the panel ruling"),
+            ],
+            [
+                Cell("alleged that the program was an illegal export subsidy"),
+                Cell("repealed the rules and created an exemption for income"),
+            ],
+            [
+                Cell("governments complained that entities were able to"),
+                Cell("act provided for a transition period by allowing use"),
+            ],
+        ]
+        assert _looks_prose_grid(grid)
+
+    def test_numeric_data_grid_kept(self):
+        grid = [
+            [Cell("Name"), Cell("Qty"), Cell("Price")],
+            [Cell("Widget"), Cell("12"), Cell("$4.50")],
+            [Cell("Gadget"), Cell("23"), Cell("$2.00")],
+        ]
+        assert not _looks_prose_grid(grid)
+
+    def test_long_description_column_kept(self):
+        # one sentence-length description column beside short data columns
+        grid = [
+            [
+                Cell("Item"),
+                Cell("Description of the requirement in a sentence"),
+                Cell("2024"),
+            ],
+            [
+                Cell("A-1"),
+                Cell("The vendor shall provide onsite support each week"),
+                Cell("12"),
+            ],
+            [
+                Cell("B-2"),
+                Cell("All deliverables must be submitted by the deadline"),
+                Cell("7"),
+            ],
+        ]
+        assert not _looks_prose_grid(grid)
+
+    def test_empty_grid_rejected(self):
+        assert _looks_prose_grid([[Cell(""), Cell("  ")]])
