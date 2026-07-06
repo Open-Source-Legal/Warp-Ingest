@@ -1881,7 +1881,7 @@ wheels = [
 
 [[package]]
 name = "warp-ingest"
-version = "1.0.1"
+version = "1.0.2"
 source = { editable = "." }
 dependencies = [
     { name = "beautifulsoup4" },

@@ -1,6 +1,6 @@
 [project]
 name = "warp-ingest"
-version = "1.0.1"
+version = "1.0.2"
 description = "Pure-Python, RAG-friendly document parsers (PDF/HTML/text/XML/Markdown). Java- and Tika-free."
 readme = "README.md"
 requires-python = ">=3.10,<3.15"
