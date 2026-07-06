@@ -108,7 +108,9 @@ def box_xywh(box_style: Any) -> list[float] | None:
     return [left, top, width, height]
 
 
-def union_xywh_boxes(boxes: Iterable[list[float] | tuple[float, ...] | None]) -> list[float] | None:
+def union_xywh_boxes(
+    boxes: Iterable[list[float] | tuple[float, ...] | None],
+) -> list[float] | None:
     """Union ``[left, top, width, height]`` boxes into ``[x1, y1, x2, y2]``."""
     rects = [box for box in boxes if box and len(box) >= 4]
     if not rects:
@@ -175,7 +177,9 @@ def block_table_regions(
     return regions
 
 
-def normalize_tables_by_page(tables: dict[Any, Any] | None) -> dict[int, list[list[Any]]]:
+def normalize_tables_by_page(
+    tables: dict[Any, Any] | None,
+) -> dict[int, list[list[Any]]]:
     """Normalize table HTML payloads to ``{page: [[bbox|None, html], ...]}``.
 
     Table extractors may yield bare HTML strings for legacy page-level output or
