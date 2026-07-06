@@ -112,6 +112,28 @@ def parse_to_opencontracts(doc_location, parse_options: Optional[dict] = None):
     )
 
 
+def parse_to_markdown(
+    doc_location,
+    parse_options: Optional[dict] = None,
+    *,
+    include_native_tables: bool = True,
+):
+    """Parse a PDF straight to whole-document Markdown.
+
+    This is a convenience wrapper around
+    :func:`warp_ingest.ingestor.markdown_exporter.parse_to_markdown`.
+    """
+    from warp_ingest.ingestor.markdown_exporter import (
+        parse_to_markdown as _parse_to_markdown,
+    )
+
+    return _parse_to_markdown(
+        doc_location,
+        parse_options=parse_options,
+        include_native_tables=include_native_tables,
+    )
+
+
 def parse_pdf(doc_location, parse_options):
     """Parse a PDF to Tika-compatible XHTML using the pure-Python front-end.
 

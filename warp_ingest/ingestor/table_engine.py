@@ -80,7 +80,7 @@ def _clean(text: Any) -> str:
 
 
 def render_table_html(table: PageTable) -> str:
-    """Render a PageTable as the minimal HTML the ParseBench scorers parse."""
+    """Render a PageTable as minimal HTML table markup."""
     parts = ["<table>"]
     for i, row in enumerate(table.grid):
         tag = "th" if i < table.n_header_rows else "td"
