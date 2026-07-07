@@ -22,7 +22,16 @@ logger = logging.getLogger(__name__)
 
 # Render resolution for OCR.  200 DPI is a good speed/accuracy balance for
 # document scans; the value also sets the px -> PDF-point scale (72 / DPI).
-OCR_DPI = 200
+# Env-overridable (WARP_OCR_DPI) like the other OCR knobs below.
+OCR_DPI = int(os.environ.get("WARP_OCR_DPI", "200") or "200")
+# rapidocr's global preprocessor downscales any page image whose longest side
+# exceeds this many pixels (its stock default is 2000 -- LESS than a letter
+# page at 200 DPI, so the stock value silently threw away resolution the
+# render already paid for).  Sized so the standard render fits untouched.
+OCR_MAX_SIDE_LEN = int(os.environ.get("WARP_OCR_MAX_SIDE_LEN", "0") or "0")
+# Detection-model input floor (rapidocr det_limit_side_len, limit_type=min).
+# 0 keeps rapidocr's default.
+OCR_DET_LIMIT = int(os.environ.get("WARP_OCR_DET_LIMIT", "0") or "0")
 # Fraction of the detected text-line box height used as the nominal font size.
 OCR_FONT_RATIO = 0.72
 
@@ -89,11 +98,26 @@ def get_engine():
                     cls_intra_op_num_threads=threads,
                     rec_intra_op_num_threads=threads,
                 )
+            if OCR_MAX_SIDE_LEN > 0:
+                kwargs["max_side_len"] = OCR_MAX_SIDE_LEN
+            if OCR_DET_LIMIT > 0:
+                kwargs["det_limit_side_len"] = OCR_DET_LIMIT
             _engine = RapidOCR(**kwargs)
         except Exception as e:
             logger.warning("OCR engine unavailable: %s", e)
             _engine_failed = True
     return _engine
+
+
+def _trim_det_box(x0, x1, top, bottom):
+    """Compensate the detector's horizontal unclip dilation (see the note at
+    the call site in :func:`ocr_page_lines`).  Returns the trimmed ``(x0, x1)``.
+    The per-side offset is (1 - OCR_FONT_RATIO)/2 of the box height -- the
+    horizontal counterpart of the vertical inflation OCR_FONT_RATIO already
+    compensates -- capped so short boxes never invert."""
+    h_box = bottom - top
+    trim = min((1.0 - OCR_FONT_RATIO) / 2.0 * h_box, 0.25 * (x1 - x0))
+    return x0 + trim, x1 - trim
 
 
 def _line_to_words(text, x0, x1, top, bottom, scale, font_size):
@@ -160,6 +184,14 @@ def ocr_page_lines(page, dpi=OCR_DPI):
         ys = [pt[1] for pt in box]
         x0, x1 = min(xs), max(xs)
         top, bottom = min(ys), max(ys)
+        # The detector's unclip step dilates each text polygon by a uniform
+        # outward offset before it is returned, so the box overhangs the real
+        # ink on every side.  ``OCR_FONT_RATIO`` already compensates the
+        # vertical inflation when deriving the font size; apply the same
+        # per-side offset horizontally so word geometry doesn't bleed into
+        # inter-column gutters / grid gaps (which the multi-column and grid
+        # detectors need empty).
+        x0, x1 = _trim_det_box(x0, x1, top, bottom)
         font_size = round((bottom - top) * scale * OCR_FONT_RATIO, 1)
         font_size = max(font_size, 1.0)
         words = _line_to_words(text, x0, x1, top, bottom, scale, font_size)
