@@ -1,6 +1,9 @@
 [project]
 name = "warp-ingest"
-version = "1.0.2"
+# The version is derived from the latest git tag (v2.0.1 -> 2.0.1) by
+# hatch-vcs, so cutting a release only requires pushing a tag -- there is no
+# version string in the repo to bump (see [tool.hatch.version]).
+dynamic = ["version"]
 description = "Pure-Python, RAG-friendly document parsers (PDF/HTML/text/XML/Markdown). Java- and Tika-free."
 readme = "README.md"
 requires-python = ">=3.10,<3.15"
@@ -98,17 +101,24 @@ dev = [
 ]
 
 [build-system]
-requires = ["uv_build>=0.11.7,<0.12.0"]
-build-backend = "uv_build"
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.build.targets.wheel]
+packages = ["warp_ingest"]
+
+# Keep the sdist to the package itself (plus auto-included metadata files);
+# tests/fixtures alone is ~90MB and has no place on PyPI.
+[tool.hatch.build.targets.sdist]
+include = ["warp_ingest"]
 
 [tool.uv]
 # Strip rapidocr-onnxruntime's `opencv-python` pin (never-true marker): the
 # ocr extra supplies `opencv-python-headless` instead — same cv2 API, no libGL.
 override-dependencies = ["opencv-python; sys_platform == 'never'"]
-
-[tool.uv.build-backend]
-module-name = "warp_ingest"
-module-root = ""
 
 [tool.black]
 target-version = ['py310']
