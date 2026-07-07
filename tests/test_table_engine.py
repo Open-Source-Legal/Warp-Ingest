@@ -666,3 +666,17 @@ class TestLooksProseGrid:
 
     def test_empty_grid_rejected(self):
         assert _looks_prose_grid([[Cell(""), Cell("  ")]])
+
+    def test_digit_dense_toc_grid_kept(self):
+        # a merged-TOC grid: long cells but digit-dense (page numbers) -> table
+        grid = [
+            [
+                Cell("03 OUR WORLD 3.1 Our company 11 3.2 Story of Group 14"),
+                Cell("04 APPROACH TO ESG 4.1 Our commitment 46"),
+            ],
+            [
+                Cell("6.1 Pillars of the people Strategy 98 6.2 Employment 99"),
+                Cell("7.1 Good governance 152 7.2 Our structure 154"),
+            ],
+        ]
+        assert not _looks_prose_grid(grid)
