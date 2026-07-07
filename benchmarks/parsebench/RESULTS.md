@@ -5,17 +5,16 @@
 
 # Warp-Ingest on ParseBench — results
 
-## Primary faithful run (2026-07-02) — native table engine
+## Primary faithful run (2026-07-07, v2.0.1)
 
 Use this section as the primary ParseBench score for Warp. The run uses the
 official ParseBench framework and upstream `llamaindex/ParseBench` data with
 the renderer locked to faithful Warp-only mode. **All output — including the
 table cells — is produced by this repository's own code**: table grids come
-from Warp's new license-clean native table engine
-(`warp_ingest/ingestor/table_engine.py`, pure MIT stack, the default
-`WARP_TABLE_PROVIDER=native`), which replaced the earlier opt-in `pymupdf4llm`
-delegation (whose table quality was actually the proprietary
-Polyform-Noncommercial `pymupdf-layout` ONNX model).
+from Warp's license-clean native table engine
+(`warp_ingest/ingestor/table_engine.py`, pure MIT stack, the default and now
+*only* `WARP_TABLE_PROVIDER`; the legacy `pymupdf4llm` ablation path was
+removed in PR #6 after the native engine tied it head-to-head).
 
 ```bash
 python -m benchmarks.parsebench.run --full --force \
@@ -24,14 +23,31 @@ python -m benchmarks.parsebench.run --full --force \
 
 | Pipeline | Tables | Charts | Content Faith. | Sem. Format. | Visual Ground. | Overall |
 |---|--:|--:|--:|--:|--:|--:|
-| `warp_ingest_faithful` (native tables, 2026-07-02) | **57.42** | 7.13 | 68.27 | 43.46 | 18.57 | **38.97** |
+| `warp_ingest_faithful` (v2.0.1, 2026-07-07) | **57.45** | 7.04 | **70.81** | **45.81** | **20.71** | **40.36** |
+| `warp_ingest_faithful` (native tables, 2026-07-02) | 57.42 | 7.13 | 68.27 | 43.46 | 18.57 | 38.97 |
 | prior faithful (warp raw tables, 2026-07-01) | 36.45 | 7.10 | 69.28 | 47.14 | 18.57 | 35.71 |
 
-This is now **above every deterministic local parser measured in this harness**
-— pymupdf4llm 37.5 Overall (and its published-board build 30.9), liteparse
-32.8 — and above the old opt-in "quality mode" (38.52) *without* any external
-table parser or content stripping. Tables 57.42 also matches/beats the best
-number ever recorded here with the pymupdf4llm provider (57.3–57.4).
+The v2.0.1 gain over the 2026-07-02 baseline (+1.39 Overall) comes from PR #5's
+engine/front-end root fixes for the top Content-Faithfulness drivers
+(multi-column reading order incl. the OCR path, prose mis-inferred as inferred
+table grids, unreadable `(cid:NN)` text layers): Content Faith. +2.5,
+Sem. Format. +2.4, Visual Ground. +2.1, with Tables and Charts flat (±0.1).
+A back-to-back rerun after PR #6 (ablation-code removal) reproduced the PR #5
+numbers to within ±0.04 per dimension — the removal is score-neutral, as
+expected for dead code on the `native` path. Visual Grounding is scored
+**in-run** again as of PR #6: Python 3.14 switched Linux multiprocessing to
+`forkserver`, which silently dropped the harness's in-process adapter
+registrations (VG collapsed to ~10 while the run exited 0); `run.py` now pins
+`fork`. The VG aggregate is the mean over the 394 layout-detection pages; the
+42 image-only inputs (`.jpg`/`.png`, warp is PDF-only) fail at inference and
+pad only the parse-scoped layout metrics, not the VG headline.
+
+This is **above every deterministic local parser measured in this harness** —
+pymupdf4llm 37.5 Overall (and its published-board build 30.9), liteparse 32.8
+— by +2.9 and +7.6 respectively, leading on 4 of 5 dimensions (all but
+Sem. Format., where pymupdf4llm's 52.0 still leads), *without* any external
+table parser or content stripping. Tables 57.45 also matches/beats the best
+number ever recorded here with the removed pymupdf4llm provider (57.3–57.4).
 
 **Native-vs-pymupdf4llm head-to-head** (same renderer, same harness, same day;
 tables dimension, in-process fasteval over all 503 table pages): native
@@ -42,19 +58,20 @@ native engine is clearly ahead (68.5 vs 62.3), the model keeps an edge on
 unruled/rotated layouts. Engine design + measured ablations:
 `docs/superpowers/specs/2026-07-02-native-table-engine-design.md`.
 
-Honest deltas vs the prior faithful run: Content Faith. −1.0 and Sem. Format.
-−3.7 — table regions that previously rendered as bold prose/heading blocks now
-render as `<table>` cells (no `**` markup inside cells), a deliberate trade
-that buys +21 Tables; Overall is +3.26. Charts/Visual Grounding unchanged.
+Honest deltas within the 2026-07-02 run (native table engine vs warp raw
+tables): Content Faith. −1.0 and Sem. Format. −3.7 — table regions that
+previously rendered as bold prose/heading blocks now render as `<table>` cells
+(no `**` markup inside cells), a deliberate trade that bought +21 Tables;
+PR #5 then recovered (and exceeded) both losses at the root.
 
-Run evidence:
+Run evidence (2026-07-07):
 
 - Official category reports are under
   `parsebench_work/output/warp_ingest_faithful/`.
-- Inference attempted 2,078 unique files: 2,036 succeeded and 42 failed because
-  they are image-only layout inputs (`.jpg`/`.png`) and Warp's provider is
-  PDF-only. The upstream aggregator pads those provider failures as zero layout
-  scores; they are not dropped from Visual Grounding.
+- Inference deduplicated 2,553 test cases to 2,078 unique files; the only
+  failures are the 42 image-only layout inputs (`.jpg`/`.png`) — Warp's
+  provider is PDF-only. They score zero on the parse-scoped layout metrics
+  (see above re: the VG headline).
 - Category totals match ParseBench: Tables 503, Charts 568, Content 506,
   Semantic Formatting 476, Visual Grounding 500.
 

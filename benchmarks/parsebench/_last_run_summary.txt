@@ -3,23 +3,33 @@
 ==============================================================================================================
 Pipeline                          Tables         Charts Content Faith.   Sem. Format. Visual Ground.   Overall
 --------------------------------------------------------------------------------------------------------------
-warp_ingest_faithful                57.4            7.1           68.3           43.5           18.6      39.0
+warp_ingest_faithful                57.5            7.0           70.8           45.8           20.7      40.4
 --------------------------------------------------------------------------------------------------------------
 
-Renderer mode: faithful (2026-07-02)
+Renderer mode: faithful (2026-07-07, v2.0.1)
   WARP_TABLE_PROVIDER=native   <- warp's OWN license-clean table engine
-                                  (warp_ingest/ingestor/table_engine.py, pure MIT stack)
+                                  (warp_ingest/ingestor/table_engine.py, pure MIT stack;
+                                  the pymupdf4llm ablation path was removed in PR #6)
   WARP_HF_STRIP=0
   WARP_CJK_STRIP=0
   WARP_COL_REORDER=0
 
-Table-engine head-to-head (same renderer, in-process fasteval, 503 table pages):
-  native 56.93  vs  pymupdf4llm(-layout ONNX) 56.92   (wins 207 / 213 / 83 ties)
+Exact aggregates: Tables 57.45 / Charts 7.04 / Content 70.81 / Sem.Format 45.81
+/ Visual Ground. 20.71 -> Overall 40.36. Deltas vs the 2026-07-02 baseline
+(38.97): Content +2.5, Sem.Format +2.4, Visual +2.1, Tables/Charts flat --
+PR #5's engine/front-end content-faithfulness root fixes. A back-to-back rerun
+after PR #6 (ablation removal) reproduced every dimension to within +/-0.04.
+
+Visual Grounding is scored in-run again: py3.14 defaulted Linux
+multiprocessing to forkserver, which dropped the harness's in-process adapter
+registrations (VG collapsed to ~10, run still exited 0); run.py now pins fork.
+The VG aggregate is the mean over the 394 layout-detection pages; the 42
+image-only inputs (.jpg/.png, warp is PDF-only) fail at inference and pad only
+the parse-scoped layout metrics, never the VG headline.
 
 Inference:
-  attempted unique files: 2078
-  successful: 2036
-  failed: 42 image-only layout inputs (.jpg/.png), counted as zero by the official layout aggregate
+  deduplicated 2553 test cases -> 2078 unique files
+  failures: only the 42 image-only layout inputs (.jpg/.png)
 
 Pages scored per dimension:
   Tables=503  Charts=568  Content Faith.=506  Sem. Format.=476  Visual Ground.=500
