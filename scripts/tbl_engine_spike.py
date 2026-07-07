@@ -96,44 +96,6 @@ def _pymupdf_pages(pdf_path, strategy=None):
     return pages
 
 
-def _md_tables_to_html(content):
-    import markdown2
-
-    lines = content.split("\n")
-    out, tbl, in_t = [], [], False
-
-    def flush():
-        nonlocal tbl
-        if len(tbl) >= 2:
-            html = markdown2.markdown("\n".join(tbl), extras=["tables"]).strip()
-            out.append(html if "<table>" in html.lower() else "\n".join(tbl))
-        else:
-            out.extend(tbl)
-        tbl = []
-
-    for line in lines:
-        if "|" in line and line.strip().startswith("|"):
-            in_t = True
-            tbl.append(line)
-        else:
-            if in_t:
-                flush()
-                in_t = False
-            out.append(line)
-    if in_t:
-        flush()
-    return "\n".join(out)
-
-
-def _pymupdf4llm_pages(pdf_path):
-    import pymupdf4llm
-
-    chunks = pymupdf4llm.to_markdown(
-        pdf_path, page_chunks=True, show_progress=False, use_ocr=False
-    )
-    return [_md_tables_to_html(ch.get("text", "")) for ch in chunks]
-
-
 def _warp_regions(pdf_path):
     """{page_idx: [(x0, top, x1, bottom), ...]} from warp's table spans."""
     from benchmarks.parsebench.warp_markdown import extract_warp_blocks
@@ -206,8 +168,6 @@ def _score_one(args):
                 pages = _pdfplumber_pages(pdf_path, settings=_PLUMBER_TEXT)
             elif engine == "pymupdf_text":
                 pages = _pymupdf_pages(pdf_path, strategy="text")
-            elif engine == "pymupdf4llm":
-                pages = _pymupdf4llm_pages(pdf_path)
             elif engine == "native":
                 pages = _native_pages(pdf_path)
             elif engine == "native_ruled":
@@ -266,7 +226,6 @@ def main() -> int:
             "pdfplumber_text",
             "pymupdf",
             "pymupdf_text",
-            "pymupdf4llm",
             "native",
             "native_ruled",
         ],

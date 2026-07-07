@@ -21,6 +21,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # hatch-vcs derives the package version from `git describe`; a
+          # shallow, tagless checkout would build a 0.x dev version.
+          fetch-depth: 0
       - name: Set up Python
         uses: actions/setup-python@v5
         with:

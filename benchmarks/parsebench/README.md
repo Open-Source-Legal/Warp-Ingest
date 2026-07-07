@@ -27,7 +27,7 @@ zero network** and is fully reproducible — no API keys needed.
 |---|---|
 | `warp_markdown.py` | Pure renderer: Warp blocks → per-page Markdown (HTML `<table>`s, ranked ATX headings, bullets) + per-block geometry. No `parse_bench` dependency, so it is unit-tested standalone. Table cells come from warp's own native table engine by default (region-aware replacement); content-stripping transforms are off by default. |
 | `warp_ingest_provider.py` | ParseBench `@register_provider("warp_ingest")` PARSE provider, thin wrapper over `warp_markdown`. |
-| `table_providers.py` | Pluggable table-cell providers. Default `WARP_TABLE_PROVIDER=native` = warp's own license-clean engine (`warp_ingest.ingestor.table_engine`, pure MIT stack — pdfplumber ruled grids + whitespace-channel grid inference). `pymupdf4llm` is kept as an opt-in ablation only (AGPL, and with `pymupdf-layout` installed its tables come from a Polyform-Noncommercial ONNX model); `none` disables. |
+| `table_providers.py` | Pluggable table-cell providers. Default `WARP_TABLE_PROVIDER=native` = warp's own license-clean engine (`warp_ingest.ingestor.table_engine`, pure MIT stack — pdfplumber ruled grids + whitespace-channel grid inference); `none` disables. |
 | `warp_layout_adapter.py` | Layout/visual-grounding adapter: turns Warp's per-block geometry into a `LayoutOutput` so warp is scored on the **Visual Grounding** dimension too (text-only baselines can't be). Registers a warp-keyed passthrough label mapper. |
 | `run.py` | Drives the official ParseBench pipeline in-process for Warp-Ingest + baselines; prints a leaderboard-style comparison. |
 | `setup_parsebench.sh` | One-time: clone pinned ParseBench + `pip install` the framework and baseline parsers. |

@@ -21,10 +21,20 @@ from __future__ import annotations
 
 import argparse
 import json
+import multiprocessing
 import os
 import shutil
 import sys
 from pathlib import Path
+
+# The warp provider/pipeline/layout-adapter registrations below live in *this*
+# process, and ParseBench's evaluation ProcessPoolExecutor workers must inherit
+# them or every layout example fails with "no provider adapter matched"
+# (Visual Grounding silently collapses to ~10 while the run still exits 0).
+# Python 3.14 changed the Linux default start method from fork to forkserver,
+# whose fresh worker processes lose the registrations — pin fork explicitly.
+if sys.platform.startswith("linux"):
+    multiprocessing.set_start_method("fork", force=True)
 
 # Default comparison set: faithful Warp-Ingest + the four local-library
 # baselines that also appear on the official leaderboard.

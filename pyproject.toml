@@ -1,6 +1,9 @@
 [project]
 name = "warp-ingest"
-version = "1.0.2"
+# The version is derived from the latest git tag (v2.0.1 -> 2.0.1) by
+# hatch-vcs, so cutting a release only requires pushing a tag -- there is no
+# version string in the repo to bump (see [tool.hatch.version]).
+dynamic = ["version"]
 description = "Pure-Python, RAG-friendly document parsers (PDF/HTML/text/XML/Markdown). Java- and Tika-free."
 readme = "README.md"
 requires-python = ">=3.10,<3.15"
@@ -56,9 +59,7 @@ ocr = [
     "shapely>=2.1.2",
     "six>=1.17.0",
 ]
-# Full runtime install for the hosted ingestion service. The benchmark-only
-# `tables` extra remains separate because it pulls an ablation provider, not a
-# normal production dependency.
+# Full runtime install for the hosted ingestion service.
 all = [
     "fastapi>=0.115,<1.0",
     "onnxruntime>=1.17.0,<1.23; python_version == '3.10'",
@@ -72,15 +73,6 @@ all = [
     "six>=1.17.0",
     "uvicorn>=0.30,<1.0",
 ]
-# Benchmark-ablation baseline for the pluggable table provider. Warp's own
-# native table engine (warp_ingest/ingestor/table_engine.py) is the default and
-# needs nothing beyond the core install; this extra exists only to reproduce
-# the ablation comparison in benchmarks/parsebench/RESULTS.md.
-tables = [
-    "pymupdf4llm>=0.0.17",
-    "markdown2>=2.4.0",
-]
-
 [project.urls]
 Repository = "https://github.com/Open-Source-Legal/Warp-Ingest"
 Issues = "https://github.com/Open-Source-Legal/Warp-Ingest/issues"
@@ -98,17 +90,24 @@ dev = [
 ]
 
 [build-system]
-requires = ["uv_build>=0.11.7,<0.12.0"]
-build-backend = "uv_build"
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.build.targets.wheel]
+packages = ["warp_ingest"]
+
+# Keep the sdist to the package itself (plus auto-included metadata files);
+# tests/fixtures alone is ~90MB and has no place on PyPI.
+[tool.hatch.build.targets.sdist]
+include = ["warp_ingest"]
 
 [tool.uv]
 # Strip rapidocr-onnxruntime's `opencv-python` pin (never-true marker): the
 # ocr extra supplies `opencv-python-headless` instead — same cv2 API, no libGL.
 override-dependencies = ["opencv-python; sys_platform == 'never'"]
-
-[tool.uv.build-backend]
-module-name = "warp_ingest"
-module-root = ""
 
 [tool.black]
 target-version = ['py310']
