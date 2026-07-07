@@ -35,7 +35,8 @@ lift **33.7 → 40.7** came from a portfolio of layout-boundary levers, none of
 which touch the engine's `json`/`html`/`opencontracts` renders or the in-domain
 regression suites (all green):
 - **Tables** 38.0 → **63.2** — the pluggable `pymupdf4llm` table provider
-  (`[tables]` extra) activated on the render path (`benchmarks/parsebench/warp_markdown.py`).
+  (benchmark-only ablation; `pip install pymupdf4llm markdown2`) activated on
+  the render path (`benchmarks/parsebench/warp_markdown.py`).
 - **Headers/footers** 48.4 → **79.7** — a within-page running-chrome stripper
   (geometry-only: extreme-margin + isolated + compact) — Warp previously stripped
   only *cross-page* repeats, which never fire on single-page bench PDFs.

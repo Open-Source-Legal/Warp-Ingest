@@ -59,9 +59,7 @@ ocr = [
     "shapely>=2.1.2",
     "six>=1.17.0",
 ]
-# Full runtime install for the hosted ingestion service. The benchmark-only
-# `tables` extra remains separate because it pulls an ablation provider, not a
-# normal production dependency.
+# Full runtime install for the hosted ingestion service.
 all = [
     "fastapi>=0.115,<1.0",
     "onnxruntime>=1.17.0,<1.23; python_version == '3.10'",
@@ -75,15 +73,6 @@ all = [
     "six>=1.17.0",
     "uvicorn>=0.30,<1.0",
 ]
-# Benchmark-ablation baseline for the pluggable table provider. Warp's own
-# native table engine (warp_ingest/ingestor/table_engine.py) is the default and
-# needs nothing beyond the core install; this extra exists only to reproduce
-# the ablation comparison in benchmarks/parsebench/RESULTS.md.
-tables = [
-    "pymupdf4llm>=0.0.17",
-    "markdown2>=2.4.0",
-]
-
 [project.urls]
 Repository = "https://github.com/Open-Source-Legal/Warp-Ingest"
 Issues = "https://github.com/Open-Source-Legal/Warp-Ingest/issues"
