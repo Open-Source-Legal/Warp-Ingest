@@ -68,6 +68,8 @@ reproduction commands are in [benchmarks/parsebench/RESULTS.md](benchmarks/parse
 
 ## Installation
 
+Requires **Python >=3.10, <3.15**.
+
 ```bash
 # parser-only install
 pip install "warp-ingest[parser]"
@@ -77,7 +79,12 @@ pip install "warp-ingest[service]"
 
 # full service runtime with OCR support
 pip install "warp-ingest[all]"
+```
 
+For development, install [`uv`](https://docs.astral.sh/uv/getting-started/installation/)
+first, then:
+
+```bash
 # install the project and dev/test tools with uv
 # (dev includes service dependencies because the test suite covers the API)
 uv sync --group dev
@@ -91,6 +98,11 @@ uv sync --group dev --extra all
 # one-time NLTK data download
 uv run python -m nltk.downloader punkt punkt_tab stopwords
 ```
+
+The `ocr`/`all` extras pull in `rapidocr-onnxruntime`, which needs the
+`libgomp1` and `libmagic1` system packages on Debian/Ubuntu
+(`apt-get install -y libgomp1 libmagic1`) — already present in the published
+Docker images, but required for a bare-metal install with OCR enabled.
 
 ## Running the service
 
@@ -114,6 +126,17 @@ overridden via environment variables:
 | `WARP_OCR_THREADS` | `max(1, cpus // (workers × fe_workers))` | onnxruntime intra-op threads per OCR session |
 | `WARP_WORKER_PARSE_SLOTS` | `1` | concurrent parses allowed inside one worker |
 | `WARP_HOST` / `WARP_PORT` (or `PORT`) | `0.0.0.0` / `5001` | bind address |
+| `LOG_LEVEL` | `INFO` | uvicorn/app log level |
+| `WARP_DISABLE_OCR` | off | hard-disable OCR for every request, even if `rapidocr` is installed |
+| `WARP_OCR_DPI` | `200` | OCR page-render DPI (raising it does not help the bundled models — see `CLAUDE.md`) |
+| `WARP_OCR_MAX_SIDE_LEN` | rapidocr default | OCR image downscale ceiling, in pixels |
+| `WARP_OCR_DET_LIMIT` | rapidocr default | OCR text-detection input-size floor |
+| `WARP_FE_PARALLEL_MIN_PAGES` | `8` | page-count floor below which a document is parsed serially instead of via the front-end pool |
+| `WARP_LINE_CACHE` | on | set to `0`/`false`/`no` to disable the internal line-analysis LRU cache |
+
+`abc123` is a public, insecure default — always set `WARP_API_KEY` to a real
+secret before deploying anywhere reachable outside your own machine (the
+service prints a startup warning whenever the default is still in effect).
 
 `POST /api/parse` with a `file` form field and the API key; the response body is
 the parse result (`{"page_dim": ..., "num_pages": ..., "result": ...}`) and
